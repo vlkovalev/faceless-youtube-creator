@@ -262,7 +262,7 @@ async function run() {
         console.log(`📺 Visibility:  ${status.toUpperCase()}`);
 
         // Step 5: Human Interactive Approvals
-        if (human_approval) {
+        if (human_approval && !DRY_RUN) {
             const confirm = await askQuestion(`\n❓ Confirm upload of this video profile to YouTube? (Y/N): `);
             if (confirm.toLowerCase() !== 'y' && confirm.toLowerCase() !== 'yes') {
                 console.log(`⏭️  Skipped: User rejected approval for '${filename}'.\n`);

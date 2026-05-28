@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check": "node run_pipeline.js --stage check",
+    "voiceover": "node run_pipeline.js --stage voiceover",
+    "visuals:fallback": "node run_pipeline.js --stage visuals-fallback",
+    "edit": "node run_pipeline.js --stage edit",
+    "upload:dry-run": "node run_pipeline.js --stage upload-dry-run"
   },
   "keywords": [],
   "author": "",

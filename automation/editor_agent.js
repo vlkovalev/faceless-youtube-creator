@@ -3,9 +3,31 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-// Manually set FFmpeg path so we don't rely on terminal restarts
-ffmpeg.setFfmpegPath('C:\\Users\\heliu\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-essentials_build\\bin\\ffmpeg.exe');
-const ffprobePath = 'C:\\Users\\heliu\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-essentials_build\\bin\\ffprobe.exe';
+const OLD_FFMPEG_PATH = 'C:\\Users\\heliu\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-essentials_build\\bin\\ffmpeg.exe';
+const OLD_FFPROBE_PATH = 'C:\\Users\\heliu\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-essentials_build\\bin\\ffprobe.exe';
+
+function findBinary(envName, binaryName, oldPath) {
+    const candidates = [
+        process.env[envName],
+        path.join(__dirname, 'ffmpeg', 'bin', binaryName),
+        oldPath
+    ].filter(Boolean);
+
+    for (const candidate of candidates) {
+        if (fs.existsSync(candidate)) return candidate;
+    }
+
+    try {
+        return execSync(`where ${binaryName}`, { encoding: 'utf8' }).split(/\r?\n/)[0].trim();
+    } catch (e) {
+        console.error(`Missing ${binaryName}. Install FFmpeg or set ${envName}.`);
+        process.exit(1);
+    }
+}
+
+const ffmpegPath = findBinary('FFMPEG_PATH', 'ffmpeg.exe', OLD_FFMPEG_PATH);
+const ffprobePath = findBinary('FFPROBE_PATH', 'ffprobe.exe', OLD_FFPROBE_PATH);
+ffmpeg.setFfmpegPath(ffmpegPath);
 ffmpeg.setFfprobePath(ffprobePath);
 
 const SCRIPT_ID = process.argv[2] || 1;

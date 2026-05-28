@@ -43,5 +43,20 @@
     "publish_time": "10:00",
     "timezone": "America/Denver",
     "human_approval": true
+  },
+  {
+    "filename": "FINAL_VIDEO_4.mp4",
+    "srt_filename": "FINAL_VIDEO_4.srt",
+    "thumbnail_filename": "youtube_thumbnail_video_4.png",
+    "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+    "description": "For decades, the public was told that fat was the enemy. But behind the scenes, the sugar industry helped shape the science, the headlines, and the food choices of an entire generation. This is the dark history of how corporate influence rewired America's diet.\n\nSubscribe to Shadow Empires for more dark business history and corporate scandals.",
+    "tags": ["sugar lobby", "harvard sugar scandal", "dark business history", "corporate influence", "shadow empires"],
+    "category_id": "27",
+    "playlist_id": "",
+    "status": "scheduled",
+    "publish_days": ["Tuesday", "Friday"],
+    "publish_time": "10:00",
+    "timezone": "America/Denver",
+    "human_approval": true
   }
 ]
