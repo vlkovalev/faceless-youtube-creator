@@ -20,6 +20,20 @@
       }
     }
   },
+  "production_targets": {
+    "long_form_duration": {
+      "recommended_range": "8m 30s-10m 30s",
+      "minimum_for_midroll_review": "8m 00s",
+      "hard_qc_minimum_seconds": 480,
+      "ideal_script_words": "1250-1650",
+      "rule": "Prioritize retention over padding. Scripts should be long enough to clear YouTube mid-roll eligibility, but scenes must earn their time with new facts, tension, or payoff."
+    },
+    "shorts_duration": {
+      "recommended_range": "30s-60s",
+      "maximum_youtube_shorts": "3m 00s",
+      "rule": "Use Shorts for reach and funneling viewers to long-form videos; do not treat Shorts as the primary watch-hours path."
+    }
+  },
   "viral_ideas": [
     {
       "id": 1,

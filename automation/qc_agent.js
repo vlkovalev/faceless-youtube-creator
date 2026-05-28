@@ -1,8 +1,12 @@
 const fs = require('fs');
 const path = require('path');
+const { spawnSync } = require('child_process');
 
 const WORKSPACE_DIR = path.join(__dirname, '..');
 const SCRIPT_ID = process.argv[2] || '5';
+const LOCAL_FFPROBE = path.join(__dirname, 'ffmpeg', 'bin', 'ffprobe.exe');
+const DEFAULT_FFPROBE = 'C:\\Users\\heliu\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Essentials_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-8.1.1-essentials_build\\bin\\ffprobe.exe';
+const MIN_LONG_FORM_SECONDS = 480;
 
 function file(relPath) {
   return path.join(WORKSPACE_DIR, relPath);
@@ -28,15 +32,41 @@ function readJson(relPath, fallback) {
   return JSON.parse(fs.readFileSync(file(relPath), 'utf8'));
 }
 
+function commandExists(command) {
+  const result = spawnSync('where.exe', [command], { encoding: 'utf8' });
+  return result.status === 0 ? result.stdout.trim().split(/\r?\n/)[0] : '';
+}
+
+function getFfprobePath() {
+  return process.env.FFPROBE_PATH || (fs.existsSync(LOCAL_FFPROBE) ? LOCAL_FFPROBE : (fs.existsSync(DEFAULT_FFPROBE) ? DEFAULT_FFPROBE : commandExists('ffprobe')));
+}
+
+function getVideoDurationSeconds(relPath) {
+  if (!exists(relPath)) return null;
+  const ffprobePath = getFfprobePath();
+  if (!ffprobePath) return null;
+  const result = spawnSync(ffprobePath, [
+    '-v', 'error',
+    '-show_entries', 'format=duration',
+    '-of', 'default=noprint_wrappers=1:nokey=1',
+    file(relPath)
+  ], { encoding: 'utf8' });
+  if (result.status !== 0) return null;
+  const seconds = Number.parseFloat(result.stdout.trim());
+  return Number.isFinite(seconds) ? seconds : null;
+}
+
 function runQc(id) {
   const assetsDir = `assets/video_${id}_assets`;
   const manifestExists = exists(`${assetsDir}/placeholder_visuals_manifest.json`);
   const queue = readJson('metadata/queue.json', []);
   const queueEntry = queue.find(item => item.filename === `FINAL_VIDEO_${id}.mp4`);
+  const durationSeconds = getVideoDurationSeconds(`FINAL_VIDEO_${id}.mp4`);
 
   const checks = [
     { name: 'final_video_exists', ok: exists(`FINAL_VIDEO_${id}.mp4`), detail: `FINAL_VIDEO_${id}.mp4` },
     { name: 'final_video_non_empty', ok: getSizeMb(`FINAL_VIDEO_${id}.mp4`) > 1, detail: `${getSizeMb(`FINAL_VIDEO_${id}.mp4`).toFixed(2)} MB` },
+    { name: 'long_form_duration_minimum', ok: durationSeconds !== null && durationSeconds >= MIN_LONG_FORM_SECONDS, detail: durationSeconds === null ? 'unknown duration' : `${Math.round(durationSeconds)}s / ${MIN_LONG_FORM_SECONDS}s minimum` },
     { name: 'captions_exist', ok: exists(`FINAL_VIDEO_${id}.srt`), detail: `FINAL_VIDEO_${id}.srt` },
     { name: 'thumbnail_exists', ok: exists(id === '1' ? 'assets/youtube_thumbnail.png' : `assets/youtube_thumbnail_video_${id}.png`), detail: id === '1' ? 'assets/youtube_thumbnail.png' : `assets/youtube_thumbnail_video_${id}.png` },
     { name: 'scene_audio_count', ok: countFiles(assetsDir, name => /^scene_\d+_audio\.wav$/.test(name)) >= 12, detail: `${countFiles(assetsDir, name => /^scene_\d+_audio\.wav$/.test(name))}/12` },
