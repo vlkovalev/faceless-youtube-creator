@@ -1,0 +1,49 @@
+{
+  "synced_at": "2026-05-28T01:30:05.460Z",
+  "channel": {
+    "id": "UCLoMxa-9cfCOP_5fPkL0lPg",
+    "title": "Corporate Shadows",
+    "uploads_playlist_id": "UULoMxa-9cfCOP_5fPkL0lPg",
+    "subscriber_count": 0,
+    "video_count": 1,
+    "view_count": 0
+  },
+  "videos": [
+    {
+      "youtube_id": "ze6IFb9F0lY",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "privacy_status": "public",
+      "publish_at": "",
+      "published_at": "2026-05-26T16:00:16Z",
+      "duration": "PT7M",
+      "view_count": 1,
+      "like_count": 0,
+      "comment_count": 0,
+      "made_for_kids": false
+    },
+    {
+      "youtube_id": "feTnR0QeeBc",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "privacy_status": "private",
+      "publish_at": "2026-06-02T16:00:00Z",
+      "published_at": "2026-05-25T02:20:46Z",
+      "duration": "PT7M19S",
+      "view_count": 0,
+      "like_count": 0,
+      "comment_count": 0,
+      "made_for_kids": false
+    },
+    {
+      "youtube_id": "9egMNpLFr5w",
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "privacy_status": "private",
+      "publish_at": "2026-05-29T16:00:00Z",
+      "published_at": "2026-05-25T02:20:23Z",
+      "duration": "PT7M26S",
+      "view_count": 0,
+      "like_count": 0,
+      "comment_count": 0,
+      "made_for_kids": false
+    }
+  ]
+}
