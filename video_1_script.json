@@ -1,0 +1,122 @@
+{
+  "video": {
+    "title": "How One Family Fooled the World into Buying Worthless Rocks",
+    "niche": "Dark Business History",
+    "duration": "8m 15s",
+    "voiceover_settings": {
+      "model": "11 Labs - Adam (Deep Cinematic)",
+      "pacing": "Deliberate, mysterious, conversational but dramatic",
+      "music": "Dark synth pad, slow strings, heavy bass drops at hooks"
+    }
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Illusion",
+      "voiceover": "Take a look at this. Beautiful... rare... and absolutely priceless. Or at least, that is what you have been told. For over a century, you, your parents, and your grandparents have been the silent victims of the single greatest marketing heist in human history.",
+      "visual_prompt": "Soul Cinema, close-up of a pristine, large diamond resting on deep black velvet. A single, sharp white spotlight slices through the pitch blackness, refracting cold, brilliant rainbows through the crystal facets. High-contrast, premium, dark aesthetic.",
+      "camera_movement": "Ultra-slow zoom in, capturing the micro-detail of the diamond facets. 4k resolution, cinematic.",
+      "sound_effect": "Low, resonant bass drop. A faint, crystalline shimmer as the light hits the diamond.",
+      "pacing_note": "Deliver the first line very slowly. Pause after 'priceless'."
+    },
+    {
+      "scene_number": 2,
+      "title": "The Vintage Office (The Plot)",
+      "voiceover": "It began in the late 1930s. A quiet office in London. The executives of the De Beers diamond cartel were facing a terrifying reality: people were starting to realize that diamonds... were not actually rare. They needed a plan to save their empire. And they needed it now.",
+      "visual_prompt": "Soul Cinema, a weary executive in a tailored 1940s suit sitting at a heavy vintage wooden desk at night. A single brass banker's desk lamp pools warm, intense amber light over scattered financial ledgers, magnifying glasses, and rough, uncut stones. Smoke slowly rises from an amber glass ashtray.",
+      "camera_movement": "Slow tracking shot from right to left, passing behind the lamp, creating dramatic shadows.",
+      "sound_effect": "A ticking clock in the background, slow and ominous. A soft sigh of wind outside.",
+      "pacing_note": "Pace is low and conspiratorial. Whisper the words 'not actually rare'."
+    },
+    {
+      "scene_number": 3,
+      "title": "The South African Mine (The Source)",
+      "voiceover": "Decades earlier, in 1869, a massive diamond rush in South Africa flooded the global market. Suddenly, anyone could buy them. Diamonds were cheap, common, and losing their luster. To prevent their market from collapsing, De Beers bought every single mine, bottlenecking the entire global supply.",
+      "visual_prompt": "Soul Cinema, thousands of desperate diamond prospectors swarming a massive, dry open-pit mine in South Africa in the late 1800s. Plumes of dust rise as workers dig under a harsh, burning midday sun. Vintage sepia tint, historical documentary style.",
+      "camera_movement": "High-angle aerial crane shot, slowly tilting down to reveal the immense scale of the excavation.",
+      "sound_effect": "Distant sound of metal picks hitting stone, murmuring crowd, and wind blowing dust.",
+      "pacing_note": "Energetic but dark. Build the tension up."
+    },
+    {
+      "scene_number": 4,
+      "title": "The Ad Agency (The Formula)",
+      "voiceover": "But controlling the physical supply was only half the battle. They needed to control the human mind. So, they hired N.W. Ayer, a legendary New York advertising agency, with a single, impossible instruction: make diamonds a mandatory symbol of true love.",
+      "visual_prompt": "Soul Cinema, a sleek mid-century corporate advertising boardroom in New York. Elegant print ad layouts are pinned to a dark mahogany wall, with the handwritten slogan 'A Diamond is Forever' in cursive. A crystal glass of whiskey sits on a polished table reflecting the lights.",
+      "camera_movement": "Slow pan across the ad layouts, focusing on the text, with a shallow depth of field.",
+      "sound_effect": "Typing sound of a vintage typewriter. Distant chatter of a busy office.",
+      "pacing_note": "Deliver the instruction with emphasis on 'mandatory symbol'."
+    },
+    {
+      "scene_number": 5,
+      "title": "The Psychological Trap",
+      "voiceover": "The agency targeted our deepest insecurity: social status. They convinced young men that the size of a diamond was the ultimate proof of their self-worth and love. If a man didn't buy a massive diamond, he simply... didn't care enough.",
+      "visual_prompt": "Soul Cinema, a young, nervous couple standing in front of a glowing glass jewelry case inside a high-end 1950s department store. The young man secretly checks his empty leather wallet under the counter, a sweat bead on his brow. The salesman smiles warmly.",
+      "camera_movement": "Slow dolly forward, capturing the emotional tension on the young man's face.",
+      "sound_effect": "Soft, romantic 1950s jazz music playing faintly, suddenly warping into a tense, single violin note.",
+      "pacing_note": "Sardonic tone. Emphasize 'simply... didn't care enough'."
+    },
+    {
+      "scene_number": 6,
+      "title": "The Slogan That Ruled the World",
+      "voiceover": "Then, in 1947, a copywriter named Frances Gerety wrote four words that changed society forever: 'A Diamond is Forever.' It wasn't just a slogan. It was a psychological trap designed to make it socially unacceptable... to ever sell your diamond back.",
+      "visual_prompt": "Soul Cinema, an elegant woman in a dark 1940s evening gown staring out of a rain-slicked window at night. A large, sparkling diamond ring on her finger catches the distant city streetlights. Raindrops slide down the glass.",
+      "camera_movement": "Extreme close-up on the diamond ring, slowly rack-focusing to her sad reflection in the window.",
+      "sound_effect": "Sound of heavy rain pattering against glass. A soft piano chord.",
+      "pacing_note": "Pause after 'A Diamond is Forever.' Let the slogan sink in."
+    },
+    {
+      "scene_number": 7,
+      "title": "The Artificial Scarcity (The Vault)",
+      "voiceover": "By ensuring you kept your diamonds forever, they prevented a secondary market from ever forming. De Beers kept their actual diamond inventory locked away in massive secret vaults, releasing only a trickle to maintain the illusion of scarcity.",
+      "visual_prompt": "Soul Cinema, a massive, heavy circular steel vault door slowly swinging shut in a dark, futuristic underground corridor. Sleek blue neon lights line the floor, reflecting off the brushed metal. Safe deposit boxes stack to the ceiling.",
+      "camera_movement": "Wide shot, slow push forward as the heavy vault door locks with a mechanical turn.",
+      "sound_effect": "A deep, mechanical metallic clunk as the vault locks shut. Low humming industrial drone.",
+      "pacing_note": "Mysterious, low tone. Expose the secret of 'locked away'."
+    },
+    {
+      "scene_number": 8,
+      "title": "The Cartel's Iron Grip",
+      "voiceover": "Anyone who tried to bypass the cartel was ruthlessly crushed. When massive diamond deposits were discovered in Siberia, De Beers didn't fight the Soviet Union. Instead, they bought them out, forcing the Soviets to channel their diamonds through the De Beers syndicate.",
+      "visual_prompt": "Soul Cinema, a shadowy, smoke-filled boardroom in London. Wealthy men in dark wool suits sit around a polished mahogany table, gesturing over a large framed map of the world. Dark, dramatic chiaroscuro lighting.",
+      "camera_movement": "Slow circular orbit tracking shot around the table, capturing the expressions of control.",
+      "sound_effect": "Subtle low bass rumble. The clinking of crystal glasses.",
+      "pacing_note": "Dramatic and aggressive. High-stakes pacing."
+    },
+    {
+      "scene_number": 9,
+      "title": "The Cracks in the Glass",
+      "voiceover": "For decades, the cartel held an absolute 90% monopoly. But in the 21st century, the empire began to fracture. Anti-trust lawsuits, ethical concerns over blood diamonds, and a new technology changed the rules... forever.",
+      "visual_prompt": "Soul Cinema, a glowing high-tech laboratory chamber. Inside, a brilliant purple and blue plasma vortex burns bright, slowly crystallizing a modern lab-grown diamond under immense heat and pressure.",
+      "camera_movement": "Macro lens close-up, panning through the glass viewing port of the reactor as the plasma glows.",
+      "sound_effect": "A high-pitched electric hum, building in intensity. The sound of cracking glass.",
+      "pacing_note": "Triumphant transition. The shift of power is beginning."
+    },
+    {
+      "scene_number": 10,
+      "title": "The Lab-Grown Revolution",
+      "voiceover": "Lab-grown diamonds are chemically, physically, and visually identical to mined diamonds. Yet, they cost a fraction of the price. The old illusion is crumbling. The stones that once cost thousands can now be grown in a lab in just a few days.",
+      "visual_prompt": "Soul Cinema, two identical diamonds sitting side-by-side on a dark mirror. One diamond is bathed in a warm natural light, the other is scanned by a thin blue laser line. Refracted beams dance on the dark wall.",
+      "camera_movement": "Slow horizontal slider camera movement crossing from one diamond to the other.",
+      "sound_effect": "A soft digital scanning chirp. A beautiful synth sweep.",
+      "pacing_note": "Conversational, revealing, highlighting the irony."
+    },
+    {
+      "scene_number": 11,
+      "title": "The Modern Lie",
+      "voiceover": "Today, De Beers' market share has plummeted from 90% to less than 30%. But the psychological programming remains. Millions of young couples still pay months of salary for a stone that has virtually no resale value.",
+      "visual_prompt": "Soul Cinema, a modern young man sitting alone on a velvet sofa in a beautifully lit high-rise apartment at dusk. He is holding a small black jewelry box, looking anxious yet resolved, staring out at the glowing city skyline.",
+      "camera_movement": "Medium close up, slow handheld tilt up from the jewelry box to his face.",
+      "sound_effect": "Distant city sirens and soft wind. The ticking of a wall clock.",
+      "pacing_note": "Compassionate but analytical. Slow down for the kicker."
+    },
+    {
+      "scene_number": 12,
+      "title": "The Unmasking (Outro)",
+      "voiceover": "So, the next time you look at a sparkling diamond, ask yourself: are you buying a rare miracle of nature, or are you still paying for an 80-year-old advertising campaign? The empire was built on a lie... and they fooled you.",
+      "visual_prompt": "Soul Cinema, a dark studio background. A large diamond sits in the center, suddenly dissolving into a cloud of glowing white dust and floating away into the pitch blackness.",
+      "camera_movement": "Ultra-slow dolly back, leaving only absolute darkness and a faint glowing ember.",
+      "sound_effect": "A sudden, powerful wind whoosh. A final deep, resounding sub-bass hit that fades to absolute silence.",
+      "pacing_note": "Deliver the final four words with absolute gravity: 'and... they... fooled... you.'"
+    }
+  ]
+}
