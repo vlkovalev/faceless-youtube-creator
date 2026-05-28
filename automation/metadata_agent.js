@@ -25,14 +25,19 @@ function getScript(id) {
 }
 
 function sentenceFromVoiceover(script) {
-  return script.scenes
+  const cleaned = script.scenes
     .map(scene => scene.voiceover.replace(/<[^>]*>?/g, '').trim())
     .join(' ')
+    .replace(/\.{2,}/g, '.')
     .replace(/\s+/g, ' ')
-    .split('. ')
+    .trim();
+  const sentences = cleaned.match(/[^.!?]+[.!?]+/g) || [cleaned];
+  return sentences
+    .map(sentence => sentence.trim())
+    .filter(sentence => sentence.length > 10)
     .slice(0, 2)
-    .join('. ')
-    .replace(/\.$/, '');
+    .join(' ')
+    .replace(/[.!?]$/, '');
 }
 
 function tagsFor(title, topic) {

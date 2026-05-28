@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "check": "node run_pipeline.js --stage check",
+    "script:qc": "node run_pipeline.js --stage script-qc",
     "voiceover": "node run_pipeline.js --stage voiceover",
     "visuals:fallback": "node run_pipeline.js --stage visuals-fallback",
     "edit": "node run_pipeline.js --stage edit",

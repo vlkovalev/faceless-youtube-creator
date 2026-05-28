@@ -16,6 +16,7 @@ automation/credentials/oauth_tokens.json
 automation/test.mp3
 metadata/schedule_reservations.json
 metadata/qc_reports/
+metadata/script_qc_reports/
 
 # Large/generated video outputs
 videos/uploaded/

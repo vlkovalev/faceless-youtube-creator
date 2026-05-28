@@ -1,48 +1,48 @@
 1
-00:00:00,000 --> 00:00:10,944
-It had its own army of 260,000 men. ... It ruled over 150 million people. ... It was the first corporation too big to fail.
+00:00:00,000 --> 00:00:49,357
+It had its own army of 260,000 men. ... It ruled over more people than most kings. ... And for nearly two centuries, it answered to shareholders before it answered to morality. This was not a country. It was not an empire in the traditional sense. It was a business. A boardroom with ships, soldiers, tax collectors, prisons, and political power. The East India Company began as a group of merchants chasing spices and textiles. It ended as a warning about what happens when profit gets the power of a state. This is the story of the corporation that conquered India, helped bankrupt itself, and forced the British government to invent a rescue plan for a private company that had become too dangerous to fail.
 
 2
-00:00:10,944 --> 00:00:25,279
-In the year sixteen-hundred, Queen Elizabeth the First signed a simple charter. It granted a monopoly on trade with the East Indies to a small group of London merchants. ... They called it the East India Company.
+00:00:49,357 --> 00:01:44,345
+The story starts on the last day of the year 1600. Queen Elizabeth the First signed a royal charter granting one group of London merchants exclusive English rights to trade east of the Cape of Good Hope. On paper, it sounded harmless. A commercial shortcut. A way for England to compete with Portuguese and Dutch traders who were already making fortunes in Asia. But the charter gave the company something more powerful than a business license. It gave them monopoly protection, political backing, and a legal identity that could survive longer than any single human being. Investors could risk money, collect profits, and let the company carry the burden. That was the genius of the joint-stock corporation. It could pursue wealth with a memory longer than a king, and a conscience thinner than parchment.
 
 3
-00:00:25,279 --> 00:00:39,694
-For a century, they traded spices and textiles. But trade wasn't enough. In 1757, at the Battle of Plassey, the company stopped being merchants... and became conquerors.
+00:01:44,345 --> 00:02:47,400
+For decades, the company was mainly a trader. It bought pepper, silk, cotton, tea, and spices. It built coastal factories, negotiated with local rulers, and competed violently with European rivals. But trade in the eighteenth century was never just trade. Every warehouse needed guards. Every contract needed leverage. Every rival power created an excuse to bring more guns. By the mid-1700s, the Mughal Empire was weakening, regional powers were rising, and European wars were spilling into India. Then came 1757, the Battle of Plassey. Robert Clive and Company forces defeated the Nawab of Bengal, helped by betrayal inside the Nawab's own camp. That victory did not just open a market. It opened a treasury. The merchants crossed a line. They stopped asking permission to trade and started deciding who would rule.
 
 4
-00:00:39,694 --> 00:00:52,706
-To protect their assets, the Company built a private military force. At its peak, this corporate army numbered two hundred and sixty thousand soldiers. ... Twice the size of the British army.
+00:02:47,400 --> 00:03:42,356
+The company justified its army the way corporations always justify power: protection. Protect the warehouses. Protect the ships. Protect the contracts. But protection became expansion, and expansion became conquest. The East India Company built armies in Bengal, Madras, and Bombay, paid with Indian revenue and commanded through a corporate chain of authority. At its height, those forces totaled roughly 260,000 soldiers, many of them Indian sepoys serving under European officers. That was larger than the British Army at certain points. Imagine a modern corporation with its own navy, its own infantry, its own diplomats, and the ability to sign treaties after winning battles. This was not a security department. It was a war machine with a stock price.
 
 5
-00:00:52,706 --> 00:01:04,901
-They seized control of Bengal, the richest province in India. The Company stripped the land of its wealth, transferring millions of pounds directly into the pockets of its shareholders.
+00:03:42,356 --> 00:04:32,686
+Bengal was one of the richest regions in the world, famous for textiles, agriculture, and dense commercial life. After Plassey and the later Battle of Buxar, the Company gained the diwani, the right to collect revenue in Bengal, Bihar, and Orissa. That changed everything. The company was no longer simply buying goods from India. It was collecting taxes from Indians, using that money to buy Indian goods, then exporting those goods for profit. It was a loop of extraction disguised as administration. Fortunes flowed back to London. Company officials returned home rich enough to buy estates and seats in Parliament. In Britain, critics called them nabobs, men who had become wealthy in India and came home with the arrogance of conquerors.
 
 6
-00:01:04,901 --> 00:01:17,982
-But this unbridled greed came at a horrifying cost. ... In 1770, a massive famine struck Bengal. Instead of providing relief, the Company raised taxes.
+00:04:32,686 --> 00:05:27,287
+Then came the catastrophe that exposed the moral bankruptcy underneath the balance sheet. In 1770, famine devastated Bengal. Drought, crop failure, market disruption, and rigid revenue demands collided with Company misrule. Millions died. Villages emptied. Productive land was abandoned. And yet the machine of revenue did not simply stop because people were starving. The Company was under pressure to keep money flowing: to pay soldiers, satisfy investors, service debts, and maintain political influence in London. This is the coldest part of the story. A government might fear rebellion. A ruler might fear divine judgment. A corporation fears insolvency. When human life and quarterly survival collided, the Company protected the ledger first.
 
 7
-00:01:17,982 --> 00:01:31,539
-Millions perished. Yet, the Company was nearly bankrupt from mismanagement and wars. To save their most prized asset, the British government stepped in with the world's first massive corporate bailout.
+00:05:27,287 --> 00:06:25,580
+The famine did not just destroy Bengal. It damaged the Company's own finances. Revenue collapsed. Military costs exploded. Corruption hollowed out the institution from inside. Executives promised dividends they could not honestly support, while wars and administration consumed more money than the company could safely raise. By 1772, the East India Company was begging the British government for help. Think about the absurdity: a private company had conquered territory, collected taxes from millions, moved fortunes across oceans, and still managed to approach bankruptcy. Parliament faced an impossible problem. Let the Company fail, and Britain's imperial interests could collapse with it. Rescue it, and admit that a corporation had become a public risk. The bailout was not charity. It was damage control.
 
 8
-00:01:31,539 --> 00:01:43,676
-To dump the Company's surplus tea, Parliament passed the Tea Act. ... This desperate move to save a failing corporation directly triggered the Boston Tea Party, sparking the American Revolution.
+00:06:25,580 --> 00:07:23,136
+One of the strangest aftershocks landed across the Atlantic. The Company was sitting on mountains of unsold tea, and Britain needed a way to stabilize its finances. In 1773, Parliament passed the Tea Act, giving the East India Company special advantages in selling tea to the American colonies. To officials in London, it looked like practical policy. Move the tea. Help the company. Preserve the tax. But to many colonists, it looked like monopoly power backed by imperial law. On December sixteenth, 1773, protesters in Boston boarded Company ships and dumped tea into the harbor. The Boston Tea Party was not only a protest against taxation. It was also a protest against a politically protected corporation being used as an instrument of empire.
 
 9
-00:01:43,676 --> 00:01:54,967
-Desperate for profits, the Company found a new, darker revenue stream. They grew opium in India and smuggled it into China, addicting millions to balance their ledgers.
+00:07:23,136 --> 00:08:18,071
+The Company's hunger did not end with tea. As British demand for Chinese tea grew, silver flowed out of Britain and into China. The Company needed something China would buy in return. The answer was opium. Produced under Company control in India and pushed through networks of private traders, opium became a dark solution to a trade imbalance. The official language was commerce. The human result was addiction, social damage, and eventually war. Chinese resistance to the drug trade helped lead to the Opium Wars, where imperial force protected a poisonous business model. This is why the East India Company story feels modern. The product changes. The market changes. The defense is always the same: demand exists, profits are legal somewhere, and responsibility belongs to someone else.
 
 10
-00:01:54,967 --> 00:02:08,872
-The breaking point finally arrived in 1857. ... A massive rebellion erupted across India against the Company's brutal rule. The corporation had lost control of its empire.
+00:08:18,071 --> 00:09:15,506
+By the nineteenth century, the Company was less a merchant than a ruler with a corporate logo. It governed territory, influenced courts, collected taxes, and reshaped economies. But beneath the surface, resentment was building: among princes who lost power, peasants burdened by revenue demands, soldiers angered by treatment and cultural disrespect, and communities watching outsiders rewrite their world. In 1857, rebellion erupted across northern India. It began with sepoys, but the causes ran much deeper than one military grievance. Cities fell into violence. British civilians and Indians suffered terribly. The Company's authority, built over a century through deals, pressure, and conquest, suddenly looked fragile. The corporation that had mastered manipulation could no longer control the consequences.
 
 11
-00:02:08,872 --> 00:02:20,002
-The British Crown stepped in, stripping the East India Company of its powers. The beast was dead. It was formally dissolved, reduced to a mere historical footnote.
+00:09:15,506 --> 00:10:09,533
+After the rebellion, Britain made the obvious decision far too late. A private company could no longer be allowed to rule India. In 1858, the British Crown stripped the East India Company of its governing powers and took direct control. The company's armies, territories, and political authority were absorbed into the machinery of empire. The brand survived for a while as a shell, but the real creature was dead. In 1874, it was formally dissolved. No dramatic battlefield ended it. No single court condemned its entire history. It faded through acts of Parliament, paperwork, compensation, and institutional cleanup. That is often how powerful systems die. Not with confession, but with reorganization.
 
 12
-00:02:20,002 --> 00:02:32,374
-The East India Company showed the world the terrifying potential of unchecked corporate power. ... A lesson that, perhaps, we are still ignoring today. Subscribe to Shadow Empires.
+00:10:09,533 --> 00:11:12,076
+The East India Company left behind more than ruins, laws, and trade routes. It left behind a blueprint. It proved that a corporation could become political without calling itself a government. It could outsource violence, influence lawmakers, shape foreign policy, privatize profit, and socialize disaster. When it won, shareholders gained. When it failed, the state stepped in. That pattern did not disappear in 1874. It echoes every time a private institution becomes so large, so connected, and so essential that governments fear letting it collapse. The East India Company was not an exception from the past. It was a preview. And the darkest lesson is this: when profit is given the powers of empire, the bill eventually comes due. It just rarely goes to the people who made the money. Subscribe to Shadow Empires for more stories of corporate power gone wrong.
 

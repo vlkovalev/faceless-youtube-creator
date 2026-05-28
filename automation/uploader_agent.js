@@ -185,41 +185,83 @@ function saveUploadRecord(filename, videoId, publishAt, title) {
 // -----------------------------------------------------------------
 // 3. Dynamic Scheduling Slots Engine
 // -----------------------------------------------------------------
+function getZonedParts(date, timezone) {
+    const parts = new Intl.DateTimeFormat('en-US', {
+        timeZone: timezone || 'America/Denver',
+        weekday: 'long',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false
+    }).formatToParts(date);
+
+    return Object.fromEntries(parts.filter(part => part.type !== 'literal').map(part => [part.type, part.value]));
+}
+
+function getTimezoneOffsetMs(date, timezone) {
+    const parts = getZonedParts(date, timezone);
+    const asUtc = Date.UTC(
+        Number(parts.year),
+        Number(parts.month) - 1,
+        Number(parts.day),
+        Number(parts.hour),
+        Number(parts.minute),
+        Number(parts.second)
+    );
+    return asUtc - date.getTime();
+}
+
+function zonedTimeToUtc(year, month, day, hours, minutes, timezone) {
+    const utcGuess = new Date(Date.UTC(year, month - 1, day, hours, minutes, 0, 0));
+    const firstPass = new Date(utcGuess.getTime() - getTimezoneOffsetMs(utcGuess, timezone));
+    return new Date(utcGuess.getTime() - getTimezoneOffsetMs(firstPass, timezone));
+}
+
+function sameZonedDate(a, b, timezone) {
+    const aParts = getZonedParts(a, timezone);
+    const bParts = getZonedParts(b, timezone);
+    return aParts.year === bParts.year && aParts.month === bParts.month && aParts.day === bParts.day;
+}
+
 function getNextPublishDate(publishDays, publishTime, timezone, history) {
-    // Collect all future publishing dates already booked to prevent collision
-    const bookedDates = Object.values(history.uploaded_files).map(record => record.publish_at);
+    const tz = timezone || 'America/Denver';
+    const bookedDates = Object.values(history.uploaded_files)
+        .map(record => record.publish_at)
+        .filter(Boolean)
+        .map(date => new Date(date));
 
     const [hours, minutes] = publishTime.split(':').map(Number);
-    let candidateDate = new Date();
-    candidateDate.setSeconds(0, 0);
-
-    // Calculate tomorrow as the earliest possible upload target to be safe
-    candidateDate.setDate(candidateDate.getDate() + 1);
-
-    const dayNameMap = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const now = new Date();
 
     // Loop forward up to 365 days to find the next open slot matching the schema calendar
-    for (let i = 0; i < 365; i++) {
-        const currentDayName = dayNameMap[candidateDate.getDay()];
-        
-        if (publishDays.includes(currentDayName)) {
-            // Set designated schedule hour/minute
-            candidateDate.setHours(hours, minutes, 0, 0);
+    for (let i = 1; i < 365; i++) {
+        const cursor = new Date(now.getTime() + i * 86400000);
+        const parts = getZonedParts(cursor, tz);
 
-            // Construct ISO string
-            const isoString = candidateDate.toISOString();
+        if (publishDays.includes(parts.weekday)) {
+            const candidateDate = zonedTimeToUtc(
+                Number(parts.year),
+                Number(parts.month),
+                Number(parts.day),
+                hours,
+                minutes,
+                tz
+            );
 
-            // Check if this slot is already occupied in our history
+            if (candidateDate <= now) continue;
+
+            // Treat any upload on the same channel-local date as booked.
             const collision = bookedDates.some(booked => {
-                const bDate = new Date(booked);
-                return Math.abs(bDate.getTime() - candidateDate.getTime()) < 60000; // Match within 1 minute
+                return sameZonedDate(booked, candidateDate, tz) || Math.abs(booked.getTime() - candidateDate.getTime()) < 60000;
             });
 
             if (!collision) {
-                return isoString;
+                return candidateDate.toISOString();
             }
         }
-        candidateDate.setDate(candidateDate.getDate() + 1);
     }
     return new Date(Date.now() + 86400000 * 2).toISOString(); // fallback to 2 days out
 }

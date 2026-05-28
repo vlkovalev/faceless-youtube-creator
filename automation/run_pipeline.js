@@ -121,9 +121,18 @@ function updateStatus(stageName, last, next, blocking = '', file = '', final = '
 function runStage(stageName) {
   const current = checkReadiness(videoId);
 
+  if (stageName === 'script-qc') {
+    const required = current.filter(item => ['Script data'].includes(item.check) && !item.ok);
+    if (required.length) throw new Error('Script duration QC blocked.');
+    runNodeScript('script_duration_agent.js', videoId);
+    updateStatus('script_duration_passed', 'Script length validated for long-form production', 'Generate voiceover', '', `scripts/video_${videoId}_data.js`);
+    return;
+  }
+
   if (stageName === 'voiceover') {
     const required = current.filter(item => ['Script data', 'Piper executable', 'Piper voice model'].includes(item.check) && !item.ok);
     if (required.length) throw new Error('Voiceover blocked.');
+    runStage('script-qc');
     runNodeScript('generate_assets.js', videoId);
     updateStatus('voiceover_complete', 'Voiceover generated', 'Generate visuals', '', `assets/video_${videoId}_assets`);
     return;
@@ -173,6 +182,7 @@ function runAll() {
   console.log(`\nStarting full local production pipeline for video ${videoId}`);
   console.log('This creates a test-ready video and upload dry-run. It does not publish publicly.\n');
 
+  runStage('script-qc');
   if (getBlockers(videoId).some(item => item.check === 'Scene audio files')) runStage('voiceover');
   if (getBlockers(videoId).some(item => item.check === 'Scene visual files')) runStage('visuals-fallback');
   if (getBlockers(videoId).some(item => item.check === 'Final video' || item.check === 'Captions')) runStage('edit');
@@ -197,6 +207,7 @@ function main() {
   if (stage === 'voiceover') {
     const required = report.filter(item => ['Script data', 'Piper executable', 'Piper voice model'].includes(item.check) && !item.ok);
     if (required.length) process.exit(1);
+    runStage('script-qc');
     runNodeScript('generate_assets.js', videoId);
     return;
   }
@@ -230,8 +241,13 @@ function main() {
     return;
   }
 
+  if (stage === 'script-qc') {
+    runStage('script-qc');
+    return;
+  }
+
   console.error(`Unknown stage: ${stage}`);
-  console.error('Use --stage check, voiceover, visuals-fallback, edit, metadata, qc, upload-dry-run, or all.');
+  console.error('Use --stage check, script-qc, voiceover, visuals-fallback, edit, metadata, qc, upload-dry-run, or all.');
   process.exit(1);
 }
 
