@@ -11,6 +11,7 @@ const DEFAULT_FFPROBE = 'C:\\Users\\heliu\\AppData\\Local\\Microsoft\\WinGet\\Pa
 const args = parseArgs(process.argv.slice(2));
 const videoId = args.video || args.v || '4';
 const stage = args.stage || 'check';
+const statusVideoId = `VID-${String(videoId).padStart(4, '0')}`;
 
 function parseArgs(argv) {
   const parsed = {};
@@ -87,6 +88,10 @@ function printReport(report) {
   return blockers;
 }
 
+function getBlockers(id) {
+  return checkReadiness(id).filter(item => !item.ok);
+}
+
 function runNodeScript(scriptName, id, extraArgs = []) {
   const result = spawnSync(process.execPath, [path.join(__dirname, scriptName), id, ...extraArgs], {
     cwd: __dirname,
@@ -98,11 +103,96 @@ function runNodeScript(scriptName, id, extraArgs = []) {
   }
 }
 
+function updateStatus(stageName, last, next, blocking = '', file = '', final = 'In Progress') {
+  const args = [
+    path.join(__dirname, 'status_agent.js'),
+    `--video=${statusVideoId}`,
+    `--stage=${stageName}`,
+    `--owner=Pipeline Runner`,
+    `--last=${last}`,
+    `--next=${next}`,
+    `--blocking=${blocking}`,
+    `--file=${file}`,
+    `--final=${final}`
+  ];
+  spawnSync(process.execPath, args, { cwd: __dirname, stdio: 'inherit', shell: false });
+}
+
+function runStage(stageName) {
+  const current = checkReadiness(videoId);
+
+  if (stageName === 'voiceover') {
+    const required = current.filter(item => ['Script data', 'Piper executable', 'Piper voice model'].includes(item.check) && !item.ok);
+    if (required.length) throw new Error('Voiceover blocked.');
+    runNodeScript('generate_assets.js', videoId);
+    updateStatus('voiceover_complete', 'Voiceover generated', 'Generate visuals', '', `assets/video_${videoId}_assets`);
+    return;
+  }
+
+  if (stageName === 'visuals-fallback') {
+    const required = current.filter(item => ['Script data'].includes(item.check) && !item.ok);
+    if (required.length) throw new Error('Visual fallback blocked.');
+    runNodeScript('create_placeholder_visuals.js', videoId);
+    updateStatus('visuals_fallback_complete', 'Fallback visuals generated', 'Edit final video', 'Placeholder visuals must be replaced before public publishing', `assets/video_${videoId}_assets`);
+    return;
+  }
+
+  if (stageName === 'edit') {
+    const required = current.filter(item => ['Script data', 'FFmpeg', 'FFprobe', 'Background music', 'Scene audio files', 'Scene visual files'].includes(item.check) && !item.ok);
+    if (required.length) throw new Error('Editing blocked.');
+    runNodeScript('editor_agent.js', videoId);
+    updateStatus('edited', 'Final video and captions exported', 'Generate metadata and run QC', '', `FINAL_VIDEO_${videoId}.mp4`);
+    return;
+  }
+
+  if (stageName === 'metadata') {
+    runNodeScript('metadata_agent.js', videoId);
+    updateStatus('metadata_complete', 'Queue metadata generated', 'Run QC', '', 'metadata/queue.json');
+    return;
+  }
+
+  if (stageName === 'qc') {
+    runNodeScript('qc_agent.js', videoId);
+    updateStatus('qc_passed', 'QC passed with safeguards', 'Run upload dry-run', 'Public publishing still requires approval', `metadata/qc_reports/video_${videoId}_qc_report.json`);
+    return;
+  }
+
+  if (stageName === 'upload-dry-run') {
+    const uploadReport = checkReadiness(videoId);
+    const required = uploadReport.filter(item => ['Final video', 'Captions', 'Thumbnail', 'Queue entry', 'YouTube credentials'].includes(item.check) && !item.ok);
+    if (required.length) throw new Error('Upload dry-run blocked.');
+    runNodeScript('uploader_agent.js', videoId, ['--dry-run', `--only=FINAL_VIDEO_${videoId}.mp4`]);
+    updateStatus('dry_run_ready', 'Upload dry-run passed', 'Replace placeholder visuals or approve private/scheduled upload', 'Public publishing still requires approval', `FINAL_VIDEO_${videoId}.mp4`);
+    return;
+  }
+
+  throw new Error(`Unknown stage: ${stageName}`);
+}
+
+function runAll() {
+  console.log(`\nStarting full local production pipeline for video ${videoId}`);
+  console.log('This creates a test-ready video and upload dry-run. It does not publish publicly.\n');
+
+  if (getBlockers(videoId).some(item => item.check === 'Scene audio files')) runStage('voiceover');
+  if (getBlockers(videoId).some(item => item.check === 'Scene visual files')) runStage('visuals-fallback');
+  if (getBlockers(videoId).some(item => item.check === 'Final video' || item.check === 'Captions')) runStage('edit');
+  if (getBlockers(videoId).some(item => item.check === 'Queue entry')) runStage('metadata');
+  runStage('qc');
+  runStage('upload-dry-run');
+
+  console.log(`\nFull local pipeline complete for video ${videoId}.`);
+}
+
 function main() {
   const report = checkReadiness(videoId);
   const blockers = printReport(report);
 
   if (stage === 'check') return;
+
+  if (stage === 'all') {
+    runAll();
+    return;
+  }
 
   if (stage === 'voiceover') {
     const required = report.filter(item => ['Script data', 'Piper executable', 'Piper voice model'].includes(item.check) && !item.ok);
@@ -126,14 +216,22 @@ function main() {
   }
 
   if (stage === 'upload-dry-run') {
-    const required = report.filter(item => ['Final video', 'Captions', 'Thumbnail', 'Queue entry', 'YouTube credentials'].includes(item.check) && !item.ok);
-    if (required.length) process.exit(1);
-    runNodeScript('uploader_agent.js', videoId, ['--dry-run']);
+    runStage('upload-dry-run');
+    return;
+  }
+
+  if (stage === 'metadata') {
+    runStage('metadata');
+    return;
+  }
+
+  if (stage === 'qc') {
+    runStage('qc');
     return;
   }
 
   console.error(`Unknown stage: ${stage}`);
-  console.error('Use --stage check, voiceover, visuals-fallback, edit, or upload-dry-run.');
+  console.error('Use --stage check, voiceover, visuals-fallback, edit, metadata, qc, upload-dry-run, or all.');
   process.exit(1);
 }
 

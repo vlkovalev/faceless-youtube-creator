@@ -14,6 +14,8 @@ automation/credentials/oauth_tokens.json
 *.tmp
 *.temp
 automation/test.mp3
+metadata/schedule_reservations.json
+metadata/qc_reports/
 
 # Large/generated video outputs
 videos/uploaded/
@@ -22,6 +24,7 @@ videos/failed/
 *.mp4
 
 # Generated local TTS/video intermediates
+assets/video_*_assets/
 assets/video_*_assets/*_audio.wav
 assets/video_*_assets/*_audio.mp3
 assets/video_*_assets/*_video.mp4

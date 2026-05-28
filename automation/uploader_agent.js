@@ -9,6 +9,8 @@ require('dotenv').config();
 
 // CLI Arguments
 const DRY_RUN = process.argv.includes('--dry-run');
+const onlyArg = process.argv.find(arg => arg.startsWith('--only=') || arg.startsWith('--video='));
+const ONLY_FILENAME = onlyArg ? onlyArg.split('=').slice(1).join('=') : null;
 
 // Core Workspace Paths
 const WORKSPACE_DIR = path.join(__dirname, '..');
@@ -20,6 +22,7 @@ const CREDENTIALS_DIR = path.join(__dirname, 'credentials');
 
 const QUEUE_FILE = path.join(METADATA_DIR, 'queue.json');
 const TRACKER_FILE = path.join(METADATA_DIR, 'uploads_tracker.json');
+const RESERVATIONS_FILE = path.join(METADATA_DIR, 'schedule_reservations.json');
 const SECRETS_FILE = path.join(CREDENTIALS_DIR, 'client_secrets.json');
 const TOKENS_FILE = path.join(CREDENTIALS_DIR, 'oauth_tokens.json');
 
@@ -32,6 +35,7 @@ console.log(`=================================================`);
 console.log(`🚀 YouTube Local Uploader & Scheduler Agent`);
 console.log(`   Workspace: ${WORKSPACE_DIR}`);
 console.log(`   Dry-Run Mode: ${DRY_RUN ? '🟢 ON' : '🔴 OFF'}`);
+if (ONLY_FILENAME) console.log(`   Queue Filter: ${ONLY_FILENAME}`);
 console.log(`=================================================\n`);
 
 // Helper function to ask CLI questions
@@ -133,8 +137,41 @@ function getUploadedHistory() {
     return JSON.parse(fs.readFileSync(TRACKER_FILE, 'utf-8'));
 }
 
+function getScheduleReservations() {
+    if (!fs.existsSync(RESERVATIONS_FILE)) {
+        return { reserved_files: {} };
+    }
+    return JSON.parse(fs.readFileSync(RESERVATIONS_FILE, 'utf-8'));
+}
+
+function mergeReservationsIntoHistory(history) {
+    const reservations = getScheduleReservations();
+    for (const [filename, reservation] of Object.entries(reservations.reserved_files || {})) {
+        if (!history.uploaded_files[filename]) {
+            history.uploaded_files[filename] = {
+                youtube_id: reservation.youtube_id || `reserved-${filename}`,
+                uploaded_at: reservation.reserved_at || new Date().toISOString(),
+                publish_at: reservation.publish_at,
+                title: reservation.title || filename
+            };
+        }
+    }
+    return history;
+}
+
+function saveScheduleReservation(filename, publishAt, title) {
+    const reservations = getScheduleReservations();
+    reservations.reserved_files[filename] = {
+        reserved_at: new Date().toISOString(),
+        publish_at: publishAt,
+        title,
+        source: DRY_RUN ? 'dry-run' : 'upload'
+    };
+    fs.writeFileSync(RESERVATIONS_FILE, JSON.stringify(reservations, null, 2));
+}
+
 function saveUploadRecord(filename, videoId, publishAt, title) {
-    const history = getUploadedHistory();
+    const history = mergeReservationsIntoHistory(getUploadedHistory());
     history.uploaded_files[filename] = {
         youtube_id: videoId,
         uploaded_at: new Date().toISOString(),
@@ -199,7 +236,7 @@ async function run() {
     }
 
     const queue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf-8'));
-    const history = getUploadedHistory();
+    const history = mergeReservationsIntoHistory(getUploadedHistory());
 
     console.log(`📁 Scanning queue. Found ${queue.length} video profiles configured.\n`);
 
@@ -210,6 +247,10 @@ async function run() {
 
     for (const videoConfig of queue) {
         const { filename, title, description, tags, category_id, playlist_id, status, publish_days, publish_time, timezone, human_approval, srt_filename, thumbnail_filename } = videoConfig;
+
+        if (ONLY_FILENAME && filename !== ONLY_FILENAME && filename !== `FINAL_VIDEO_${ONLY_FILENAME}.mp4`) {
+            continue;
+        }
 
         console.log(`-------------------------------------------------`);
         console.log(`🎬 Checking Video profile: "${title}"`);
@@ -279,6 +320,13 @@ async function run() {
             if (thumbnail_filename) console.log(`   Would upload thumbnail: ${thumbnail_filename}`);
             if (srt_filename) console.log(`   Would upload captions: ${srt_filename}`);
             console.log(`\nDry-run simulation completed successfully.\n`);
+            history.uploaded_files[filename] = {
+                youtube_id: `dry-run-${filename}`,
+                uploaded_at: new Date().toISOString(),
+                publish_at: publishAt,
+                title: title
+            };
+            saveScheduleReservation(filename, publishAt, title);
             uploadCount++;
             continue;
         }
@@ -386,6 +434,7 @@ async function run() {
 
             // Step 9: Save status and archive video files
             saveUploadRecord(filename, videoId, publishAt, title);
+            saveScheduleReservation(filename, publishAt, title);
 
             // Move files from ready/ to uploaded/ to keep workspace pristine
             const destPath = path.join(UPLOADED_DIR, filename);

@@ -1,0 +1,28 @@
+[
+  {
+    "video_id": "VID-0004",
+    "current_stage": "dry_run_ready",
+    "stage_owner_agent": "Pipeline Runner",
+    "last_completed_step": "Upload dry-run passed",
+    "next_step": "Replace placeholder visuals or approve private/scheduled upload",
+    "blocking_issue": "Public publishing still requires approval",
+    "file_path": "FINAL_VIDEO_4.mp4",
+    "error_message": "",
+    "retry_count": 0,
+    "last_updated": "2026-05-28T15:06:45.314Z",
+    "final_status": "In Progress"
+  },
+  {
+    "video_id": "VID-0005",
+    "current_stage": "dry_run_ready",
+    "stage_owner_agent": "Pipeline Runner",
+    "last_completed_step": "Upload dry-run passed",
+    "next_step": "Replace placeholder visuals or approve private/scheduled upload",
+    "blocking_issue": "Public publishing still requires approval",
+    "file_path": "FINAL_VIDEO_5.mp4",
+    "error_message": "",
+    "retry_count": 0,
+    "last_updated": "2026-05-28T15:06:48.666Z",
+    "final_status": "In Progress"
+  }
+]

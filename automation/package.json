@@ -8,7 +8,10 @@
     "voiceover": "node run_pipeline.js --stage voiceover",
     "visuals:fallback": "node run_pipeline.js --stage visuals-fallback",
     "edit": "node run_pipeline.js --stage edit",
-    "upload:dry-run": "node run_pipeline.js --stage upload-dry-run"
+    "metadata": "node run_pipeline.js --stage metadata",
+    "qc": "node run_pipeline.js --stage qc",
+    "upload:dry-run": "node run_pipeline.js --stage upload-dry-run",
+    "all": "node run_pipeline.js --stage all"
   },
   "keywords": [],
   "author": "",

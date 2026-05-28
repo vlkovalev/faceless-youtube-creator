@@ -5,11 +5,20 @@
     "thumbnail_filename": "youtube_thumbnail.png",
     "title": "How One Family Fooled the World into Buying Worthless Rocks",
     "description": "Take a look at the single greatest marketing heist in human history: the De Beers diamond dynasty. For over a century, you, your parents, and your grandparents have been the silent victims of dynamic artificial scarcity. This is how they captured the human mind.\n\nSubscribe to Corporate Shadows for more dark business scandals!",
-    "tags": ["de beers", "diamond cartel", "dark history", "marketing secrets", "corporate shadows"],
+    "tags": [
+      "de beers",
+      "diamond cartel",
+      "dark history",
+      "marketing secrets",
+      "corporate shadows"
+    ],
     "category_id": "27",
     "playlist_id": "",
     "status": "scheduled",
-    "publish_days": ["Tuesday", "Friday"],
+    "publish_days": [
+      "Tuesday",
+      "Friday"
+    ],
     "publish_time": "10:00",
     "timezone": "America/Denver",
     "human_approval": true
@@ -20,11 +29,20 @@
     "thumbnail_filename": "youtube_thumbnail_video_2.png",
     "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
     "description": "In the 1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths. This is the dark history of how they captured a continent.\n\nSubscribe to Corporate Shadows for more dark business scandals!",
-    "tags": ["nestle scandal", "baby formula", "dark history", "corporate greed", "corporate shadows"],
+    "tags": [
+      "nestle scandal",
+      "baby formula",
+      "dark history",
+      "corporate greed",
+      "corporate shadows"
+    ],
     "category_id": "27",
     "playlist_id": "",
     "status": "scheduled",
-    "publish_days": ["Tuesday", "Friday"],
+    "publish_days": [
+      "Tuesday",
+      "Friday"
+    ],
     "publish_time": "10:00",
     "timezone": "America/Denver",
     "human_approval": true
@@ -35,11 +53,20 @@
     "thumbnail_filename": "youtube_thumbnail_video_3.png",
     "title": "The Secret Society That Controlled the World's Electricity",
     "description": "In 1924, a group of powerful industrialists gathered in a smoke-filled room in Geneva. Their objective? Make lightbulbs burn out faster. This is the dark history of the Phoebus Cartel, planned obsolescence, and how they controlled the world's electricity.\n\nSubscribe to Corporate Shadows for more dark business scandals!",
-    "tags": ["phoebus cartel", "lightbulb conspiracy", "planned obsolescence", "dark history", "corporate shadows"],
+    "tags": [
+      "phoebus cartel",
+      "lightbulb conspiracy",
+      "planned obsolescence",
+      "dark history",
+      "corporate shadows"
+    ],
     "category_id": "27",
     "playlist_id": "",
     "status": "scheduled",
-    "publish_days": ["Tuesday", "Friday"],
+    "publish_days": [
+      "Tuesday",
+      "Friday"
+    ],
     "publish_time": "10:00",
     "timezone": "America/Denver",
     "human_approval": true
@@ -50,11 +77,47 @@
     "thumbnail_filename": "youtube_thumbnail_video_4.png",
     "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
     "description": "For decades, the public was told that fat was the enemy. But behind the scenes, the sugar industry helped shape the science, the headlines, and the food choices of an entire generation. This is the dark history of how corporate influence rewired America's diet.\n\nSubscribe to Shadow Empires for more dark business history and corporate scandals.",
-    "tags": ["sugar lobby", "harvard sugar scandal", "dark business history", "corporate influence", "shadow empires"],
+    "tags": [
+      "sugar lobby",
+      "harvard sugar scandal",
+      "dark business history",
+      "corporate influence",
+      "shadow empires"
+    ],
     "category_id": "27",
     "playlist_id": "",
     "status": "scheduled",
-    "publish_days": ["Tuesday", "Friday"],
+    "publish_days": [
+      "Tuesday",
+      "Friday"
+    ],
+    "publish_time": "10:00",
+    "timezone": "America/Denver",
+    "human_approval": true
+  },
+  {
+    "filename": "FINAL_VIDEO_5.mp4",
+    "srt_filename": "FINAL_VIDEO_5.srt",
+    "thumbnail_filename": "youtube_thumbnail_video_5.png",
+    "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+    "description": "It had its own army of 260,000 men. ..\n\nThis is the dark business history behind The rise and fall of the East India Company.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+    "tags": [
+      "company",
+      "literally",
+      "conquered",
+      "india",
+      "bankrupt",
+      "dark business history",
+      "corporate scandals",
+      "shadow empires"
+    ],
+    "category_id": "27",
+    "playlist_id": "",
+    "status": "scheduled",
+    "publish_days": [
+      "Tuesday",
+      "Friday"
+    ],
     "publish_time": "10:00",
     "timezone": "America/Denver",
     "human_approval": true
