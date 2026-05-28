@@ -4,13 +4,16 @@
     "srt_filename": "FINAL_VIDEO_1.srt",
     "thumbnail_filename": "youtube_thumbnail.png",
     "title": "How One Family Fooled the World into Buying Worthless Rocks",
-    "description": "Take a look at the single greatest marketing heist in human history: the De Beers diamond dynasty. For over a century, you, your parents, and your grandparents have been the silent victims of dynamic artificial scarcity. This is how they captured the human mind.\n\nSubscribe to Corporate Shadows for more dark business scandals!",
+    "description": "Take a look at this. Beautiful, rare, and absolutely priceless.\n\nThis is the dark business history behind The De Beers diamond cartel, artificial scarcity, and marketing scams.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
     "tags": [
-      "de beers",
-      "diamond cartel",
-      "dark history",
-      "marketing secrets",
-      "corporate shadows"
+      "family",
+      "fooled",
+      "world",
+      "buying",
+      "worthless",
+      "dark business history",
+      "corporate scandals",
+      "shadow empires"
     ],
     "category_id": "27",
     "playlist_id": "",
@@ -28,13 +31,16 @@
     "srt_filename": "FINAL_VIDEO_2.srt",
     "thumbnail_filename": "youtube_thumbnail_video_2.png",
     "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
-    "description": "In the 1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths. This is the dark history of how they captured a continent.\n\nSubscribe to Corporate Shadows for more dark business scandals!",
+    "description": "In the mid-1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths. Operating far from public scrutiny, they targeted some of the poorest, most vulnerable populations on Earth.\n\nThis is the dark business history behind Nestlé's aggressive baby formula campaign in developing nations.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
     "tags": [
-      "nestle scandal",
-      "baby formula",
-      "dark history",
-      "corporate greed",
-      "corporate shadows"
+      "poisoned",
+      "formula",
+      "corporate",
+      "giant",
+      "stole",
+      "dark business history",
+      "corporate scandals",
+      "shadow empires"
     ],
     "category_id": "27",
     "playlist_id": "",
@@ -52,13 +58,16 @@
     "srt_filename": "FINAL_VIDEO_3.srt",
     "thumbnail_filename": "youtube_thumbnail_video_3.png",
     "title": "The Secret Society That Controlled the World's Electricity",
-    "description": "In 1924, a group of powerful industrialists gathered in a smoke-filled room in Geneva. Their objective? Make lightbulbs burn out faster. This is the dark history of the Phoebus Cartel, planned obsolescence, and how they controlled the world's electricity.\n\nSubscribe to Corporate Shadows for more dark business scandals!",
+    "description": "In the winter of 1924, far from the public eye, a group of powerful industrialists quietly gathered in a smoke-filled room in Geneva, Switzerland. Representing the world's leading lighting conglomerates, these men were not there to celebrate innovation.\n\nThis is the dark business history behind The Phoebus Cartel, planned obsolescence, and lightbulb conspiracies.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
     "tags": [
-      "phoebus cartel",
-      "lightbulb conspiracy",
-      "planned obsolescence",
-      "dark history",
-      "corporate shadows"
+      "secret",
+      "society",
+      "controlled",
+      "worlds",
+      "electricity",
+      "dark business history",
+      "corporate scandals",
+      "shadow empires"
     ],
     "category_id": "27",
     "playlist_id": "",
@@ -121,5 +130,92 @@
     "publish_time": "10:00",
     "timezone": "America/Denver",
     "human_approval": true
+  },
+  {
+    "filename": "FINAL_VIDEO_1_REVISED.mp4",
+    "srt_filename": "FINAL_VIDEO_1_REVISED.srt",
+    "thumbnail_filename": "youtube_thumbnail.png",
+    "title": "How One Family Fooled the World into Buying Worthless Rocks",
+    "description": "Take a look at this. Beautiful, rare, and absolutely priceless.\n\nThis is the dark business history behind The De Beers diamond cartel, artificial scarcity, and marketing scams.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+    "tags": [
+      "family",
+      "fooled",
+      "world",
+      "buying",
+      "worthless",
+      "dark business history",
+      "corporate scandals",
+      "shadow empires"
+    ],
+    "category_id": "27",
+    "playlist_id": "",
+    "status": "scheduled",
+    "publish_days": [
+      "Tuesday",
+      "Friday"
+    ],
+    "publish_time": "10:00",
+    "timezone": "America/Denver",
+    "human_approval": true,
+    "revision_of": "FINAL_VIDEO_1.mp4",
+    "replacement_for_uploaded_video": true
+  },
+  {
+    "filename": "FINAL_VIDEO_2_REVISED.mp4",
+    "srt_filename": "FINAL_VIDEO_2_REVISED.srt",
+    "thumbnail_filename": "youtube_thumbnail_video_2.png",
+    "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+    "description": "In the mid-1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths. Operating far from public scrutiny, they targeted some of the poorest, most vulnerable populations on Earth.\n\nThis is the dark business history behind Nestlé's aggressive baby formula campaign in developing nations.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+    "tags": [
+      "poisoned",
+      "formula",
+      "corporate",
+      "giant",
+      "stole",
+      "dark business history",
+      "corporate scandals",
+      "shadow empires"
+    ],
+    "category_id": "27",
+    "playlist_id": "",
+    "status": "scheduled",
+    "publish_days": [
+      "Tuesday",
+      "Friday"
+    ],
+    "publish_time": "10:00",
+    "timezone": "America/Denver",
+    "human_approval": true,
+    "revision_of": "FINAL_VIDEO_2.mp4",
+    "replacement_for_uploaded_video": true
+  },
+  {
+    "filename": "FINAL_VIDEO_3_REVISED.mp4",
+    "srt_filename": "FINAL_VIDEO_3_REVISED.srt",
+    "thumbnail_filename": "youtube_thumbnail_video_3.png",
+    "title": "The Secret Society That Controlled the World's Electricity",
+    "description": "In the winter of 1924, far from the public eye, a group of powerful industrialists quietly gathered in a smoke-filled room in Geneva, Switzerland. Representing the world's leading lighting conglomerates, these men were not there to celebrate innovation.\n\nThis is the dark business history behind The Phoebus Cartel, planned obsolescence, and lightbulb conspiracies.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+    "tags": [
+      "secret",
+      "society",
+      "controlled",
+      "worlds",
+      "electricity",
+      "dark business history",
+      "corporate scandals",
+      "shadow empires"
+    ],
+    "category_id": "27",
+    "playlist_id": "",
+    "status": "scheduled",
+    "publish_days": [
+      "Tuesday",
+      "Friday"
+    ],
+    "publish_time": "10:00",
+    "timezone": "America/Denver",
+    "human_approval": true,
+    "revision_of": "FINAL_VIDEO_3.mp4",
+    "replacement_for_uploaded_video": true
   }
 ]

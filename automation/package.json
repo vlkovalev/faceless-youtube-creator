@@ -10,6 +10,7 @@
     "visuals:fallback": "node run_pipeline.js --stage visuals-fallback",
     "edit": "node run_pipeline.js --stage edit",
     "metadata": "node run_pipeline.js --stage metadata",
+    "revisions:queue": "node revision_queue_agent.js",
     "qc": "node run_pipeline.js --stage qc",
     "youtube:status": "node youtube_status_agent.js",
     "upload:dry-run": "node run_pipeline.js --stage upload-dry-run",
