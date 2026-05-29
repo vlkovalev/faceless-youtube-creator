@@ -99,3 +99,46 @@ A Russian merchant's son named Prokhor Moshnin enters the Sarov monastery, disap
 
 ## Production Recommendation
 Make this a full long-form episode with no upper cap. Likely target: 1,800-2,500 words depending on source depth. The story should breathe; do not compress the forest years and return-to-pilgrims period just to fit a short runtime.
+
+## Miracle Accounts
+
+### 1. Childhood Fall From Church Construction
+- When: childhood in Kursk.
+- Source: OCA life of Saint Seraphim.
+- Source type: official Orthodox hagiographic life.
+- Framing: "According to the Orthodox life of the saint..."
+- Narrative use: early sign of preservation; connects child Prokhor to the church his family was building.
+- Safe wording: "The Church remembers that, as a child, Prokhor fell from the cathedral scaffolding and survived unharmed."
+- Copyright caution: summarize only; do not copy OCA prose.
+
+### 2. Healing Through the Kursk Root Icon
+- When: youth illness.
+- Source: OCA life.
+- Source type: official Orthodox hagiographic life.
+- Framing: Orthodox tradition.
+- Narrative use: shows illness, prayer, and the Theotokos as formative in his life.
+- Safe wording: "In the hagiographic tradition, his recovery is connected with the Kursk Root Icon procession."
+
+### 3. Monastic Illness and Vision of the Theotokos
+- When: Sarov novice/monastic formation.
+- Source: OCA life.
+- Source type: official Orthodox hagiographic life.
+- Framing: hagiographic tradition.
+- Narrative use: suffering and healing during formation.
+- Safe wording: "His Life recounts that during a grave illness, he was visited by the Mother of God and healed."
+
+### 4. The Bear in the Forest
+- When: forest hermitage.
+- Source: OCA mentions the obedient bear; other retellings expand the story.
+- Source type: official mention plus later beloved tradition.
+- Framing: beloved Orthodox tradition; avoid excessive embellishment.
+- Narrative use: visual symbol of peace, humility, and holiness in creation.
+- Safe wording: "One beloved tradition even remembers wild animals, including a bear, becoming gentle around him."
+
+### 5. Motovilov and the Light
+- When: later spiritual eldership.
+- Source: OCA references the Conversation with Nicholas Motovilov.
+- Source type: disciple testimony within Orthodox tradition.
+- Framing: Orthodox spiritual testimony.
+- Narrative use: central teaching scene on acquiring the Holy Spirit.
+- Safe wording: "In the famous account preserved by Nicholas Motovilov, the saint's teaching on the Holy Spirit became an experience of light, warmth, and joy."

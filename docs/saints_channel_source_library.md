@@ -341,3 +341,149 @@ Story completeness has priority over runtime compression. A complete episode sho
 - what the story means for viewers today
 
 Use pacing discipline, not runtime limits. Remove filler, but do not cut essential context, spiritual transformation, or legacy just to keep a video short.
+
+## Miracle Accounts Policy
+
+Miracle accounts are allowed and should be included when they are important to the saint's received story. They are often central to how Orthodox and Catholic Christians remember saints. However, they must be framed carefully.
+
+### How To Phrase Miracle Accounts
+Use wording such as:
+- "According to Orthodox tradition..."
+- "The Church remembers..."
+- "His Life recounts..."
+- "Pilgrims later reported..."
+- "The hagiographic tradition says..."
+- "Believers have long associated this saint with..."
+
+Avoid wording such as:
+- "Science proves..."
+- "This definitely happened exactly this way..."
+- "There is no doubt that..." when the source is hagiographic or testimonial
+- sensational claims used only for shock value
+
+### Miracle Account Quality Rules
+- Include miracle stories when they reveal the saint's compassion, holiness, intercession, repentance, or spiritual teaching.
+- Do not include miracles only as spectacle.
+- Separate miracles during earthly life from posthumous miracles/intercessions.
+- Identify the source type: official church life, medieval hagiography, public-domain life, monastery tradition, pilgrim testimony, or modern secondary account.
+- Avoid copying modern copyrighted miracle collections verbatim.
+- For disputed or embellished accounts, say so in research notes and use softer narration.
+- Keep the tone reverent, not paranormal or sensationalist.
+
+### Miracle Log Template
+For every saint episode, create a section called "Miracle Accounts" with:
+- Account title
+- When it occurred: childhood, monastic life, martyrdom, after repose, relics, intercession
+- Source
+- Source type
+- Confidence/framing: official tradition, hagiographic tradition, later tradition, modern testimony, disputed/uncertain
+- Narrative use: hook, turning point, visual scene, legacy, Shorts clip
+- Safe wording
+- Copyright caution
+
+## Initial Miracle Account Backlog
+
+### Saint Seraphim of Sarov
+Potential accounts:
+1. Childhood survival after falling from church construction scaffolding.
+   - Source: OCA life of Saint Seraphim.
+   - Framing: Orthodox hagiographic tradition.
+   - Narrative use: early sign of preservation and vocation.
+
+2. Healing through the Kursk Root Icon procession during severe youth illness.
+   - Source: OCA life.
+   - Framing: Orthodox tradition.
+   - Narrative use: link between illness, the Theotokos, and future monastic calling.
+
+3. Visions of the Mother of God and healing during monastic illness.
+   - Source: OCA life.
+   - Framing: hagiographic tradition.
+   - Narrative use: suffering, patience, and spiritual formation.
+
+4. Forest life with wild animals, including the famous bear account.
+   - Source: OCA mentions the bear; other monastic retellings expand it.
+   - Framing: beloved tradition; avoid over-detailing embellished versions unless sourced.
+   - Narrative use: visual symbol of restored peace between holiness and creation.
+
+5. Motovilov conversation and experience of divine light/warmth.
+   - Source: OCA references Motovilov and the experience.
+   - Framing: disciple testimony within Orthodox tradition.
+   - Narrative use: central teaching scene on the aim of Christian life.
+
+### Saint Nicholas of Myra
+Potential accounts:
+1. Wonderworking during life and after repose.
+   - Source: OCA life and OCA sermon noting medieval lives full of miracle accounts.
+   - Framing: Orthodox tradition and medieval hagiographic tradition.
+   - Narrative use: explain why he is called Wonderworker.
+
+2. Protection of the poor, abandoned, and those suffering injustice.
+   - Source: Orthodox jurisdictional sources; OCA and GOA-related material.
+   - Framing: tradition.
+   - Narrative use: connect miracles to pastoral charity, not spectacle.
+
+3. Posthumous miracles associated with his relics and translation to Bari.
+   - Source: Orthodox/Catholic tradition, public-domain sources.
+   - Framing: later tradition.
+   - Narrative use: legacy section.
+
+### Saint Herman of Alaska
+Potential accounts:
+1. Miracles during earthly life on Spruce Island.
+   - Source: OCA materials mention miracles connected to his life.
+   - Framing: Orthodox tradition.
+   - Narrative use: show him as protector and intercessor of Alaska.
+
+2. Healings at his gravesite after repose.
+   - Source: OCA article notes generations of healing miracles at the gravesite.
+   - Framing: posthumous intercession tradition.
+   - Narrative use: legacy and pilgrimage scenes.
+
+### Saint Mary of Egypt
+Potential accounts:
+1. Invisible force preventing her from entering the church before repentance.
+   - Source: public-domain Life of Saint Mary of Egypt / hagiographic tradition.
+   - Framing: hagiographic tradition.
+   - Narrative use: conversion turning point.
+
+2. Crossing the Jordan after repentance.
+   - Source: hagiographic tradition.
+   - Framing: tradition.
+   - Narrative use: visual spiritual transformation.
+
+3. Saint Zosimas witnessing her prayer and final repose.
+   - Source: hagiographic Life.
+   - Framing: hagiographic tradition.
+   - Narrative use: final witness.
+
+### Saint Moses the Black
+Potential accounts:
+- The main story is repentance and martyrdom rather than miracle spectacle.
+- Include miraculous or extraordinary accounts only if sourced from Desert Fathers material.
+- Focus on transformation, humility, nonviolence, and eldership.
+
+### Saint Paisios of Mount Athos
+Potential accounts:
+- Many modern miracle and prophecy accounts circulate online.
+- Use only official church, monastery, or carefully vetted sources.
+- Frame as testimony/tradition and avoid over-sensationalizing clairvoyance or prophecy.
+
+### Saint Silouan the Athonite
+Potential accounts:
+- Main focus should be spiritual experience, despair, humility, and love for enemies.
+- Modern accounts rely heavily on copyrighted writings of Elder Sophrony, so paraphrase cautiously.
+
+## Miracle Shorts Strategy
+Miracle accounts can become Shorts, but Shorts must preserve reverence.
+
+Good Shorts patterns:
+- "The miracle that changed his childhood"
+- "Why Saint Nicholas is called the Wonderworker"
+- "The monk and the bear: what the story actually means"
+- "The saint whose grave became a place of healing"
+
+Avoid:
+- clickbait miracle bait
+- horror-style thumbnails
+- claims of guaranteed healing
+- exploiting suffering

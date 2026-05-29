@@ -84,3 +84,12 @@ Practical, proof-based, clean, business-useful.
 - Test result
 - Cost and limitation
 - Template or next action
+
+### Saints Miracle Account Overlay
+- Miracle accounts are welcome when they are part of the saint's received life or tradition.
+- Frame them as Church memory, hagiographic tradition, testimony, or later devotion as appropriate.
+- The goal is spiritual meaning, not paranormal spectacle.
+- Never promise viewers healing or guaranteed intervention.
+- Never use miracle claims to mock nonbelievers or attack another Christian tradition.
+- When the source is late, disputed, or embellished, soften the wording.
+- Miracles can be strong hooks, but the episode must still tell the full life.
