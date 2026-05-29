@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-05-29T19:33:17.465Z",
+  "source_files": {
+    "queue": "metadata/queue.json",
+    "analytics": "pending YouTube Analytics API sync",
+    "channel_status": "metadata/youtube_channel_status.json"
+  },
+  "decision_rules": {
+    "thumbnail_replace": ">=1000 impressions, age >= 7 days, CTR at least 2 percentage points below target",
+    "retention_floor": "averageViewPercentage below 40% triggers hook or scene audit",
+    "topic_promote": "CTR at least 2 percentage points above target in first 72 hours",
+    "cadence_gap": "channel views/day down 20% with publish gap above 4 days"
+  },
+  "summary": {
+    "recommendations_open": 0,
+    "analytics_available": false,
+    "note": "No metric-based growth actions yet; wait for public videos and Analytics data."
+  },
+  "recommendations": []
+}

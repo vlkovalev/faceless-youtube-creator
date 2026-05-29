@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T19:25:29.187Z",
+  "generated_at": "2026-05-29T19:33:17.467Z",
   "channel": "Shadow Empires",
   "primary_playlist": {
     "title": "Dark Business Empires",
@@ -21,7 +21,8 @@
     "videos_checked": 8,
     "blockers": 0,
     "playlist_id_pending": 8,
-    "ready_for_distribution_sprint": true
+    "ready_for_distribution_sprint": true,
+    "recommendations_open": 0
   },
   "checks": [
     {
@@ -174,7 +175,7 @@
   "next_actions": [
     "Create or identify the YouTube playlist Dark Business Empires and fill growth_system.primary_playlist.youtube_playlist_id.",
     "Regenerate metadata for every video before upload so descriptions include chapters.",
-    "After each public release, fill actual CTR and first-30-second retention for thumbnail decisions.",
-    "Keep Tuesday/Friday cadence unless a video has a legal, factual, or serious brand-risk blocker."
+    "After each public release, sync YouTube Analytics API metrics before changing thumbnails or titles.",
+    "Keep Tuesday/Friday cadence unless a video has a legal, factual, serious brand-risk, or final-approval blocker."
   ]
 }
