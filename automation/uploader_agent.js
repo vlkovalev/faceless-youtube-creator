@@ -11,6 +11,9 @@ require('dotenv').config();
 const DRY_RUN = process.argv.includes('--dry-run');
 const onlyArg = process.argv.find(arg => arg.startsWith('--only=') || arg.startsWith('--video='));
 const ONLY_FILENAME = onlyArg ? onlyArg.split('=').slice(1).join('=') : null;
+const privacyArg = process.argv.find(arg => arg.startsWith('--privacy='));
+const PRIVACY_OVERRIDE = privacyArg ? privacyArg.split('=').slice(1).join('=').toLowerCase() : null;
+const AUTO_APPROVE_PRIVATE = process.argv.includes('--auto-approve-private');
 
 // Core Workspace Paths
 const WORKSPACE_DIR = path.join(__dirname, '..');
@@ -36,6 +39,7 @@ console.log(`🚀 YouTube Local Uploader & Scheduler Agent`);
 console.log(`   Workspace: ${WORKSPACE_DIR}`);
 console.log(`   Dry-Run Mode: ${DRY_RUN ? '🟢 ON' : '🔴 OFF'}`);
 if (ONLY_FILENAME) console.log(`   Queue Filter: ${ONLY_FILENAME}`);
+if (PRIVACY_OVERRIDE) console.log(`   Privacy Override: ${PRIVACY_OVERRIDE}`);
 console.log(`=================================================\n`);
 
 // Helper function to ask CLI questions
@@ -147,6 +151,7 @@ function getScheduleReservations() {
 function mergeReservationsIntoHistory(history) {
     const reservations = getScheduleReservations();
     for (const [filename, reservation] of Object.entries(reservations.reserved_files || {})) {
+        if (!DRY_RUN && reservation.source === 'dry-run') continue;
         if (!history.uploaded_files[filename]) {
             history.uploaded_files[filename] = {
                 youtube_id: reservation.youtube_id || `reserved-${filename}`,
@@ -289,6 +294,7 @@ async function run() {
 
     for (const videoConfig of queue) {
         const { filename, title, description, tags, category_id, playlist_id, status, publish_days, publish_time, timezone, human_approval, srt_filename, thumbnail_filename } = videoConfig;
+        const effectiveStatus = PRIVACY_OVERRIDE || status;
 
         if (ONLY_FILENAME && filename !== ONLY_FILENAME && filename !== `FINAL_VIDEO_${ONLY_FILENAME}.mp4`) {
             continue;
@@ -342,10 +348,10 @@ async function run() {
         console.log(`   ISO Format:  ${publishAt}`);
         console.log(`   Local time:  ${localFormatDate} (${timezone || 'America/Denver'})`);
         console.log(`🏷️  Tags:        ${tags.join(', ')}`);
-        console.log(`📺 Visibility:  ${status.toUpperCase()}`);
+        console.log(`?? Visibility:  ${effectiveStatus.toUpperCase()}`);
 
         // Step 5: Human Interactive Approvals
-        if (human_approval && !DRY_RUN) {
+        if (human_approval && !DRY_RUN && !(AUTO_APPROVE_PRIVATE && effectiveStatus === 'private')) {
             const confirm = await askQuestion(`\n❓ Confirm upload of this video profile to YouTube? (Y/N): `);
             if (confirm.toLowerCase() !== 'y' && confirm.toLowerCase() !== 'yes') {
                 console.log(`⏭️  Skipped: User rejected approval for '${filename}'.\n`);
@@ -357,7 +363,8 @@ async function run() {
         if (DRY_RUN) {
             console.log(`\n🟢 [SIMULATED SUCCESS] (Dry-Run Mode)`);
             console.log(`   Would upload:       ${filename}`);
-            console.log(`   Would schedule for: ${publishAt}`);
+            if (effectiveStatus === 'scheduled') console.log(`   Would schedule for: ${publishAt}`);
+            else console.log(`   Would set private draft visibility.`);
             console.log(`   Would tag:          ${tags.join(', ')}`);
             if (thumbnail_filename) console.log(`   Would upload thumbnail: ${thumbnail_filename}`);
             if (srt_filename) console.log(`   Would upload captions: ${srt_filename}`);
@@ -384,12 +391,12 @@ async function run() {
                     categoryId: category_id || '27' // Default to Education
                 },
                 status: {
-                    privacyStatus: status === 'scheduled' ? 'private' : status, // Scheduled uploads are marked private until publish time
+                    privacyStatus: effectiveStatus === 'scheduled' ? 'private' : effectiveStatus, // Scheduled uploads are marked private until publish time
                 }
             };
 
             // Embed schedule times only if designated as scheduled visibility
-            if (status === 'scheduled') {
+            if (effectiveStatus === 'scheduled') {
                 requestBody.status.publishAt = publishAt;
                 requestBody.status.selfDeclaredMadeForKids = false;
             }
@@ -511,3 +518,6 @@ async function run() {
 }
 
 run().catch(console.error);
+
+
+
