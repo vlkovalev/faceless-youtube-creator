@@ -6,7 +6,7 @@ For each episode, run the agent prompts in this order:
 
 1. Select channel overlay
    - Corporate Shadows
-   - Saints in the Shadows
+   - The Saints
    - AI / B2B Automation
 
 2. Research Agent
@@ -59,7 +59,7 @@ Default approach:
 - Core Upload Safety Agent
 - Core Analytics Feedback Agent
 - Corporate Shadows overlay
-- Saints in the Shadows overlay
+- The Saints overlay
 - AI / B2B Automation overlay
 - Saint Seraphim episode pack
 
@@ -70,3 +70,4 @@ Default approach:
 - Corporate Shadows Visual Sourcing Agent
 - AI/B2B Tutorial Workflow Agent
 - Sponsorship/Affiliate Packaging Agent
+

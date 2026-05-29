@@ -1,7 +1,7 @@
 ﻿# Saints Story Channel Source Library
 
 ## Channel Concept
-Working title: Saints in the Shadows
+Working title: The Saints
 
 Focus: cinematic, reverent story videos about Orthodox and Catholic saints, martyrs, desert fathers, missionaries, mystics, and confessors. The tone should be dramatic and story-driven, but respectful: no mockery, no sensationalizing miracles as cheap spectacle, and no pretending disputed legends are confirmed history.
 
@@ -487,3 +487,4 @@ Avoid:
 - horror-style thumbnails
 - claims of guaranteed healing
 - exploiting suffering
+

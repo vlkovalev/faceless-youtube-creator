@@ -1,7 +1,7 @@
 ﻿# Episode Agent Pack: Saint Seraphim of Sarov
 
 ## Research Agent Input
-Channel lane: Saints in the Shadows
+Channel lane: The Saints
 Topic: Saint Seraphim of Sarov
 Audience: Orthodox Christians, Catholics interested in saints, Christian history viewers, spiritually curious viewers
 Freshness: stable historical/religious sources; verify modern web source URLs before citation
@@ -34,3 +34,4 @@ Check for:
 - incorrect dates presented too confidently
 - generic visuals not matching Russian Orthodoxy
 - script under 8 minutes
+

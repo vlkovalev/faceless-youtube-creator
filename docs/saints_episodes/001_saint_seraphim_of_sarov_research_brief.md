@@ -4,7 +4,7 @@
 The Russian Monk Who Greeted Everyone With Joy
 
 ## Channel
-Saints in the Shadows
+The Saints
 
 ## Core Angle
 A Russian merchant's son named Prokhor Moshnin enters the Sarov monastery, disappears into years of obedience, illness, prayer, forest solitude, and silence, then returns as one of the most beloved spiritual fathers in Orthodox history. The emotional center is the paradox of his life: extreme ascetic struggle producing extraordinary gentleness and joy.
@@ -142,3 +142,4 @@ Make this a full long-form episode with no upper cap. Likely target: 1,800-2,500
 - Framing: Orthodox spiritual testimony.
 - Narrative use: central teaching scene on acquiring the Holy Spirit.
 - Safe wording: "In the famous account preserved by Nicholas Motovilov, the saint's teaching on the Holy Spirit became an experience of light, warmth, and joy."
+

@@ -28,7 +28,7 @@ Dark, cinematic, investigative, morally clear, but not reckless.
 - high contrast, restrained color
 - no generic stock smiles
 
-## Saints in the Shadows Overlay
+## The Saints Overlay
 
 Use this overlay for Orthodox/Catholic saints, monks, elders, martyrs, desert fathers, Athos, Russian monasticism, and Christian history.
 
@@ -93,3 +93,4 @@ Practical, proof-based, clean, business-useful.
 - Never use miracle claims to mock nonbelievers or attack another Christian tradition.
 - When the source is late, disputed, or embellished, soften the wording.
 - Miracles can be strong hooks, but the episode must still tell the full life.
+

@@ -8,7 +8,7 @@ Planning horizon: 12 weeks
 Run three lanes, but do not give all three equal production load immediately.
 
 1. Corporate Shadows remains the active/live channel.
-2. Saints in the Shadows becomes the second active build lane.
+2. The Saints becomes the second active build lane.
 3. AI/B2B Automation starts with research and tested workflow prototypes, then becomes production-ready after the first two lanes have stable systems.
 
 ## Mermaid Gantt
@@ -30,7 +30,7 @@ gantt
     Corporate analytics and packaging iteration     :cs8, 2026-07-10, 14d
     Corporate sponsorship/newsletter planning       :cs9, 2026-07-24, 14d
 
-    section Saints in the Shadows
+    section The Saints
     Source library and channel config complete      :done, st1, 2026-05-28, 1d
     Saint Seraphim research and outline complete    :done, st2, 2026-05-28, 1d
     Saint Seraphim full script package              :active, st3, 2026-05-29, 5d
@@ -131,7 +131,7 @@ gantt
 | Channel | Current Status | Active Production Start | First Private Draft Target | First Public Launch Target |
 |---|---|---:|---:|---:|
 | Corporate Shadows | Active/live | Already active | Already uploaded revised drafts | Continue after visual upgrades |
-| Saints in the Shadows | Build started | 2026-05-29 | 2026-06-21 | 2026-07-30 to 2026-08-05 |
+| The Saints | Build started | 2026-05-29 | 2026-06-21 | 2026-07-30 to 2026-08-05 |
 | AI/B2B Automation | Planned | 2026-06-10 | 2026-07-31 to 2026-08-05 | 2026-08-07 onward |
 
 ## Key Dependencies
@@ -140,7 +140,7 @@ gantt
 - Better visual workflow before more public publishing.
 - Thumbnail permission/verification issue still needs YouTube Studio fix.
 
-### Saints in the Shadows
+### The Saints
 - Actual separate YouTube channel/Brand Account must be created.
 - OAuth/channel routing must be separated from Corporate Shadows.
 - First video should be uploaded private before public launch.
@@ -162,3 +162,4 @@ Review AI/B2B pilot videos. Launch only if tutorials are useful, tested, and tem
 
 ### 2026-08-20
 Portfolio review: allocate more production capacity to whichever lane shows the best combination of quality, monetization path, and audience response.
+

@@ -12,7 +12,7 @@ Tone: dark business history, corporate scandals, cinematic investigation, morall
 Primary output: 8+ minute monetization-ready documentaries plus Shorts.
 Risk profile: defamation, unsupported claims, copyrighted assets, demonetization from sensitive topics.
 
-### Saints in the Shadows
+### The Saints
 Tone: reverent, cinematic, historically careful, spiritually serious.
 Primary output: full-story saint and monastic documentaries with no upper runtime cap.
 Risk profile: denominational sensitivity, copyrighted modern hagiographies, overclaiming miracles, disrespectful visuals.
@@ -56,3 +56,4 @@ Recommended per episode:
 - qc_report.md
 - upload_log.md
 - analytics_report.md
+

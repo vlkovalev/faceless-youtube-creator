@@ -8,7 +8,7 @@
    - Revised videos 1-3 are uploaded as private drafts on YouTube.
    - Videos 4-5 are pipeline-ready locally but need stronger visuals before public publishing.
 
-2. Saints / Orthodox and Catholic Story Channel
+2. The Saints / Orthodox and Catholic Story Channel
    - Build as a separate YouTube channel, not inside Corporate Shadows.
    - Tone: reverent, cinematic, historically careful, spiritually serious.
    - Content length: no upper limit. Minimum 8 minutes for long-form monetization, but complete story comes first.
@@ -50,3 +50,4 @@ Why first:
 4. Create visual prompt list: Russian forest, Sarov monastery, candlelit cell, pilgrims, winter path, icon lamp.
 5. Create saints-specific metadata and thumbnail concepts.
 6. Build separate saints production folder and queue before generating/uploading video.
+
