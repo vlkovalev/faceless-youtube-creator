@@ -1,0 +1,28 @@
+{
+  "weekly_capacity_units": 10,
+  "lanes": [
+    {
+      "channel": "Corporate Shadows",
+      "weekly_capacity_units": 4,
+      "cadence_goal": "1-2 production actions/week until visual workflow stabilizes"
+    },
+    {
+      "channel": "The Saints",
+      "weekly_capacity_units": 4,
+      "cadence_goal": "1 complete long-form episode every 2-3 weeks at first"
+    },
+    {
+      "channel": "AI / B2B Automation Channel",
+      "weekly_capacity_units": 2,
+      "cadence_goal": "research/prototype only until July pilots"
+    }
+  ],
+  "task_unit_estimates": {
+    "research_brief": 1,
+    "full_script": 2,
+    "scene_table": 1,
+    "visual_package": 2,
+    "voiceover_edit_qc": 3,
+    "upload_packaging": 1
+  }
+}
