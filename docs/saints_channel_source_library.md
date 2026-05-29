@@ -326,3 +326,18 @@ Russian monastic visuals:
 - old bells, birch trees, and winter silence
 
 Avoid generic fantasy monk imagery. Keep clothing, architecture, icons, and landscapes tied to the correct tradition when possible.
+
+## Runtime Policy Update
+
+Do not limit saint episodes to a fixed upper runtime. The production target is no longer "8:30-10:30" as a hard creative boundary. Keep the monetization-aware minimum of 8 minutes for long-form videos, but allow longer episodes whenever the saint's story needs it.
+
+Story completeness has priority over runtime compression. A complete episode should cover:
+- the world the saint was born into
+- the wound, calling, or conversion
+- the main spiritual struggle
+- the decisive act of witness
+- death, martyrdom, repose, or final years
+- why the Church remembers them
+- what the story means for viewers today
+
+Use pacing discipline, not runtime limits. Remove filler, but do not cut essential context, spiritual transformation, or legacy just to keep a video short.

@@ -9,10 +9,11 @@
                 },
     "production_targets":  {
                                "long_form_duration":  {
-                                                          "recommended_range":  "8m 30s-10m 30s",
+                                                          "recommended_range":  "8m+; no upper limit when the story requires more time",
                                                           "minimum_for_midroll_review":  "8m 00s",
                                                           "hard_qc_minimum_seconds":  480,
-                                                          "ideal_script_words":  "1250-1650"
+                                                          "ideal_script_words":  "minimum 1250; expand as needed for a complete story",
+                                                          "story_completion_rule":  "Do not compress a saint life to fit an arbitrary runtime. Cover the full arc: world, calling, struggle, decisive witness, death/repose, and legacy. Length is determined by story completeness and retention, not by a fixed cap."
                                                       },
                                "shorts_duration":  {
                                                        "recommended_range":  "30s-60s",
