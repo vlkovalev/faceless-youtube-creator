@@ -16,7 +16,13 @@
                     "upload:dry-run":  "node run_pipeline.js --stage upload-dry-run",
                     "all":  "node run_pipeline.js --stage all",
                     "pm:report":  "node pm_agent.js",
-                    "pm:push-safe":  "node pm_agent.js --push-safe"
+                    "pm:push-safe":  "node pm_agent.js --push-safe",
+                    "visual:plan":  "node visual_asset_planner.js --all",
+                    "visual:plan:1":  "node visual_asset_planner.js --video 1",
+                    "visual:plan:2":  "node visual_asset_planner.js --video 2",
+                    "visual:plan:3":  "node visual_asset_planner.js --video 3",
+                    "visual:plan:4":  "node visual_asset_planner.js --video 4",
+                    "visual:plan:5":  "node visual_asset_planner.js --video 5"
                 },
     "keywords":  [
 

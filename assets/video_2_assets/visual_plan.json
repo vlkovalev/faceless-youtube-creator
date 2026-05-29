@@ -1,0 +1,709 @@
+{
+  "video_id": 2,
+  "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+  "niche": "Dark Business History",
+  "generated_at": "2026-05-29T19:18:50.937Z",
+  "estimated_total_duration_s": 549,
+  "script_duration_ok": true,
+  "total_beats": 43,
+  "source_priority": [
+    "1. wikimedia_commons — free, public domain, best for historical",
+    "2. library_of_congress — vintage ads, newspapers, portraits",
+    "3. internet_archive — newsreels, documentary footage",
+    "4. generated_graphic — charts, timelines, evidence boards",
+    "5. stock_broll — Storyblocks for industrial/corporate b-roll"
+  ],
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Hook",
+      "start_s": 0,
+      "duration_s": 44,
+      "beat_count": 3,
+      "primary_asset_file": "scene_1_image.png",
+      "visual_prompt": "1940s vintage cinematic style. Deep shadows, high-contrast. A classic baby bottle filled with dark sludge against a blurred towering corporate skyscraper.",
+      "beats": [
+        {
+          "beat_id": "1a",
+          "start_s": 0,
+          "duration_s": 9,
+          "narration_excerpt": "In the mid-1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths.  ....",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "1970s food conglomerate launched sales",
+          "source_url": "https://www.loc.gov/search/?q=1970s%20food%20conglomerate%20launched%20sales",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        },
+        {
+          "beat_id": "1b",
+          "start_s": 9,
+          "duration_s": 15,
+          "narration_excerpt": "Operating far from public scrutiny, they targeted some of the poorest, most vulnerable populations on Earth.  They didn'...",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "operating public scrutiny targeted some — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        },
+        {
+          "beat_id": "1c",
+          "start_s": 24,
+          "duration_s": 20,
+          "narration_excerpt": "A product designed to replace mother's milk and capture a massive, untapped continent.  This is the tragic story of how ...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "product designed replace mother milk",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=product%20designed%20replace%20mother%20milk&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "title": "The White Coats",
+      "start_s": 44,
+      "duration_s": 58,
+      "beat_count": 5,
+      "primary_asset_file": "scene_2_image.png",
+      "visual_prompt": "Vintage film look, deep shadows. A woman in a stark white nurse uniform handing a tin to a mother in shadows.",
+      "beats": [
+        {
+          "beat_id": "2a",
+          "start_s": 44,
+          "duration_s": 6,
+          "narration_excerpt": "To execute their campaign, the company devised a highly deceptive strategy.  ...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "execute campaign company devised highly",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=execute%20campaign%20company%20devised%20highly&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2b",
+          "start_s": 50,
+          "duration_s": 15,
+          "narration_excerpt": "They hired local saleswomen, dressed them in stark white nurse uniforms, and sent them into impoverished rural villages....",
+          "asset_type": "internet_archive",
+          "asset_note": "archival film or newsreel",
+          "search_query": "hired local saleswomen dressed stark",
+          "source_url": "https://archive.org/search?query=hired%20local%20saleswomen%20dressed%20stark&mediatype=movies",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2c",
+          "start_s": 65,
+          "duration_s": 19,
+          "narration_excerpt": "They entered maternity wards, gathered new mothers, and promised them a better, modern future for their children.  They ...",
+          "asset_type": "internet_archive",
+          "asset_note": "archival film or newsreel",
+          "search_query": "entered maternity wards gathered mothers",
+          "source_url": "https://archive.org/search?query=entered%20maternity%20wards%20gathered%20mothers&mediatype=movies",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2d",
+          "start_s": 84,
+          "duration_s": 11,
+          "narration_excerpt": "The uniform did the work before the sales pitch even began.  In places where medical access was limited, a white coat ca...",
+          "asset_type": "internet_archive",
+          "asset_note": "archival film or newsreel",
+          "search_query": "uniform work before sales pitch",
+          "source_url": "https://archive.org/search?query=uniform%20work%20before%20sales%20pitch&mediatype=movies",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2e",
+          "start_s": 95,
+          "duration_s": 7,
+          "narration_excerpt": "The company borrowed that trust, wrapped it around a product, and sold dependence as progress.",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "company borrowed trust wrapped around",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=company%20borrowed%20trust%20wrapped%20around&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 3,
+      "title": "The Free Samples",
+      "start_s": 102,
+      "duration_s": 47,
+      "beat_count": 3,
+      "primary_asset_file": "scene_3_image.png",
+      "visual_prompt": "Moody, dramatic lighting. A stack of gleaming formula tins, focus shifts to a single empty, rusted tin.",
+      "beats": [
+        {
+          "beat_id": "3a",
+          "start_s": 102,
+          "duration_s": 13,
+          "narration_excerpt": "The core hook of the trap was simple: free samples.  ...  These saleswomen handed out free tins of baby formula to new m...",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "core hook trap simple free — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3b",
+          "start_s": 115,
+          "duration_s": 19,
+          "narration_excerpt": "The mothers fed their newborns the formula for a few weeks, which was just long enough for a biological trigger to occur...",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "mothers newborns formula weeks long — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3c",
+          "start_s": 134,
+          "duration_s": 15,
+          "narration_excerpt": "...  Suddenly, the free samples stopped, and the mothers were locked in.  The free ride was over, and they were entirely...",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "suddenly free samples stopped mothers — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 4,
+      "title": "The Trap",
+      "start_s": 149,
+      "duration_s": 43,
+      "beat_count": 3,
+      "primary_asset_file": "scene_4_image.png",
+      "visual_prompt": "High contrast. A single coin placed next to a tin of formula. Water being poured into a meager amount of powder.",
+      "beats": [
+        {
+          "beat_id": "4a",
+          "start_s": 149,
+          "duration_s": 14,
+          "narration_excerpt": "Once the biological trap was sprung, these impoverished families had to pay.  But infant formula was incredibly expensiv...",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "once biological trap sprung impoverished — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4b",
+          "start_s": 163,
+          "duration_s": 9,
+          "narration_excerpt": "Desperate to keep their infants fed, mothers did the only thing they could: they diluted the powder.  ...",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "desperate keep infants mothers thing — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4c",
+          "start_s": 172,
+          "duration_s": 21,
+          "narration_excerpt": "They used only a fraction of the recommended scoop, mixing it with vast amounts of water to make a single tin last for w...",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "used fraction recommended scoop mixing — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 5,
+      "title": "The Contamination",
+      "start_s": 192,
+      "duration_s": 62,
+      "beat_count": 4,
+      "primary_asset_file": "scene_5_image.png",
+      "visual_prompt": "1940s film noir style. A murky glass of water under a harsh spotlight, particles floating ominously.",
+      "beats": [
+        {
+          "beat_id": "5a",
+          "start_s": 192,
+          "duration_s": 11,
+          "narration_excerpt": "But the lack of nutrition was only half of the tragedy.  In these developing regions, families lacked access to clean, r...",
+          "asset_type": "internet_archive",
+          "asset_note": "archival film or newsreel",
+          "search_query": "lack nutrition half tragedy developing",
+          "source_url": "https://archive.org/search?query=lack%20nutrition%20half%20tragedy%20developing&mediatype=movies",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5b",
+          "start_s": 203,
+          "duration_s": 29,
+          "narration_excerpt": "To mix the formula, mothers had to use local, untreated water sources—dirty wells and polluted rivers teeming with deadl...",
+          "asset_type": "internet_archive",
+          "asset_note": "archival film or newsreel",
+          "search_query": "formula mothers local untreated water",
+          "source_url": "https://archive.org/search?query=formula%20mothers%20local%20untreated%20water&mediatype=movies",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5c",
+          "start_s": 232,
+          "duration_s": 16,
+          "narration_excerpt": "This was the part the brochures never showed.  A product designed for kitchens with clean taps, measured scoops, and ste...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "part brochures never showed product",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=part%20brochures%20never%20showed%20product&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5d",
+          "start_s": 248,
+          "duration_s": 6,
+          "narration_excerpt": "It was predictable.  And predictability is what turns a tragedy into a corporate crime.",
+          "asset_type": "internet_archive",
+          "asset_note": "archival film or newsreel",
+          "search_query": "predictable predictability turns tragedy corporate",
+          "source_url": "https://archive.org/search?query=predictable%20predictability%20turns%20tragedy%20corporate&mediatype=movies",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 6,
+      "title": "The Devastation",
+      "start_s": 254,
+      "duration_s": 37,
+      "beat_count": 3,
+      "primary_asset_file": "scene_6_image.png",
+      "visual_prompt": "Deep shadows. Rows of empty, small hospital cribs. Cold and clinical.",
+      "beats": [
+        {
+          "beat_id": "6a",
+          "start_s": 254,
+          "duration_s": 4,
+          "narration_excerpt": "The results were immediate and catastrophic.  Malnutrition.  Disease.",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "results immediate catastrophic malnutrition disease — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_6_image.png"
+        },
+        {
+          "beat_id": "6b",
+          "start_s": 258,
+          "duration_s": 8,
+          "narration_excerpt": "Death.  ...  Pediatric clinics were flooded with starving infants suffering from chronic diarrhea, severe dehydration, a...",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "death pediatric clinics flooded starving — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_6_image.png"
+        },
+        {
+          "beat_id": "6c",
+          "start_s": 266,
+          "duration_s": 25,
+          "narration_excerpt": "Healthcare workers began referring to them as 'bottle babies. ' Thousands of children died in agony, their tiny bodies u...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "healthcare workers began referring bottle",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=healthcare%20workers%20began%20referring%20bottle&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_6_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 7,
+      "title": "The Corporate Blind Eye",
+      "start_s": 291,
+      "duration_s": 39,
+      "beat_count": 3,
+      "primary_asset_file": "scene_7_image.png",
+      "visual_prompt": "Luxurious, dimly lit boardroom. Men in sharp suits smoking, papers with graphs pointing sharply upward.",
+      "beats": [
+        {
+          "beat_id": "7a",
+          "start_s": 291,
+          "duration_s": 7,
+          "narration_excerpt": "Back in their luxurious, lakeside corporate headquarters in Switzerland, executives counted their record-breaking profit...",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "back luxurious lakeside corporate headquarters stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=back%20luxurious%20lakeside%20corporate%20headquarters%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        },
+        {
+          "beat_id": "7b",
+          "start_s": 298,
+          "duration_s": 16,
+          "narration_excerpt": "The reports of rising infant mortality and warnings from pediatricians in developing nations were met with cold indiffer...",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "reports rising infant mortality warnings stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=reports%20rising%20infant%20mortality%20warnings%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        },
+        {
+          "beat_id": "7c",
+          "start_s": 314,
+          "duration_s": 16,
+          "narration_excerpt": "Sales quotas for the third world were increased, and the aggressive marketing continued without a single pause.  To the ...",
+          "asset_type": "generated_graphic",
+          "asset_note": "animated stat or chart graphic",
+          "search_query": "sales quotas third world increased — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 8,
+      "title": "The Boycott Begins",
+      "start_s": 330,
+      "duration_s": 54,
+      "beat_count": 5,
+      "primary_asset_file": "scene_8_image.png",
+      "visual_prompt": "Vintage moody style. A newspaper printing press rolling fast, headline reading 'BOYCOTT'.",
+      "beats": [
+        {
+          "beat_id": "8a",
+          "start_s": 330,
+          "duration_s": 14,
+          "narration_excerpt": "But the dark secret could not be hidden forever.  In 1974, activists published a damning report titled 'The Baby Killer,...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "dark secret hidden forever 1974",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=dark%20secret%20hidden%20forever%201974&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8b",
+          "start_s": 344,
+          "duration_s": 3,
+          "narration_excerpt": "...  The public was outraged.",
+          "asset_type": "library_of_congress",
+          "asset_note": "newspaper or document scan",
+          "search_query": "public outraged",
+          "source_url": "https://www.loc.gov/search/?q=public%20outraged",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8c",
+          "start_s": 347,
+          "duration_s": 19,
+          "narration_excerpt": "In 1977, a coalition of consumer groups launched a massive, international boycott against the food giant.  The movement ...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "1977 coalition consumer groups launched",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=1977%20coalition%20consumer%20groups%20launched&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8d",
+          "start_s": 366,
+          "duration_s": 15,
+          "narration_excerpt": "It was not powered by one celebrity or one courtroom.  It was powered by mothers, doctors, students, clergy, and organiz...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "powered celebrity courtroom mothers doctors",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=powered%20celebrity%20courtroom%20mothers%20doctors&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8e",
+          "start_s": 381,
+          "duration_s": 3,
+          "narration_excerpt": "For once, the victims were not invisible.",
+          "asset_type": "library_of_congress",
+          "asset_note": "newspaper or document scan",
+          "search_query": "once victims invisible",
+          "source_url": "https://www.loc.gov/search/?q=once%20victims%20invisible",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 9,
+      "title": "The Backlash",
+      "start_s": 384,
+      "duration_s": 36,
+      "beat_count": 3,
+      "primary_asset_file": "scene_9_image.png",
+      "visual_prompt": "High contrast. A pristine logo cracking and shattering like glass in slow motion.",
+      "beats": [
+        {
+          "beat_id": "9a",
+          "start_s": 384,
+          "duration_s": 14,
+          "narration_excerpt": "The backlash was unprecedented in the history of consumer activism.  It became the most widely recognized, highly organi...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "backlash unprecedented history consumer activism",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=backlash%20unprecedented%20history%20consumer%20activism&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        },
+        {
+          "beat_id": "9b",
+          "start_s": 398,
+          "duration_s": 10,
+          "narration_excerpt": "...  The pristine corporate logo, once associated with delicious chocolate and family nutrition, was now synonymous with...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "pristine corporate logo once associated",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=pristine%20corporate%20logo%20once%20associated&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        },
+        {
+          "beat_id": "9c",
+          "start_s": 408,
+          "duration_s": 12,
+          "narration_excerpt": "Sales plummeted in key markets, and the board of directors realized they were facing a catastrophic public relations dis...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "sales plummeted markets board directors",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=sales%20plummeted%20markets%20board%20directors&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 10,
+      "title": "The Defense",
+      "start_s": 420,
+      "duration_s": 35,
+      "beat_count": 3,
+      "primary_asset_file": "scene_10_image.png",
+      "visual_prompt": "Noir style. A man in a suit standing behind a podium, a barrage of camera flashes going off.",
+      "beats": [
+        {
+          "beat_id": "10a",
+          "start_s": 420,
+          "duration_s": 12,
+          "narration_excerpt": "Rather than apologizing, the corporation fought back with an aggressive, multi-million dollar counter-campaign.  They hi...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "rather than apologizing corporation fought",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=rather%20than%20apologizing%20corporation%20fought&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        },
+        {
+          "beat_id": "10b",
+          "start_s": 432,
+          "duration_s": 13,
+          "narration_excerpt": "...  They claimed that their formula was a life-saving product, and that the infant deaths were entirely the fault of th...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "claimed formula life saving product",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=claimed%20formula%20life%20saving%20product&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        },
+        {
+          "beat_id": "10c",
+          "start_s": 445,
+          "duration_s": 9,
+          "narration_excerpt": "They spent vast fortunes trying to shift the blame, attempting to gaslight the public and paint themselves as humanitari...",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "spent vast fortunes trying shift — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 11,
+      "title": "The Code",
+      "start_s": 455,
+      "duration_s": 53,
+      "beat_count": 4,
+      "primary_asset_file": "scene_11_image.png",
+      "visual_prompt": "Dramatic lighting. A heavy bound document with 'WHO CODE' stamped on it slamming onto a wooden desk.",
+      "beats": [
+        {
+          "beat_id": "11a",
+          "start_s": 455,
+          "duration_s": 14,
+          "narration_excerpt": "Eventually, the international pressure refused to die down.  In 1981, the World Health Organization intervened, holding ...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "eventually international pressure refused down",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=eventually%20international%20pressure%20refused%20down&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        },
+        {
+          "beat_id": "11b",
+          "start_s": 469,
+          "duration_s": 12,
+          "narration_excerpt": "...  This landmark code banned all advertising of baby formula to the public, prohibited free samples, and ended the pra...",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "landmark code banned advertising baby — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        },
+        {
+          "beat_id": "11c",
+          "start_s": 481,
+          "duration_s": 20,
+          "narration_excerpt": "It was a major victory for consumer safety and global health, proving that even the most powerful multinational corporat...",
+          "asset_type": "generated_graphic",
+          "asset_note": "animated stat or chart graphic",
+          "search_query": "major victory consumer safety global — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        },
+        {
+          "beat_id": "11d",
+          "start_s": 501,
+          "duration_s": 8,
+          "narration_excerpt": "It had to be forced, by global outrage, to stop treating newborns as customer acquisition targets.",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "forced global outrage stop treating — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 12,
+      "title": "The Legacy",
+      "start_s": 508,
+      "duration_s": 41,
+      "beat_count": 4,
+      "primary_asset_file": "scene_12_image.png",
+      "visual_prompt": "Vintage moody cinematic. A modern, sleek baby formula tin casting a long, dark, monstrous shadow.",
+      "beats": [
+        {
+          "beat_id": "12a",
+          "start_s": 508,
+          "duration_s": 9,
+          "narration_excerpt": "Today, the regulations exist, but the scars remain.  The question is: has the corporate world truly learned its lesson?",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "today regulations exist scars remain — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        },
+        {
+          "beat_id": "12b",
+          "start_s": 517,
+          "duration_s": 4,
+          "narration_excerpt": "...  Or just gotten better at hiding the cost?",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "gotten better hiding cost — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        },
+        {
+          "beat_id": "12c",
+          "start_s": 521,
+          "duration_s": 20,
+          "narration_excerpt": "The shadow of that 1970s campaign still lingers, serving as a chilling reminder of what happens when corporate profits a...",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "shadow 1970s campaign still lingers",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=shadow%201970s%20campaign%20still%20lingers&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        },
+        {
+          "beat_id": "12d",
+          "start_s": 541,
+          "duration_s": 8,
+          "narration_excerpt": "' Subscribe to Corporate Shadows, and never look at the products you buy the same way again.",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "subscribe corporate shadows never look — dark corporate documentary style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        }
+      ]
+    }
+  ]
+}

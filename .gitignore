@@ -1,4 +1,4 @@
-﻿# Dependencies
+# Dependencies
 .gitrepo/
 node_modules/
 automation/node_modules/
@@ -26,7 +26,9 @@ videos/failed/
 *.mp4
 
 # Generated local TTS/video intermediates
-assets/video_*_assets/
+assets/video_*_assets/*
+!assets/video_*_assets/
+!assets/video_*_assets/visual_plan.json
 assets/video_*_assets/*_audio.wav
 assets/video_*_assets/*_audio.mp3
 assets/video_*_assets/*_video.mp4
