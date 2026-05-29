@@ -184,3 +184,145 @@ Sources: Vatican official biography; modern copyright caution.
 ## Automation Notes
 
 Create a separate channel config from Corporate Shadows. Do not reuse dark corporate scandal language. Keep cinematic tension, but shift the moral center from exposure/outrage to witness, courage, repentance, and holiness.
+
+## Athos and Russian Monastic Story Expansion
+
+### Why This Pillar Matters
+Mount Athos and Russian monasticism can become a major identity pillar for the channel. These stories are deeply visual: caves, forests, monasteries, silence, icons, exile, prayer ropes, night vigils, elder-disciple relationships, spiritual warfare, and lives shaped around repentance and watchfulness.
+
+Production tone: reverent, mystical, austere, cinematic. Avoid treating elders like fantasy characters. When miracles, visions, prophecies, or spiritual counsel appear, frame them as Orthodox tradition, testimony, or hagiographical account unless supported by direct primary documentation.
+
+### Mount Athos Source Notes
+Use official or church-adjacent sources for verification. Many modern Athonite elders have copyrighted biographies, so use facts and summaries rather than copying text.
+
+Useful source starting points:
+- Mount Athos official overview: https://www.mountathos.org/en-us/Mount-Athos.aspx
+- OCA life of Saint Paisios: https://www.oca.org/saints/lives/1001/07/12/100401-venerable-paisios-of-the-holy-mountain
+- OCA Feasts and Saints index: https://www.oca.org/fs
+- OrthodoxWiki can help discovery but should not be the final authority: https://orthodoxwiki.org/
+- For modern Athonite elders, cross-check with monastery, patriarchate, or jurisdictional sources when available.
+
+### Russian Monastic Source Notes
+Use public-domain lives, older Orthodox books, OCA entries, and reputable Orthodox jurisdictions. Russian saints often have strong public-domain and church-calendar material, but modern translations may still be copyrighted.
+
+Useful source starting points:
+- OCA Feasts and Saints: https://www.oca.org/fs
+- OCA Saint Seraphim of Sarov: https://www.oca.org/saints/lives/2024/01/02/100008-repose-of-venerable-seraphim-wonderworker-of-sarov
+- New Advent Catholic Encyclopedia for historical cross-checking where relevant: https://www.newadvent.org/cathen/
+- Project Gutenberg saints category for public-domain lives: https://gutenberg.org/ebooks/subject/383
+
+## Athos Story Backlog
+
+1. Saint Silouan the Athonite
+Working title: The Monk Who Learned to Keep His Mind in Hell
+Angle: A Russian peasant comes to Mount Athos, battles despair and pride, and becomes one of the great spiritual witnesses of the modern Orthodox world.
+Sources: Orthodox sources, OCA where available, writings associated with Elder Sophrony used cautiously because modern editions are copyrighted.
+Production caution: Do not quote long passages from modern books. Paraphrase the teaching and cite internally.
+
+2. Saint Paisios of Mount Athos
+Working title: The Athonite Elder Who Comforted a Broken Century
+Angle: A refugee child from Cappadocia becomes a monk whose counsel reaches thousands in a world of anxiety, war memory, illness, and spiritual confusion.
+Sources: OCA life of Saint Paisios, official Orthodox commemorations, monastery/jurisdictional sources.
+Production caution: Many miracle stories circulate online; verify or frame as testimony/tradition.
+
+3. Saint Joseph the Hesychast
+Working title: The Cave Monk Who Revived the Prayer of the Heart
+Angle: A hard ascetic life on Athos becomes the root of a modern renewal of hesychastic prayer and Athonite elderhood.
+Sources: monastery sources, Orthodox publications, careful secondary verification.
+Production caution: Modern biographies and letters are copyrighted; summarize only.
+
+4. Saint Porphyrios of Kavsokalyvia
+Working title: The Saint Who Saw the Wounds People Tried to Hide
+Angle: A humble Athonite monk becomes a spiritual father known for discernment, gentleness, and deep pastoral love.
+Sources: official Orthodox commemoration sources and monastery references.
+Production caution: Avoid over-sensationalizing clairvoyance; emphasize humility and healing.
+
+5. Saint Gregory Palamas
+Working title: The Monk Who Defended the Light of Athos
+Angle: Athonite hesychasm, the Jesus Prayer, and the theological defense of the uncreated light.
+Sources: public-domain theology references, Orthodox sources, Catholic/academic cross-checking.
+Production caution: This is more theological; script must stay story-first and explain terms simply.
+
+6. Saint Athanasius the Athonite
+Working title: The Man Who Built the Great Lavra
+Angle: The founding of organized Athonite monasticism and the tension between solitude, obedience, and community.
+Sources: Orthodox hagiography, Mount Athos history, public-domain references.
+
+## Russian Monastic Story Backlog
+
+1. Saint Seraphim of Sarov
+Working title: The Russian Monk Who Greeted Everyone With Joy
+Angle: Forest hermit, silence, suffering, spiritual counsel, and the famous teaching on acquiring the Holy Spirit.
+Sources: OCA Saint Seraphim, public-domain lives, Britannica for neutral cross-checking.
+Production caution: Keep the story warm and luminous, not only dark and austere.
+
+2. Saint Sergius of Radonezh
+Working title: The Forest Monk Who Became the Soul of Russia
+Angle: A shy young monk enters the forest, founds a monastery, and becomes a spiritual father to a nation in crisis.
+Sources: Russian Orthodox sources, OCA, public-domain lives.
+Production caution: Avoid modern nationalist framing; focus on holiness, humility, and peacemaking.
+
+3. Saint Nil Sorsky
+Working title: The Monk Who Chose Poverty Over Power
+Angle: The non-possessor tradition, inner prayer, monastic poverty, and resistance to spiritual worldliness.
+Sources: public-domain Orthodox history, OCA, academic references.
+Production caution: Explain the possessors/non-possessors debate without turning it into factional polemic.
+
+4. Saint Theophan the Recluse
+Working title: The Bishop Who Locked Himself Away to Save Souls
+Angle: A bishop withdraws into seclusion and becomes one of the great teachers of prayer and spiritual life.
+Sources: Orthodox sources, public-domain writings where available.
+Production caution: Many English translations are modern; use short excerpts only when rights are clear.
+
+5. Saint Ambrose of Optina
+Working title: The Elder Who Read the Human Heart
+Angle: Optina eldership, suffering, counsel, and the Russian tradition of the starets.
+Sources: Orthodox sources, public-domain Optina material where available.
+Production caution: Elder sayings are often translated in copyrighted collections; paraphrase unless public domain.
+
+6. Saint Herman of Alaska
+Working title: The Monk Who Crossed the World to Protect Alaska
+Angle: Russian monastic mission, defense of native Alaskans, humility, and life on Spruce Island.
+Sources: OCA, Orthodox North American saint resources.
+Production caution: Good bridge episode between Russian monks and North American saints.
+
+7. Saint Innocent of Alaska
+Working title: The Missionary Monk Who Learned the Language of a People
+Angle: Mission, translation, pastoral endurance, and the Orthodox missionary tradition in Alaska.
+Sources: OCA, Orthodox Church sources, public-domain mission histories.
+
+8. The Optina Elders
+Working title: The Monastery That Became Russia's Spiritual Hospital
+Angle: A place-centered episode about eldership, confession, counsel, Dostoevsky-era Russia, and spiritual healing.
+Sources: Orthodox sources, public-domain Russian church history.
+Production caution: Use as a channel pillar after individual elder episodes establish context.
+
+## First Athos/Russian Production Run
+
+Recommended first five:
+1. Saint Seraphim of Sarov - accessible, beloved, high emotional warmth.
+2. Saint Paisios of Mount Athos - modern relevance and strong audience pull.
+3. Saint Silouan the Athonite - profound hook and spiritual depth.
+4. Saint Herman of Alaska - missionary adventure plus holiness.
+5. Saint Sergius of Radonezh - foundational Russian monastic story.
+
+## Visual Style Notes for Athos/Russian Episodes
+
+Athos visuals:
+- dawn over monastery walls
+- candlelit katholikon interiors
+- prayer rope closeups
+- narrow stone paths
+- caves and hermit cells
+- sea cliffs and fog
+- icon lamps and incense
+
+Russian monastic visuals:
+- snow-covered forests
+- wooden monasteries
+- candlelit cells
+- pilgrims waiting for counsel
+- hand-copied manuscripts
+- old bells, birch trees, and winter silence
+
+Avoid generic fantasy monk imagery. Keep clothing, architecture, icons, and landscapes tied to the correct tradition when possible.
