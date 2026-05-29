@@ -1,221 +1,890 @@
 [
-  {
-    "filename": "FINAL_VIDEO_1.mp4",
-    "srt_filename": "FINAL_VIDEO_1.srt",
-    "thumbnail_filename": "youtube_thumbnail.png",
-    "title": "How One Family Fooled the World into Buying Worthless Rocks",
-    "description": "Take a look at this. Beautiful, rare, and absolutely priceless.\n\nThis is the dark business history behind The De Beers diamond cartel, artificial scarcity, and marketing scams.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
-    "tags": [
-      "family",
-      "fooled",
-      "world",
-      "buying",
-      "worthless",
-      "dark business history",
-      "corporate scandals",
-      "shadow empires"
-    ],
-    "category_id": "27",
-    "playlist_id": "",
-    "status": "scheduled",
-    "publish_days": [
-      "Tuesday",
-      "Friday"
-    ],
-    "publish_time": "10:00",
-    "timezone": "America/Denver",
-    "human_approval": true
-  },
-  {
-    "filename": "FINAL_VIDEO_2.mp4",
-    "srt_filename": "FINAL_VIDEO_2.srt",
-    "thumbnail_filename": "youtube_thumbnail_video_2.png",
-    "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
-    "description": "In the mid-1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths. Operating far from public scrutiny, they targeted some of the poorest, most vulnerable populations on Earth.\n\nThis is the dark business history behind Nestlé's aggressive baby formula campaign in developing nations.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
-    "tags": [
-      "poisoned",
-      "formula",
-      "corporate",
-      "giant",
-      "stole",
-      "dark business history",
-      "corporate scandals",
-      "shadow empires"
-    ],
-    "category_id": "27",
-    "playlist_id": "",
-    "status": "scheduled",
-    "publish_days": [
-      "Tuesday",
-      "Friday"
-    ],
-    "publish_time": "10:00",
-    "timezone": "America/Denver",
-    "human_approval": true
-  },
-  {
-    "filename": "FINAL_VIDEO_3.mp4",
-    "srt_filename": "FINAL_VIDEO_3.srt",
-    "thumbnail_filename": "youtube_thumbnail_video_3.png",
-    "title": "The Secret Society That Controlled the World's Electricity",
-    "description": "In the winter of 1924, far from the public eye, a group of powerful industrialists quietly gathered in a smoke-filled room in Geneva, Switzerland. Representing the world's leading lighting conglomerates, these men were not there to celebrate innovation.\n\nThis is the dark business history behind The Phoebus Cartel, planned obsolescence, and lightbulb conspiracies.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
-    "tags": [
-      "secret",
-      "society",
-      "controlled",
-      "worlds",
-      "electricity",
-      "dark business history",
-      "corporate scandals",
-      "shadow empires"
-    ],
-    "category_id": "27",
-    "playlist_id": "",
-    "status": "scheduled",
-    "publish_days": [
-      "Tuesday",
-      "Friday"
-    ],
-    "publish_time": "10:00",
-    "timezone": "America/Denver",
-    "human_approval": true
-  },
-  {
-    "filename": "FINAL_VIDEO_4.mp4",
-    "srt_filename": "FINAL_VIDEO_4.srt",
-    "thumbnail_filename": "youtube_thumbnail_video_4.png",
-    "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
-    "description": "For decades, the public was told that fat was the enemy. But behind the scenes, the sugar industry helped shape the science, the headlines, and the food choices of an entire generation. This is the dark history of how corporate influence rewired America's diet.\n\nSubscribe to Shadow Empires for more dark business history and corporate scandals.",
-    "tags": [
-      "sugar lobby",
-      "harvard sugar scandal",
-      "dark business history",
-      "corporate influence",
-      "shadow empires"
-    ],
-    "category_id": "27",
-    "playlist_id": "",
-    "status": "scheduled",
-    "publish_days": [
-      "Tuesday",
-      "Friday"
-    ],
-    "publish_time": "10:00",
-    "timezone": "America/Denver",
-    "human_approval": true
-  },
-  {
-    "filename": "FINAL_VIDEO_5.mp4",
-    "srt_filename": "FINAL_VIDEO_5.srt",
-    "thumbnail_filename": "youtube_thumbnail_video_5.png",
-    "title": "The Company That Literally Conquered India (and Went Bankrupt)",
-    "description": "It had its own army of 260,000 men. It ruled over more people than most kings.\n\nThis is the dark business history behind The rise and fall of the East India Company.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
-    "tags": [
-      "company",
-      "literally",
-      "conquered",
-      "india",
-      "bankrupt",
-      "dark business history",
-      "corporate scandals",
-      "shadow empires"
-    ],
-    "category_id": "27",
-    "playlist_id": "",
-    "status": "scheduled",
-    "publish_days": [
-      "Tuesday",
-      "Friday"
-    ],
-    "publish_time": "10:00",
-    "timezone": "America/Denver",
-    "human_approval": true
-  },
-  {
-    "filename": "FINAL_VIDEO_1_REVISED.mp4",
-    "srt_filename": "FINAL_VIDEO_1_REVISED.srt",
-    "thumbnail_filename": "youtube_thumbnail.png",
-    "title": "How One Family Fooled the World into Buying Worthless Rocks",
-    "description": "Take a look at this. Beautiful, rare, and absolutely priceless.\n\nThis is the dark business history behind The De Beers diamond cartel, artificial scarcity, and marketing scams.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
-    "tags": [
-      "family",
-      "fooled",
-      "world",
-      "buying",
-      "worthless",
-      "dark business history",
-      "corporate scandals",
-      "shadow empires"
-    ],
-    "category_id": "27",
-    "playlist_id": "",
-    "status": "scheduled",
-    "publish_days": [
-      "Tuesday",
-      "Friday"
-    ],
-    "publish_time": "10:00",
-    "timezone": "America/Denver",
-    "human_approval": true,
-    "revision_of": "FINAL_VIDEO_1.mp4",
-    "replacement_for_uploaded_video": true
-  },
-  {
-    "filename": "FINAL_VIDEO_2_REVISED.mp4",
-    "srt_filename": "FINAL_VIDEO_2_REVISED.srt",
-    "thumbnail_filename": "youtube_thumbnail_video_2.png",
-    "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
-    "description": "In the mid-1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths. Operating far from public scrutiny, they targeted some of the poorest, most vulnerable populations on Earth.\n\nThis is the dark business history behind Nestlé's aggressive baby formula campaign in developing nations.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
-    "tags": [
-      "poisoned",
-      "formula",
-      "corporate",
-      "giant",
-      "stole",
-      "dark business history",
-      "corporate scandals",
-      "shadow empires"
-    ],
-    "category_id": "27",
-    "playlist_id": "",
-    "status": "scheduled",
-    "publish_days": [
-      "Tuesday",
-      "Friday"
-    ],
-    "publish_time": "10:00",
-    "timezone": "America/Denver",
-    "human_approval": true,
-    "revision_of": "FINAL_VIDEO_2.mp4",
-    "replacement_for_uploaded_video": true
-  },
-  {
-    "filename": "FINAL_VIDEO_3_REVISED.mp4",
-    "srt_filename": "FINAL_VIDEO_3_REVISED.srt",
-    "thumbnail_filename": "youtube_thumbnail_video_3.png",
-    "title": "The Secret Society That Controlled the World's Electricity",
-    "description": "In the winter of 1924, far from the public eye, a group of powerful industrialists quietly gathered in a smoke-filled room in Geneva, Switzerland. Representing the world's leading lighting conglomerates, these men were not there to celebrate innovation.\n\nThis is the dark business history behind The Phoebus Cartel, planned obsolescence, and lightbulb conspiracies.\n\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
-    "tags": [
-      "secret",
-      "society",
-      "controlled",
-      "worlds",
-      "electricity",
-      "dark business history",
-      "corporate scandals",
-      "shadow empires"
-    ],
-    "category_id": "27",
-    "playlist_id": "",
-    "status": "scheduled",
-    "publish_days": [
-      "Tuesday",
-      "Friday"
-    ],
-    "publish_time": "10:00",
-    "timezone": "America/Denver",
-    "human_approval": true,
-    "revision_of": "FINAL_VIDEO_3.mp4",
-    "replacement_for_uploaded_video": true
-  }
+    {
+        "filename":  "FINAL_VIDEO_1.mp4",
+        "srt_filename":  "FINAL_VIDEO_1.srt",
+        "thumbnail_filename":  "youtube_thumbnail.png",
+        "title":  "How One Family Fooled the World into Buying Worthless Rocks",
+        "description":  "Take a look at this. Beautiful, rare, and absolutely priceless.\nThis is the dark business history behind The De Beers diamond cartel, artificial scarcity, and marketing scams.\nChapters:\n0:00 The Illusion\n0:49 The Vintage Office (The Plot)\n1:33 The South African Mine\n2:38 The Ad Agency (The Formula)\n3:37 The Psychological Trap\n4:17 The Slogan That Ruled the World\n4:56 Hollywood\u0027s Bought Glamour\n5:34 Cartel\u0027s Chokehold\n6:32 The Cartel Cracks\n7:08 The Lab-Grown Revolution\n7:42 The Bitter Truth\n8:40 Outro\nWatch the full Dark Business Empires series on this channel.\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+        "tags":  [
+                     "family",
+                     "fooled",
+                     "world",
+                     "buying",
+                     "worthless",
+                     "rocks",
+                     "beers",
+                     "dark business history",
+                     "corporate scandals",
+                     "corporate history",
+                     "business documentary",
+                     "shadow empires"
+                 ],
+        "category_id":  "27",
+        "playlist_id":  "",
+        "status":  "scheduled",
+        "publish_days":  [
+                             "Tuesday",
+                             "Friday"
+                         ],
+        "publish_time":  "10:00",
+        "timezone":  "America/Denver",
+        "human_approval":  true,
+        "chapters":  [
+                         {
+                             "timestamp":  "0:00",
+                             "title":  "The Illusion",
+                             "scene_number":  1,
+                             "estimated_duration_seconds":  49
+                         },
+                         {
+                             "timestamp":  "0:49",
+                             "title":  "The Vintage Office (The Plot)",
+                             "scene_number":  2,
+                             "estimated_duration_seconds":  44
+                         },
+                         {
+                             "timestamp":  "1:33",
+                             "title":  "The South African Mine",
+                             "scene_number":  3,
+                             "estimated_duration_seconds":  65
+                         },
+                         {
+                             "timestamp":  "2:38",
+                             "title":  "The Ad Agency (The Formula)",
+                             "scene_number":  4,
+                             "estimated_duration_seconds":  59
+                         },
+                         {
+                             "timestamp":  "3:37",
+                             "title":  "The Psychological Trap",
+                             "scene_number":  5,
+                             "estimated_duration_seconds":  40
+                         },
+                         {
+                             "timestamp":  "4:17",
+                             "title":  "The Slogan That Ruled the World",
+                             "scene_number":  6,
+                             "estimated_duration_seconds":  39
+                         },
+                         {
+                             "timestamp":  "4:56",
+                             "title":  "Hollywood\u0027s Bought Glamour",
+                             "scene_number":  7,
+                             "estimated_duration_seconds":  38
+                         },
+                         {
+                             "timestamp":  "5:34",
+                             "title":  "Cartel\u0027s Chokehold",
+                             "scene_number":  8,
+                             "estimated_duration_seconds":  58
+                         },
+                         {
+                             "timestamp":  "6:32",
+                             "title":  "The Cartel Cracks",
+                             "scene_number":  9,
+                             "estimated_duration_seconds":  36
+                         },
+                         {
+                             "timestamp":  "7:08",
+                             "title":  "The Lab-Grown Revolution",
+                             "scene_number":  10,
+                             "estimated_duration_seconds":  34
+                         },
+                         {
+                             "timestamp":  "7:42",
+                             "title":  "The Bitter Truth",
+                             "scene_number":  11,
+                             "estimated_duration_seconds":  58
+                         },
+                         {
+                             "timestamp":  "8:40",
+                             "title":  "Outro",
+                             "scene_number":  12,
+                             "estimated_duration_seconds":  31
+                         }
+                     ],
+        "playlist_title":  "Dark Business Empires",
+        "thumbnail_test":  {
+                               "target_ctr":  "12.4%",
+                               "actual_ctr":  "",
+                               "retention_first_30s":  "",
+                               "decision":  "measure after public release"
+                           }
+    },
+    {
+        "filename":  "FINAL_VIDEO_2.mp4",
+        "srt_filename":  "FINAL_VIDEO_2.srt",
+        "thumbnail_filename":  "youtube_thumbnail_video_2.png",
+        "title":  "The Poisoned Formula: The Corporate Giant That Stole Africa\u0027s Markets",
+        "description":  "In the mid-1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths. Operating far from public scrutiny, they targeted some of the poorest, most vulnerable populations on Earth.\nThis is the dark business history behind NestlÃƒÆ’Ã‚Â©\u0027s aggressive baby formula campaign in developing nations.\nChapters:\n0:00 The Hook\n0:43 The White Coats\n1:40 The Free Samples\n2:26 The Trap\n3:08 The Contamination\n4:09 The Devastation\n4:46 The Corporate Blind Eye\n5:24 The Boycott Begins\n6:17 The Backlash\n6:52 The Defense\n7:26 The Code\n8:18 The Legacy\nWatch the full Dark Business Empires series on this channel.\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+        "tags":  [
+                     "poisoned",
+                     "formula",
+                     "corporate",
+                     "giant",
+                     "stole",
+                     "africas",
+                     "markets",
+                     "dark business history",
+                     "corporate scandals",
+                     "corporate history",
+                     "business documentary",
+                     "shadow empires"
+                 ],
+        "category_id":  "27",
+        "playlist_id":  "",
+        "status":  "scheduled",
+        "publish_days":  [
+                             "Tuesday",
+                             "Friday"
+                         ],
+        "publish_time":  "10:00",
+        "timezone":  "America/Denver",
+        "human_approval":  true,
+        "chapters":  [
+                         {
+                             "timestamp":  "0:00",
+                             "title":  "The Hook",
+                             "scene_number":  1,
+                             "estimated_duration_seconds":  43
+                         },
+                         {
+                             "timestamp":  "0:43",
+                             "title":  "The White Coats",
+                             "scene_number":  2,
+                             "estimated_duration_seconds":  57
+                         },
+                         {
+                             "timestamp":  "1:40",
+                             "title":  "The Free Samples",
+                             "scene_number":  3,
+                             "estimated_duration_seconds":  46
+                         },
+                         {
+                             "timestamp":  "2:26",
+                             "title":  "The Trap",
+                             "scene_number":  4,
+                             "estimated_duration_seconds":  42
+                         },
+                         {
+                             "timestamp":  "3:08",
+                             "title":  "The Contamination",
+                             "scene_number":  5,
+                             "estimated_duration_seconds":  61
+                         },
+                         {
+                             "timestamp":  "4:09",
+                             "title":  "The Devastation",
+                             "scene_number":  6,
+                             "estimated_duration_seconds":  37
+                         },
+                         {
+                             "timestamp":  "4:46",
+                             "title":  "The Corporate Blind Eye",
+                             "scene_number":  7,
+                             "estimated_duration_seconds":  38
+                         },
+                         {
+                             "timestamp":  "5:24",
+                             "title":  "The Boycott Begins",
+                             "scene_number":  8,
+                             "estimated_duration_seconds":  53
+                         },
+                         {
+                             "timestamp":  "6:17",
+                             "title":  "The Backlash",
+                             "scene_number":  9,
+                             "estimated_duration_seconds":  35
+                         },
+                         {
+                             "timestamp":  "6:52",
+                             "title":  "The Defense",
+                             "scene_number":  10,
+                             "estimated_duration_seconds":  34
+                         },
+                         {
+                             "timestamp":  "7:26",
+                             "title":  "The Code",
+                             "scene_number":  11,
+                             "estimated_duration_seconds":  52
+                         },
+                         {
+                             "timestamp":  "8:18",
+                             "title":  "The Legacy",
+                             "scene_number":  12,
+                             "estimated_duration_seconds":  40
+                         }
+                     ],
+        "playlist_title":  "Dark Business Empires",
+        "thumbnail_test":  {
+                               "target_ctr":  "9.8%",
+                               "actual_ctr":  "",
+                               "retention_first_30s":  "",
+                               "decision":  "measure after public release"
+                           }
+    },
+    {
+        "filename":  "FINAL_VIDEO_3.mp4",
+        "srt_filename":  "FINAL_VIDEO_3.srt",
+        "thumbnail_filename":  "youtube_thumbnail_video_3.png",
+        "title":  "The Secret Society That Controlled the World\u0027s Electricity",
+        "description":  "In the winter of 1924, far from the public eye, a group of powerful industrialists quietly gathered in a smoke-filled room in Geneva, Switzerland. Representing the world\u0027s leading lighting conglomerates, these men were not there to celebrate innovation.\nThis is the dark business history behind The Phoebus Cartel, planned obsolescence, and lightbulb conspiracies.\nChapters:\n0:00 The Smoke-Filled Room\n0:46 The Centennial Anomaly\n1:36 The Innovator\u0027s Curse\n2:21 The Profit Paradox\n3:03 Birth of the Phoebus Cartel\n3:57 The 1,000-Hour Rule\n4:35 The Enforcers\n5:31 The Great Deception\n6:29 The Cartel Cracks\n7:09 The Modern Legacy\n8:04 The Modern Echo\n8:47 Outro \u0026 Call to Action\nWatch the full Dark Business Empires series on this channel.\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+        "tags":  [
+                     "secret",
+                     "society",
+                     "controlled",
+                     "worlds",
+                     "electricity",
+                     "phoebus",
+                     "cartel",
+                     "dark business history",
+                     "corporate scandals",
+                     "corporate history",
+                     "business documentary",
+                     "shadow empires"
+                 ],
+        "category_id":  "27",
+        "playlist_id":  "",
+        "status":  "scheduled",
+        "publish_days":  [
+                             "Tuesday",
+                             "Friday"
+                         ],
+        "publish_time":  "10:00",
+        "timezone":  "America/Denver",
+        "human_approval":  true,
+        "chapters":  [
+                         {
+                             "timestamp":  "0:00",
+                             "title":  "The Smoke-Filled Room",
+                             "scene_number":  1,
+                             "estimated_duration_seconds":  46
+                         },
+                         {
+                             "timestamp":  "0:46",
+                             "title":  "The Centennial Anomaly",
+                             "scene_number":  2,
+                             "estimated_duration_seconds":  50
+                         },
+                         {
+                             "timestamp":  "1:36",
+                             "title":  "The Innovator\u0027s Curse",
+                             "scene_number":  3,
+                             "estimated_duration_seconds":  45
+                         },
+                         {
+                             "timestamp":  "2:21",
+                             "title":  "The Profit Paradox",
+                             "scene_number":  4,
+                             "estimated_duration_seconds":  42
+                         },
+                         {
+                             "timestamp":  "3:03",
+                             "title":  "Birth of the Phoebus Cartel",
+                             "scene_number":  5,
+                             "estimated_duration_seconds":  54
+                         },
+                         {
+                             "timestamp":  "3:57",
+                             "title":  "The 1,000-Hour Rule",
+                             "scene_number":  6,
+                             "estimated_duration_seconds":  38
+                         },
+                         {
+                             "timestamp":  "4:35",
+                             "title":  "The Enforcers",
+                             "scene_number":  7,
+                             "estimated_duration_seconds":  56
+                         },
+                         {
+                             "timestamp":  "5:31",
+                             "title":  "The Great Deception",
+                             "scene_number":  8,
+                             "estimated_duration_seconds":  58
+                         },
+                         {
+                             "timestamp":  "6:29",
+                             "title":  "The Cartel Cracks",
+                             "scene_number":  9,
+                             "estimated_duration_seconds":  40
+                         },
+                         {
+                             "timestamp":  "7:09",
+                             "title":  "The Modern Legacy",
+                             "scene_number":  10,
+                             "estimated_duration_seconds":  55
+                         },
+                         {
+                             "timestamp":  "8:04",
+                             "title":  "The Modern Echo",
+                             "scene_number":  11,
+                             "estimated_duration_seconds":  43
+                         },
+                         {
+                             "timestamp":  "8:47",
+                             "title":  "Outro \u0026 Call to Action",
+                             "scene_number":  12,
+                             "estimated_duration_seconds":  38
+                         }
+                     ],
+        "playlist_title":  "Dark Business Empires",
+        "thumbnail_test":  {
+                               "target_ctr":  "11.2%",
+                               "actual_ctr":  "",
+                               "retention_first_30s":  "",
+                               "decision":  "measure after public release"
+                           }
+    },
+    {
+        "filename":  "FINAL_VIDEO_4.mp4",
+        "srt_filename":  "FINAL_VIDEO_4.srt",
+        "thumbnail_filename":  "youtube_thumbnail_video_4.png",
+        "title":  "The Billion-Dollar Poison: How America\u0027s Sweetest Brand Fooled a Generation",
+        "description":  "For fifty years , you were told that fat makes you fat. That butter, red meat, and eggs were quietly killing you.\nThis is the dark business history behind The sugar lobby\u0027s bribery of scientists in the 1960s to blame fat for heart disease.\nChapters:\n0:00 The Big Lie\n0:50 A Nation in Fear\n1:48 The Two Suspects\n2:59 Project 226\n3:52 The Payoff\n4:55 Forging the Science\n6:03 The Golden Stamp\n7:14 The Hit Job\n8:24 The Low-Fat Craze\n9:37 The Unseen Epidemic\n10:46 The Paper Trail\n12:04 The Bitter Truth\nWatch the full Dark Business Empires series on this channel.\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+        "tags":  [
+                     "billiondollar",
+                     "poison",
+                     "americas",
+                     "sweetest",
+                     "brand",
+                     "fooled",
+                     "generation",
+                     "dark business history",
+                     "corporate scandals",
+                     "corporate history",
+                     "business documentary",
+                     "shadow empires"
+                 ],
+        "category_id":  "27",
+        "playlist_id":  "",
+        "status":  "scheduled",
+        "publish_days":  [
+                             "Tuesday",
+                             "Friday"
+                         ],
+        "publish_time":  "10:00",
+        "timezone":  "America/Denver",
+        "human_approval":  true,
+        "chapters":  [
+                         {
+                             "timestamp":  "0:00",
+                             "title":  "The Big Lie",
+                             "scene_number":  1,
+                             "estimated_duration_seconds":  50
+                         },
+                         {
+                             "timestamp":  "0:50",
+                             "title":  "A Nation in Fear",
+                             "scene_number":  2,
+                             "estimated_duration_seconds":  58
+                         },
+                         {
+                             "timestamp":  "1:48",
+                             "title":  "The Two Suspects",
+                             "scene_number":  3,
+                             "estimated_duration_seconds":  71
+                         },
+                         {
+                             "timestamp":  "2:59",
+                             "title":  "Project 226",
+                             "scene_number":  4,
+                             "estimated_duration_seconds":  53
+                         },
+                         {
+                             "timestamp":  "3:52",
+                             "title":  "The Payoff",
+                             "scene_number":  5,
+                             "estimated_duration_seconds":  63
+                         },
+                         {
+                             "timestamp":  "4:55",
+                             "title":  "Forging the Science",
+                             "scene_number":  6,
+                             "estimated_duration_seconds":  68
+                         },
+                         {
+                             "timestamp":  "6:03",
+                             "title":  "The Golden Stamp",
+                             "scene_number":  7,
+                             "estimated_duration_seconds":  71
+                         },
+                         {
+                             "timestamp":  "7:14",
+                             "title":  "The Hit Job",
+                             "scene_number":  8,
+                             "estimated_duration_seconds":  70
+                         },
+                         {
+                             "timestamp":  "8:24",
+                             "title":  "The Low-Fat Craze",
+                             "scene_number":  9,
+                             "estimated_duration_seconds":  73
+                         },
+                         {
+                             "timestamp":  "9:37",
+                             "title":  "The Unseen Epidemic",
+                             "scene_number":  10,
+                             "estimated_duration_seconds":  69
+                         },
+                         {
+                             "timestamp":  "10:46",
+                             "title":  "The Paper Trail",
+                             "scene_number":  11,
+                             "estimated_duration_seconds":  78
+                         },
+                         {
+                             "timestamp":  "12:04",
+                             "title":  "The Bitter Truth",
+                             "scene_number":  12,
+                             "estimated_duration_seconds":  101
+                         }
+                     ],
+        "playlist_title":  "Dark Business Empires",
+        "thumbnail_test":  {
+                               "target_ctr":  "10.5%",
+                               "actual_ctr":  "",
+                               "retention_first_30s":  "",
+                               "decision":  "measure after public release"
+                           }
+    },
+    {
+        "filename":  "FINAL_VIDEO_5.mp4",
+        "srt_filename":  "FINAL_VIDEO_5.srt",
+        "thumbnail_filename":  "youtube_thumbnail_video_5.png",
+        "title":  "The Company That Literally Conquered India (and Went Bankrupt)",
+        "description":  "It had its own army of 260,000 men. It ruled over more people than most kings.\nThis is the dark business history behind The rise and fall of the East India Company.\nChapters:\n0:00 The Ultimate Monopoly\n0:59 A Royal Charter\n1:59 The Shift to Conquest\n2:57 The Private Army\n3:49 The Looting of Bengal\n4:43 The Great Famine\n5:32 Too Big to Fail\n6:26 The Tea Act\n7:21 The Opium Monopoly\n8:17 The Rebellion\n9:09 The End of an Empire\n9:58 The Dark Legacy\nWatch the full Dark Business Empires series on this channel.\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+        "tags":  [
+                     "company",
+                     "literally",
+                     "conquered",
+                     "india",
+                     "bankrupt",
+                     "dark business history",
+                     "corporate scandals",
+                     "corporate history",
+                     "business documentary",
+                     "shadow empires"
+                 ],
+        "category_id":  "27",
+        "playlist_id":  "",
+        "status":  "scheduled",
+        "publish_days":  [
+                             "Tuesday",
+                             "Friday"
+                         ],
+        "publish_time":  "10:00",
+        "timezone":  "America/Denver",
+        "human_approval":  true,
+        "chapters":  [
+                         {
+                             "timestamp":  "0:00",
+                             "title":  "The Ultimate Monopoly",
+                             "scene_number":  1,
+                             "estimated_duration_seconds":  59
+                         },
+                         {
+                             "timestamp":  "0:59",
+                             "title":  "A Royal Charter",
+                             "scene_number":  2,
+                             "estimated_duration_seconds":  60
+                         },
+                         {
+                             "timestamp":  "1:59",
+                             "title":  "The Shift to Conquest",
+                             "scene_number":  3,
+                             "estimated_duration_seconds":  58
+                         },
+                         {
+                             "timestamp":  "2:57",
+                             "title":  "The Private Army",
+                             "scene_number":  4,
+                             "estimated_duration_seconds":  52
+                         },
+                         {
+                             "timestamp":  "3:49",
+                             "title":  "The Looting of Bengal",
+                             "scene_number":  5,
+                             "estimated_duration_seconds":  54
+                         },
+                         {
+                             "timestamp":  "4:43",
+                             "title":  "The Great Famine",
+                             "scene_number":  6,
+                             "estimated_duration_seconds":  49
+                         },
+                         {
+                             "timestamp":  "5:32",
+                             "title":  "Too Big to Fail",
+                             "scene_number":  7,
+                             "estimated_duration_seconds":  54
+                         },
+                         {
+                             "timestamp":  "6:26",
+                             "title":  "The Tea Act",
+                             "scene_number":  8,
+                             "estimated_duration_seconds":  55
+                         },
+                         {
+                             "timestamp":  "7:21",
+                             "title":  "The Opium Monopoly",
+                             "scene_number":  9,
+                             "estimated_duration_seconds":  56
+                         },
+                         {
+                             "timestamp":  "8:17",
+                             "title":  "The Rebellion",
+                             "scene_number":  10,
+                             "estimated_duration_seconds":  52
+                         },
+                         {
+                             "timestamp":  "9:09",
+                             "title":  "The End of an Empire",
+                             "scene_number":  11,
+                             "estimated_duration_seconds":  49
+                         },
+                         {
+                             "timestamp":  "9:58",
+                             "title":  "The Dark Legacy",
+                             "scene_number":  12,
+                             "estimated_duration_seconds":  63
+                         }
+                     ],
+        "playlist_title":  "Dark Business Empires",
+        "thumbnail_test":  {
+                               "target_ctr":  "8.7%",
+                               "actual_ctr":  "",
+                               "retention_first_30s":  "",
+                               "decision":  "measure after public release"
+                           }
+    },
+    {
+        "filename":  "FINAL_VIDEO_1_REVISED.mp4",
+        "srt_filename":  "FINAL_VIDEO_1_REVISED.srt",
+        "thumbnail_filename":  "youtube_thumbnail.png",
+        "title":  "How One Family Fooled the World into Buying Worthless Rocks",
+        "description":  "Take a look at this. Beautiful, rare, and absolutely priceless.\nThis is the dark business history behind The De Beers diamond cartel, artificial scarcity, and marketing scams.\nChapters:\n0:00 The Illusion\n0:49 The Vintage Office (The Plot)\n1:33 The South African Mine\n2:38 The Ad Agency (The Formula)\n3:37 The Psychological Trap\n4:17 The Slogan That Ruled the World\n4:56 Hollywood\u0027s Bought Glamour\n5:34 Cartel\u0027s Chokehold\n6:32 The Cartel Cracks\n7:08 The Lab-Grown Revolution\n7:42 The Bitter Truth\n8:40 Outro\nWatch the full Dark Business Empires series on this channel.\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+        "tags":  [
+                     "family",
+                     "fooled",
+                     "world",
+                     "buying",
+                     "worthless",
+                     "dark business history",
+                     "corporate scandals",
+                     "shadow empires"
+                 ],
+        "category_id":  "27",
+        "playlist_id":  "",
+        "status":  "scheduled",
+        "publish_days":  [
+                             "Tuesday",
+                             "Friday"
+                         ],
+        "publish_time":  "10:00",
+        "timezone":  "America/Denver",
+        "human_approval":  true,
+        "revision_of":  "FINAL_VIDEO_1.mp4",
+        "replacement_for_uploaded_video":  true,
+        "chapters":  [
+                         {
+                             "timestamp":  "0:00",
+                             "title":  "The Illusion",
+                             "scene_number":  1,
+                             "estimated_duration_seconds":  49
+                         },
+                         {
+                             "timestamp":  "0:49",
+                             "title":  "The Vintage Office (The Plot)",
+                             "scene_number":  2,
+                             "estimated_duration_seconds":  44
+                         },
+                         {
+                             "timestamp":  "1:33",
+                             "title":  "The South African Mine",
+                             "scene_number":  3,
+                             "estimated_duration_seconds":  65
+                         },
+                         {
+                             "timestamp":  "2:38",
+                             "title":  "The Ad Agency (The Formula)",
+                             "scene_number":  4,
+                             "estimated_duration_seconds":  59
+                         },
+                         {
+                             "timestamp":  "3:37",
+                             "title":  "The Psychological Trap",
+                             "scene_number":  5,
+                             "estimated_duration_seconds":  40
+                         },
+                         {
+                             "timestamp":  "4:17",
+                             "title":  "The Slogan That Ruled the World",
+                             "scene_number":  6,
+                             "estimated_duration_seconds":  39
+                         },
+                         {
+                             "timestamp":  "4:56",
+                             "title":  "Hollywood\u0027s Bought Glamour",
+                             "scene_number":  7,
+                             "estimated_duration_seconds":  38
+                         },
+                         {
+                             "timestamp":  "5:34",
+                             "title":  "Cartel\u0027s Chokehold",
+                             "scene_number":  8,
+                             "estimated_duration_seconds":  58
+                         },
+                         {
+                             "timestamp":  "6:32",
+                             "title":  "The Cartel Cracks",
+                             "scene_number":  9,
+                             "estimated_duration_seconds":  36
+                         },
+                         {
+                             "timestamp":  "7:08",
+                             "title":  "The Lab-Grown Revolution",
+                             "scene_number":  10,
+                             "estimated_duration_seconds":  34
+                         },
+                         {
+                             "timestamp":  "7:42",
+                             "title":  "The Bitter Truth",
+                             "scene_number":  11,
+                             "estimated_duration_seconds":  58
+                         },
+                         {
+                             "timestamp":  "8:40",
+                             "title":  "Outro",
+                             "scene_number":  12,
+                             "estimated_duration_seconds":  31
+                         }
+                     ],
+        "playlist_title":  "Dark Business Empires",
+        "thumbnail_test":  {
+                               "target_ctr":  "12.4%",
+                               "actual_ctr":  "",
+                               "retention_first_30s":  "",
+                               "decision":  "measure after public release"
+                           }
+    },
+    {
+        "filename":  "FINAL_VIDEO_2_REVISED.mp4",
+        "srt_filename":  "FINAL_VIDEO_2_REVISED.srt",
+        "thumbnail_filename":  "youtube_thumbnail_video_2.png",
+        "title":  "The Poisoned Formula: The Corporate Giant That Stole Africa\u0027s Markets",
+        "description":  "In the mid-1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths. Operating far from public scrutiny, they targeted some of the poorest, most vulnerable populations on Earth.\nThis is the dark business history behind NestlÃƒÆ’Ã‚Â©\u0027s aggressive baby formula campaign in developing nations.\nChapters:\n0:00 The Hook\n0:43 The White Coats\n1:40 The Free Samples\n2:26 The Trap\n3:08 The Contamination\n4:09 The Devastation\n4:46 The Corporate Blind Eye\n5:24 The Boycott Begins\n6:17 The Backlash\n6:52 The Defense\n7:26 The Code\n8:18 The Legacy\nWatch the full Dark Business Empires series on this channel.\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+        "tags":  [
+                     "poisoned",
+                     "formula",
+                     "corporate",
+                     "giant",
+                     "stole",
+                     "dark business history",
+                     "corporate scandals",
+                     "shadow empires"
+                 ],
+        "category_id":  "27",
+        "playlist_id":  "",
+        "status":  "scheduled",
+        "publish_days":  [
+                             "Tuesday",
+                             "Friday"
+                         ],
+        "publish_time":  "10:00",
+        "timezone":  "America/Denver",
+        "human_approval":  true,
+        "revision_of":  "FINAL_VIDEO_2.mp4",
+        "replacement_for_uploaded_video":  true,
+        "chapters":  [
+                         {
+                             "timestamp":  "0:00",
+                             "title":  "The Hook",
+                             "scene_number":  1,
+                             "estimated_duration_seconds":  43
+                         },
+                         {
+                             "timestamp":  "0:43",
+                             "title":  "The White Coats",
+                             "scene_number":  2,
+                             "estimated_duration_seconds":  57
+                         },
+                         {
+                             "timestamp":  "1:40",
+                             "title":  "The Free Samples",
+                             "scene_number":  3,
+                             "estimated_duration_seconds":  46
+                         },
+                         {
+                             "timestamp":  "2:26",
+                             "title":  "The Trap",
+                             "scene_number":  4,
+                             "estimated_duration_seconds":  42
+                         },
+                         {
+                             "timestamp":  "3:08",
+                             "title":  "The Contamination",
+                             "scene_number":  5,
+                             "estimated_duration_seconds":  61
+                         },
+                         {
+                             "timestamp":  "4:09",
+                             "title":  "The Devastation",
+                             "scene_number":  6,
+                             "estimated_duration_seconds":  37
+                         },
+                         {
+                             "timestamp":  "4:46",
+                             "title":  "The Corporate Blind Eye",
+                             "scene_number":  7,
+                             "estimated_duration_seconds":  38
+                         },
+                         {
+                             "timestamp":  "5:24",
+                             "title":  "The Boycott Begins",
+                             "scene_number":  8,
+                             "estimated_duration_seconds":  53
+                         },
+                         {
+                             "timestamp":  "6:17",
+                             "title":  "The Backlash",
+                             "scene_number":  9,
+                             "estimated_duration_seconds":  35
+                         },
+                         {
+                             "timestamp":  "6:52",
+                             "title":  "The Defense",
+                             "scene_number":  10,
+                             "estimated_duration_seconds":  34
+                         },
+                         {
+                             "timestamp":  "7:26",
+                             "title":  "The Code",
+                             "scene_number":  11,
+                             "estimated_duration_seconds":  52
+                         },
+                         {
+                             "timestamp":  "8:18",
+                             "title":  "The Legacy",
+                             "scene_number":  12,
+                             "estimated_duration_seconds":  40
+                         }
+                     ],
+        "playlist_title":  "Dark Business Empires",
+        "thumbnail_test":  {
+                               "target_ctr":  "9.8%",
+                               "actual_ctr":  "",
+                               "retention_first_30s":  "",
+                               "decision":  "measure after public release"
+                           }
+    },
+    {
+        "filename":  "FINAL_VIDEO_3_REVISED.mp4",
+        "srt_filename":  "FINAL_VIDEO_3_REVISED.srt",
+        "thumbnail_filename":  "youtube_thumbnail_video_3.png",
+        "title":  "The Secret Society That Controlled the World\u0027s Electricity",
+        "description":  "In the winter of 1924, far from the public eye, a group of powerful industrialists quietly gathered in a smoke-filled room in Geneva, Switzerland. Representing the world\u0027s leading lighting conglomerates, these men were not there to celebrate innovation.\nThis is the dark business history behind The Phoebus Cartel, planned obsolescence, and lightbulb conspiracies.\nChapters:\n0:00 The Smoke-Filled Room\n0:46 The Centennial Anomaly\n1:36 The Innovator\u0027s Curse\n2:21 The Profit Paradox\n3:03 Birth of the Phoebus Cartel\n3:57 The 1,000-Hour Rule\n4:35 The Enforcers\n5:31 The Great Deception\n6:29 The Cartel Cracks\n7:09 The Modern Legacy\n8:04 The Modern Echo\n8:47 Outro \u0026 Call to Action\nWatch the full Dark Business Empires series on this channel.\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+        "tags":  [
+                     "secret",
+                     "society",
+                     "controlled",
+                     "worlds",
+                     "electricity",
+                     "dark business history",
+                     "corporate scandals",
+                     "shadow empires"
+                 ],
+        "category_id":  "27",
+        "playlist_id":  "",
+        "status":  "scheduled",
+        "publish_days":  [
+                             "Tuesday",
+                             "Friday"
+                         ],
+        "publish_time":  "10:00",
+        "timezone":  "America/Denver",
+        "human_approval":  true,
+        "revision_of":  "FINAL_VIDEO_3.mp4",
+        "replacement_for_uploaded_video":  true,
+        "chapters":  [
+                         {
+                             "timestamp":  "0:00",
+                             "title":  "The Smoke-Filled Room",
+                             "scene_number":  1,
+                             "estimated_duration_seconds":  46
+                         },
+                         {
+                             "timestamp":  "0:46",
+                             "title":  "The Centennial Anomaly",
+                             "scene_number":  2,
+                             "estimated_duration_seconds":  50
+                         },
+                         {
+                             "timestamp":  "1:36",
+                             "title":  "The Innovator\u0027s Curse",
+                             "scene_number":  3,
+                             "estimated_duration_seconds":  45
+                         },
+                         {
+                             "timestamp":  "2:21",
+                             "title":  "The Profit Paradox",
+                             "scene_number":  4,
+                             "estimated_duration_seconds":  42
+                         },
+                         {
+                             "timestamp":  "3:03",
+                             "title":  "Birth of the Phoebus Cartel",
+                             "scene_number":  5,
+                             "estimated_duration_seconds":  54
+                         },
+                         {
+                             "timestamp":  "3:57",
+                             "title":  "The 1,000-Hour Rule",
+                             "scene_number":  6,
+                             "estimated_duration_seconds":  38
+                         },
+                         {
+                             "timestamp":  "4:35",
+                             "title":  "The Enforcers",
+                             "scene_number":  7,
+                             "estimated_duration_seconds":  56
+                         },
+                         {
+                             "timestamp":  "5:31",
+                             "title":  "The Great Deception",
+                             "scene_number":  8,
+                             "estimated_duration_seconds":  58
+                         },
+                         {
+                             "timestamp":  "6:29",
+                             "title":  "The Cartel Cracks",
+                             "scene_number":  9,
+                             "estimated_duration_seconds":  40
+                         },
+                         {
+                             "timestamp":  "7:09",
+                             "title":  "The Modern Legacy",
+                             "scene_number":  10,
+                             "estimated_duration_seconds":  55
+                         },
+                         {
+                             "timestamp":  "8:04",
+                             "title":  "The Modern Echo",
+                             "scene_number":  11,
+                             "estimated_duration_seconds":  43
+                         },
+                         {
+                             "timestamp":  "8:47",
+                             "title":  "Outro \u0026 Call to Action",
+                             "scene_number":  12,
+                             "estimated_duration_seconds":  38
+                         }
+                     ],
+        "playlist_title":  "Dark Business Empires",
+        "thumbnail_test":  {
+                               "target_ctr":  "11.2%",
+                               "actual_ctr":  "",
+                               "retention_first_30s":  "",
+                               "decision":  "measure after public release"
+                           }
+    }
 ]

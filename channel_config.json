@@ -1,159 +1,196 @@
 {
-  "channel": {
-    "name": "Shadow Empires",
-    "niche": "Dark Business History & Corporate Scams",
-    "tagline": "Unmasking the greed, secrets, and scandals that built the world's most powerful empires.",
-    "description": "From blood diamonds to toxic monopolies, we pull back the curtain on history's most ruthless business empires. New documentaries weekly.",
-    "branding": {
-      "colors": {
-        "background": "#0a0b0e",
-        "panel": "#161920",
-        "primary": "#7c3aed",
-        "secondary": "#f59e0b",
-        "text": "#f3f4f6",
-        "text_secondary": "#9ca3af",
-        "border": "#2d3139"
-      },
-      "fonts": {
-        "headings": "Outfit, sans-serif",
-        "body": "Inter, sans-serif"
-      }
-    }
-  },
-  "production_targets": {
-    "long_form_duration": {
-      "recommended_range": "8m 30s-10m 30s",
-      "minimum_for_midroll_review": "8m 00s",
-      "hard_qc_minimum_seconds": 480,
-      "ideal_script_words": "1250-1650",
-      "rule": "Prioritize retention over padding. Scripts should be long enough to clear YouTube mid-roll eligibility, but scenes must earn their time with new facts, tension, or payoff."
-    },
-    "shorts_duration": {
-      "recommended_range": "30s-60s",
-      "maximum_youtube_shorts": "3m 00s",
-      "rule": "Use Shorts for reach and funneling viewers to long-form videos; do not treat Shorts as the primary watch-hours path."
-    }
-  },
-  "viral_ideas": [
-    {
-      "id": 1,
-      "title": "How One Family Fooled the World into Buying Worthless Rocks",
-      "target_ctr": "12.4%",
-      "difficulty": "Easy (High Visual Assets)",
-      "duration": "8m 15s",
-      "status": "Script & Storyboard Ready",
-      "topic": "The De Beers diamond cartel, artificial scarcity, and marketing scams.",
-      "hook": "A diamond is forever. A marketing slogan so powerful it tricked the entire human race into buying common stones. This is the dark history of the De Beers empire.",
-      "thumbnail_concept": "A hand holding a glowing blue diamond in a dark mine, bold red text: 'THEY FOOLED YOU'.",
-      "ctr_angle": "Extreme curiosity and validation check."
-    },
-    {
-      "id": 2,
-      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
-      "target_ctr": "9.8%",
-      "difficulty": "Medium",
-      "duration": "8m 30s",
-      "status": "Idea Confirmed",
-      "topic": "Nestlé's aggressive baby formula campaign in developing nations.",
-      "hook": "In the 1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths. This is how they captured a continent.",
-      "thumbnail_concept": "A classic baby bottle filled with dark sludge against a bright corporate skyscraper, bold red text: 'TOXIC GREED'.",
-      "ctr_angle": "Outrage and historical shock."
-    },
-    {
-      "id": 3,
-      "title": "The Secret Society That Controlled the World's Electricity",
-      "target_ctr": "11.2%",
-      "difficulty": "Easy",
-      "duration": "8m 05s",
-      "status": "Idea Confirmed",
-      "topic": "The Phoebus Cartel, planned obsolescence, and lightbulb conspiracies.",
-      "hook": "In 1924, a group of businessmen gathered in a smoke-filled room in Geneva. Their goal? Make lightbulbs burn out faster. And they got away with it.",
-      "thumbnail_concept": "A vintage glowing lightbulb with a dollar sign filament, bold red text: 'THE CARTEL'.",
-      "ctr_angle": "Conspiracy unmasking and everyday relevance."
-    },
-    {
-      "id": 4,
-      "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
-      "target_ctr": "10.5%",
-      "difficulty": "Medium",
-      "duration": "8m 45s",
-      "status": "Drafting",
-      "topic": "The sugar lobby's bribery of scientists in the 1960s to blame fat for heart disease.",
-      "hook": "For fifty years, you were told that fat makes you fat. It was a lie. A lie bought and paid for by three Harvard scientists and a bag of cash.",
-      "thumbnail_concept": "Sugar cubes stacked like a skull, bold text: 'THE LIE'.",
-      "ctr_angle": "Health revelation and betrayal."
-    },
-    {
-      "id": 5,
-      "title": "The Company That Literally Conquered India (and Went Bankrupt)",
-      "target_ctr": "8.7%",
-      "difficulty": "Hard (Heavy History)",
-      "duration": "9m 10s",
-      "status": "Idea Confirmed",
-      "topic": "The rise and fall of the East India Company.",
-      "hook": "It had its own army of 260,000 men. It ruled over 150 million people. It was the first corporation too big to fail.",
-      "thumbnail_concept": "An old British ship sailing into a stormy sea of coins, bold text: 'THE EMPEROR'.",
-      "ctr_angle": "Geopolitical scale and irony."
-    },
-    {
-      "id": 6,
-      "title": "The Toxic Empire: The Family That Hooked America on Pain",
-      "target_ctr": "13.1%",
-      "difficulty": "Medium",
-      "duration": "8m 20s",
-      "status": "Idea Confirmed",
-      "topic": "The Sackler family, Purdue Pharma, and the OxyContin epidemic.",
-      "hook": "They wore expensive suits, donated to world-class museums, and built a dynasty. Behind it all was a chemical that destroyed millions of families.",
-      "thumbnail_concept": "A golden pill bottle leaking glowing liquid, bold text: 'PUNISHED?'.",
-      "ctr_angle": "High indignation and modern relevance."
-    },
-    {
-      "id": 7,
-      "title": "The Secret Monopoly That Controls Everything You Wear",
-      "target_ctr": "10.1%",
-      "difficulty": "Easy",
-      "duration": "8m 10s",
-      "status": "Idea Confirmed",
-      "topic": "Luxottica's dominance of the eyewear industry.",
-      "hook": "Why do plastic glasses cost $400? Because whether you buy Oakley, Ray-Ban, or Prada, you are buying from the exact same company. Welcome to the illusion of choice.",
-      "thumbnail_concept": "A pair of sunglasses reflecting a single giant eyeball, bold text: 'NO CHOICE'.",
-      "ctr_angle": "Consumer awareness and eye-opening facts."
-    },
-    {
-      "id": 8,
-      "title": "The Bananapocalypse: The Fruit Company That Overthrew Governments",
-      "target_ctr": "9.4%",
-      "difficulty": "Hard (Historical Details)",
-      "duration": "8m 50s",
-      "status": "Idea Confirmed",
-      "topic": "United Fruit Company, CIA operations, and banana republics.",
-      "hook": "A single fruit company controlled the railways, the mail, and the politicians of Central America. And when one president stood in their way, they called in the CIA.",
-      "thumbnail_concept": "A banana peeled to reveal a military tank, bold text: 'FRUIT CO.'.",
-      "ctr_angle": "Bizarre historical facts and dark irony."
-    },
-    {
-      "id": 9,
-      "title": "The Tech Empire That Sold Out the Free World",
-      "target_ctr": "11.6%",
-      "difficulty": "Medium",
-      "duration": "8m 15s",
-      "status": "Idea Confirmed",
-      "topic": "Yahoo's complicity in Chinese dissident tracking.",
-      "hook": "Before Google was a giant, Yahoo ruled the web. But in a desperate attempt to conquer the Chinese market, they handed over a single email address. It cost a man ten years of his life.",
-      "thumbnail_concept": "A dark internet screen with red target brackets, bold text: 'BETRAYED'.",
-      "ctr_angle": "Tech surveillance and betrayal."
-    },
-    {
-      "id": 10,
-      "title": "The Golden Scam: The Man Who Sold a Fake Gold Mine",
-      "target_ctr": "12.8%",
-      "difficulty": "Medium",
-      "duration": "8m 40s",
-      "status": "Idea Confirmed",
-      "topic": "The Bre-X mining scandal in the Indonesian jungle.",
-      "hook": "A geologist, a businessman, and a jungle in Borneo. They claimed they found the largest gold deposit in human history. It was all a complete illusion, made with gold dust from a wedding ring.",
-      "thumbnail_concept": "A massive open pit mine with a golden vortex, bold text: 'FAKE GOLD'.",
-      "ctr_angle": "Spectacular heist and greed."
-    }
-  ]
+    "channel":  {
+                    "name":  "Shadow Empires",
+                    "niche":  "Dark Business History \u0026 Corporate Scams",
+                    "tagline":  "Unmasking the greed, secrets, and scandals that built the world\u0027s most powerful empires.",
+                    "description":  "From blood diamonds to toxic monopolies, we pull back the curtain on history\u0027s most ruthless business empires. New documentaries weekly.",
+                    "branding":  {
+                                     "colors":  {
+                                                    "background":  "#0a0b0e",
+                                                    "panel":  "#161920",
+                                                    "primary":  "#7c3aed",
+                                                    "secondary":  "#f59e0b",
+                                                    "text":  "#f3f4f6",
+                                                    "text_secondary":  "#9ca3af",
+                                                    "border":  "#2d3139"
+                                                },
+                                     "fonts":  {
+                                                   "headings":  "Outfit, sans-serif",
+                                                   "body":  "Inter, sans-serif"
+                                               }
+                                 }
+                },
+    "production_targets":  {
+                               "long_form_duration":  {
+                                                          "recommended_range":  "8m 30s-10m 30s",
+                                                          "minimum_for_midroll_review":  "8m 00s",
+                                                          "hard_qc_minimum_seconds":  480,
+                                                          "ideal_script_words":  "1250-1650",
+                                                          "rule":  "Prioritize retention over padding. Scripts should be long enough to clear YouTube mid-roll eligibility, but scenes must earn their time with new facts, tension, or payoff."
+                                                      },
+                               "shorts_duration":  {
+                                                       "recommended_range":  "30s-60s",
+                                                       "maximum_youtube_shorts":  "3m 00s",
+                                                       "rule":  "Use Shorts for reach and funneling viewers to long-form videos; do not treat Shorts as the primary watch-hours path."
+                                                   }
+                           },
+    "viral_ideas":  [
+                        {
+                            "id":  1,
+                            "title":  "How One Family Fooled the World into Buying Worthless Rocks",
+                            "target_ctr":  "12.4%",
+                            "difficulty":  "Easy (High Visual Assets)",
+                            "duration":  "8m 15s",
+                            "status":  "Script \u0026 Storyboard Ready",
+                            "topic":  "The De Beers diamond cartel, artificial scarcity, and marketing scams.",
+                            "hook":  "A diamond is forever. A marketing slogan so powerful it tricked the entire human race into buying common stones. This is the dark history of the De Beers empire.",
+                            "thumbnail_concept":  "A hand holding a glowing blue diamond in a dark mine, bold red text: \u0027THEY FOOLED YOU\u0027.",
+                            "ctr_angle":  "Extreme curiosity and validation check."
+                        },
+                        {
+                            "id":  2,
+                            "title":  "The Poisoned Formula: The Corporate Giant That Stole Africa\u0027s Markets",
+                            "target_ctr":  "9.8%",
+                            "difficulty":  "Medium",
+                            "duration":  "8m 30s",
+                            "status":  "Idea Confirmed",
+                            "topic":  "NestlÃ©\u0027s aggressive baby formula campaign in developing nations.",
+                            "hook":  "In the 1970s, one food conglomerate launched a sales campaign so aggressive it led to thousands of infant deaths. This is how they captured a continent.",
+                            "thumbnail_concept":  "A classic baby bottle filled with dark sludge against a bright corporate skyscraper, bold red text: \u0027TOXIC GREED\u0027.",
+                            "ctr_angle":  "Outrage and historical shock."
+                        },
+                        {
+                            "id":  3,
+                            "title":  "The Secret Society That Controlled the World\u0027s Electricity",
+                            "target_ctr":  "11.2%",
+                            "difficulty":  "Easy",
+                            "duration":  "8m 05s",
+                            "status":  "Idea Confirmed",
+                            "topic":  "The Phoebus Cartel, planned obsolescence, and lightbulb conspiracies.",
+                            "hook":  "In 1924, a group of businessmen gathered in a smoke-filled room in Geneva. Their goal? Make lightbulbs burn out faster. And they got away with it.",
+                            "thumbnail_concept":  "A vintage glowing lightbulb with a dollar sign filament, bold red text: \u0027THE CARTEL\u0027.",
+                            "ctr_angle":  "Conspiracy unmasking and everyday relevance."
+                        },
+                        {
+                            "id":  4,
+                            "title":  "The Billion-Dollar Poison: How America\u0027s Sweetest Brand Fooled a Generation",
+                            "target_ctr":  "10.5%",
+                            "difficulty":  "Medium",
+                            "duration":  "8m 45s",
+                            "status":  "Drafting",
+                            "topic":  "The sugar lobby\u0027s bribery of scientists in the 1960s to blame fat for heart disease.",
+                            "hook":  "For fifty years, you were told that fat makes you fat. It was a lie. A lie bought and paid for by three Harvard scientists and a bag of cash.",
+                            "thumbnail_concept":  "Sugar cubes stacked like a skull, bold text: \u0027THE LIE\u0027.",
+                            "ctr_angle":  "Health revelation and betrayal."
+                        },
+                        {
+                            "id":  5,
+                            "title":  "The Company That Literally Conquered India (and Went Bankrupt)",
+                            "target_ctr":  "8.7%",
+                            "difficulty":  "Hard (Heavy History)",
+                            "duration":  "9m 10s",
+                            "status":  "Idea Confirmed",
+                            "topic":  "The rise and fall of the East India Company.",
+                            "hook":  "It had its own army of 260,000 men. It ruled over 150 million people. It was the first corporation too big to fail.",
+                            "thumbnail_concept":  "An old British ship sailing into a stormy sea of coins, bold text: \u0027THE EMPEROR\u0027.",
+                            "ctr_angle":  "Geopolitical scale and irony."
+                        },
+                        {
+                            "id":  6,
+                            "title":  "The Toxic Empire: The Family That Hooked America on Pain",
+                            "target_ctr":  "13.1%",
+                            "difficulty":  "Medium",
+                            "duration":  "8m 20s",
+                            "status":  "Idea Confirmed",
+                            "topic":  "The Sackler family, Purdue Pharma, and the OxyContin epidemic.",
+                            "hook":  "They wore expensive suits, donated to world-class museums, and built a dynasty. Behind it all was a chemical that destroyed millions of families.",
+                            "thumbnail_concept":  "A golden pill bottle leaking glowing liquid, bold text: \u0027PUNISHED?\u0027.",
+                            "ctr_angle":  "High indignation and modern relevance."
+                        },
+                        {
+                            "id":  7,
+                            "title":  "The Secret Monopoly That Controls Everything You Wear",
+                            "target_ctr":  "10.1%",
+                            "difficulty":  "Easy",
+                            "duration":  "8m 10s",
+                            "status":  "Idea Confirmed",
+                            "topic":  "Luxottica\u0027s dominance of the eyewear industry.",
+                            "hook":  "Why do plastic glasses cost $400? Because whether you buy Oakley, Ray-Ban, or Prada, you are buying from the exact same company. Welcome to the illusion of choice.",
+                            "thumbnail_concept":  "A pair of sunglasses reflecting a single giant eyeball, bold text: \u0027NO CHOICE\u0027.",
+                            "ctr_angle":  "Consumer awareness and eye-opening facts."
+                        },
+                        {
+                            "id":  8,
+                            "title":  "The Bananapocalypse: The Fruit Company That Overthrew Governments",
+                            "target_ctr":  "9.4%",
+                            "difficulty":  "Hard (Historical Details)",
+                            "duration":  "8m 50s",
+                            "status":  "Idea Confirmed",
+                            "topic":  "United Fruit Company, CIA operations, and banana republics.",
+                            "hook":  "A single fruit company controlled the railways, the mail, and the politicians of Central America. And when one president stood in their way, they called in the CIA.",
+                            "thumbnail_concept":  "A banana peeled to reveal a military tank, bold text: \u0027FRUIT CO.\u0027.",
+                            "ctr_angle":  "Bizarre historical facts and dark irony."
+                        },
+                        {
+                            "id":  9,
+                            "title":  "The Tech Empire That Sold Out the Free World",
+                            "target_ctr":  "11.6%",
+                            "difficulty":  "Medium",
+                            "duration":  "8m 15s",
+                            "status":  "Idea Confirmed",
+                            "topic":  "Yahoo\u0027s complicity in Chinese dissident tracking.",
+                            "hook":  "Before Google was a giant, Yahoo ruled the web. But in a desperate attempt to conquer the Chinese market, they handed over a single email address. It cost a man ten years of his life.",
+                            "thumbnail_concept":  "A dark internet screen with red target brackets, bold text: \u0027BETRAYED\u0027.",
+                            "ctr_angle":  "Tech surveillance and betrayal."
+                        },
+                        {
+                            "id":  10,
+                            "title":  "The Golden Scam: The Man Who Sold a Fake Gold Mine",
+                            "target_ctr":  "12.8%",
+                            "difficulty":  "Medium",
+                            "duration":  "8m 40s",
+                            "status":  "Idea Confirmed",
+                            "topic":  "The Bre-X mining scandal in the Indonesian jungle.",
+                            "hook":  "A geologist, a businessman, and a jungle in Borneo. They claimed they found the largest gold deposit in human history. It was all a complete illusion, made with gold dust from a wedding ring.",
+                            "thumbnail_concept":  "A massive open pit mine with a golden vortex, bold text: \u0027FAKE GOLD\u0027.",
+                            "ctr_angle":  "Spectacular heist and greed."
+                        }
+                    ],
+    "growth_system":  {
+                          "primary_playlist":  {
+                                                   "title":  "Dark Business Empires",
+                                                   "youtube_playlist_id":  "",
+                                                   "visibility":  "public_when_videos_public",
+                                                   "description":  "Dark business history documentaries about monopolies, corporate scandals, cartels, and empires built on power.",
+                                                   "rule":  "Every Corporate Shadows long-form upload must be added to this playlist before or immediately after public release."
+                                               },
+                          "publishing_cadence":  {
+                                                     "days":  [
+                                                                  "Tuesday",
+                                                                  "Friday"
+                                                              ],
+                                                     "time":  "10:00",
+                                                     "timezone":  "America/Denver",
+                                                     "rule":  "Keep cadence even if a video is 95 percent ready, unless the blocker is legal, factual, severe brand risk, or missing final approval."
+                                                 },
+                          "chapters":  {
+                                           "required":  true,
+                                           "source":  "script scene titles and estimated scene durations",
+                                           "rule":  "Every description must include chapters starting at 0:00 before upload."
+                                       },
+                          "thumbnail_testing":  {
+                                                    "primary_metric":  "ctr",
+                                                    "secondary_metrics":  [
+                                                                              "first_30s_retention",
+                                                                              "average_view_duration",
+                                                                              "views_from_browse"
+                                                                          ],
+                                                    "review_after_public_videos":  3,
+                                                    "action_thresholds":  {
+                                                                              "ctr_below":  "5%: redesign thumbnail/title pair",
+                                                                              "ctr_watch":  "5-8%: monitor for 72 hours and compare topic difficulty",
+                                                                              "ctr_good":  "8%+: keep angle and create variants from the same pattern"
+                                                                          }
+                                                }
+                      }
 }
