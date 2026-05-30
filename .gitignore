@@ -38,12 +38,4 @@ assets/video_*_assets/*
 assets/video_*_assets/*_audio.wav
 assets/video_*_assets/*_audio.mp3
 assets/video_*_assets/*_video.mp4
-assets/video_*_assets/*_temp.mp4
-assets/video_*_assets/concat.txt
-assets/video_*_assets/temp_concat.mp4
-
-# Archives and local binaries
-automation/ffmpeg/
-automation/piper_tts/
-*.zip
-
+assets/v
