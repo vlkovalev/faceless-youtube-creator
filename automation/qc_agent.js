@@ -29,7 +29,7 @@ function countFiles(dirRel, matcher) {
 
 function readJson(relPath, fallback) {
   if (!exists(relPath)) return fallback;
-  return JSON.parse(fs.readFileSync(file(relPath), 'utf8'));
+  return JSON.parse(fs.readFileSync(file(relPath), 'utf8').replace(/^\uFEFF/, ''));
 }
 
 function commandExists(command) {
@@ -60,14 +60,20 @@ function runQc(id) {
   const assetsDir = `assets/video_${id}_assets`;
   const manifestExists = exists(`${assetsDir}/placeholder_visuals_manifest.json`);
   const queue = readJson('metadata/queue.json', []);
-  const queueEntry = queue.find(item => item.filename === `FINAL_VIDEO_${id}.mp4`);
-  const durationSeconds = getVideoDurationSeconds(`FINAL_VIDEO_${id}.mp4`);
+  const finalVideo = exists(`FINAL_VIDEO_${id}_VISUAL_UPGRADE.mp4`)
+    ? `FINAL_VIDEO_${id}_VISUAL_UPGRADE.mp4`
+    : `FINAL_VIDEO_${id}.mp4`;
+  const captions = exists(`FINAL_VIDEO_${id}_VISUAL_UPGRADE.srt`)
+    ? `FINAL_VIDEO_${id}_VISUAL_UPGRADE.srt`
+    : `FINAL_VIDEO_${id}.srt`;
+  const queueEntry = queue.find(item => item.filename === finalVideo) || queue.find(item => item.filename === `FINAL_VIDEO_${id}.mp4`);
+  const durationSeconds = getVideoDurationSeconds(finalVideo);
 
   const checks = [
-    { name: 'final_video_exists', ok: exists(`FINAL_VIDEO_${id}.mp4`), detail: `FINAL_VIDEO_${id}.mp4` },
-    { name: 'final_video_non_empty', ok: getSizeMb(`FINAL_VIDEO_${id}.mp4`) > 1, detail: `${getSizeMb(`FINAL_VIDEO_${id}.mp4`).toFixed(2)} MB` },
+    { name: 'final_video_exists', ok: exists(finalVideo), detail: finalVideo },
+    { name: 'final_video_non_empty', ok: getSizeMb(finalVideo) > 1, detail: `${getSizeMb(finalVideo).toFixed(2)} MB` },
     { name: 'long_form_duration_minimum', ok: durationSeconds !== null && durationSeconds >= MIN_LONG_FORM_SECONDS, detail: durationSeconds === null ? 'unknown duration' : `${Math.round(durationSeconds)}s / ${MIN_LONG_FORM_SECONDS}s minimum` },
-    { name: 'captions_exist', ok: exists(`FINAL_VIDEO_${id}.srt`), detail: `FINAL_VIDEO_${id}.srt` },
+    { name: 'captions_exist', ok: exists(captions), detail: captions },
     { name: 'thumbnail_exists', ok: exists(id === '1' ? 'assets/youtube_thumbnail.png' : `assets/youtube_thumbnail_video_${id}.png`), detail: id === '1' ? 'assets/youtube_thumbnail.png' : `assets/youtube_thumbnail_video_${id}.png` },
     { name: 'scene_audio_count', ok: countFiles(assetsDir, name => /^scene_\d+_audio\.wav$/.test(name)) >= 12, detail: `${countFiles(assetsDir, name => /^scene_\d+_audio\.wav$/.test(name))}/12` },
     { name: 'scene_visual_count', ok: countFiles(assetsDir, name => /^scene_\d+_(image\.png|video\.mp4)$/.test(name)) >= 12, detail: `${countFiles(assetsDir, name => /^scene_\d+_(image\.png|video\.mp4)$/.test(name))}/12` },

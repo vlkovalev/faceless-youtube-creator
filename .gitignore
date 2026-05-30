@@ -15,9 +15,15 @@ automation/credentials/oauth_tokens.json
 *.temp
 automation/test.mp3
 metadata/schedule_reservations.json
+metadata/uploads_tracker.json
+metadata/youtube_channel_status.json
+metadata/youtube_analytics_status.json
 metadata/qc_reports/
 metadata/script_qc_reports/
 metadata/pm_reports/
+metadata/visual_qc/
+docs/pm_dashboard.html
+FINAL_VIDEO_*_VISUAL_UPGRADE.srt
 
 # Large/generated video outputs
 videos/uploaded/

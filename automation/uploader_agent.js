@@ -14,6 +14,7 @@ const ONLY_FILENAME = onlyArg ? onlyArg.split('=').slice(1).join('=') : null;
 const privacyArg = process.argv.find(arg => arg.startsWith('--privacy='));
 const PRIVACY_OVERRIDE = privacyArg ? privacyArg.split('=').slice(1).join('=').toLowerCase() : null;
 const AUTO_APPROVE_PRIVATE = process.argv.includes('--auto-approve-private');
+const AUTO_APPROVE_SCHEDULED = process.argv.includes('--auto-approve-scheduled');
 
 // Core Workspace Paths
 const WORKSPACE_DIR = path.join(__dirname, '..');
@@ -42,6 +43,9 @@ if (ONLY_FILENAME) console.log(`   Queue Filter: ${ONLY_FILENAME}`);
 if (PRIVACY_OVERRIDE) console.log(`   Privacy Override: ${PRIVACY_OVERRIDE}`);
 console.log(`=================================================\n`);
 
+function readJsonFile(filePath) {
+    return JSON.parse(fs.readFileSync(filePath, 'utf-8').replace(/^\uFEFF/, ''));
+}
 // Helper function to ask CLI questions
 function askQuestion(query) {
     const rl = readline.createInterface({
@@ -67,7 +71,7 @@ async function getOAuth2Client() {
         process.exit(1);
     }
 
-    const secretsData = JSON.parse(fs.readFileSync(SECRETS_FILE, 'utf-8'));
+    const secretsData = readJsonFile(SECRETS_FILE);
     const webOrInstalled = secretsData.installed || secretsData.web;
     if (!webOrInstalled) {
         console.error(`🔴 Error: Invalid client_secrets.json format. Make sure it contains web or installed credentials.`);
@@ -83,7 +87,7 @@ async function getOAuth2Client() {
     oauth2Client.on('tokens', (tokens) => {
         let existingTokens = {};
         if (fs.existsSync(TOKENS_FILE)) {
-            existingTokens = JSON.parse(fs.readFileSync(TOKENS_FILE, 'utf-8'));
+            existingTokens = readJsonFile(TOKENS_FILE);
         }
         const updatedTokens = { ...existingTokens, ...tokens };
         fs.writeFileSync(TOKENS_FILE, JSON.stringify(updatedTokens, null, 2));
@@ -92,7 +96,7 @@ async function getOAuth2Client() {
 
     if (fs.existsSync(TOKENS_FILE)) {
         console.log(`🔑 Loaded cached OAuth tokens.`);
-        oauth2Client.setCredentials(JSON.parse(fs.readFileSync(TOKENS_FILE, 'utf-8')));
+        oauth2Client.setCredentials(readJsonFile(TOKENS_FILE));
         return oauth2Client;
     }
 
@@ -138,14 +142,14 @@ function getUploadedHistory() {
     if (!fs.existsSync(TRACKER_FILE)) {
         return { uploaded_files: {} };
     }
-    return JSON.parse(fs.readFileSync(TRACKER_FILE, 'utf-8'));
+    return readJsonFile(TRACKER_FILE);
 }
 
 function getScheduleReservations() {
     if (!fs.existsSync(RESERVATIONS_FILE)) {
         return { reserved_files: {} };
     }
-    return JSON.parse(fs.readFileSync(RESERVATIONS_FILE, 'utf-8'));
+    return readJsonFile(RESERVATIONS_FILE);
 }
 
 function mergeReservationsIntoHistory(history) {
@@ -282,7 +286,7 @@ async function run() {
         process.exit(1);
     }
 
-    const queue = JSON.parse(fs.readFileSync(QUEUE_FILE, 'utf-8'));
+    const queue = readJsonFile(QUEUE_FILE);
     const history = mergeReservationsIntoHistory(getUploadedHistory());
 
     console.log(`📁 Scanning queue. Found ${queue.length} video profiles configured.\n`);
@@ -293,7 +297,7 @@ async function run() {
     let uploadCount = 0;
 
     for (const videoConfig of queue) {
-        const { filename, title, description, tags, category_id, playlist_id, status, publish_days, publish_time, timezone, human_approval, srt_filename, thumbnail_filename } = videoConfig;
+        const { filename, title, description, tags, category_id, playlist_id, status, publish_days, publish_time, timezone, human_approval, srt_filename, thumbnail_filename, publish_at } = videoConfig;
         const effectiveStatus = PRIVACY_OVERRIDE || status;
 
         if (ONLY_FILENAME && filename !== ONLY_FILENAME && filename !== `FINAL_VIDEO_${ONLY_FILENAME}.mp4`) {
@@ -340,7 +344,7 @@ async function run() {
         }
 
         // Step 4: Timezone Calendar Slots calculations
-        const publishAt = getNextPublishDate(publish_days, publish_time, timezone, history);
+        const publishAt = publish_at || getNextPublishDate(publish_days, publish_time, timezone, history);
         const localFormatDate = new Date(publishAt).toLocaleString('en-US', { timeZone: timezone || 'America/Denver' });
 
         console.log(`✅ File Verified: ${filename} (${(videoStats.size / (1024 * 1024)).toFixed(2)} MB)`);
@@ -351,7 +355,7 @@ async function run() {
         console.log(`?? Visibility:  ${effectiveStatus.toUpperCase()}`);
 
         // Step 5: Human Interactive Approvals
-        if (human_approval && !DRY_RUN && !(AUTO_APPROVE_PRIVATE && effectiveStatus === 'private')) {
+        if (human_approval && !DRY_RUN && !(AUTO_APPROVE_PRIVATE && effectiveStatus === 'private') && !(AUTO_APPROVE_SCHEDULED && effectiveStatus === 'scheduled')) {
             const confirm = await askQuestion(`\n❓ Confirm upload of this video profile to YouTube? (Y/N): `);
             if (confirm.toLowerCase() !== 'y' && confirm.toLowerCase() !== 'yes') {
                 console.log(`⏭️  Skipped: User rejected approval for '${filename}'.\n`);

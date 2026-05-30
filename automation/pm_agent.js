@@ -423,6 +423,7 @@ function writeDashboard(context) {
 
 function buildReport() {
   const tasks = extractMermaidTasks();
+  const gateStatus = readJson('metadata/channel_gate_status.json', null);
   const classified = classifyTasks(tasks);
   const gitStatus = parseGitStatus();
   const production = summarizeProductionStatus();
@@ -449,7 +450,10 @@ function buildReport() {
   const capacityRows = capacity.map(item => ({ Channel: item.channel, Capacity: item.weekly_capacity_units, Active: item.active_task_count, Load: item.load_status, Cadence: item.cadence_goal }));
   const calendarRows = calendar.slice(0, 15).map(item => ({ Channel: item.channel, Topic: item.topic, Status: item.status, Owner: item.owner, Blocker: item.blocker || 'none' }));
 
-  const stakeholderSummary = `Status: ${rag}. Active tasks: ${kpis.activeTasks}. Overdue: ${kpis.overdueTasks}. P1 blockers: ${kpis.p1Blockers}. Main focus is Saint Seraphim script package and Corporate Shadows visual upgrade workflow. Sensitive YouTube tracker/status files remain local and are excluded from auto-push.`;
+  const gateSummary = gateStatus
+    ? ` Corporate Shadows upgraded videos: ${gateStatus.corporate_shadows.upgraded_public_videos} public, ${gateStatus.corporate_shadows.scheduled_upgraded_videos} scheduled. Saints gate: ${gateStatus.saints_gate.status}; research-only until ${gateStatus.saints_gate.required_public_corporate_videos} Corporate Shadows videos are public. Gate clock starts ${gateStatus.saints_gate.clock_starts_on.slice(0, 10)}.`
+    : '';
+  const stakeholderSummary = `Status: ${rag}. Active tasks: ${kpis.activeTasks}. Overdue: ${kpis.overdueTasks}. P1 blockers: ${kpis.p1Blockers}.${gateSummary} Main focus is Corporate Shadows visual sourcing and schedule integrity. Sensitive YouTube tracker/status files remain local and are excluded from auto-push.`;
 
   const report = `# PM Agent Portfolio Report\n\n` +
     `Generated: ${new Date().toISOString()}\n\n` +
@@ -467,9 +471,10 @@ function buildReport() {
     `## Production Records\n\n${markdownList(production, item => `- ${item.video_id}: ${item.stage}; next: ${item.next}; blocker: [${item.severity}] ${item.blocker || 'none'}`)}\n\n` +
     `## RAID Log\n\n### Risks\n${markdownList(raid.risks, item => `- ${item}`)}\n\n### Assumptions\n${markdownList(raid.assumptions, item => `- ${item}`)}\n\n### Issues\n${markdownList(raid.issues, item => `- ${item}`)}\n\n### Dependencies\n${markdownList(raid.dependencies, item => `- ${item}`)}\n\n` +
     `## Decisions Needed\n\n${markdownList(decisions, item => `- ${item}`)}\n\n` +
+    `## Channel Gate Status\n\n${gateStatus ? `- Corporate Shadows upgraded public videos: ${gateStatus.corporate_shadows.upgraded_public_videos}\n- Corporate Shadows upgraded scheduled videos: ${gateStatus.corporate_shadows.scheduled_upgraded_videos}\n- Saints gate: ${gateStatus.saints_gate.status}\n- Saints allowed work: ${gateStatus.saints_gate.allowed_work}\n- Gate clock starts: ${gateStatus.saints_gate.clock_starts_on}\n- Earliest gate review: ${gateStatus.saints_gate.earliest_gate_review}` : '- No gate status file found.'}\n\n` +
     `## Queue Summary\n\n- Total entries: ${queue.total}\n- Scheduled status entries: ${queue.scheduled}\n- Replacement entries: ${queue.replacements}\n- Human approval entries: ${queue.humanApproval}\n\n` +
     `## Git Safety Review\n\n${gitStatus.ok ? '' : `Git status failed: ${gitStatus.error}\n\n`}Safe changed files:\n${markdownList(safeFiles, item => `- ${item.status.trim() || 'M'} ${item.file}`)}\n\nSensitive/local changed files, do not auto-push:\n${markdownList(sensitiveFiles, item => `- ${item.status.trim() || 'M'} ${item.file}`)}\n\n` +
-    `## Recommended Next Actions\n\n1. Continue Saint Seraphim full script package.\n2. Build Corporate Shadows visual upgrade workflow before public publishing more videos.\n3. Keep private YouTube tracker/status files local unless explicitly approved for disclosure.\n4. Start AI/B2B concept and offer map on 2026-06-10.\n5. Review ${DASHBOARD_FILE} for a browser dashboard.\n`;
+    `## Recommended Next Actions\n\n1. Keep The Saints research-only until the Corporate Shadows public-video gate is met.\n2. Continue Corporate Shadows Video 3 sourcing sprint.\n3. Keep private YouTube tracker/status files local unless explicitly approved for disclosure.\n4. Start AI/B2B concept and offer map on 2026-06-10.\n5. Review ${DASHBOARD_FILE} for a browser dashboard.\n`;
 
   const brief = `PM Status (${formatDate(TODAY)}): ${stakeholderSummary}`;
   return { report, brief, safeFiles, sensitiveFiles, gitStatus };

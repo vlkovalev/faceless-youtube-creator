@@ -10,7 +10,7 @@ const WORDS_PER_SECOND = 2.25;
 
 function readJson(filePath, fallback) {
   if (!fs.existsSync(filePath)) return fallback;
-  return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  return JSON.parse(fs.readFileSync(filePath, 'utf8').replace(/^\uFEFF/, ''));
 }
 
 function writeJson(filePath, data) {
