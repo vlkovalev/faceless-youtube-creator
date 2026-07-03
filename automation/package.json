@@ -13,6 +13,7 @@
                     "revisions:queue":  "node revision_queue_agent.js",
                     "qc":  "node run_pipeline.js --stage qc",
                     "youtube:status":  "node youtube_status_agent.js",
+                    "fix:issues":  "node issue_fixer_agent.js",
                     "upload:dry-run":  "node run_pipeline.js --stage upload-dry-run",
                     "all":  "node run_pipeline.js --stage all",
                     "pm:report":  "node pm_agent.js",
@@ -23,7 +24,10 @@
                     "visual:plan:3":  "node visual_asset_planner.js --video 3",
                     "visual:plan:4":  "node visual_asset_planner.js --video 4",
                     "visual:plan:5":  "node visual_asset_planner.js --video 5",
-                    "growth:check":  "node growth_agent.js"
+                    "growth:check":  "node growth_agent.js",
+                    "compilation:omni": "node compile_omni_video.js",
+                    "autopilot:scan": "node autopilot_orchestrator_agent.js --dry-run --saints",
+                    "autopilot:upload": "node autopilot_orchestrator_agent.js --upload --saints"
                 },
     "keywords":  [
 

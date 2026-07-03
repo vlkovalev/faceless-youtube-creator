@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-003",
+  "title": "I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-003 - I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/18xDtknojCsWaGMg9KpgUr9_5V-vvOfmg",
+  "files": [
+    "SAAS-003_blueprint.pdf",
+    "SAAS-003_templates.pdf",
+    "SAAS-003_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-003\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1ZhGRGQngA_fQDEVXCSs8uCPKGAXnNUNJ",
+      "name": "SAAS-003_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1ZhGRGQngA_fQDEVXCSs8uCPKGAXnNUNJ/view?usp=drivesdk"
+    },
+    {
+      "id": "14GC7uxv5F7pRMQS8zL6JUWdKKXUsaMNk",
+      "name": "SAAS-003_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/14GC7uxv5F7pRMQS8zL6JUWdKKXUsaMNk/view?usp=drivesdk"
+    },
+    {
+      "id": "1JYGItKKlwfTPNyzb-O220hW2UE2AsaLu",
+      "name": "SAAS-003_templates.pdf",
+      "url": "https://drive.google.com/file/d/1JYGItKKlwfTPNyzb-O220hW2UE2AsaLu/view?usp=drivesdk"
+    }
+  ]
+}

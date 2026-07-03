@@ -1,0 +1,122 @@
+{
+  "video": {
+    "title": "The Silent Killer: How a Chemical Giant Poisoned a Town and Covered It Up",
+    "niche": "Dark Business History",
+    "duration": "10m 15s",
+    "voiceover_settings": {
+      "model": "Piper TTS - Ryan (Deep Cinematic)",
+      "pacing": "Deliberate, mysterious, conversational but dramatic",
+      "music": "Dark slow strings, heavy industrial bass drops at hooks"
+    }
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Frying Pan (The Hook)",
+      "voiceover": "Take a look at the frying pan in your kitchen. Sleek, non-stick, and completely harmless. Or so you have been told. What if I told you that the secret behind that clean cooking surface is a man-made chemical now flowing inside the blood of ninety-nine point seven percent of all living humans on Earth?",
+      "visual_prompt": "Soul Cinema, close-up of a premium black non-stick frying pan resting under a sharp, cold white spotlight. Heavy, toxic glowing-green bubbles slowly emerge from the sleek surface, popping into a thin white vapor against a pitch-black background.",
+      "camera_movement": "Ultra-slow zoom in, capturing the micro-textures of the non-stick coating. 4k resolution, cinematic.",
+      "sound_effect": "Low, resonant bass drop. A faint, toxic sizzling sound as the bubbles rise and pop.",
+      "pacing_note": "Deliver the first line very slowly. Pause after 'harmless'. Let the hook sink in."
+    },
+    {
+      "scene_number": 2,
+      "title": "The Miracle Chemical (The Origin)",
+      "voiceover": "It began in 1938. Inside a DuPont laboratory, chemists stumbled upon a miracle substance: polytetrafluoroethylene, or Teflon. It was slick, waterproof, and completely impervious to heat and acid. It was hailed as the greatest scientific discovery of the century, bringing in billions in pure profit.",
+      "visual_prompt": "Soul Cinema, a retro 1940s scientific laboratory. A scientist in a pristine white coat watches a glowing white powder slide effortlessly off a glass surface without leaving a single trace under golden ambient light.",
+      "camera_movement": "Slow tracking shot from left to right, focusing on the seamless slide of the powder with shallow depth of field.",
+      "sound_effect": "Soft electric hum. The delicate rustle of powder sliding on glass.",
+      "pacing_note": "Deliver with awe and excitement. Emphasize 'greatest scientific discovery'."
+    },
+    {
+      "scene_number": 3,
+      "title": "The Secret Poison (The Hazard)",
+      "voiceover": "But inside DuPont's executive boardrooms, a dark secret was already festering. By the 1960s, the company's internal medical studies revealed a terrifying truth: the key manufacturing surfactant, C8, was highly toxic, caused liver damage in animals, and did not break down in nature. Ever.",
+      "visual_prompt": "Soul Cinema, a shadowy executive boardroom at night. A single manila folder labeled 'CONFIDENTIAL - C8 TOXICITY REPORT' sits on a heavy, polished dark mahogany table, illuminated by a warm brass desk lamp.",
+      "camera_movement": "Slow pan across the glossy table, focusing on the red 'CONFIDENTIAL' stamp. Heavy shadows drape the room.",
+      "sound_effect": "Ominous low violin chord. A distant clock ticking slowly in the dark.",
+      "pacing_note": "Pace is conspiratorial and low. Deliver 'Ever.' with absolute finality."
+    },
+    {
+      "scene_number": 4,
+      "title": "The Factory Town (The Pollution)",
+      "voiceover": "Despite the danger, DuPont continued to scale production. In the small town of Parkersburg, West Virginia, the massive Washington Works plant became the global capital of Teflon. And with it, millions of pounds of toxic C8 were quietly pumped into the air, the soil, and the local drinking water.",
+      "visual_prompt": "Soul Cinema, panoramic view of a massive chemical refinery plant at dusk. Thick grey smoke billows from tall dark stacks under a dramatic orange-purple sunset, reflecting off the dark Ohio River.",
+      "camera_movement": "Wide shot, slow pan across the river skyline capturing the immense industrial scale.",
+      "sound_effect": "Distant mechanical rumble. The soft, continuous rush of flowing river water.",
+      "pacing_note": "A tone of quiet outrage. Highlight the contrast between 'small town' and 'millions of pounds'."
+    },
+    {
+      "scene_number": 5,
+      "title": "The Bleeding Cattle (The Discovery)",
+      "voiceover": "The corporate shield began to crack in 1998. A local farmer named Wilbur Tennant noticed something horrific: his cattle were bleeding from their nostrils, their teeth were turning black, and they were dying in agony. They had been drinking from a creek downstream from DuPont's secret landfill.",
+      "visual_prompt": "Soul Cinema, a distressed farmer standing beside a dried creek bed at twilight. A rusted wire fence lines the background as he holds a rusted bucket containing murky, foaming yellow water.",
+      "camera_movement": "Slow handheld tracking shot, dolly-in on the farmer's weathered hands.",
+      "sound_effect": "Distant sound of crows. The hollow metallic clank of the bucket handle.",
+      "pacing_note": "High emotional drama. Emphasize the physical horror of 'bleeding' and 'black teeth'."
+    },
+    {
+      "scene_number": 6,
+      "title": "The Paper Trail (The Cover-Up)",
+      "voiceover": "DuPont tried to silence the farmer, blaming poor management. But Tennant hired a relentless lawyer named Rob Bilott. Through a massive legal discovery, Bilott forced DuPont to hand over one hundred and ten thousand pages of confidential files, unearthing sixty years of calculated deception.",
+      "visual_prompt": "Soul Cinema, a dimly lit room stacked high with dusty cardboard archive boxes. A lawyer in a rumpled suit sits on the floor under a bare lightbulb, surrounded by mountains of paper, holding a document with key lines blacked out.",
+      "camera_movement": "Ultra-slow crane shot rising from the papers to reveal the overwhelming scale of the files.",
+      "sound_effect": "The rustle of dry paper. A single, high-pitched ringing frequency representing discoveries.",
+      "pacing_note": "Build excitement and tension. Pace should match the rising action of the legal search."
+    },
+    {
+      "scene_number": 7,
+      "title": "The Poisoned Workers (The Human Toll)",
+      "voiceover": "The documents revealed that DuPont had been secretly monitoring their own factory workers. They knew that pregnant workers in the Teflon division were giving birth to babies with severe facial deformities. Yet, they kept the workers in the dark, prioritizing their multi-billion dollar profits.",
+      "visual_prompt": "Soul Cinema, high-contrast portrait of a weary factory worker in a dark blue boiler suit staring blankly with sad eyes. Soft industrial sparks glow in the dark background, highlighting her silhouette.",
+      "camera_movement": "Slow push in on her eyes, capturing the raw human cost. Minimal depth of field.",
+      "sound_effect": "Distant metal clanging. A low, melancholic synth hum.",
+      "pacing_note": "Compassionate, slow, and somber. Deliver the line about birth defects with immense gravity."
+    },
+    {
+      "scene_number": 8,
+      "title": "The Calculated Risk (The Formula)",
+      "voiceover": "In 1984, DuPont executives held a secret meeting to assess the liability. The cost of cleaning up C8 was estimated at a few million dollars. But Teflon was generating three hundred million in annual profit. The executives did the math, chose profit, and decided to double down on the pollution.",
+      "visual_prompt": "Soul Cinema, a shadowy boardroom at night. Wealthy figures in dark wool suits sit around a polished table. A chalkboard in the background shows a dry cost-benefit equation: 'LIABILITY < PROFIT'.",
+      "camera_movement": "Slow circular orbit tracking shot around the table, capturing the cold expressions of control.",
+      "sound_effect": "Subtle low bass rumble. The clinking of crystal whiskey glasses.",
+      "pacing_note": "Cold, clinical, and analytical. Let the corporate math speak for itself."
+    },
+    {
+      "scene_number": 9,
+      "title": "The Global Contamination (The Forever Chemical)",
+      "voiceover": "C8 is what scientists call a 'forever chemical.' Because of its incredibly strong carbon-fluorine bonds, it never degrades. It travels through water, enters the food chain, and builds up inside living tissue. Today, it is found in polar bears in the Arctic, and in the blood of newborns.",
+      "visual_prompt": "Soul Cinema, close-up of a glass of tap water. A glowing micro-particle suspended in the center slowly dissolves, casting a distorted, neon-green shadow on a dark wooden tabletop.",
+      "camera_movement": "Macro lens close-up, panning through the glass as the light refracts through the water.",
+      "sound_effect": "A deep, mechanical metallic hum. The soft clinking of glass.",
+      "pacing_note": "Sardonic, dark, and global. Emphasize the words 'forever chemical' and 'never degrades'."
+    },
+    {
+      "scene_number": 10,
+      "title": "The Groundbreaking Settlement (The Legal Battle)",
+      "voiceover": "Armed with the paper trail, Bilott launched a massive class-action lawsuit representing seventy thousand local residents. In 2004, they forced DuPont into a record settlement, securing clean water filtration for the community and launching the largest epidemiological study in history.",
+      "visual_prompt": "Soul Cinema, a crowded modern courtroom with polished wood paneling. A heavy wooden gavel rests on a leather block under a warm golden spotlight, reflecting off brass fixtures.",
+      "camera_movement": "Wide shot, slow push forward as the spotlight catches the gavel.",
+      "sound_effect": "A sudden, powerful gavel strike. Distant murmuring crowd.",
+      "pacing_note": "Triumphant transition. The shift of power is beginning."
+    },
+    {
+      "scene_number": 11,
+      "title": "The Scientific Verdict (The Link)",
+      "voiceover": "After seven years of research, the independent science panel delivered their final verdict: C8 was directly linked to kidney cancer, testicular cancer, thyroid disease, and high cholesterol. The corporate lie was scientifically shattered. The silent killer was unmasked.",
+      "visual_prompt": "Soul Cinema, close-up of a laboratory microscope slide glowing with a bright green biological structure, a drop of red liquid slowly diffusing over the lens.",
+      "camera_movement": "Extreme close-up on the slide, slowly rack-focusing to reveal the micro-details of the cells.",
+      "sound_effect": "A soft digital scanning chirp. A beautiful synth sweep.",
+      "pacing_note": "Deliver the list of diseases with absolute certainty. Accentuate 'scientifically shattered'."
+    },
+    {
+      "scene_number": 12,
+      "title": "The Legacy of Teflon (The Warning)",
+      "voiceover": "DuPont eventually phased out C8, replacing it with GenX—another forever chemical with similar health concerns. Teflon remains a household name. So, the next time you cook, remember: you are not just using a miracle of modern convenience. You are living in a world shaped by corporate shadows.",
+      "visual_prompt": "Soul Cinema, ultra-slow dolly back from a single domestic kitchen stove in a dark house at midnight. A faint, glowing green residue outlines the cold stove burner, dissolving into pitch blackness.",
+      "camera_movement": "Ultra-slow dolly back, leaving only absolute darkness and a faint glowing green outline.",
+      "sound_effect": "A sudden, powerful wind whoosh. A final deep, resounding sub-bass hit that fades to absolute silence.",
+      "pacing_note": "Deliver the final four words with absolute gravity: 'shaped... by... corporate... shadows.'"
+    }
+  ]
+}

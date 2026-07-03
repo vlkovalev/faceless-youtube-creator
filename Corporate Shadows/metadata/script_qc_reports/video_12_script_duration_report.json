@@ -1,0 +1,72 @@
+{
+  "script_id": 12,
+  "title": "The Secret Monopoly That Controls Everything You Wear",
+  "total_words": 1415,
+  "estimated_seconds": 629,
+  "estimated_minutes": 10.5,
+  "target_words": "1250-1650",
+  "minimum_words": 1100,
+  "status": "passed",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Hook",
+      "word_count": 101
+    },
+    {
+      "scene_number": 2,
+      "title": "The Italian Workshop",
+      "word_count": 138
+    },
+    {
+      "scene_number": 3,
+      "title": "The Manufacturing Vision",
+      "word_count": 107
+    },
+    {
+      "scene_number": 4,
+      "title": "The Retail Takeover",
+      "word_count": 122
+    },
+    {
+      "scene_number": 5,
+      "title": "The Brand Empire",
+      "word_count": 120
+    },
+    {
+      "scene_number": 6,
+      "title": "The Price of Monopoly",
+      "word_count": 126
+    },
+    {
+      "scene_number": 7,
+      "title": "The Illusion of Insurance",
+      "word_count": 126
+    },
+    {
+      "scene_number": 8,
+      "title": "The Investigation Begins",
+      "word_count": 108
+    },
+    {
+      "scene_number": 9,
+      "title": "The Empire Strikes Back",
+      "word_count": 131
+    },
+    {
+      "scene_number": 10,
+      "title": "The Cracks Appear",
+      "word_count": 130
+    },
+    {
+      "scene_number": 11,
+      "title": "The Lessons Learned",
+      "word_count": 129
+    },
+    {
+      "scene_number": 12,
+      "title": "Outro",
+      "word_count": 77
+    }
+  ]
+}

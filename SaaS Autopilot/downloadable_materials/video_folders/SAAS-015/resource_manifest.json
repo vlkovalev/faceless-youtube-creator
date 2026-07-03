@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-015",
+  "title": "How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-015 - How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1Q9pb89tc5nwIL8mcNBg1o999-ph3XiCS",
+  "files": [
+    "SAAS-015_blueprint.pdf",
+    "SAAS-015_templates.pdf",
+    "SAAS-015_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-015\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1Oq2h3XebvHAuKeuLqZ9MuTmjrd-OKjd9",
+      "name": "SAAS-015_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1Oq2h3XebvHAuKeuLqZ9MuTmjrd-OKjd9/view?usp=drivesdk"
+    },
+    {
+      "id": "1nZlxGPkeNxYPUjcX4CvV0dep8MC0lfMa",
+      "name": "SAAS-015_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1nZlxGPkeNxYPUjcX4CvV0dep8MC0lfMa/view?usp=drivesdk"
+    },
+    {
+      "id": "13kqSBuZDpQH9OW6cqWhP6pgLpgTF9mAs",
+      "name": "SAAS-015_templates.pdf",
+      "url": "https://drive.google.com/file/d/13kqSBuZDpQH9OW6cqWhP6pgLpgTF9mAs/view?usp=drivesdk"
+    }
+  ]
+}

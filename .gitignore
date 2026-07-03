@@ -4,10 +4,16 @@ node_modules/
 automation/node_modules/
 
 # Secrets and OAuth tokens
-automation/credentials/client_secrets.json
-automation/credentials/oauth_tokens.json
+**/credentials/client_secrets.json
+**/credentials/oauth_tokens.json
+**/credentials/saints_oauth_tokens.json
+**/credentials/*.json
+**/credentials/*.backup*.json
+**/credentials/*.expired*.json
 .env
 *.env
+**/.env
+**/.env.*
 
 # Generated logs and temp files
 *.log
@@ -26,16 +32,31 @@ docs/pm_dashboard.html
 FINAL_VIDEO_*_VISUAL_UPGRADE.srt
 
 # Large/generated video outputs
-videos/uploaded/
-videos/ready/
-videos/failed/
-*.mp4
+**/videos/uploaded/
+**/videos/ready/
+**/videos/failed/
+**/*.mp4
 
 # Generated local TTS/video intermediates
-assets/video_*_assets/*
-!assets/video_*_assets/
-!assets/video_*_assets/visual_plan.json
-assets/video_*_assets/*_audio.wav
-assets/video_*_assets/*_audio.mp3
-assets/video_*_assets/*_video.mp4
-assets/v
+**/assets/video_*_assets/*
+!**/assets/video_*_assets/
+!**/assets/video_*_assets/visual_plan.json
+**/assets/video_*_assets/*_audio.wav
+**/assets/video_*_assets/*_audio.mp3
+**/assets/video_*_assets/*_video.mp4
+**/assets/video_*_assets/*_temp.mp4
+**/assets/video_*_assets/concat.txt
+**/assets/video_*_assets/temp_concat.mp4
+
+# Saints generated visual assets
+**/assets/saints_video_*_assets/*
+!**/assets/saints_video_*_assets/
+!**/assets/saints_video_*_assets/visual_plan.json
+
+# Archives and local binaries
+**/archive/
+**/automation/ffmpeg/
+**/automation/piper_tts/
+**/*.zip
+**/node_modules/
+**/__pycache__/

@@ -1,0 +1,103 @@
+{
+  "checked_at": "2026-06-07T14:09:36.945Z",
+  "dry_run": false,
+  "output_root": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved",
+  "summary": {
+    "total": 15,
+    "improved": 15,
+    "local_prompt_improver": 15,
+    "external_api_calls": 0
+  },
+  "results": [
+    {
+      "video_id": "SAAS-001",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-001\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-002",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-002\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-003",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-003\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-004",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-004\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-005",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-005\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-006",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-006\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-007",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-007\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-008",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-008\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-009",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-009\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-010",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-010\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-011",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-011\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-012",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-012\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-013",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-013\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-014",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-014\\improved_prompt_template.md"
+    },
+    {
+      "video_id": "SAAS-015",
+      "status": "improved",
+      "method": "local_prompt_improver",
+      "output": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\downloadable_materials\\prompt_improved\\SAAS-015\\improved_prompt_template.md"
+    }
+  ]
+}

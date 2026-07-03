@@ -1,0 +1,57 @@
+{
+  "topic_id": "SAAS-001",
+  "created_at": "2026-07-01T04:18:10.601Z",
+  "video_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\videos\\saas_autopilot\\SAAS_001_FINAL.mp4",
+  "mode": "production",
+  "publishable": true,
+  "scenes": [
+    {
+      "scene_number": 1,
+      "audio_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_1_audio.mp3",
+      "recording_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_1_recording.mp4",
+      "source_type": "screen_recording"
+    },
+    {
+      "scene_number": 2,
+      "audio_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_2_audio.mp3",
+      "recording_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_2_recording.mp4",
+      "source_type": "screen_recording"
+    },
+    {
+      "scene_number": 3,
+      "audio_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_3_audio.mp3",
+      "recording_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_3_recording.mp4",
+      "source_type": "screen_recording"
+    },
+    {
+      "scene_number": 4,
+      "audio_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_4_audio.mp3",
+      "recording_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_4_recording.mp4",
+      "source_type": "screen_recording"
+    },
+    {
+      "scene_number": 5,
+      "audio_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_5_audio.mp3",
+      "recording_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_5_recording.mp4",
+      "source_type": "screen_recording"
+    },
+    {
+      "scene_number": 6,
+      "audio_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_6_audio.mp3",
+      "recording_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_6_recording.mp4",
+      "source_type": "screen_recording"
+    },
+    {
+      "scene_number": 7,
+      "audio_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_7_audio.mp3",
+      "recording_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_7_recording.mp4",
+      "source_type": "screen_recording"
+    },
+    {
+      "scene_number": 8,
+      "audio_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_8_audio.mp3",
+      "recording_file": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\assets\\saas_autopilot_assets\\saas_001\\scene_8_recording.mp4",
+      "source_type": "screen_recording"
+    }
+  ]
+}

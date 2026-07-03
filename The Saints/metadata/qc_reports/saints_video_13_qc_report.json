@@ -1,0 +1,65 @@
+{
+  "video_id": "SAINTS-0013",
+  "script_id": "saints_13_prayer",
+  "qc_status": "passed_with_warnings",
+  "generated_at": "2026-07-01T04:43:57.630Z",
+  "checks": [
+    {
+      "name": "final_video_exists",
+      "ok": true,
+      "detail": "The Saints/videos/saints_prayers_ready/SAINTS_PRAYER_13_FINAL.mp4"
+    },
+    {
+      "name": "final_video_non_empty",
+      "ok": true,
+      "detail": "5.93 MB"
+    },
+    {
+      "name": "prayer_duration_minimum",
+      "ok": true,
+      "detail": "153s / 120s minimum"
+    },
+    {
+      "name": "captions_exist",
+      "ok": true,
+      "detail": "The Saints/videos/saints_prayers_ready/SAINTS_PRAYER_13_FINAL.srt"
+    },
+    {
+      "name": "thumbnail_exists",
+      "ok": true,
+      "detail": "Thumbnails/saints_prayer_13_thumbnail.png"
+    },
+    {
+      "name": "prayer_section_audio_count",
+      "ok": true,
+      "detail": "6/6"
+    },
+    {
+      "name": "verified_prayer_icon_present",
+      "ok": true,
+      "detail": "2 verified icon card(s)"
+    },
+    {
+      "name": "metadata_queue_entry",
+      "ok": true,
+      "detail": "Prayer to Saint Ambrose of Optina | Text and Icon"
+    },
+    {
+      "name": "upload_visibility_safe",
+      "ok": true,
+      "detail": "private"
+    },
+    {
+      "name": "prayer_rights_verified",
+      "ok": true,
+      "detail": "rights verified"
+    },
+    {
+      "name": "replacement_cleanup_declared",
+      "ok": true,
+      "detail": "not a replacement upload"
+    }
+  ],
+  "warnings": [],
+  "approval_required_before_public": true
+}

@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-006",
+  "title": "How to Build a Telegram AI CRM Agent That Closes Clients",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-006 - How to Build a Telegram AI CRM Agent That Closes Clients",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1RjvFXyQTCca0sMf72-Y1SVxgXQDW05GY",
+  "files": [
+    "SAAS-006_blueprint.pdf",
+    "SAAS-006_templates.pdf",
+    "SAAS-006_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-006\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1gPvfCF5LPYig52Tg2HyrBjrnzV9R7RCJ",
+      "name": "SAAS-006_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1gPvfCF5LPYig52Tg2HyrBjrnzV9R7RCJ/view?usp=drivesdk"
+    },
+    {
+      "id": "11mab4KW_Eosj7wj39Lde3D1Uc-UFpHUC",
+      "name": "SAAS-006_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/11mab4KW_Eosj7wj39Lde3D1Uc-UFpHUC/view?usp=drivesdk"
+    },
+    {
+      "id": "1ApmDPmKh-phoqeT1AsiHXrpxs7WYro6L",
+      "name": "SAAS-006_templates.pdf",
+      "url": "https://drive.google.com/file/d/1ApmDPmKh-phoqeT1AsiHXrpxs7WYro6L/view?usp=drivesdk"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "script_id": 4,
+  "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+  "total_words": 1713,
+  "estimated_seconds": 761,
+  "estimated_minutes": 12.7,
+  "target_words": "1250-1650",
+  "minimum_words": 1100,
+  "status": "passed",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Big Lie",
+      "word_count": 98
+    },
+    {
+      "scene_number": 2,
+      "title": "A Nation in Fear",
+      "word_count": 118
+    },
+    {
+      "scene_number": 3,
+      "title": "The Two Suspects",
+      "word_count": 151
+    },
+    {
+      "scene_number": 4,
+      "title": "Project 226",
+      "word_count": 114
+    },
+    {
+      "scene_number": 5,
+      "title": "The Payoff",
+      "word_count": 137
+    },
+    {
+      "scene_number": 6,
+      "title": "Forging the Science",
+      "word_count": 140
+    },
+    {
+      "scene_number": 7,
+      "title": "The Golden Stamp",
+      "word_count": 146
+    },
+    {
+      "scene_number": 8,
+      "title": "The Hit Job",
+      "word_count": 152
+    },
+    {
+      "scene_number": 9,
+      "title": "The Low-Fat Craze",
+      "word_count": 150
+    },
+    {
+      "scene_number": 10,
+      "title": "The Unseen Epidemic",
+      "word_count": 139
+    },
+    {
+      "scene_number": 11,
+      "title": "The Paper Trail",
+      "word_count": 163
+    },
+    {
+      "scene_number": 12,
+      "title": "The Bitter Truth",
+      "word_count": 205
+    }
+  ]
+}

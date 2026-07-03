@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-05-31T00:00:00.000Z",
+  "operating_model": "three_team_parallel",
+  "teams": {
+    "corporate_shadows_team": {
+      "status": "active_production",
+      "channel": "Corporate Shadows",
+      "allowed_work": "Full production — research, scriptwriting, visual planning, voiceover, editing, private/scheduled uploads. Auto-allow all production stages; ask user ONLY for deletions.",
+      "next_action": "Execute Video 8 (Monsanto Seed Monopoly) research brief, script drafting, and widescreen layout compilation."
+    },
+    "saints_team": {
+      "status": "active_production",
+      "channel": "The Saints",
+      "allowed_work": "Full production — scripts, visual plans, asset sourcing, voiceover, editing. Upload to Saints channel ONLY (separate OAuth).",
+      "gate_note": "Saints team runs in parallel per user decision 2026-05-31. Publishing gate: separate Saints Brand Account must be confirmed before Jun 23 publish date.",
+      "next_action": "Confirm Saints channel OAuth is separate from Corporate Shadows. Produce assets for SAINTS-013 through SAINTS-019."
+    },
+    "SAAS_AUTOPILOT_team": {
+      "status": "setup_phase",
+      "channel": "SaaS Autopilot SaaS Automation Channel",
+      "allowed_work": "Channel strategy, topic research, workflow templates, pilot planning. No uploads until 3 workflows are tested and template-backed.",
+      "gate_note": "Team created 2026-05-31. Define ICP, first 5 topics, production workflow. Target first upload: August 2026.",
+      "next_action": "Create SAAS_AUTOPILOT_channel_config.json and initial topic backlog."
+    }
+  },
+  "corporate_shadows": {
+    "public_videos": 0,
+    "scheduled_videos": 6,
+    "canonical_scheduled_ids": ["21DRL-iGzBs", "gPhHnEjKaP8", "PxBdlAu-hvY", "A2WQxHuiFcg", "ZM0fbdddYZA", "nVa-LJXFrlo"],
+    "first_publish_date": "2026-06-02T06:00:00.000Z",
+    "cadence": "Tuesday/Friday at 00:00 America/Edmonton (06:00 UTC)"
+  },
+  "saints_gate": {
+    "status": "open",
+    "publishing_gate": "open",
+    "required_before_publish": "None (separate channel verified and ready videos approved for immediate release)",
+    "earliest_publish": "immediate",
+    "note": "Saints gate opened by user instruction on June 6, 2026. Ready videos are to be published immediately."
+  },
+  "SAAS_AUTOPILOT_gate": {
+    "status": "open",
+    "publish_gate": "open",
+    "required_before_production": "None (active production authorized)",
+    "required_before_publish": "None (publish immediately once cleared by QA/QC)",
+    "earliest_publish": "immediate"
+  },
+  "canonical_slate_path": "metadata/canonical_slate.json"
+}

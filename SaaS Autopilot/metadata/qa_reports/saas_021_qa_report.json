@@ -1,0 +1,58 @@
+{
+  "topic_id": "SAAS-021",
+  "checked_at": "2026-07-02T02:19:20.512Z",
+  "script_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\scripts\\saas_autopilot\\saas_021_data.json",
+  "video_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\videos\\saas_autopilot\\SAAS_021_FINAL.mp4",
+  "dry_run": false,
+  "skip_video": false,
+  "failures": [],
+  "warnings": [],
+  "duration_qc": {
+    "checked": true,
+    "passed": true,
+    "exit_code": 0,
+    "duration_seconds": 819,
+    "minimum_duration_seconds": 480,
+    "error": null
+  },
+  "visual_qc": {
+    "checked": true,
+    "passed": true,
+    "exit_code": 0,
+    "duration_seconds": 819,
+    "black_seconds": 0,
+    "black_ratio": 0,
+    "black_segments": [],
+    "error": null
+  },
+  "repetition_qc": {
+    "checked": true,
+    "passed": true,
+    "samples": 82,
+    "repeated_samples": 22,
+    "repeated_ratio": 0.2683,
+    "error": null
+  },
+  "production_evidence_qc": {
+    "passed": true,
+    "failures": [],
+    "edit_report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\edit_reports\\saas_021_edit_report.json",
+    "approval_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\review_approvals\\saas_021_approval.json",
+    "video_sha256": "4705565b84802f1a79d4a306543f16851d393351e4e1ed27d3f32edcbb359fd9"
+  },
+  "instructional_quality_qc": {
+    "passed": true,
+    "failures": [],
+    "warnings": [],
+    "metrics": {
+      "scenes": 18,
+      "voiceover_words": 902,
+      "demo_steps": 32,
+      "visual_anchors": 189,
+      "actionable_build_verbs": 229,
+      "bad_phrase_hits": []
+    }
+  },
+  "link_verification_limited": false,
+  "passed": true
+}

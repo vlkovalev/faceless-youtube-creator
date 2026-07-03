@@ -1,0 +1,30 @@
+{
+  "channel": "SAAS_AUTOPILOT",
+  "topic_id": "SAAS-005",
+  "publish_at": "2026-06-04T14:00:00.000Z",
+  "started_at": "2026-06-03T09:33:12.950Z",
+  "dry_run": true,
+  "stages": {
+    "script": {
+      "status": "complete",
+      "timestamp": "2026-06-03T09:33:12.962Z"
+    },
+    "tts": {
+      "status": "complete",
+      "timestamp": "2026-06-03T09:33:12.969Z"
+    },
+    "edit": {
+      "status": "complete",
+      "timestamp": "2026-06-03T09:33:12.976Z"
+    },
+    "qc": {
+      "status": "complete",
+      "timestamp": "2026-06-03T09:33:12.981Z"
+    },
+    "upload": {
+      "status": "complete",
+      "timestamp": "2026-06-03T09:33:12.989Z"
+    }
+  },
+  "last_updated": "2026-06-03T09:33:12.989Z"
+}

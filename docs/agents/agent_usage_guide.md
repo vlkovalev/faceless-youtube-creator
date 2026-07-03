@@ -1,4 +1,4 @@
-﻿# Agent Usage Guide
+# Agent Usage Guide
 
 ## How To Use This Library
 
@@ -7,7 +7,7 @@ For each episode, run the agent prompts in this order:
 1. Select channel overlay
    - Corporate Shadows
    - The Saints
-   - AI / B2B Automation
+   - SaaS Autopilot
 
 2. Research Agent
    Output: research_brief.md
@@ -60,7 +60,7 @@ Default approach:
 - Core Analytics Feedback Agent
 - Corporate Shadows overlay
 - The Saints overlay
-- AI / B2B Automation overlay
+- SaaS Autopilot overlay
 - Saint Seraphim episode pack
 
 ## Next Agents To Add
@@ -68,6 +68,6 @@ Default approach:
 - Saints Thumbnail Agent
 - Saints Source Rights Agent
 - Corporate Shadows Visual Sourcing Agent
-- AI/B2B Tutorial Workflow Agent
+- SaaS Autopilot Tutorial Workflow Agent
 - Sponsorship/Affiliate Packaging Agent
 

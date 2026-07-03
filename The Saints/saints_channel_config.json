@@ -1,0 +1,209 @@
+{
+  "channel": {
+    "working_name": "The Saints",
+    "niche": "Orthodox and Catholic saint stories",
+    "tagline": "True stories of courage, repentance, martyrdom, and holiness.",
+    "description": "Cinematic stories of Christian saints from the Orthodox and Catholic traditions: desert fathers, martyrs, missionaries, mystics, confessors, and holy fools.",
+    "tone": "reverent, cinematic, historically careful, emotionally strong",
+    "language": "English",
+    "playlist_id": "PLlnXQFiTNjOvWHt1UhXy6r29kGtnOmDB4",
+    "primary_playlist": "Lives of the Saints"
+  },
+  "production_targets": {
+    "long_form_duration": {
+      "recommended_range": "8m+; no upper limit when the story requires more time",
+      "minimum_for_midroll_review": "8m 00s",
+      "hard_qc_minimum_seconds": 480,
+      "ideal_script_words": "minimum 1250; expand as needed for a complete story",
+      "story_completion_rule": "Do not compress a saint life to fit an arbitrary runtime. Cover the full arc: world, calling, struggle, decisive witness, death/repose, and legacy. Length is determined by story completeness and retention, not by a fixed cap."
+    },
+    "shorts_duration": {
+      "recommended_range": "30s-60s",
+      "purpose": "discovery and funnel to long-form"
+    }
+  },
+  "source_policy": {
+    "primary_rule": "Use public-domain books for story material and official church sources for verification. Do not copy modern copyrighted biographies verbatim.",
+    "legend_rule": "Label legendary or tradition-based material clearly instead of presenting every account as modern historical certainty.",
+    "sensitivity_rule": "Handle martyrdom, relics, icons, miracles, and denominational differences respectfully."
+  },
+  "content_pillars": [
+    "Desert Fathers and Mothers",
+    "Early Church Martyrs",
+    "Orthodox Saints",
+    "Catholic Saints",
+    "Missionary Saints",
+    "Holy Fools and Mystics",
+    "Modern Confessors",
+    "Athonite Elders",
+    "Russian Monastic Saints",
+    "Optina Elders",
+    "Alaska Missionary Monks"
+  ],
+  "first_backlog": [
+    {
+      "id": 1,
+      "title": "The Desert Saint Who Fought Demons Alone",
+      "saint": "Saint Anthony the Great",
+      "tradition": "Orthodox and Catholic",
+      "angle": "A wealthy young man abandons everything, enters the desert, and becomes the father of monasticism.",
+      "primary_sources": [
+        "Life of Antony by Athanasius",
+        "CCEL",
+        "OCA",
+        "Catholic Encyclopedia"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 2,
+      "title": "The Woman Who Vanished Into the Desert",
+      "saint": "Saint Mary of Egypt",
+      "tradition": "Orthodox and Catholic",
+      "angle": "A life of radical repentance after a shocking conversion at the doors of the church.",
+      "primary_sources": [
+        "public-domain hagiography",
+        "OCA",
+        "Catholic references"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 3,
+      "title": "The Real Saint Nicholas Was More Dangerous Than Santa",
+      "saint": "Saint Nicholas of Myra",
+      "tradition": "Orthodox and Catholic",
+      "angle": "The bishop behind the legend: charity, courage, imprisonment, and defense of the vulnerable.",
+      "primary_sources": [
+        "Butler",
+        "Golden Legend",
+        "OCA",
+        "Catholic Encyclopedia"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 4,
+      "title": "The Bishop Who Walked Into Fire",
+      "saint": "Saint Polycarp of Smyrna",
+      "tradition": "Orthodox and Catholic",
+      "angle": "An elderly disciple of the apostles refuses to deny Christ before execution.",
+      "primary_sources": [
+        "Martyrdom of Polycarp",
+        "Church Fathers",
+        "Catholic Encyclopedia"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 5,
+      "title": "The Outlaw Who Became a Desert Father",
+      "saint": "Saint Moses the Black",
+      "tradition": "Orthodox and Catholic",
+      "angle": "A violent robber becomes a monk, spiritual father, and martyr.",
+      "primary_sources": [
+        "Desert Fathers",
+        "OCA",
+        "Catholic references"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 6,
+      "title": "The Russian Monk Who Greeted Everyone With Joy",
+      "saint": "Saint Seraphim of Sarov",
+      "tradition": "Orthodox",
+      "angle": "A forest hermit, spiritual father, and Russian monastic saint whose teaching centered on acquiring the Holy Spirit.",
+      "primary_sources": [
+        "OCA Saint Seraphim of Sarov",
+        "public-domain lives",
+        "Britannica cross-check"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 7,
+      "title": "The Athonite Elder Who Comforted a Broken Century",
+      "saint": "Saint Paisios of Mount Athos",
+      "tradition": "Orthodox",
+      "angle": "A refugee child from Cappadocia becomes a beloved Athonite elder known for discernment, humility, and counsel for modern anxiety.",
+      "primary_sources": [
+        "OCA Saint Paisios",
+        "official Orthodox sources",
+        "Mount Athos context sources"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 8,
+      "title": "The Monk Who Learned to Keep His Mind in Hell",
+      "saint": "Saint Silouan the Athonite",
+      "tradition": "Orthodox",
+      "angle": "A Russian monk on Athos passes through despair and becomes a witness to humility, prayer, and love for enemies.",
+      "primary_sources": [
+        "Orthodox sources",
+        "Athonite context",
+        "modern copyrighted sources summarized cautiously"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 9,
+      "title": "The Monk Who Crossed the World to Protect Alaska",
+      "saint": "Saint Herman of Alaska",
+      "tradition": "Orthodox",
+      "angle": "A Russian monk travels to Alaska, lives in humility, and defends native Alaskans from exploitation.",
+      "primary_sources": [
+        "OCA",
+        "Orthodox North American saint resources",
+        "public-domain mission histories"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 10,
+      "title": "The Forest Monk Who Became the Soul of Russia",
+      "saint": "Saint Sergius of Radonezh",
+      "tradition": "Orthodox",
+      "angle": "A shy monk enters the Russian forest and becomes a spiritual father whose monastery shapes Russian Christian memory.",
+      "primary_sources": [
+        "OCA",
+        "Russian Orthodox sources",
+        "public-domain lives"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 11,
+      "title": "The Cave Monk Who Revived the Prayer of the Heart",
+      "saint": "Saint Joseph the Hesychast",
+      "tradition": "Orthodox",
+      "angle": "An Athonite ascetic whose hard life of prayer helped renew modern hesychastic monasticism.",
+      "primary_sources": [
+        "monastery sources",
+        "Orthodox references",
+        "modern biographies summarized cautiously"
+      ],
+      "status": "research_ready"
+    },
+    {
+      "id": 12,
+      "title": "The Monastery That Became Russia's Spiritual Hospital",
+      "saint": "The Optina Elders",
+      "tradition": "Orthodox",
+      "angle": "A place-centered story about eldership, suffering, confession, and the Russian hunger for spiritual counsel.",
+      "primary_sources": [
+        "Orthodox sources",
+        "public-domain Russian church history",
+        "Optina materials where rights allow"
+      ],
+      "status": "research_ready"
+    }
+  ],
+  "release_policy": {
+    "default_visibility_when_ready": "public",
+    "scheduling": "none",
+    "rule": "Do not schedule Saints releases. After final QC, real/approved visuals, captions, metadata, and thumbnail readiness pass, publish immediately.",
+    "current_private_draft_rule": "Private drafts remain private until all ready gates pass; then publish immediately instead of scheduling."
+  }
+}

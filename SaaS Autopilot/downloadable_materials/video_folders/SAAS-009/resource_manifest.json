@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-009",
+  "title": "I Automated My Company's Tech Newsletter (0 to 10k Subscribers)",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-009 - I Automated My Company's Tech Newsletter (0 to 10k Subscribers)",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1ajfLhh7a4475cRnJRUAueNRY_iIVTQjv",
+  "files": [
+    "SAAS-009_blueprint.pdf",
+    "SAAS-009_templates.pdf",
+    "SAAS-009_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-009\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "13Cqt5ks0UbW7_4oXcrOFLot__OMM67Md",
+      "name": "SAAS-009_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/13Cqt5ks0UbW7_4oXcrOFLot__OMM67Md/view?usp=drivesdk"
+    },
+    {
+      "id": "1fAJvgKHPv7aCXLE6lpkGcF2OIsQEW4Uc",
+      "name": "SAAS-009_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1fAJvgKHPv7aCXLE6lpkGcF2OIsQEW4Uc/view?usp=drivesdk"
+    },
+    {
+      "id": "1U7gJjFea70MYEqbSHj-yPo2vKymJTiel",
+      "name": "SAAS-009_templates.pdf",
+      "url": "https://drive.google.com/file/d/1U7gJjFea70MYEqbSHj-yPo2vKymJTiel/view?usp=drivesdk"
+    }
+  ]
+}

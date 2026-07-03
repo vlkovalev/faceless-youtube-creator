@@ -1,0 +1,622 @@
+[
+    {
+        "companion_id":  "saints_13_prayer",
+        "after_video_id":  13,
+        "saint":  "Saint Ambrose of Optina",
+        "working_title":  "Prayer to Saint Ambrose of Optina | Text and Icon",
+        "status":  "rights_verified",
+        "preferred_prayer":  {
+                                 "type":  "custom_prayer",
+                                 "title":  "Original Prayer to Saint Ambrose of Optina",
+                                 "source_url":  "https://www.sumarokovomp.ru/spravochnik/pravoslavny-molitvoslov/glavnyie-molitvyi/iisusova-molitva",
+                                 "rights_verified": true,
+                                 "rights_note":  "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+                             },
+        "fallback_prayers":  [
+                                 {
+                                     "type":  "theotokos_akathist",
+                                     "title":  "Akathist to the Most Holy Theotokos",
+                                     "use_case":  "Fallback if no rights-safe Ambrose Akathist text can be used."
+                                 }
+                             ],
+        "life_circumstances_helped":  [
+                                          "grief and loss",
+                                          "illness and physical weakness",
+                                          "seeking spiritual guidance",
+                                          "temptation and spiritual warfare",
+                                          "judging others",
+                                          "humility and repentance",
+                                          "daily discouragement"
+                                      ],
+        "voice_plan":  {
+                           "preferred":  "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+                           "allowed_fallback":  "original non-impersonating narration/TTS voice",
+                           "not_allowed":  "unauthorized cloning or imitation of a real priest or monk",
+                           "permissioned_recording":  false,
+                           "audio_leads":  [
+
+                                           ]
+                       },
+        "visual_plan":  {
+                            "primary":  "verified icon of Saint Ambrose of Optina with readable prayer text overlay",
+                            "fallback":  "reverent icon-style still plus source/rights-safe text cards",
+                            "notes":  "Keep the icon visible; text must be large enough to read on mobile."
+                        },
+        "opening_context_draft":  "People often turn to Saint Ambrose of Optina in times of grief, chronic illness, discouragement, and when seeking humble spiritual guidance. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for mercy, comfort, and peace."
+    },
+    {
+        "companion_id":  "saints_14_prayer",
+        "after_video_id":  14,
+        "saint":  "Saint Paisios of Mount Athos",
+        "working_title":  "Prayer to Saint Paisios of Mount Athos | Text and Icon",
+        "status":  "rights_verified",
+        "preferred_prayer":  {
+                                 "type":  "custom_prayer",
+                                 "title":  "Original Prayer to Saint Paisios of Mount Athos",
+                                 "source_url":  "https://russianorthodoxchurchcardiff.com/akathist-paisios-athonite",
+                                 "rights_verified": true,
+                                 "rights_note":  "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+                             },
+        "fallback_prayers":  [
+                                 {
+                                     "type":  "theotokos_akathist",
+                                     "title":  "Akathist to the Most Holy Theotokos",
+                                     "use_case":  "Fallback if no rights-safe Paisios Akathist text can be used."
+                                 }
+                             ],
+        "life_circumstances_helped":  [
+                                          "anxiety and panic",
+                                          "family and marriage troubles",
+                                          "illness and cancer",
+                                          "spiritual confusion and doubt",
+                                          "seeking peace in a noisy world",
+                                          "restlessness"
+                                      ],
+        "voice_plan":  {
+                           "preferred":  "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+                           "allowed_fallback":  "original non-impersonating narration/TTS voice",
+                           "not_allowed":  "unauthorized cloning or imitation of a real priest or monk",
+                           "permissioned_recording":  false,
+                           "audio_leads":  [
+
+                                           ]
+                       },
+        "visual_plan":  {
+                            "primary":  "verified icon of Saint Paisios of Mount Athos with readable prayer text overlay",
+                            "fallback":  "reverent icon-style still plus source/rights-safe text cards",
+                            "notes":  "Keep the icon visible; text must be large enough to read on mobile."
+                        },
+        "opening_context_draft":  "People often turn to Saint Paisios of Mount Athos in times of anxiety, family difficulty, illness, and spiritual confusion. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for quietness of heart, discernment, and peace."
+    },
+    {
+        "companion_id":  "saints_15_prayer",
+        "after_video_id":  15,
+        "saint":  "Saint Silouan the Athonite",
+        "working_title":  "Prayer to Saint Silouan the Athonite | Text and Icon",
+        "status":  "rights_verified",
+        "preferred_prayer":  {
+                                 "type":  "custom_prayer",
+                                 "title":  "Original Prayer to Saint Silouan the Athonite",
+                                 "source_url":  "https://www.orthodoxpath.org/saints-and-elders-lives/st-silouan-the-athonite/",
+                                 "rights_verified": true,
+                                 "rights_note":  "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+                             },
+        "fallback_prayers":  [
+                                 {
+                                     "type":  "theotokos_akathist",
+                                     "title":  "Akathist to the Most Holy Theotokos",
+                                     "use_case":  "Fallback if no rights-safe Silouan Akathist text can be used."
+                                 }
+                             ],
+        "life_circumstances_helped":  [
+                                          "despair and depression",
+                                          "spiritual darkness and dryness",
+                                          "humility and pride",
+                                          "loving enemies",
+                                          "forgiving others",
+                                          "peace of heart"
+                                      ],
+        "voice_plan":  {
+                           "preferred":  "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+                           "allowed_fallback":  "original non-impersonating narration/TTS voice",
+                           "not_allowed":  "unauthorized cloning or imitation of a real priest or monk",
+                           "permissioned_recording":  false,
+                           "audio_leads":  [
+
+                                           ]
+                       },
+        "visual_plan":  {
+                            "primary":  "verified icon of Saint Silouan the Athonite with readable prayer text overlay",
+                            "fallback":  "reverent icon-style still plus source/rights-safe text cards",
+                            "notes":  "Keep the icon visible; text must be large enough to read on mobile."
+                        },
+        "opening_context_draft":  "People often turn to Saint Silouan the Athonite in times of deep despair, depression, spiritual dryness, pride, and when struggling to forgive or pray for their enemies. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for humility, hope, and love."
+    },
+    {
+        "companion_id":  "saints_16_prayer",
+        "after_video_id":  16,
+        "saint":  "The Optina Elders",
+        "working_title":  "Prayer to the Venerable Elders of Optina | Text and Icon",
+        "status":  "rights_verified",
+        "preferred_prayer":  {
+                                 "type":  "custom_prayer",
+                                 "title":  "Original Prayer to the Venerable Elders of Optina",
+                                 "source_url":  "https://www.orthodoxpath.org/saints-and-elders-lives/optina-monastery-and-its-elders/",
+                                 "rights_verified": true,
+                                 "rights_note":  "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+                             },
+        "fallback_prayers":  [
+                                 {
+                                     "type":  "theotokos_akathist",
+                                     "title":  "Akathist to the Most Holy Theotokos",
+                                     "use_case":  "Fallback if no rights-safe Optina Elders Akathist text can be used."
+                                 }
+                             ],
+        "life_circumstances_helped":  [
+                                          "seeking spiritual direction",
+                                          "confession and repentance",
+                                          "family and social conflict",
+                                          "comfort in times of persecution",
+                                          "humility and obedience",
+                                          "mental health and peace of mind"
+                                      ],
+        "voice_plan":  {
+                           "preferred":  "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+                           "allowed_fallback":  "original non-impersonating narration/TTS voice",
+                           "not_allowed":  "unauthorized cloning or imitation of a real priest or monk",
+                           "permissioned_recording":  false,
+                           "audio_leads":  [
+
+                                           ]
+                       },
+        "visual_plan":  {
+                            "primary":  "verified icon of the Synaxis of the Optina Elders with readable prayer text overlay",
+                            "fallback":  "reverent icon-style still plus source/rights-safe text cards",
+                            "notes":  "Keep the icon visible; text must be large enough to read on mobile."
+                        },
+        "opening_context_draft":  "People often turn to the Synaxis of the Venerable Elders of Optina when seeking spiritual guidance, help with confession, comfort in trial, and peace amidst daily conflict. This prayer is offered as a companion to their place-centered history, not as a promise of a specific outcome, but as a way to pray with the Church for wisdom, humility, and repentance."
+    },
+    {
+        "companion_id":  "saints_17_prayer",
+        "after_video_id":  17,
+        "saint":  "Saint Herman of Alaska",
+        "working_title":  "Prayer to Saint Herman of Alaska | Text and Icon",
+        "status":  "rights_verified",
+        "preferred_prayer":  {
+                                 "type":  "custom_prayer",
+                                 "title":  "Original Prayer to Saint Herman of Alaska",
+                                 "source_url":  "https://www.orthodoxpath.org/saints-and-elders-lives/st-herman-of-alaska/",
+                                 "rights_verified": true,
+                                 "rights_note":  "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+                             },
+        "fallback_prayers":  [
+                                 {
+                                     "type":  "theotokos_akathist",
+                                     "title":  "Akathist to the Most Holy Theotokos",
+                                     "use_case":  "Fallback if no rights-safe Herman Akathist text can be used."
+                                 }
+                             ],
+        "life_circumstances_helped":  [
+                                          "protection of children",
+                                          "defense against injustice and greed",
+                                          "comfort in isolation or loneliness",
+                                          "fear of storms and natural disasters",
+                                          "missionary labor",
+                                          "healing during epidemics or illness"
+                                      ],
+        "voice_plan":  {
+                           "preferred":  "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+                           "allowed_fallback":  "original non-impersonating narration/TTS voice",
+                           "not_allowed":  "unauthorized cloning or imitation of a real priest or monk",
+                           "permissioned_recording":  false,
+                           "audio_leads":  [
+
+                                           ]
+                       },
+        "visual_plan":  {
+                            "primary":  "verified icon of Saint Herman of Alaska with readable prayer text overlay",
+                            "fallback":  "reverent icon-style still plus source/rights-safe text cards",
+                            "notes":  "Keep the icon visible; text must be large enough to read on mobile."
+                        },
+        "opening_context_draft":  "People often turn to Saint Herman of Alaska for the protection of children, defense against injustice, comfort in loneliness or isolation, and during times of severe illness or natural disasters. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for protection, endurance, and quiet trust in God."
+    },
+    {
+        "companion_id":  "saints_18_prayer",
+        "after_video_id":  18,
+        "saint":  "Saint Sergius of Radonezh",
+        "working_title":  "Prayer to Saint Sergius of Radonezh | Text and Icon",
+        "status":  "rights_verified",
+        "preferred_prayer":  {
+                                 "type":  "custom_prayer",
+                                 "title":  "Original Prayer to Saint Sergius of Radonezh",
+                                 "source_url":  "https://russianorthodoxchurchcardiff.com/canons-for-the-feast-of-the-repose-of-st-sergius-of-radonezh",
+                                 "rights_verified": true,
+                                 "rights_note":  "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+                             },
+        "fallback_prayers":  [
+                                 {
+                                     "type":  "troparion_kontakion",
+                                     "title":  "Troparion and Kontakion for Venerable Sergius of Radonezh",
+                                     "source_url":  "https://www.oca.org/saints/troparia/1997/07/05/101910-uncovering-of-the-relics-of-venerable-sergius-of-radonezh",
+                                     "rights_note":  "OCA page is copyrighted; request permission or use only as source reference."
+                                 },
+                                 {
+                                     "type":  "theotokos_akathist",
+                                     "title":  "Akathist to the Most Holy Theotokos",
+                                     "use_case":  "Fallback if no rights-safe Sergius Akathist text can be used."
+                                 }
+                             ],
+        "life_circumstances_helped":  [
+                                          "difficulty learning or reading",
+                                          "discouragement and shame about weakness",
+                                          "seeking humility and discipline",
+                                          "fear during unstable or violent times",
+                                          "need for wise spiritual guidance",
+                                          "family or community division",
+                                          "monastic vocation, obedience, and prayer life",
+                                          "sorrowful times and spiritual heaviness"
+                                      ],
+        "voice_plan":  {
+                           "preferred":  "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+                           "allowed_fallback":  "original non-impersonating narration/TTS voice",
+                           "not_allowed":  "unauthorized cloning or imitation of a real priest or monk",
+                           "permissioned_recording":  false,
+                           "audio_leads":  [
+                                               {
+                                                   "title":  "Zhitiye prepodobnogo Sergiya Radonezhskogo s akafistom",
+                                                   "url":  "https://azbyka.ru/audio/zhitie-prepodobnogo-sergija-radonezhskogo-s-akafistom.html",
+                                                   "reader_or_choir":  "Hegumen Hermogenes (Ananyev); Moscow Danilov Monastery festal male choir",
+                                                   "language":  "Russian",
+                                                   "rights_note":  "Promising real Orthodox monk/choir lead; reuse rights must be verified before use."
+                                               },
+                                               {
+                                                   "title":  "Prayer by agreement for education - Akathist to Saint Sergius of Radonezh",
+                                                   "url":  "https://prayer-by-agreement.com/akathist/molitva-o-pomoshchi-v-uchebe",
+                                                   "reader_or_choir":  "Unknown from search result",
+                                                   "language":  "likely Russian",
+                                                   "rights_note":  "Search result lists a 33:52 recording; reuse rights and source identity must be verified."
+                                               }
+                                           ]
+                       },
+        "visual_plan":  {
+                            "primary":  "verified icon of Saint Sergius of Radonezh with readable prayer text overlay",
+                            "fallback":  "reverent icon-style still plus source/rights-safe text cards",
+                            "notes":  "Keep the icon visible; text must be large enough to read on mobile."
+                        },
+        "opening_context_draft":  "People often turn to Saint Sergius of Radonezh in times of discouragement, difficulty learning, fear, division, and the need for humble spiritual strength. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for help, repentance, peace, and courage."
+    },
+    {
+        "companion_id":  "saints_19_prayer",
+        "after_video_id":  19,
+        "saint":  "Saint Paisios Velichkovsky",
+        "working_title":  "Prayer to Saint Paisios Velichkovsky | Text and Icon",
+        "status":  "rights_verified",
+        "preferred_prayer":  {
+                                 "type":  "custom_prayer",
+                                 "title":  "Original Prayer to Saint Paisios Velichkovsky",
+                                 "source_url":  "https://www.orthodoxpath.org/saints-and-elders-lives/st-paisius-velichkovsky/",
+                                 "rights_verified": true,
+                                 "rights_note":  "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+                             },
+        "fallback_prayers":  [
+                                 {
+                                     "type":  "theotokos_akathist",
+                                     "title":  "Akathist to the Most Holy Theotokos",
+                                     "use_case":  "Fallback if no rights-safe Paisios Velichkovsky Akathist text can be used."
+                                 }
+                             ],
+        "life_circumstances_helped":  [
+                                          "monastic vocation and obedience",
+                                          "studying and understanding spiritual texts",
+                                          "restoring prayer life",
+                                          "patience in work and translation",
+                                          "brotherly unity and peace in communities",
+                                          "mental attention and watchfulness"
+                                      ],
+        "voice_plan":  {
+                           "preferred":  "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+                           "allowed_fallback":  "original non-impersonating narration/TTS voice",
+                           "not_allowed":  "unauthorized cloning or imitation of a real priest or monk",
+                           "permissioned_recording":  false,
+                           "audio_leads":  [
+
+                                           ]
+                       },
+        "visual_plan":  {
+                            "primary":  "verified icon of Saint Paisios Velichkovsky with readable prayer text overlay",
+                            "fallback":  "reverent icon-style still plus source/rights-safe text cards",
+                            "notes":  "Keep the icon visible; text must be large enough to read on mobile."
+                        },
+        "opening_context_draft":  "People often turn to Saint Paisios Velichkovsky when seeking to restore a disciplined prayer life, when studying or trying to understand spiritual texts, and for unity and peace in communities. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for patience, watchfulness, and a quiet heart."
+    },
+    {
+        "companion_id":  "saints_20_prayer",
+        "after_video_id":  20,
+        "saint":  "Hegumen Nikon Vorobiev",
+        "working_title":  "Akathist of Repentance | Prayer With Text and Icon",
+        "status":  "rights_verified",
+        "preferred_prayer":  {
+                                 "type":  "akathist",
+                                 "title":  "Akathist of Repentance",
+                                 "source_url":  "https://www.sumarokovomp.ru/spravochnik/pravoslavny-molitvoslov/molitvyi-na-anglijskom-grecheskom-latyini-azerbajdzhanskom-i-tatarskom/molitvyi-na-anglijskom-yazyike/akathist-hymn-of-repentance-in-christ",
+                                 "rights_verified": true,
+                                 "rights_note":  "Public domain English translation sourced from Podvorye of Novospassky Monastery in Sumarokovo. Cleared for on-screen text and audio recitation."
+                             },
+        "fallback_prayers":  [
+                                 {
+                                     "type":  "theotokos_akathist",
+                                     "title":  "Akathist to the Most Holy Theotokos",
+                                     "use_case":  "Fallback if no rights-safe Repentance Akathist text can be used."
+                                 }
+                             ],
+        "life_circumstances_helped":  [
+                                          "sincere repentance",
+                                          "overcoming pride and self-display",
+                                          "seeking spiritual sobriety",
+                                          "struggling with passions",
+                                          "courage in times of persecution",
+                                          "pitying and forgiving others"
+                                      ],
+        "voice_plan":  {
+                           "preferred":  "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+                           "allowed_fallback":  "original non-impersonating narration/TTS voice",
+                           "not_allowed":  "unauthorized cloning or imitation of a real priest or monk",
+                           "permissioned_recording":  false,
+                           "audio_leads":  [
+
+                                           ]
+                       },
+        "visual_plan":  {
+                            "primary":  "verified portrait of Hegumen Nikon Vorobiev with readable prayer text overlay",
+                            "fallback":  "reverent icon-style still plus source/rights-safe text cards",
+                            "notes":  "Keep the portrait visible; text must be large enough to read on mobile."
+                        },
+        "opening_context_draft":  "Hegumen Nikon Vorobiev was a modern elder and teacher of repentance. Since he is not formally canonized, there is no official Akathist hymn dedicated to him. In keeping with his teachings, this prayer companion presents the Akathist of Repentance. It is offered as a way to pray for mercy, sobriety, humility, and the recovery of truth before God."
+    },
+    {
+        "companion_id": "saints_2_prayer",
+        "after_video_id": 2,
+        "saint": "Saint Seraphim of Sarov",
+        "working_title": "Prayer to Saint Seraphim of Sarov | Text and Icon",
+        "status": "rights_verified",
+        "preferred_prayer": {
+            "type": "custom_prayer",
+            "title": "Original Prayer to Saint Seraphim of Sarov",
+            "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-seraphim-of-sarov/",
+            "rights_verified": true,
+            "rights_note": "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+        },
+        "fallback_prayers": [
+            {
+                "type": "theotokos_akathist",
+                "title": "Akathist to the Most Holy Theotokos",
+                "use_case": "Fallback if no rights-safe Seraphim Akathist text can be used."
+            }
+        ],
+        "life_circumstances_helped": [
+            "seeking peace of heart",
+            "overcoming depression and sadness",
+            "patient endurance of illness",
+            "spiritual guidance",
+            "gaining joy in Christ"
+        ],
+        "voice_plan": {
+            "preferred": "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+            "allowed_fallback": "original non-impersonating narration/TTS voice",
+            "not_allowed": "unauthorized cloning or imitation of a real priest or monk",
+            "permissioned_recording": false,
+            "audio_leads": []
+        },
+        "visual_plan": {
+            "primary": "verified icon of Saint Seraphim of Sarov with readable prayer text overlay",
+            "fallback": "reverent icon-style still plus source/rights-safe text cards",
+            "notes": "Keep the icon visible; text must be large enough to read on mobile."
+        },
+        "opening_context_draft": "People often turn to Saint Seraphim of Sarov when seeking peace of heart, overcoming sadness, and during illness. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for joy, humility, and peace."
+    },
+    {
+        "companion_id": "saints_3_prayer",
+        "after_video_id": 3,
+        "saint": "Saint Nil Sorsky",
+        "working_title": "Prayer to Saint Nil Sorsky | Text and Icon",
+        "status": "rights_verified",
+        "preferred_prayer": {
+            "type": "custom_prayer",
+            "title": "Original Prayer to Saint Nil Sorsky",
+            "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-nil-sorsky/",
+            "rights_verified": true,
+            "rights_note": "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+        },
+        "fallback_prayers": [
+            {
+                "type": "theotokos_akathist",
+                "title": "Akathist to the Most Holy Theotokos",
+                "use_case": "Fallback if no rights-safe Nil Sorsky Akathist text can be used."
+            }
+        ],
+        "life_circumstances_helped": [
+            "seeking simplicity and contentment",
+            "overcoming greed and materialism",
+            "guarding against bad thoughts",
+            "finding quietness in prayer",
+            "spiritual sobriety"
+        ],
+        "voice_plan": {
+            "preferred": "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+            "allowed_fallback": "original non-impersonating narration/TTS voice",
+            "not_allowed": "unauthorized cloning or imitation of a real priest or monk",
+            "permissioned_recording": false,
+            "audio_leads": []
+        },
+        "visual_plan": {
+            "primary": "verified icon of Saint Nil Sorsky with readable prayer text overlay",
+            "fallback": "reverent icon-style still plus source/rights-safe text cards",
+            "notes": "Keep the icon visible; text must be large enough to read on mobile."
+        },
+        "opening_context_draft": "People often turn to Saint Nil Sorsky when seeking contentment, simplicity, and watchfulness over their thoughts. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for humility, sobriety, and peace."
+    },
+    {
+        "companion_id": "saints_4_prayer",
+        "after_video_id": 4,
+        "saint": "Saint Theophan the Recluse",
+        "working_title": "Prayer to Saint Theophan the Recluse | Text and Icon",
+        "status": "rights_verified",
+        "preferred_prayer": {
+            "type": "custom_prayer",
+            "title": "Original Prayer to Saint Theophan the Recluse",
+            "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-theophan-the-recluse/",
+            "rights_verified": true,
+            "rights_note": "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+        },
+        "fallback_prayers": [
+            {
+                "type": "theotokos_akathist",
+                "title": "Akathist to the Most Holy Theotokos",
+                "use_case": "Fallback if no rights-safe Theophan Akathist text can be used."
+            }
+        ],
+        "life_circumstances_helped": [
+            "learning to pray constantly",
+            "seeking spiritual guidance",
+            "comfort in isolation or loneliness",
+            "discernment and study",
+            "calming anxious thoughts"
+        ],
+        "voice_plan": {
+            "preferred": "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+            "allowed_fallback": "original non-impersonating narration/TTS voice",
+            "not_allowed": "unauthorized cloning or imitation of a real priest or monk",
+            "permissioned_recording": false,
+            "audio_leads": []
+        },
+        "visual_plan": {
+            "primary": "verified icon of Saint Theophan the Recluse with readable prayer text overlay",
+            "fallback": "reverent icon-style still plus source/rights-safe text cards",
+            "notes": "Keep the icon visible; text must be large enough to read on mobile."
+        },
+        "opening_context_draft": "People often turn to Saint Theophan the Recluse for guidance in prayer, comfort in loneliness, and study. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for quietness, wisdom, and constant prayer."
+    },
+    {
+        "companion_id": "saints_5_prayer",
+        "after_video_id": 5,
+        "saint": "Saint Innocent of Alaska",
+        "working_title": "Prayer to Saint Innocent of Alaska | Text and Icon",
+        "status": "rights_verified",
+        "preferred_prayer": {
+            "type": "custom_prayer",
+            "title": "Original Prayer to Saint Innocent of Alaska",
+            "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-innocent-of-alaska/",
+            "rights_verified": true,
+            "rights_note": "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+        },
+        "fallback_prayers": [
+            {
+                "type": "theotokos_akathist",
+                "title": "Akathist to the Most Holy Theotokos",
+                "use_case": "Fallback if no rights-safe Innocent Akathist text can be used."
+            }
+        ],
+        "life_circumstances_helped": [
+            "protection during travel",
+            "missionary labor and outreach",
+            "learning languages and study",
+            "serving others in difficult environments",
+            "guiding youth and students"
+        ],
+        "voice_plan": {
+            "preferred": "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+            "allowed_fallback": "original non-impersonating narration/TTS voice",
+            "not_allowed": "unauthorized cloning or imitation of a real priest or monk",
+            "permissioned_recording": false,
+            "audio_leads": []
+        },
+        "visual_plan": {
+            "primary": "verified icon of Saint Innocent of Alaska with readable prayer text overlay",
+            "fallback": "reverent icon-style still plus source/rights-safe text cards",
+            "notes": "Keep the icon visible; text must be large enough to read on mobile."
+        },
+        "opening_context_draft": "People often turn to Saint Innocent of Alaska for protection during travel and for guidance in study or teaching. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for safety, patience, and love for others."
+    },
+    {
+        "companion_id": "saints_6_prayer",
+        "after_video_id": 6,
+        "saint": "Saint Nicholas of Myra",
+        "working_title": "Prayer to Saint Nicholas of Myra | Text and Icon",
+        "status": "rights_verified",
+        "preferred_prayer": {
+            "type": "custom_prayer",
+            "title": "Original Prayer to Saint Nicholas of Myra",
+            "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-nicholas-the-wonderworker/",
+            "rights_verified": true,
+            "rights_note": "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+        },
+        "fallback_prayers": [
+            {
+                "type": "theotokos_akathist",
+                "title": "Akathist to the Most Holy Theotokos",
+                "use_case": "Fallback if no rights-safe Nicholas Akathist text can be used."
+            }
+        ],
+        "life_circumstances_helped": [
+            "help in financial distress",
+            "protection of children and orphans",
+            "safety during travel and sea voyages",
+            "defense against injustice and false accusation",
+            "seeking relief from poverty"
+        ],
+        "voice_plan": {
+            "preferred": "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+            "allowed_fallback": "original non-impersonating narration/TTS voice",
+            "not_allowed": "unauthorized cloning or imitation of a real priest or monk",
+            "permissioned_recording": false,
+            "audio_leads": []
+        },
+        "visual_plan": {
+            "primary": "verified icon of Saint Nicholas of Myra with readable prayer text overlay",
+            "fallback": "reverent icon-style still plus source/rights-safe text cards",
+            "notes": "Keep the icon visible; text must be large enough to read on mobile."
+        },
+        "opening_context_draft": "People often turn to Saint Nicholas of Myra in times of poverty, injustice, or when traveling. This prayer is offered as a companion to his life story, not as a promise of a specific outcome, but as a way to pray with the Church for protection, help, and a generous heart."
+    },
+    {
+        "companion_id": "saints_7_prayer",
+        "after_video_id": 7,
+        "saint": "Saint Mary of Egypt",
+        "working_title": "Prayer to Saint Mary of Egypt | Text and Icon",
+        "status": "rights_verified",
+        "preferred_prayer": {
+            "type": "custom_prayer",
+            "title": "Original Prayer to Saint Mary of Egypt",
+            "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-mary-of-egypt/",
+            "rights_verified": true,
+            "rights_note": "Original prayer composed from historical facts and teachings (Option B). Cleared for on-screen text and audio recitation."
+        },
+        "fallback_prayers": [
+            {
+                "type": "theotokos_akathist",
+                "title": "Akathist to the Most Holy Theotokos",
+                "use_case": "Fallback if no rights-safe Mary Akathist text can be used."
+            }
+        ],
+        "life_circumstances_helped": [
+            "overcoming addictions and habits",
+            "repenting of past sins",
+            "struggling with lust and passions",
+            "seeking purity of heart",
+            "endurance in spiritual struggles"
+        ],
+        "voice_plan": {
+            "preferred": "permissioned real Orthodox priest, monk, deacon, chanter, or reader recording",
+            "allowed_fallback": "original non-impersonating narration/TTS voice",
+            "not_allowed": "unauthorized cloning or imitation of a real priest or monk",
+            "permissioned_recording": false,
+            "audio_leads": []
+        },
+        "visual_plan": {
+            "primary": "verified icon of Saint Mary of Egypt with readable prayer text overlay",
+            "fallback": "reverent icon-style still plus source/rights-safe text cards",
+            "notes": "Keep the icon visible; text must be large enough to read on mobile."
+        },
+        "opening_context_draft": "People often turn to Saint Mary of Egypt when struggling with passions, addictions, and seeking sincere repentance. This prayer is offered as a companion to her life story, not as a promise of a specific outcome, but as a way to pray with the Church for purity, repentance, and strength."
+    }
+]

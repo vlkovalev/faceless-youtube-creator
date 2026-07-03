@@ -1,0 +1,80 @@
+{
+  "video_id": "VID-0011",
+  "script_id": 11,
+  "qc_status": "passed",
+  "generated_at": "2026-06-30T01:47:38.818Z",
+  "checks": [
+    {
+      "name": "final_video_exists",
+      "ok": true,
+      "detail": "FINAL_VIDEO_11.mp4"
+    },
+    {
+      "name": "final_video_non_empty",
+      "ok": true,
+      "detail": "155.90 MB"
+    },
+    {
+      "name": "long_form_duration_minimum",
+      "ok": true,
+      "detail": "498s / 480s minimum"
+    },
+    {
+      "name": "captions_exist",
+      "ok": true,
+      "detail": "FINAL_VIDEO_11.srt"
+    },
+    {
+      "name": "thumbnail_exists",
+      "ok": true,
+      "detail": "youtube_thumbnail_video_11.png"
+    },
+    {
+      "name": "scene_audio_count",
+      "ok": true,
+      "detail": "12/12"
+    },
+    {
+      "name": "scene_visual_count",
+      "ok": true,
+      "detail": "12/12"
+    },
+    {
+      "name": "scene_visuals_not_raw_beat_cards",
+      "ok": true,
+      "detail": "scene images are distinct final plates"
+    },
+    {
+      "name": "metadata_queue_entry",
+      "ok": true,
+      "detail": "The Bananapocalypse: The Fruit Company That Overthrew Governments"
+    },
+    {
+      "name": "upload_visibility_safe",
+      "ok": true,
+      "detail": "scheduled"
+    },
+    {
+      "name": "scheduled_midnight_alberta",
+      "ok": true,
+      "detail": "2026-07-06T06:00:00.000Z / 00:00 / America/Edmonton"
+    },
+    {
+      "name": "replacement_cleanup_declared",
+      "ok": true,
+      "detail": "not a replacement upload"
+    },
+    {
+      "name": "named_individual_in_hook",
+      "ok": true,
+      "detail": "Named individual found in scenes 1-3"
+    },
+    {
+      "name": "scene_depth_review",
+      "ok": true,
+      "detail": "Editorial warning only: 1 scene(s) under 80 words: scene 1 (76w)"
+    }
+  ],
+  "warnings": [],
+  "approval_required_before_public": true
+}

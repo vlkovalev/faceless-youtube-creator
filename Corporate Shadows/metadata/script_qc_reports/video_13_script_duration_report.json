@@ -1,0 +1,72 @@
+{
+  "script_id": 13,
+  "title": "The Radium Girls: The Company That Made Its Workers Glow to Death",
+  "total_words": 1138,
+  "estimated_seconds": 506,
+  "estimated_minutes": 8.4,
+  "target_words": "1250-1650",
+  "minimum_words": 1100,
+  "status": "passed",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Women Who Glowed",
+      "word_count": 92
+    },
+    {
+      "scene_number": 2,
+      "title": "A Miracle in a Jar",
+      "word_count": 91
+    },
+    {
+      "scene_number": 3,
+      "title": "Lip Dip Paint",
+      "word_count": 93
+    },
+    {
+      "scene_number": 4,
+      "title": "The First Teeth",
+      "word_count": 93
+    },
+    {
+      "scene_number": 5,
+      "title": "A Convenient Denial",
+      "word_count": 94
+    },
+    {
+      "scene_number": 6,
+      "title": "Five Women Fight Back",
+      "word_count": 95
+    },
+    {
+      "scene_number": 7,
+      "title": "The Second Factory",
+      "word_count": 99
+    },
+    {
+      "scene_number": 8,
+      "title": "Evidence in Bone",
+      "word_count": 90
+    },
+    {
+      "scene_number": 9,
+      "title": "Rules Written Afterward",
+      "word_count": 97
+    },
+    {
+      "scene_number": 10,
+      "title": "The Poisoned Ground",
+      "word_count": 95
+    },
+    {
+      "scene_number": 11,
+      "title": "Selling Wonder Hiding Risk",
+      "word_count": 97
+    },
+    {
+      "scene_number": 12,
+      "title": "What Still Glows",
+      "word_count": 102
+    }
+  ]
+}

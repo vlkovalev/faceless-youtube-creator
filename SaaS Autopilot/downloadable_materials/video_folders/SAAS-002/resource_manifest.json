@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-002",
+  "title": "The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-002 - The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1tgKqHiXx7_GazoJu4XPE-SKQgv5e_MiM",
+  "files": [
+    "SAAS-002_blueprint.pdf",
+    "SAAS-002_templates.pdf",
+    "SAAS-002_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-002\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "15etEweDFKkQFdF55xqaHSox_cN_QTU0H",
+      "name": "SAAS-002_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/15etEweDFKkQFdF55xqaHSox_cN_QTU0H/view?usp=drivesdk"
+    },
+    {
+      "id": "1rF5ql8F4T521Ynok5fhVNbdQPkYVQ_TW",
+      "name": "SAAS-002_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1rF5ql8F4T521Ynok5fhVNbdQPkYVQ_TW/view?usp=drivesdk"
+    },
+    {
+      "id": "10IG64TGc9O_TIHprtX_Zdw6bCbW3u7Wj",
+      "name": "SAAS-002_templates.pdf",
+      "url": "https://drive.google.com/file/d/10IG64TGc9O_TIHprtX_Zdw6bCbW3u7Wj/view?usp=drivesdk"
+    }
+  ]
+}

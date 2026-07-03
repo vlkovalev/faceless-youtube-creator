@@ -1,0 +1,1 @@
+PM Status (2026-06-15): Status: RED. Active tasks: 4. Overdue: 3. P1 blockers: 0. Main focus is Corporate Shadows visual sourcing and schedule integrity. Sensitive YouTube tracker/status files remain local and are excluded from auto-push.

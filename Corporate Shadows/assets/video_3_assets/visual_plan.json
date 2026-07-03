@@ -1,0 +1,1228 @@
+{
+  "video_id": 3,
+  "title": "The Secret Society That Controlled the World's Electricity",
+  "niche": "Dark Business History",
+  "generated_at": "2026-06-17T18:09:00.134Z",
+  "estimated_total_duration_s": 579,
+  "script_duration_ok": true,
+  "total_beats": 60,
+  "source_priority": [
+    "1. wikimedia_commons — free, public domain, best for historical",
+    "2. library_of_congress — vintage ads, newspapers, portraits",
+    "3. internet_archive — newsreels, documentary footage",
+    "4. generated_graphic — charts, timelines, evidence boards",
+    "5. stock_broll — Storyblocks for industrial/corporate b-roll"
+  ],
+  "visual_formula": [
+    {
+      "key": "hook",
+      "name": "Hook",
+      "start_s": 0,
+      "end_s": 29
+    },
+    {
+      "key": "the_promise",
+      "name": "The Promise",
+      "start_s": 29,
+      "end_s": 116
+    },
+    {
+      "key": "the_growth",
+      "name": "The Growth",
+      "start_s": 116,
+      "end_s": 232
+    },
+    {
+      "key": "warning_signs",
+      "name": "Warning Signs",
+      "start_s": 232,
+      "end_s": 347
+    },
+    {
+      "key": "investigation",
+      "name": "Investigation",
+      "start_s": 347,
+      "end_s": 463
+    },
+    {
+      "key": "collapse",
+      "name": "Collapse",
+      "start_s": 463,
+      "end_s": 521
+    },
+    {
+      "key": "lessons_learned",
+      "name": "Lessons Learned",
+      "start_s": 521,
+      "end_s": 579
+    }
+  ],
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Smoke-Filled Room",
+      "start_s": 0,
+      "duration_s": 47,
+      "beat_count": 4,
+      "primary_asset_file": "scene_1_image.png",
+      "visual_prompt": "Soul Cinema style, 1920s vintage moody lighting, deep shadows. Wealthy businessmen in tailored wool suits sitting around a massive mahogany table in a smoke-filled room. A single, glowing incandescent bulb hangs ominously above them, casting long shadows. Vintage atmosphere, high-contrast chiaroscuro.",
+      "act": {
+        "key": "hook",
+        "name": "Hook",
+        "b_roll": [
+          "City skyline at night",
+          "Glass corporate towers",
+          "Boardroom lights turning off",
+          "Redacted documents",
+          "Computer code scrolling",
+          "Stock chart rising rapidly"
+        ],
+        "sound_design": [
+          "Low cinematic drones",
+          "Keyboard clicks",
+          "Camera shutter sounds",
+          "Soft heartbeat rhythm"
+        ],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "1a",
+          "start_s": 0,
+          "duration_s": 13,
+          "narration_excerpt": "In the winter of 1924, far from the public eye, a group of powerful industrialists quietly gathered in a smoke-filled ro...",
+          "act": "hook",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "winter 1924 public group powerful",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=winter%201924%20public%20group%20powerful&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        },
+        {
+          "beat_id": "1b",
+          "start_s": 13,
+          "duration_s": 8,
+          "narration_excerpt": "Representing the world's leading lighting conglomerates, these men were not there to celebrate innovation. ...",
+          "act": "hook",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "representing world leading lighting conglomerates — City skyline at night, Glass corporate towers, Boardroom lights turning off, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        },
+        {
+          "beat_id": "1c",
+          "start_s": 21,
+          "duration_s": 7,
+          "narration_excerpt": "Instead, they were planning a conspiracy that would secretly restrict global progress. ...",
+          "act": "hook",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "instead planning conspiracy secretly restrict — City skyline at night, Glass corporate towers, Boardroom lights turning off, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        },
+        {
+          "beat_id": "1d",
+          "start_s": 28,
+          "duration_s": 20,
+          "narration_excerpt": "Their objective was simple yet sinister: to intentionally design a lightbulb that would fail sooner, forcing consumers t...",
+          "act": "hook",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "objective simple sinister intentionally design — City skyline at night, Glass corporate towers, Boardroom lights turning off, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "title": "The Centennial Anomaly",
+      "start_s": 47,
+      "duration_s": 50,
+      "beat_count": 5,
+      "primary_asset_file": "scene_2_image.png",
+      "visual_prompt": "Soul Cinema style, warm amber lighting. A macro close-up of a vintage hand-blown lightbulb with a glowing carbon filament. Dust motes dance in the air around the glass sphere. Dark industrial background, highly detailed, cinematic atmosphere.",
+      "act": {
+        "key": "the_promise",
+        "name": "The Promise",
+        "b_roll": [
+          "Startup office",
+          "Engineers working (anonymous silhouettes)",
+          "Investor pitch deck",
+          "Headlines appearing",
+          "Funding announcements",
+          "Product renders"
+        ],
+        "sound_design": [
+          "Low cinematic drones",
+          "Keyboard clicks",
+          "Camera shutter sounds",
+          "Soft heartbeat rhythm"
+        ],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "2a",
+          "start_s": 47,
+          "duration_s": 9,
+          "narration_excerpt": "To understand the magnitude of their betrayal, we must travel to a humble fire station in Livermore, California. ...",
+          "act": "the_promise",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "understand magnitude betrayal must travel stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=understand%20magnitude%20betrayal%20must%20travel%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2b",
+          "start_s": 56,
+          "duration_s": 7,
+          "narration_excerpt": "Hanging from the ceiling is a small, hand-blown bulb known as the Centennial Light. ...",
+          "act": "the_promise",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "hanging ceiling small hand blown stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=hanging%20ceiling%20small%20hand%20blown%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2c",
+          "start_s": 63,
+          "duration_s": 18,
+          "narration_excerpt": "It was manufactured by the Shelby Electric Company and has been burning continuously since the year 1901 . For over a ce...",
+          "act": "the_promise",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "manufactured shelby electric company burning",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=manufactured%20shelby%20electric%20company%20burning&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2d",
+          "start_s": 81,
+          "duration_s": 4,
+          "narration_excerpt": "it, and the very company that made it. ...",
+          "act": "the_promise",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "very company made",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=very%20company%20made&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2e",
+          "start_s": 85,
+          "duration_s": 11,
+          "narration_excerpt": "It stands as living proof that we had the technology to make lightbulbs last forever—and that the industry deliberately ...",
+          "act": "the_promise",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "stands living proof technology make stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=stands%20living%20proof%20technology%20make%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 3,
+      "title": "The Innovator's Curse",
+      "start_s": 97,
+      "duration_s": 46,
+      "beat_count": 5,
+      "primary_asset_file": "scene_3_image.png",
+      "visual_prompt": "Soul Cinema style, 1890s laboratory, dramatic chiaroscuro lighting. Antique electrical equipment, glowing glass tubes, and blueprints scattered across a wooden workbench. A silhouetted inventor stands in the background, surrounded by tools.",
+      "act": {
+        "key": "the_promise",
+        "name": "The Promise",
+        "b_roll": [
+          "Startup office",
+          "Engineers working (anonymous silhouettes)",
+          "Investor pitch deck",
+          "Headlines appearing",
+          "Funding announcements",
+          "Product renders"
+        ],
+        "sound_design": [
+          "Low cinematic drones",
+          "Keyboard clicks",
+          "Camera shutter sounds",
+          "Soft heartbeat rhythm"
+        ],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "3a",
+          "start_s": 97,
+          "duration_s": 7,
+          "narration_excerpt": "In the early days of electrification, durability was the ultimate selling point. ...",
+          "act": "the_promise",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "early days electrification durability ultimate — Startup office, Engineers working (anonymous silhouettes), Investor pitch deck, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3b",
+          "start_s": 104,
+          "duration_s": 12,
+          "narration_excerpt": "Pioneers like Thomas Edison in America and Joseph Swan in Great Britain competed fiercely to engineer the most robust, l...",
+          "act": "the_promise",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "pioneers like thomas edison america",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=pioneers%20like%20thomas%20edison%20america&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3c",
+          "start_s": 116,
+          "duration_s": 11,
+          "narration_excerpt": "The technology was advancing rapidly. By the early 1920s, lightbulbs could easily burn for over 2,500 hours without losi...",
+          "act": "the_growth",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "technology advancing rapidly early 1920s — News headline animations, Funding charts, Office expansion, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3d",
+          "start_s": 127,
+          "duration_s": 11,
+          "narration_excerpt": "It was a golden age of engineering. But as the bulbs became more perfect, the manufacturers discovered a terrifying para...",
+          "act": "the_growth",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "golden engineering bulbs became more — News headline animations, Funding charts, Office expansion, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3e",
+          "start_s": 138,
+          "duration_s": 7,
+          "narration_excerpt": "they had designed a product so good, it was destroying their own business.",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "designed product good destroying business",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=designed%20product%20good%20destroying%20business&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 4,
+      "title": "The Profit Paradox",
+      "start_s": 143,
+      "duration_s": 43,
+      "beat_count": 4,
+      "primary_asset_file": "scene_4_image.png",
+      "visual_prompt": "Soul Cinema style, cold corporate office, deep shadows. A vintage stock market ticker tape machine spitting out paper onto a dark floor. A silhouetted figure in a fedora holds their head in their hands in front of a foggy office window.",
+      "act": {
+        "key": "the_growth",
+        "name": "The Growth",
+        "b_roll": [
+          "News headline animations",
+          "Funding charts",
+          "Office expansion",
+          "Hiring growth",
+          "Product launches"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "4a",
+          "start_s": 143,
+          "duration_s": 12,
+          "narration_excerpt": "The economic equation was simple: if a customer only needs to buy a lightbulb once in their lifetime, your market eventu...",
+          "act": "the_growth",
+          "asset_type": "generated_graphic",
+          "asset_note": "animated stat or chart graphic",
+          "search_query": "economic equation simple customer needs — News headline animations, Funding charts, Office expansion, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4b",
+          "start_s": 155,
+          "duration_s": 4,
+          "narration_excerpt": "As lightbulb durability climbed, sales plummeted worldwide. ...",
+          "act": "the_growth",
+          "asset_type": "generated_graphic",
+          "asset_note": "animated stat or chart graphic",
+          "search_query": "lightbulb durability climbed sales plummeted — News headline animations, Funding charts, Office expansion, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4c",
+          "start_s": 159,
+          "duration_s": 18,
+          "narration_excerpt": "Factories began shutting down, and the titans of the lighting industry faced a catastrophic threat to their bottom line....",
+          "act": "the_growth",
+          "asset_type": "generated_graphic",
+          "asset_note": "animated stat or chart graphic",
+          "search_query": "factories began shutting down titans — News headline animations, Funding charts, Office expansion, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4d",
+          "start_s": 177,
+          "duration_s": 9,
+          "narration_excerpt": "better future, and start engineering artificial failure. In order to survive, they had to make their products worse.",
+          "act": "the_growth",
+          "asset_type": "generated_graphic",
+          "asset_note": "animated stat or chart graphic",
+          "search_query": "better future start engineering artificial — News headline animations, Funding charts, Office expansion, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 5,
+      "title": "Birth of the Phoebus Cartel",
+      "start_s": 186,
+      "duration_s": 55,
+      "beat_count": 6,
+      "primary_asset_file": "scene_5_image.png",
+      "visual_prompt": "Soul Cinema style, highly dramatic lighting. A vintage world map mounted on a dark wooden wall, with large red wax seals and pins marking major global capitals. Gloved hands push vintage pewter chess pieces across a dark map table.",
+      "act": {
+        "key": "the_growth",
+        "name": "The Growth",
+        "b_roll": [
+          "News headline animations",
+          "Funding charts",
+          "Office expansion",
+          "Hiring growth",
+          "Product launches"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "5a",
+          "start_s": 186,
+          "duration_s": 5,
+          "narration_excerpt": "On Christmas Eve in 1924, a secret alliance was born. ...",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "christmas 1924 secret alliance born",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=christmas%201924%20secret%20alliance%20born&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5b",
+          "start_s": 191,
+          "duration_s": 11,
+          "narration_excerpt": "The world's largest lighting companies—including General Electric, Germany’s Osram, Associated Electrical Industries of ...",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "world largest lighting companies including",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=world%20largest%20lighting%20companies%20including&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5c",
+          "start_s": 202,
+          "duration_s": 12,
+          "narration_excerpt": "They named it the Phoebus Cartel . Behind closed doors, they divided the world into exclusive territories, fixed prices,...",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "named phoebus cartel behind closed",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=named%20phoebus%20cartel%20behind%20closed&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5d",
+          "start_s": 214,
+          "duration_s": 12,
+          "narration_excerpt": "They had created the world’s first truly global cartel, and their primary target was the lifespan of the humble lightbul...",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "created world first truly global",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=created%20world%20first%20truly%20global&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5e",
+          "start_s": 226,
+          "duration_s": 10,
+          "narration_excerpt": "Instead of fighting to build the best product, they cooperated to protect the worst acceptable product. Innovation did n...",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "instead fighting build best product",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=instead%20fighting%20build%20best%20product&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5f",
+          "start_s": 236,
+          "duration_s": 4,
+          "narration_excerpt": "It was redirected away from durability and toward control.",
+          "act": "warning_signs",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "redirected away durability toward control",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=redirected%20away%20durability%20toward%20control&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 6,
+      "title": "The 1,000-Hour Rule",
+      "start_s": 241,
+      "duration_s": 38,
+      "beat_count": 4,
+      "primary_asset_file": "scene_6_image.png",
+      "visual_prompt": "Soul Cinema style, a stark contrast of light and dark. A vintage technical blueprint of a lightbulb is crossed out with a thick, jagged red ink mark. The number '1000' is printed aggressively over it in black ink.",
+      "act": {
+        "key": "warning_signs",
+        "name": "Warning Signs",
+        "b_roll": [
+          "Anonymous employee opening email",
+          "Error reports",
+          "Failed testing screens",
+          "Red warning indicators",
+          "Internal memos"
+        ],
+        "sound_design": [],
+        "camera_style": [
+          "Slow zoom-ins",
+          "Security-camera effects",
+          "Dark corridors",
+          "Empty elevators"
+        ]
+      },
+      "beats": [
+        {
+          "beat_id": "6a",
+          "start_s": 241,
+          "duration_s": 6,
+          "narration_excerpt": "The cartel’s first official decree was a brutal assault on engineering. ...",
+          "act": "warning_signs",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "cartel first official decree brutal",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=cartel%20first%20official%20decree%20brutal&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_6_image.png"
+        },
+        {
+          "beat_id": "6b",
+          "start_s": 247,
+          "duration_s": 15,
+          "narration_excerpt": "They issued a strict, non-negotiable mandate: no standard lightbulb sold on Earth was allowed to last longer than 1,000 ...",
+          "act": "warning_signs",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "issued strict negotiable mandate standard",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=issued%20strict%20negotiable%20mandate%20standard&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_6_image.png"
+        },
+        {
+          "beat_id": "6c",
+          "start_s": 262,
+          "duration_s": 12,
+          "narration_excerpt": "Companies were ordered to redesign their bulbs, replacing durable materials with fragile tungsten filaments that would t...",
+          "act": "warning_signs",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "companies ordered redesign bulbs replacing",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=companies%20ordered%20redesign%20bulbs%20replacing&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_6_image.png"
+        },
+        {
+          "beat_id": "6d",
+          "start_s": 274,
+          "duration_s": 6,
+          "narration_excerpt": "Under the guise of standardization, the cartel had institutionalized a design defect.",
+          "act": "warning_signs",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "under guise standardization cartel institutionalized",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=under%20guise%20standardization%20cartel%20institutionalized&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_6_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 7,
+      "title": "The Enforcers",
+      "start_s": 279,
+      "duration_s": 58,
+      "beat_count": 6,
+      "primary_asset_file": "scene_7_image.png",
+      "visual_prompt": "Soul Cinema style, dark industrial testing laboratory. Racks of hundreds of lightbulbs burning with intense, blinding light. A menacing inspector in a dark trench coat stands with a clipboard, ticking off logs under a dim light.",
+      "act": {
+        "key": "warning_signs",
+        "name": "Warning Signs",
+        "b_roll": [
+          "Anonymous employee opening email",
+          "Error reports",
+          "Failed testing screens",
+          "Red warning indicators",
+          "Internal memos"
+        ],
+        "sound_design": [],
+        "camera_style": [
+          "Slow zoom-ins",
+          "Security-camera effects",
+          "Dark corridors",
+          "Empty elevators"
+        ]
+      },
+      "beats": [
+        {
+          "beat_id": "7a",
+          "start_s": 279,
+          "duration_s": 6,
+          "narration_excerpt": "To ensure compliance, the Phoebus Cartel acted like a private intelligence agency. ...",
+          "act": "warning_signs",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "ensure compliance phoebus cartel acted stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=ensure%20compliance%20phoebus%20cartel%20acted%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        },
+        {
+          "beat_id": "7b",
+          "start_s": 285,
+          "duration_s": 10,
+          "narration_excerpt": "They established a central testing laboratory in Geneva, where thousands of bulbs from member companies were constantly ...",
+          "act": "warning_signs",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "established central testing laboratory geneva stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=established%20central%20testing%20laboratory%20geneva%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        },
+        {
+          "beat_id": "7c",
+          "start_s": 295,
+          "duration_s": 17,
+          "narration_excerpt": "If a member's bulb exceeded the 1,000-hour limit, the cartel imposed massive, crippling fines that could bankrupt a medi...",
+          "act": "warning_signs",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "member bulb exceeded hour limit",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=member%20bulb%20exceeded%20hour%20limit&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        },
+        {
+          "beat_id": "7d",
+          "start_s": 312,
+          "duration_s": 11,
+          "narration_excerpt": "The pursuit of excellence was classified as a financial crime. Imagine being an engineer and discovering that your succe...",
+          "act": "warning_signs",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "pursuit excellence classified financial crime stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=pursuit%20excellence%20classified%20financial%20crime%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        },
+        {
+          "beat_id": "7e",
+          "start_s": 323,
+          "duration_s": 6,
+          "narration_excerpt": "A longer-lasting bulb was not celebrated. It was evidence against your employer.",
+          "act": "warning_signs",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "longer lasting bulb celebrated evidence stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=longer%20lasting%20bulb%20celebrated%20evidence%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        },
+        {
+          "beat_id": "7f",
+          "start_s": 329,
+          "duration_s": 8,
+          "narration_excerpt": "The lab was not measuring quality to improve it. It was measuring quality to destroy it.",
+          "act": "warning_signs",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "measuring quality improve destroy stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=measuring%20quality%20improve%20destroy%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 8,
+      "title": "The Great Deception",
+      "start_s": 337,
+      "duration_s": 59,
+      "beat_count": 6,
+      "primary_asset_file": "scene_8_image.png",
+      "visual_prompt": "Soul Cinema style, 1930s wet city street at night. A brightly lit vintage billboard advertising glowing lightbulbs with smiling illustration faces, surrounded by the deep, dark shadows of towering brick buildings.",
+      "act": {
+        "key": "warning_signs",
+        "name": "Warning Signs",
+        "b_roll": [
+          "Anonymous employee opening email",
+          "Error reports",
+          "Failed testing screens",
+          "Red warning indicators",
+          "Internal memos"
+        ],
+        "sound_design": [],
+        "camera_style": [
+          "Slow zoom-ins",
+          "Security-camera effects",
+          "Dark corridors",
+          "Empty elevators"
+        ]
+      },
+      "beats": [
+        {
+          "beat_id": "8a",
+          "start_s": 337,
+          "duration_s": 7,
+          "narration_excerpt": "But how do you sell a deliberately worsened product to a skeptical public? ...",
+          "act": "warning_signs",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "sell deliberately worsened product skeptical",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=sell%20deliberately%20worsened%20product%20skeptical&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8b",
+          "start_s": 344,
+          "duration_s": 14,
+          "narration_excerpt": "The cartel launched a massive, coordinated propaganda campaign. They filled newspapers and billboards with deceptive adv...",
+          "act": "warning_signs",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "cartel launched massive coordinated propaganda",
+          "source_url": "https://www.loc.gov/search/?q=cartel%20launched%20massive%20coordinated%20propaganda",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8c",
+          "start_s": 358,
+          "duration_s": 10,
+          "narration_excerpt": "... They convinced consumers that a lightbulb that burned out quickly was a sign of modern progress and high quality.",
+          "act": "investigation",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "convinced consumers lightbulb burned quickly — Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8d",
+          "start_s": 368,
+          "duration_s": 12,
+          "narration_excerpt": "The public believed the lie, sales rebounded, and the cartel's profits reached unprecedented heights. This was the psych...",
+          "act": "investigation",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "public believed sales rebounded cartel — Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8e",
+          "start_s": 380,
+          "duration_s": 9,
+          "narration_excerpt": "If a product failed, the consumer blamed age, technology, or themselves. They did not see a secret contract.",
+          "act": "investigation",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "product failed consumer blamed technology",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=product%20failed%20consumer%20blamed%20technology&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8f",
+          "start_s": 389,
+          "duration_s": 8,
+          "narration_excerpt": "They did not see the fine schedule. They only saw a burned-out bulb and bought another one.",
+          "act": "investigation",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "fine schedule burned bulb bought — Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 9,
+      "title": "The Cartel Cracks",
+      "start_s": 396,
+      "duration_s": 41,
+      "beat_count": 6,
+      "primary_asset_file": "scene_9_image.png",
+      "visual_prompt": "Soul Cinema style, dramatic war-time atmosphere. The massive mahogany cartel table from scene 1 is empty, covered in thick dust and scattered, scorched documents. A single shattered lightbulb lies in a pool of shadow on the floor.",
+      "act": {
+        "key": "investigation",
+        "name": "Investigation",
+        "b_roll": [
+          "Newspaper printing press",
+          "Investigative journalist desk",
+          "Evidence board",
+          "Regulatory filings",
+          "Court building exteriors",
+          "Corporate headquarters"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "9a",
+          "start_s": 396,
+          "duration_s": 7,
+          "narration_excerpt": "For nearly fifteen years, the Phoebus Cartel held the world's electricity in a chokehold.",
+          "act": "investigation",
+          "asset_type": "generated_graphic",
+          "asset_note": "timeline graphic",
+          "search_query": "nearly fifteen years phoebus cartel — Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        },
+        {
+          "beat_id": "9b",
+          "start_s": 403,
+          "duration_s": 7,
+          "narration_excerpt": "But their shadow empire was ultimately shattered not by consumer outrage, but by global war.",
+          "act": "investigation",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "shadow empire ultimately shattered consumer — Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        },
+        {
+          "beat_id": "9c",
+          "start_s": 410,
+          "duration_s": 3,
+          "narration_excerpt": "...",
+          "act": "investigation",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "— Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        },
+        {
+          "beat_id": "9d",
+          "start_s": 413,
+          "duration_s": 10,
+          "narration_excerpt": "In 1939, the outbreak of World War II severed the international trade routes and alliances that held the cartel together...",
+          "act": "investigation",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "1939 outbreak world severed international",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=1939%20outbreak%20world%20severed%20international&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        },
+        {
+          "beat_id": "9e",
+          "start_s": 423,
+          "duration_s": 7,
+          "narration_excerpt": "German, British, and American corporations suddenly found themselves on opposing sides of a deadly conflict.",
+          "act": "investigation",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "german british american corporations suddenly — Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        },
+        {
+          "beat_id": "9f",
+          "start_s": 430,
+          "duration_s": 10,
+          "narration_excerpt": "The secret syndicate officially dissolved, but the dark legacy they had pioneered was already deeply woven into the fabr...",
+          "act": "investigation",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "secret syndicate officially dissolved dark — Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 10,
+      "title": "The Modern Legacy",
+      "start_s": 437,
+      "duration_s": 56,
+      "beat_count": 6,
+      "primary_asset_file": "scene_10_image.png",
+      "visual_prompt": "Soul Cinema style, shadowy industrial montage. A massive rusty vintage iron gear slowly grinds to a halt in deep shadows, dissolving into modern silhouetted mountains of discarded electronic waste under a gray sky.",
+      "act": {
+        "key": "investigation",
+        "name": "Investigation",
+        "b_roll": [
+          "Newspaper printing press",
+          "Investigative journalist desk",
+          "Evidence board",
+          "Regulatory filings",
+          "Court building exteriors",
+          "Corporate headquarters"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "10a",
+          "start_s": 437,
+          "duration_s": 14,
+          "narration_excerpt": "The Phoebus Cartel died, but the concept they invented survived and mutated. They had proven that the most profitable bu...",
+          "act": "investigation",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "phoebus cartel died concept invented",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=phoebus%20cartel%20died%20concept%20invented&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        },
+        {
+          "beat_id": "10b",
+          "start_s": 451,
+          "duration_s": 5,
+          "narration_excerpt": "to make a product that must be constantly replaced. ...",
+          "act": "investigation",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "company or brand visual",
+          "search_query": "make product must constantly replaced",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=make%20product%20must%20constantly%20replaced&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        },
+        {
+          "beat_id": "10c",
+          "start_s": 456,
+          "duration_s": 12,
+          "narration_excerpt": "This strategy became known as planned obsolescence. Today, it is no longer a secret conspiracy; it is a standard busines...",
+          "act": "investigation",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "strategy became known planned obsolescence stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=strategy%20became%20known%20planned%20obsolescence%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        },
+        {
+          "beat_id": "10d",
+          "start_s": 468,
+          "duration_s": 13,
+          "narration_excerpt": "It is the invisible force that drives the modern consumer economy, ensuring that factories never stop humming, and profi...",
+          "act": "collapse",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "invisible force drives modern consumer stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=invisible%20force%20drives%20modern%20consumer%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        },
+        {
+          "beat_id": "10e",
+          "start_s": 481,
+          "duration_s": 6,
+          "narration_excerpt": "But the effect is personal. It turns your paycheck into a subscription to replacements.",
+          "act": "collapse",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "effect personal turns your paycheck stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=effect%20personal%20turns%20your%20paycheck%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        },
+        {
+          "beat_id": "10f",
+          "start_s": 487,
+          "duration_s": 6,
+          "narration_excerpt": "It makes waste feel normal, repair feel inconvenient, and ownership feel temporary.",
+          "act": "collapse",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "makes waste feel normal repair stock footage Storyblocks",
+          "source_url": "https://www.storyblocks.com/video/search?term=makes%20waste%20feel%20normal%20repair%20stock%20footage%20Storyblocks",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 11,
+      "title": "The Modern Echo",
+      "start_s": 493,
+      "duration_s": 44,
+      "beat_count": 4,
+      "primary_asset_file": "scene_11_image.png",
+      "visual_prompt": "Soul Cinema style, contemporary but moody. A cracked modern smartphone screen reflecting the dim, amber, pulsating glow of a single incandescent bulb in an otherwise pitch-black bedroom.",
+      "act": {
+        "key": "collapse",
+        "name": "Collapse",
+        "b_roll": [
+          "Falling stock chart",
+          "Employees leaving",
+          "Empty desks",
+          "Closed office",
+          "Headlines changing"
+        ],
+        "sound_design": [
+          "Deep bass hits",
+          "Ticking clock",
+          "Distorted ambient sounds"
+        ],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "11a",
+          "start_s": 493,
+          "duration_s": 8,
+          "narration_excerpt": "Look around you today, and you will see the ghosts of that 1924 Geneva meeting everywhere. ...",
+          "act": "collapse",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "look around today will ghosts",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=look%20around%20today%20will%20ghosts&title=Special:MediaSearch&type=image",
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        },
+        {
+          "beat_id": "11b",
+          "start_s": 501,
+          "duration_s": 9,
+          "narration_excerpt": "It is in the modern smartphone designed with a sealed, unreplaceable battery that degrades after two years. ...",
+          "act": "collapse",
+          "asset_type": "generated_graphic",
+          "asset_note": "timeline graphic",
+          "search_query": "modern smartphone designed sealed unreplaceable — Falling stock chart, Employees leaving, Empty desks, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        },
+        {
+          "beat_id": "11c",
+          "start_s": 510,
+          "duration_s": 20,
+          "narration_excerpt": "It is in the printer that displays a fatal error code and refuses to print, even though its mechanical parts are perfect...",
+          "act": "collapse",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "printer displays fatal error code — Falling stock chart, Employees leaving, Empty desks, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        },
+        {
+          "beat_id": "11d",
+          "start_s": 530,
+          "duration_s": 7,
+          "narration_excerpt": "The lightbulb cartel may be gone, but their shadow still controls everything we own.",
+          "act": "lessons_learned",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "lightbulb cartel gone shadow still — Sunrise over city, Empty boardroom, Closing financial report, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 12,
+      "title": "Outro & Call to Action",
+      "start_s": 537,
+      "duration_s": 42,
+      "beat_count": 4,
+      "primary_asset_file": "scene_12_image.png",
+      "visual_prompt": "Soul Cinema style, pitch black background. A single, bright incandescent bulb flickers violently, sparking twice, then suddenly snaps and burns out, plunging the screen into total darkness. The words 'CORPORATE SHADOWS' fade in slowly in blood red.",
+      "act": {
+        "key": "lessons_learned",
+        "name": "Lessons Learned",
+        "b_roll": [
+          "Sunrise over city",
+          "Empty boardroom",
+          "Closing financial report",
+          "Question mark graphic"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "12a",
+          "start_s": 537,
+          "duration_s": 7,
+          "narration_excerpt": "They did not just control the light; they programmed our dependency on the dark. ...",
+          "act": "lessons_learned",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "control light programmed dependency dark — Sunrise over city, Empty boardroom, Closing financial report, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        },
+        {
+          "beat_id": "12b",
+          "start_s": 544,
+          "duration_s": 14,
+          "narration_excerpt": "The next time a device breaks in your hands, remember that it did not fail by accident. It succeeded in doing exactly wh...",
+          "act": "lessons_learned",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "next time device breaks your — Sunrise over city, Empty boardroom, Closing financial report, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        },
+        {
+          "beat_id": "12c",
+          "start_s": 558,
+          "duration_s": 11,
+          "narration_excerpt": "... If you want to uncover the hidden histories and corporate conspiracies that shape our modern world, join us in the s...",
+          "act": "lessons_learned",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "want uncover hidden histories corporate — Sunrise over city, Empty boardroom, Closing financial report, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        },
+        {
+          "beat_id": "12d",
+          "start_s": 569,
+          "duration_s": 10,
+          "narration_excerpt": "This channel needs your support. Please subscribe, leave a word of appreciation for the author, and may God bless you.",
+          "act": "lessons_learned",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "channel needs your support please — Sunrise over city, Empty boardroom, Closing financial report, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-06-15T21:14:44.405Z",
+  "channel": "saas_autopilot",
+  "mode": "always_allow_low_risk",
+  "action": "qc dry-run schedule scan",
+  "decision": "allow",
+  "reason": "Action matches approval_policy.json always-allow list.",
+  "rules": {
+    "mode": "allow_all_except_delete",
+    "allow_non_delete_actions_without_asking": true,
+    "require_approval_for_delete_or_destructive_cleanup": true,
+    "note": "Per Vlad, the project permission agent asks only for delete/destructive actions."
+  }
+}

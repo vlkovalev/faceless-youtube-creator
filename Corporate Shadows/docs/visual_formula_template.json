@@ -1,0 +1,185 @@
+{
+  "_description": "Canonical 10-minute visual formula for Corporate Shadows episodes. Every episode must follow this act structure.",
+  "version": "1.0",
+  "total_duration_seconds": 600,
+  "tolerance_seconds": 30,
+  "acts": [
+    {
+      "act": 1,
+      "name": "Hook",
+      "start_time": "0:00",
+      "end_time": "0:30",
+      "duration_seconds": 30,
+      "visuals": [
+        "City skyline at night",
+        "Glass corporate towers",
+        "Boardroom lights turning off",
+        "Redacted documents",
+        "Computer code scrolling",
+        "Stock chart rising rapidly"
+      ],
+      "sound_design": [
+        "Low cinematic drones",
+        "Keyboard clicks",
+        "Camera shutter sounds",
+        "Soft heartbeat rhythm"
+      ],
+      "pacing": "Slow, mysterious, curiosity-driven",
+      "narration_style": "Cold open with provocative question or statement"
+    },
+    {
+      "act": 2,
+      "name": "The Promise",
+      "start_time": "0:30",
+      "end_time": "2:00",
+      "duration_seconds": 90,
+      "visuals": [
+        "Startup office",
+        "Engineers working (anonymous silhouettes)",
+        "Investor pitch deck",
+        "Headlines appearing",
+        "Funding announcements",
+        "Product renders"
+      ],
+      "sound_design": [
+        "Low cinematic drones",
+        "Keyboard clicks",
+        "Camera shutter sounds",
+        "Soft heartbeat rhythm"
+      ],
+      "scene_structure": [
+        { "sub_act": "Origin", "time": "0:30-1:15", "content": "Humble beginnings, founder story" },
+        { "sub_act": "Vision", "time": "1:15-2:00", "content": "The big idea, early traction" }
+      ],
+      "narration_style": "Historical, establishing context"
+    },
+    {
+      "act": 3,
+      "name": "The Growth",
+      "start_time": "2:00",
+      "end_time": "4:00",
+      "duration_seconds": 120,
+      "visuals": [
+        "News headline animations",
+        "Funding charts",
+        "Office expansion",
+        "Hiring growth",
+        "Product launches"
+      ],
+      "motion_graphics": {
+        "type": "animated growth chart",
+        "labels": [
+          "Year 1: $5M",
+          "Year 2: $50M",
+          "Year 3: $500M",
+          "Year 4: $5B"
+        ],
+        "direction": "upward"
+      },
+      "transition_midpoint": {
+        "time": "3:00-4:00",
+        "text": "But behind the scenes, cracks were beginning to form.",
+        "visual_cue": "First hint of tension, color shift toward red"
+      },
+      "narration_style": "Rapid, building momentum, empire-building narrative"
+    },
+    {
+      "act": 4,
+      "name": "Warning Signs",
+      "start_time": "4:00",
+      "end_time": "6:00",
+      "duration_seconds": 120,
+      "visuals": [
+        "Anonymous employee opening email",
+        "Error reports",
+        "Failed testing screens",
+        "Red warning indicators",
+        "Internal memos"
+      ],
+      "camera_style": [
+        "Slow zoom-ins",
+        "Security-camera effects",
+        "Dark corridors",
+        "Empty elevators"
+      ],
+      "scene_structure": [
+        { "sub_act": "Discovery", "time": "4:00-5:00", "content": "Someone notices something wrong" },
+        { "sub_act": "Concealment", "time": "5:00-6:00", "content": "Effort to hide or suppress the problem" }
+      ],
+      "narration_style": "Tense, paranoid, building dread"
+    },
+    {
+      "act": 5,
+      "name": "Investigation",
+      "start_time": "6:00",
+      "end_time": "8:00",
+      "duration_seconds": 120,
+      "visuals": [
+        "Newspaper printing press",
+        "Investigative journalist desk",
+        "Evidence board",
+        "Regulatory filings",
+        "Court building exteriors",
+        "Corporate headquarters"
+      ],
+      "ai_prompt": "Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+      "scene_structure": [
+        { "sub_act": "Exposure", "time": "6:00-7:00", "content": "Journalists or regulators uncover the truth" },
+        { "sub_act": "Backlash", "time": "7:00-8:00", "content": "Corporate response, legal battles" }
+      ],
+      "narration_style": "Investigative, revealing evidence, connecting dots"
+    },
+    {
+      "act": 6,
+      "name": "Collapse",
+      "start_time": "8:00",
+      "end_time": "9:00",
+      "duration_seconds": 60,
+      "visuals": [
+        "Falling stock chart",
+        "Employees leaving",
+        "Empty desks",
+        "Closed office",
+        "Headlines changing"
+      ],
+      "sound_design": [
+        "Deep bass hits",
+        "Ticking clock",
+        "Distorted ambient sounds"
+      ],
+      "pacing": "Rapid, cascading, inevitable",
+      "narration_style": "Solemn, consequential, the fallout"
+    },
+    {
+      "act": 7,
+      "name": "Lessons Learned",
+      "start_time": "9:00",
+      "end_time": "10:00",
+      "duration_seconds": 60,
+      "visuals": [
+        "Sunrise over city",
+        "Empty boardroom",
+        "Closing financial report",
+        "Question mark graphic"
+      ],
+      "narration": "The collapse wasn't caused by one mistake. It was a series of decisions. Decisions hidden in the shadows. And that's where the real story begins.",
+      "narration_style": "Reflective, philosophical, forward-looking",
+      "cta_style": "Subscribe call-to-action with channel branding reveal"
+    }
+  ],
+  "thumbnail_formula": {
+    "layout": "Left: dark skyscraper + red warning symbol | Right: billion-dollar chart collapsing",
+    "center_text_options": ["$9 BILLION LIE", "THE COLLAPSE", "CORPORATE SHADOWS"],
+    "ai_prompt": "Corporate skyscraper in darkness, financial collapse, dramatic red lighting, cinematic documentary poster, ultra realistic, Netflix style, high contrast, mysterious atmosphere"
+  },
+  "sourcing_rules": {
+    "preferred_platforms": ["Pexels Videos", "Pixabay Videos", "Mixkit"],
+    "supplemental": ["AI-generated scenes", "Animated charts", "Document mockups", "Sound design"],
+    "restrictions": ["No copyrighted movie clips", "No trademarked footage without licensing"]
+  },
+  "applies_to": {
+    "channel": "Corporate Shadows (Shadow Empires)",
+    "all_episodes": true,
+    "override_rule": "This formula is canonical for all episodes. Do not deviate from the act sequence or approximate timings."
+  }
+}

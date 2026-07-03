@@ -1,0 +1,25 @@
+{
+  "synced_at": "2026-07-02T21:06:03.817Z",
+  "channel": {
+    "id": "UC1_pK6I1tgK4rRsDP8NX0Bw",
+    "title": "SaaS Autopilot",
+    "uploads_playlist_id": "UU1_pK6I1tgK4rRsDP8NX0Bw",
+    "subscriber_count": 0,
+    "video_count": 0,
+    "view_count": 0
+  },
+  "videos": [
+    {
+      "youtube_id": "ah1q8SQBN00",
+      "title": "How to Automate Construction Daily Reports (n8n + AI Step-by-Step)",
+      "privacy_status": "private",
+      "publish_at": "2026-07-03T13:00:00Z",
+      "published_at": "2026-07-02T02:19:21Z",
+      "duration": "PT13M39S",
+      "view_count": 0,
+      "like_count": 0,
+      "comment_count": 0,
+      "made_for_kids": false
+    }
+  ]
+}

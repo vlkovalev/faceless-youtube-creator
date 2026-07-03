@@ -1,0 +1,39 @@
+{
+  "updated_at": "2026-06-14T16:48:07-06:00",
+  "status": "completed",
+  "rule": "Use The Saints/assets/Thumbnails as the thumbnail source of truth. Thumbnail uploads completed for the current Saints private drafts.",
+  "completed": [
+    {
+      "video_id": "nKrZldJtDMc",
+      "thumbnail": "The Saints/assets/saints_thumbnail_video_13.png"
+    },
+    {
+      "video_id": "fRrREW7IJXI",
+      "thumbnail": "The Saints/assets/saints_thumbnail_video_14.png"
+    },
+    {
+      "video_id": "nYS4ZyYXKDY",
+      "thumbnail": "The Saints/assets/saints_thumbnail_video_15.png"
+    },
+    {
+      "video_id": "QK1jYvTRhqM",
+      "thumbnail": "The Saints/assets/saints_thumbnail_video_16.png"
+    },
+    {
+      "video_id": "ZrTgHuAkyIE",
+      "thumbnail": "The Saints/assets/saints_thumbnail_video_17.png"
+    },
+    {
+      "video_id": "T4KpqfNhF-8",
+      "thumbnail": "The Saints/assets/saints_thumbnail_video_18.png"
+    },
+    {
+      "video_id": "Mti1SfHhxuQ",
+      "thumbnail": "The Saints/assets/saints_thumbnail_video_19.png"
+    },
+    {
+      "video_id": "XeE7fWWJoHY",
+      "thumbnail": "The Saints/assets/saints_thumbnail_video_20.png"
+    }
+  ]
+}

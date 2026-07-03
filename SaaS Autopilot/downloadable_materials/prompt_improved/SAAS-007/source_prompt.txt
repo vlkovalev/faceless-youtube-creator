@@ -1,0 +1,17 @@
+Create a reusable B2B automation build prompt for the SaaS Autopilot video "Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity" (SAAS-007).
+
+Video promise:
+B2B buyers are no longer searching Google. They are asking ChatGPT, Claude, and Perplexity for software and vendor recommendations. Here is the exact strategy to optimize your B2B brand so AI search engines recommend you first.
+
+Likely tool stack:
+claude, perplexity, chatgpt
+
+Scene context:
+1. The Hook (0:00â€“0:30): B2B buyers are no longer searching Google. They are asking ChatGPT, Claude, and Perplexity for software and vendor recommendations. In this video, I will show you the exact strategy to optimize your brand so AI engines recommend you first.
+2. The Problem (0:30â€“1:30): Traditional search engine optimization is dying. Blog posts, keyword stuffing, and backlink networks don't work when users ask ChatGPT 'what is the best AI tool for my agency'. The AI doesn't show Google search results; it summarizes its training data.
+3. The Stack (1:30â€“2:30): We use a Generative Engine Optimization strategy. We crawl top-ranking articles, analyze LLM citation patterns, format our site metadata for LLM crawlers, and seed semantic mentions across high-domain platforms. This shapes how AI perceives our brand.
+4. The Build (2:30â€“6:00): Here is the technical execution. We edit our schema markup, create clean XML datasets for web crawlers, analyze how Claude summarizes our product description, and run test queries on major AI engines to measure our recommendation rank.
+5. The Results (6:00â€“7:00): By implementing these optimization steps, our software tool jumped from unlisted to the top recommendation for five high-intent AI search queries. We got high-quality B2B trials for absolutely zero ad spend.
+6. The CTA (7:00â€“end): Our complete GEO auditing sheet and meta optimization template are linked in the description below. Make sure tograb your free audit template, and start ranking on AI engines today. This channel needs your support. Please subscribe, leave a word of appreciatio
+
+The prompt should help a viewer generate a practical blueprint, implementation plan, test data plan, QA checklist, and go-live checklist for this specific workflow.

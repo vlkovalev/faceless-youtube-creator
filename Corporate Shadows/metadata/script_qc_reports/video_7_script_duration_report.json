@@ -1,0 +1,72 @@
+{
+  "script_id": 7,
+  "title": "The Silent Killer: How a Chemical Giant Poisoned a Town",
+  "total_words": 1303,
+  "estimated_seconds": 579,
+  "estimated_minutes": 9.7,
+  "target_words": "1250-1650",
+  "minimum_words": 1100,
+  "status": "passed",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Frying Pan (The Hook)",
+      "word_count": 124
+    },
+    {
+      "scene_number": 2,
+      "title": "The Miracle Chemical (The Origin)",
+      "word_count": 108
+    },
+    {
+      "scene_number": 3,
+      "title": "The Secret Poison (The Hazard)",
+      "word_count": 119
+    },
+    {
+      "scene_number": 4,
+      "title": "The Factory Town (The Pollution)",
+      "word_count": 100
+    },
+    {
+      "scene_number": 5,
+      "title": "The Bleeding Cattle (The Discovery)",
+      "word_count": 111
+    },
+    {
+      "scene_number": 6,
+      "title": "The Paper Trail (The Cover-Up)",
+      "word_count": 106
+    },
+    {
+      "scene_number": 7,
+      "title": "The Poisoned Workers (The Human Toll)",
+      "word_count": 110
+    },
+    {
+      "scene_number": 8,
+      "title": "The Calculated Risk (The Formula)",
+      "word_count": 111
+    },
+    {
+      "scene_number": 9,
+      "title": "The Global Contamination (The Forever Chemical)",
+      "word_count": 109
+    },
+    {
+      "scene_number": 10,
+      "title": "The Groundbreaking Settlement (The Legal Battle)",
+      "word_count": 98
+    },
+    {
+      "scene_number": 11,
+      "title": "The Scientific Verdict (The Link)",
+      "word_count": 96
+    },
+    {
+      "scene_number": 12,
+      "title": "The Legacy of Teflon (The Warning)",
+      "word_count": 111
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+﻿[
+    {
+        "action":  "archived_duplicate",
+        "source":  "assets\\saints_video_18_assets",
+        "destination":  "The Saints\\archive\\misplaced_root_20260605_233713\\assets\\saints_video_18_assets"
+    },
+    {
+        "action":  "archived_existing_target",
+        "source":  "The Saints\\assets\\saints_thumbnail_video_18.png",
+        "destination":  "The Saints\\archive\\misplaced_root_20260605_233713\\The Saints\\assets\\saints_thumbnail_video_18.png"
+    },
+    {
+        "action":  "moved_latest_into_channel",
+        "source":  "assets\\saints_thumbnail_video_18.png",
+        "destination":  "The Saints\\assets\\saints_thumbnail_video_18.png"
+    },
+    {
+        "action":  "archived_duplicate",
+        "source":  "scripts\\saints_video_18_data.js",
+        "destination":  "The Saints\\archive\\misplaced_root_20260605_233713\\scripts\\saints_video_18_data.js"
+    },
+    {
+        "action":  "moved_latest_into_channel",
+        "source":  "videos\\saints_ready\\SAINTS_VIDEO_18_FINAL.mp4",
+        "destination":  "The Saints\\videos\\saints_ready\\SAINTS_VIDEO_18_FINAL.mp4"
+    },
+    {
+        "action":  "archived_existing_target",
+        "source":  "The Saints\\videos\\saints_ready\\SAINTS_VIDEO_18_FINAL.srt",
+        "destination":  "The Saints\\archive\\misplaced_root_20260605_233713\\The Saints\\videos\\saints_ready\\SAINTS_VIDEO_18_FINAL.srt"
+    },
+    {
+        "action":  "moved_latest_into_channel",
+        "source":  "videos\\saints_ready\\SAINTS_VIDEO_18_FINAL.srt",
+        "destination":  "The Saints\\videos\\saints_ready\\SAINTS_VIDEO_18_FINAL.srt"
+    }
+]

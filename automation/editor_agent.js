@@ -45,7 +45,11 @@ console.log("Starting Video Editor Agent (Hollywood Pipeline)...");
 
 const scenes = [];
 for (let i = 1; i <= 12; i++) {
-    const audioPath = path.join(ASSETS_DIR, `scene_${i}_audio.wav`); 
+    let audioPath = path.join(ASSETS_DIR, `scene_${i}_audio.wav`);
+    const paddedAudioPath = path.join(ASSETS_DIR, `scene_${String(i).padStart(2, '0')}_audio.wav`);
+    if (!fs.existsSync(audioPath) && fs.existsSync(paddedAudioPath)) {
+        audioPath = paddedAudioPath;
+    }
     const videoPath = path.join(ASSETS_DIR, `scene_${i}_video.mp4`);
     const imagePath = path.join(ASSETS_DIR, `scene_${i}_image.png`);
     
@@ -93,11 +97,10 @@ async function createSceneVideo(scene) {
         console.log(`Rendering Scene ${scene.index} [Type: ${scene.type}, Duration: ${duration}s]...`);
         
         let cmd = ffmpeg();
-        
         let filterStr = "";
         
         if (scene.type === 'video') {
-            cmd = cmd.input(scene.visualPath).inputOptions(['-stream_loop', '-1']);
+            cmd = cmd.input(scene.visualPath);
             cmd = cmd.input(scene.audioPath);
             filterStr = `[0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30`;
         } else {
@@ -107,7 +110,7 @@ async function createSceneVideo(scene) {
             filterStr = `[0:v]scale=3840:-1,zoompan=z='min(zoom+0.001,1.5)':d=${totalFrames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30`;
         }
         
-        // Add Color Grading (Captions are embedded as a soft toggleable track at the end!)
+        // Add Color Grading
         filterStr += `,eq=contrast=1.1:saturation=0.8[v]`;
         
         cmd = cmd.complexFilter([filterStr]);
@@ -121,7 +124,7 @@ async function createSceneVideo(scene) {
             '-ar 44100',
             '-ac 2',
             '-pix_fmt yuv420p',
-            `-t ${duration}` // Force exact duration
+            `-t ${duration}`
         ])
         .save(outPath)
         .on('end', () => resolve(outPath))

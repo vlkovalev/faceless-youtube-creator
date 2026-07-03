@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-001",
+  "title": "How I Automated My Entire YouTube Script Pipeline with Claude + Node.js",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-001 - How I Automated My Entire YouTube Script Pipeline with Claude + Node.js",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1NB4deu0_7g23VByy4txQXYjtjJONZcrD",
+  "files": [
+    "SAAS-001_blueprint.pdf",
+    "SAAS-001_templates.pdf",
+    "SAAS-001_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-001\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1iDrEDDpUNMNjXZCpYiMknbSp6xbTQaRw",
+      "name": "SAAS-001_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1iDrEDDpUNMNjXZCpYiMknbSp6xbTQaRw/view?usp=drivesdk"
+    },
+    {
+      "id": "1nrcjwmF6bi07I2zt_ObHNLr9FHPmTzsC",
+      "name": "SAAS-001_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1nrcjwmF6bi07I2zt_ObHNLr9FHPmTzsC/view?usp=drivesdk"
+    },
+    {
+      "id": "10s1PcT0MsYTW-Un8y_rG87vObqX16y-y",
+      "name": "SAAS-001_templates.pdf",
+      "url": "https://drive.google.com/file/d/10s1PcT0MsYTW-Un8y_rG87vObqX16y-y/view?usp=drivesdk"
+    }
+  ]
+}

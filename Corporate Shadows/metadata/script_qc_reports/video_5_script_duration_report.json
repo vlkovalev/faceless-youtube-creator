@@ -1,0 +1,72 @@
+{
+  "script_id": 5,
+  "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+  "total_words": 1488,
+  "estimated_seconds": 661,
+  "estimated_minutes": 11,
+  "target_words": "1250-1650",
+  "minimum_words": 1100,
+  "status": "passed",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Ultimate Monopoly",
+      "word_count": 124
+    },
+    {
+      "scene_number": 2,
+      "title": "A Royal Charter",
+      "word_count": 134
+    },
+    {
+      "scene_number": 3,
+      "title": "The Shift to Conquest",
+      "word_count": 131
+    },
+    {
+      "scene_number": 4,
+      "title": "The Private Army",
+      "word_count": 119
+    },
+    {
+      "scene_number": 5,
+      "title": "The Looting of Bengal",
+      "word_count": 121
+    },
+    {
+      "scene_number": 6,
+      "title": "The Great Famine",
+      "word_count": 111
+    },
+    {
+      "scene_number": 7,
+      "title": "Too Big to Fail",
+      "word_count": 121
+    },
+    {
+      "scene_number": 8,
+      "title": "The Tea Act",
+      "word_count": 123
+    },
+    {
+      "scene_number": 9,
+      "title": "The Opium Monopoly",
+      "word_count": 127
+    },
+    {
+      "scene_number": 10,
+      "title": "The Rebellion",
+      "word_count": 116
+    },
+    {
+      "scene_number": 11,
+      "title": "The End of an Empire",
+      "word_count": 111
+    },
+    {
+      "scene_number": 12,
+      "title": "The Dark Legacy",
+      "word_count": 150
+    }
+  ]
+}

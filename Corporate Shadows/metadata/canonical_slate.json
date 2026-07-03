@@ -1,0 +1,160 @@
+{
+  "_description": "Single source of truth for what goes live on each channel. One entry per publish slot. Agents must check this file before scheduling any upload — if a canonical entry exists for a slot, do not schedule another video there without first setting the existing entry to canonical: false and adding a superseded_by field.",
+  "_updated": "2026-06-14T23:18:00.000Z",
+  "_rule": "To replace a canonical: first set old entry canonical=false + superseded_by=<new_id>, then add new entry with canonical=true. Never have two canonical:true entries for the same channel+date.",
+  "_timezone_note": "Slots stored in UTC. YouTube Studio displays dates in browser local timezone — Jun 2 06:00 UTC shows as Jun 1 in Pacific/Mountain time. Dates confirmed from YouTube Studio screenshot.",
+  "corporate_shadows": [
+    {
+      "slot": "2026-06-02T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 1, 2026",
+      "video_id": "VID-0001",
+      "youtube_id": "FCPe5Dlk_xw",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "format": "visual_upgrade",
+      "canonical": true,
+      "non_canonical_ids": [
+        "ze6IFb9F0lY",
+        "_Spau9VPbBQ",
+        "6iydrpqSseU",
+        "OZlUgyKROv4",
+        "21DRL-iGzBs"
+      ],
+      "note": "Visual Upgrade confirmed scheduled in YouTube Studio. Omni Flash (21DRL-iGzBs) kept private as alternate."
+    },
+    {
+      "slot": "2026-06-05T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 4, 2026",
+      "video_id": "VID-0002",
+      "youtube_id": "ZloTBQbWyf4",
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "format": "visual_upgrade",
+      "canonical": true,
+      "non_canonical_ids": [
+        "9egMNpLFr5w",
+        "kLUo1PG78Vs",
+        "gPhHnEjKaP8"
+      ],
+      "note": "Visual Upgrade confirmed scheduled in YouTube Studio. Omni Flash (gPhHnEjKaP8) kept private as alternate."
+    },
+    {
+      "slot": "2026-06-09T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 8, 2026",
+      "video_id": "VID-0003",
+      "youtube_id": "mM0axfPaZBU",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "format": "visual_upgrade",
+      "canonical": true,
+      "non_canonical_ids": [
+        "feTnR0QeeBc",
+        "-6VsjG1ubT8",
+        "PxBdlAu-hvY"
+      ],
+      "note": "Visual Upgrade confirmed scheduled in YouTube Studio. Omni Flash (PxBdlAu-hvY) kept private as alternate."
+    },
+    {
+      "slot": "2026-06-12T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 11, 2026",
+      "video_id": "VID-0004",
+      "youtube_id": "-Tt_ijOCCRI",
+      "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+      "format": "visual_upgrade",
+      "canonical": true,
+      "non_canonical_ids": [
+        "A2WQxHuiFcg"
+      ],
+      "note": "Visual Upgrade confirmed scheduled in YouTube Studio. Omni Flash (A2WQxHuiFcg) kept private as alternate."
+    },
+    {
+      "slot": "2026-06-16T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 15, 2026",
+      "video_id": "VID-0005",
+      "youtube_id": "ZM0fbdddYZA",
+      "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+      "format": "visual_upgrade",
+      "canonical": true,
+      "non_canonical_ids": [],
+      "note": "Visual Upgrade confirmed scheduled in YouTube Studio. No Omni Flash version exists."
+    },
+    {
+      "slot": "2026-06-19T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 18, 2026",
+      "video_id": "VID-0006",
+      "youtube_id": "nVa-LJXFrlo",
+      "title": "The Toxic Empire: The Family That Hooked America on Pain",
+      "format": "visual_upgrade",
+      "canonical": true,
+      "non_canonical_ids": [],
+      "note": "CS new production paused 2026-05-31. Confirm this is scheduled in YouTube Studio before Jun 18."
+    },
+    {
+      "slot": "2026-06-20T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 20, 2026",
+      "video_id": "VID-0007",
+      "youtube_id": "6TIKAR-UfzM",
+      "title": "The Silent Killer: How a Chemical Giant Poisoned a Town",
+      "format": "corrected_replacement_edge_tts",
+      "canonical": true,
+      "non_canonical_ids": [
+        "v6u99b6HWQA",
+        "CXDTHbQVuPQ"
+      ],
+      "note": "Corrected replacement uploaded after script/style cleanup. Thumbnail and captions attached on 2026-06-14; superseded IDs were not found during verification."
+    },
+    {
+      "slot": "2026-06-23T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 23, 2026",
+      "video_id": "VID-0008",
+      "youtube_id": "EYzUD2QZaqo",
+      "title": "The Company That Patented Nature: How a Corporate Giant Controlled the World's Seeds",
+      "format": "corrected_replacement_edge_tts",
+      "canonical": false,
+      "non_canonical_ids": [
+        "Fg8fv9GO4FY"
+      ],
+      "note": "Corrected replacement uploaded after script/style cleanup. YouTube API quota blocked thumbnail/caption attach and old-upload deletion; complete cleanup after quota reset.",
+      "status_note": "Stale replacement ID not found on YouTube during 2026-06-14 continuation; reupload required."
+    },
+    {
+      "slot": "2026-06-26T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 26, 2026",
+      "video_id": "VID-0010",
+      "youtube_id": "l9-2UYfTAg0",
+      "title": "The Golden Scam: The Man Who Sold a Fake Gold Mine",
+      "format": "corrected_replacement_edge_tts",
+      "canonical": false,
+      "non_canonical_ids": [
+        "2YTl5XwA-oU"
+      ],
+      "note": "Corrected replacement uploaded after script/style cleanup. YouTube API quota blocked thumbnail/caption attach and old-upload deletion; complete cleanup after quota reset.",
+      "status_note": "Stale replacement ID not found on YouTube during 2026-06-14 continuation; reupload required."
+    },
+    {
+      "slot": "2026-06-23T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 23, 2026",
+      "video_id": "VID-0008",
+      "youtube_id": "ch9a7WqBrRw",
+      "title": "The Company That Patented Nature: How a Corporate Giant Controlled the World's Seeds",
+      "format": "corrected_replacement_edge_tts",
+      "canonical": true,
+      "non_canonical_ids": [
+        "Fg8fv9GO4FY",
+        "EYzUD2QZaqo"
+      ],
+      "note": "Corrected replacement reuploaded after stale ID was not found. Thumbnail and captions attached on 2026-06-14."
+    },
+    {
+      "slot": "2026-06-26T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 26, 2026",
+      "video_id": "VID-0010",
+      "youtube_id": "46nah7UfMWg",
+      "title": "The Golden Scam: The Man Who Sold a Fake Gold Mine",
+      "format": "corrected_replacement_edge_tts_cinematic_scene_plates",
+      "canonical": true,
+      "non_canonical_ids": [
+        "2YTl5XwA-oU",
+        "l9-2UYfTAg0"
+      ],
+      "note": "Corrected replacement reuploaded after stale ID was not found. Rebuilt with local cinematic documentary scene plates; thumbnail and captions attached on 2026-06-14."
+    }
+  ]
+}

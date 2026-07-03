@@ -1,0 +1,17 @@
+Create a reusable B2B automation build prompt for the SaaS Autopilot video "How I Automated My Entire YouTube Script Pipeline with Claude + Node.js" (SAAS-001).
+
+Video promise:
+I built a system that writes, voices, edits, and schedules YouTube videos while I sleep. Here's every piece of it.
+
+Likely tool stack:
+claude
+
+Scene context:
+1. The Hook (0:00–0:30): I built an autonomous system that writes, voices, edits, and schedules YouTube videos while I sleep. There are no virtual assistants, no human editors, and no manual uploading. In this video, I'm going to pull back the curtain and show you the exact system, co
+2. The Problem (0:30–1:30): Content creation is an operational nightmare. For a typical faceless channel, the workflow is highly fragmented. First, you spend hours researching topics and writing scripts. Then, you record or generate voiceovers. Next, you spend days inside an editor manua
+3. The Stack (1:30–2:30): To automate this, we are using a highly optimized, low-cost stack. The brains of the operation is Claude Sonnet via the Anthropic API, orchestrated by a local Node.js runtime. We use ElevenLabs for high-fidelity voice synthesis, and ffmpeg for programmatic vid
+4. The Build (2:30–6:00): Let's walk through the architecture. The system is split into three modular pipelines. Pipeline one is script generation. The script writer agent reads our topic backlog from a central JSON config and produces a structured scene-by-scene script scaffold, stric
+5. The Results (6:00–7:00): The results are incredible. What used to be a 10-hour manual process is now a 5-minute automated pipeline. I run a single command in my terminal, and the agents handle the rest. The system generates a complete, monetization-ready, 9-minute video scheduled dire
+6. The CTA (7:00–end): This entire codebase is fully open and documented. You can find the GitHub link to the repository in the description below, along with the system prompts we use for scriptwriting. If you want to build this yourself, clone the repo and follow the setup guide. D
+
+The prompt should help a viewer generate a practical blueprint, implementation plan, test data plan, QA checklist, and go-live checklist for this specific workflow.

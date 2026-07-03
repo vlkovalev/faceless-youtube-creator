@@ -1,0 +1,257 @@
+{
+  "deletions": [
+    {
+      "logged_at": "2026-05-31T16:31:45.083Z",
+      "filename": "FINAL_VIDEO_1_DENSE_CREATED_REPLACEMENT.mp4",
+      "new_video_id": "OZlUgyKROv4",
+      "old_video_id": "FCPe5Dlk_xw",
+      "action": "deleted_after_user_approval"
+    },
+    {
+      "logged_at": "2026-05-31T16:31:45.084Z",
+      "filename": "FINAL_VIDEO_1_DENSE_CREATED_REPLACEMENT.mp4",
+      "new_video_id": "OZlUgyKROv4",
+      "old_video_id": "6iydrpqSseU",
+      "action": "deleted_after_user_approval"
+    },
+    {
+      "filename": "SAINTS_VIDEO_13_ICONONLY_20260608.mp4",
+      "new_video_id": "6Rhn9vk3Q5s",
+      "old_video_id": "nFe36bvtihU",
+      "action": "deleted",
+      "logged_at": "2026-06-08T04:18:23.741Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_19_ICONONLY_20260608.mp4",
+      "new_video_id": "Cf70OjBuSWE",
+      "old_video_id": "iE7u_OsfmJM",
+      "action": "deleted",
+      "logged_at": "2026-06-08T04:32:05.399Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_15_ICONONLY_20260611.mp4",
+      "new_video_id": "GBM4tNXU7x4",
+      "old_video_id": "4aNTB2UrtiY",
+      "action": "deleted",
+      "logged_at": "2026-06-11T19:30:20.878Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_17_ICONONLY_20260611.mp4",
+      "new_video_id": "wGFOQ7jlMp8",
+      "old_video_id": "yF6CXtFmids",
+      "action": "deleted",
+      "logged_at": "2026-06-11T19:31:03.505Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_16_ICONONLY_20260611.mp4",
+      "new_video_id": "C0vpxuQCX0o",
+      "old_video_id": "7kPZhaG8gO0",
+      "action": "deleted",
+      "logged_at": "2026-06-11T19:31:03.543Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_13_FINAL.mp4",
+      "new_video_id": "w3e6LIVdEKY",
+      "old_video_id": "6Rhn9vk3Q5s",
+      "action": "deleted",
+      "logged_at": "2026-06-13T22:29:03.691Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_14_FINAL.mp4",
+      "new_video_id": "gQp5QM4SI4M",
+      "old_video_id": "6G061zedt5c",
+      "action": "deleted",
+      "logged_at": "2026-06-13T22:29:15.744Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_15_FINAL.mp4",
+      "new_video_id": "TKsHaaEl2go",
+      "old_video_id": "GBM4tNXU7x4",
+      "action": "deleted",
+      "logged_at": "2026-06-13T22:29:33.963Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_16_FINAL.mp4",
+      "new_video_id": "Qarl6TYcBfo",
+      "old_video_id": "C0vpxuQCX0o",
+      "action": "deleted",
+      "logged_at": "2026-06-13T22:29:49.462Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_17_FINAL.mp4",
+      "new_video_id": "qcmhnlbACxU",
+      "old_video_id": "wGFOQ7jlMp8",
+      "action": "deleted",
+      "logged_at": "2026-06-13T22:30:03.727Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_18_FINAL.mp4",
+      "new_video_id": "EMrhgYV_QfM",
+      "old_video_id": "yHxIiFxzP0g",
+      "action": "deleted",
+      "logged_at": "2026-06-13T22:30:19.508Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_19_FINAL.mp4",
+      "new_video_id": "HCkHz5cp5xU",
+      "old_video_id": "Cf70OjBuSWE",
+      "action": "deleted",
+      "logged_at": "2026-06-13T22:30:30.311Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_20_FINAL.mp4",
+      "new_video_id": "q85bezYSUrM",
+      "old_video_id": "g0yXT-aAHoI",
+      "action": "deleted",
+      "logged_at": "2026-06-13T22:30:39.963Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_13_FINAL.mp4",
+      "new_video_id": "nKrZldJtDMc",
+      "old_video_id": "6Rhn9vk3Q5s",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-14T02:44:18.996Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_14_FINAL.mp4",
+      "new_video_id": "fRrREW7IJXI",
+      "old_video_id": "6G061zedt5c",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-14T02:45:59.863Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_15_FINAL.mp4",
+      "new_video_id": "nYS4ZyYXKDY",
+      "old_video_id": "GBM4tNXU7x4",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-14T02:46:07.040Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_16_FINAL.mp4",
+      "new_video_id": "QK1jYvTRhqM",
+      "old_video_id": "C0vpxuQCX0o",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-14T02:46:13.835Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_17_FINAL.mp4",
+      "new_video_id": "ZrTgHuAkyIE",
+      "old_video_id": "wGFOQ7jlMp8",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-14T02:46:21.249Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_18_FINAL.mp4",
+      "new_video_id": "T4KpqfNhF-8",
+      "old_video_id": "yHxIiFxzP0g",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-14T02:46:27.590Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_19_FINAL.mp4",
+      "new_video_id": "Mti1SfHhxuQ",
+      "old_video_id": "Cf70OjBuSWE",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-14T02:46:34.032Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_20_FINAL.mp4",
+      "new_video_id": "XeE7fWWJoHY",
+      "old_video_id": "g0yXT-aAHoI",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-14T02:46:41.112Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_13_FINAL.mp4",
+      "new_video_id": "zfdw_JxovVU",
+      "old_video_id": "w3e6LIVdEKY",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-16T03:06:40.077Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_14_FINAL.mp4",
+      "new_video_id": "Iio8lIrkMbU",
+      "old_video_id": "gQp5QM4SI4M",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-16T03:06:52.493Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_15_FINAL.mp4",
+      "new_video_id": "esp4uI5P7bo",
+      "old_video_id": "TKsHaaEl2go",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-16T03:07:04.093Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_16_FINAL.mp4",
+      "new_video_id": "_oHjcOgOKUs",
+      "old_video_id": "Qarl6TYcBfo",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-16T03:07:14.295Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_17_FINAL.mp4",
+      "new_video_id": "PmflPy9aRvM",
+      "old_video_id": "qcmhnlbACxU",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-16T03:07:25.192Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_18_FINAL.mp4",
+      "new_video_id": "jY7nIuDF7CM",
+      "old_video_id": "EMrhgYV_QfM",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-16T03:07:35.801Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_19_FINAL.mp4",
+      "new_video_id": "DB0o9MgfDJw",
+      "old_video_id": "HCkHz5cp5xU",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-16T03:07:48.629Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_20_FINAL.mp4",
+      "new_video_id": "mf3HAEkbVVE",
+      "old_video_id": "q85bezYSUrM",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-16T03:07:58.089Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_1_FINAL.mp4",
+      "new_video_id": "XIzLFTHISuU",
+      "old_video_ids": [
+        "ewKbFalseLo"
+      ],
+      "action": "skipped_needs_approval",
+      "reason": "For Saints replacements, deletion is automatic after successful replacement upload when old IDs are declared. Other channels require delete_after_success_mode=auto and approval or --auto-delete-old.",
+      "logged_at": "2026-06-20T23:42:31.848Z"
+    },
+    {
+      "filename": "SAINTS_VIDEO_20_FINAL.mp4",
+      "new_video_id": "U4z3cBabcFM",
+      "old_video_ids": [
+        "MsU00SgYo3o"
+      ],
+      "action": "skipped_needs_approval",
+      "reason": "For Saints replacements, deletion is automatic after successful replacement upload when old IDs are declared. Other channels require delete_after_success_mode=auto and approval or --auto-delete-old.",
+      "logged_at": "2026-06-20T23:42:48.341Z"
+    }
+  ]
+}

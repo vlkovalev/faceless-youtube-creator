@@ -1,0 +1,72 @@
+{
+  "topic_id": "SAAS-014",
+  "checked_at": "2026-06-15T21:16:05.671Z",
+  "script_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\scripts\\saas_autopilot\\saas_014_data.json",
+  "video_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\videos\\saas_autopilot\\SAAS_014_FINAL.mp4",
+  "dry_run": true,
+  "skip_video": false,
+  "failures": [
+    "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+    "Instructional quality: Narration has 142 words; minimum is 900 so the video is not padded with silence.",
+    "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+    "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+    "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+    "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+    "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+  ],
+  "warnings": [],
+  "duration_qc": {
+    "checked": true,
+    "passed": true,
+    "exit_code": 0,
+    "duration_seconds": 480.039,
+    "minimum_duration_seconds": 480,
+    "error": null
+  },
+  "visual_qc": {
+    "checked": true,
+    "passed": true,
+    "exit_code": 0,
+    "duration_seconds": 480.04,
+    "black_seconds": 0,
+    "black_ratio": 0,
+    "black_segments": [],
+    "error": null
+  },
+  "instructional_quality_qc": {
+    "passed": false,
+    "failures": [
+      "Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+      "Narration has 142 words; minimum is 900 so the video is not padded with silence.",
+      "Script has 0 concrete demo step(s); minimum is 18.",
+      "Script has 6 UI/visual anchor(s); minimum is 14.",
+      "Script uses 8 actionable build verb(s); minimum is 30.",
+      "Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+      "Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+    ],
+    "warnings": [],
+    "metrics": {
+      "scenes": 6,
+      "voiceover_words": 142,
+      "demo_steps": 0,
+      "visual_anchors": 6,
+      "actionable_build_verbs": 8,
+      "bad_phrase_hits": [
+        "streamlines your operations",
+        "cuts costs",
+        "runs in the background",
+        "highly expensive",
+        "virtually free",
+        "the results are incredible",
+        "absolute perfection",
+        "ken burns",
+        "byte the robot",
+        "manual pain",
+        "workflow walkthrough",
+        "drop a comment today"
+      ]
+    }
+  },
+  "link_verification_limited": false,
+  "passed": false
+}

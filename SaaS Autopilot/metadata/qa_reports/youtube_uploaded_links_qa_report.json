@@ -1,0 +1,321 @@
+{
+  "checked_at": "2026-06-13T23:18:17.225Z",
+  "channel": {
+    "id": "UC1_pK6I1tgK4rRsDP8NX0Bw",
+    "title": "SaaS Autopilot",
+    "uploads_playlist_id": "UU1_pK6I1tgK4rRsDP8NX0Bw",
+    "subscriber_count": 0,
+    "video_count": 0,
+    "view_count": 10
+  },
+  "summary": {
+    "total": 20,
+    "link_resolves": 0,
+    "link_failures": 0,
+    "link_verification_limited": 20,
+    "viewer_accessible": 0,
+    "not_viewer_accessible": 20
+  },
+  "results": [
+    {
+      "file_name": "SAAS_001_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "9iHjhfB_Kp4",
+      "title": "How I Automated My Entire YouTube Script Pipeline with Claude + Node.js",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=9iHjhfB_Kp4",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_002_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "UyiYmTb9cJk",
+      "title": "The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=UyiYmTb9cJk",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_003_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "xmXoMWaPNK0",
+      "title": "I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=xmXoMWaPNK0",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_004_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "ffCFBUq9Oo0",
+      "title": "The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=ffCFBUq9Oo0",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_005_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "v-VgaNWc_ZQ",
+      "title": "Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=v-VgaNWc_ZQ",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_006_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "tu3Gj3gKic0",
+      "title": "How to Build a Telegram AI CRM Agent That Closes Clients",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=tu3Gj3gKic0",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_007_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "l-AKqF9ptSE",
+      "title": "Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=l-AKqF9ptSE",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_008_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "eBrqdnfXz54",
+      "title": "How to Build a LinkedIn AI Lead Extractor in 10 Minutes",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=eBrqdnfXz54",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_009_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "5QUI-qtwLqw",
+      "title": "I Automated My Company's Tech Newsletter (0 to 10k Subscribers)",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=5QUI-qtwLqw",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_010_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "2GXsXbGydbA",
+      "title": "I Automated My B2B Cold Email Outreach Using Claude & n8n",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=2GXsXbGydbA",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_011_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "SDT8POIH148",
+      "title": "Build a Custom AI Customer Support Bot Connected to Company Docs",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=SDT8POIH148",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_012_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "wzVpt7Rtp2M",
+      "title": "How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=wzVpt7Rtp2M",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_013_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "hLtfoYLkdlM",
+      "title": "I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=hLtfoYLkdlM",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_014_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "92Eaqyma-Ss",
+      "title": "The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=92Eaqyma-Ss",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_015_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "_DRUhUetH_s",
+      "title": "How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=_DRUhUetH_s",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_016_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "sqmH5g0QzPk",
+      "title": "I Built an AI Churn Rescue Agent That Saves Cancelling SaaS Customers",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=sqmH5g0QzPk",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_017_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "eoOU7FEIXAY",
+      "title": "How to Auto-Qualify Demo Requests with AI Before Your Sales Team Wastes a Call",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=eoOU7FEIXAY",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_018_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "f1OQPZ3uk-s",
+      "title": "I Automated Feature Request Triage from Intercom, Slack, and Call Notes",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=f1OQPZ3uk-s",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_019_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "jbiUO13lrJQ",
+      "title": "How to Build a Weekly SaaS KPI Narrator That Explains Your Metrics Automatically",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=jbiUO13lrJQ",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    },
+    {
+      "file_name": "SAAS_020_FINAL.mp4",
+      "video_id": null,
+      "youtube_id": "rg_L6kfGaRU",
+      "title": "I Built an AI Renewal Prep Agent for High-Ticket SaaS Accounts",
+      "privacy_status": "unknown",
+      "watch_url": "https://www.youtube.com/watch?v=rg_L6kfGaRU",
+      "link_resolves": false,
+      "http_status": null,
+      "viewer_accessible": false,
+      "issues": [
+        "Watch URL could not be verified from this shell: transport unavailable",
+        "Video is not viewer-accessible because privacy_status is \"unknown\"."
+      ]
+    }
+  ]
+}

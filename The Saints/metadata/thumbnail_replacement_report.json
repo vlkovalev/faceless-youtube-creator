@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-06-30T04:01:17.365Z",
+  "channel": "The Saints",
+  "mode": "apply",
+  "public_only": false,
+  "thumbnail_dir": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\The Saints\\assets\\Thumbnails",
+  "items": [
+    {
+      "youtube_id": "CJ0DvjOfxDc",
+      "title": "The Monastery That Became Russia's Spiritual Hospital",
+      "privacy_status": "public",
+      "thumbnail_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\The Saints\\assets\\saints_thumbnail_video_16.png",
+      "action": "replace",
+      "ok": false,
+      "status_code": null,
+      "error": "{\"error\":{\"code\":429,\"message\":\"The user has uploaded too many thumbnails recently. Please try the request again later.\",\"errors\":[{\"message\":\"The user has uploaded too many thumbnails recently. Please try the request again later.\",\"domain\":\"youtube.thumbnail\",\"reason\":\"uploadRateLimitExceeded\"}]}}"
+    }
+  ],
+  "summary": {
+    "total": 1,
+    "matched": 1,
+    "succeeded": 0,
+    "skipped": 0,
+    "failed": 1
+  }
+}

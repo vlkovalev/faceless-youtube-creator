@@ -1,0 +1,17 @@
+Create a reusable B2B automation build prompt for the SaaS Autopilot video "The $20/Month Stack That Replaced a $3,000 Marketing Agency" (SAAS-002).
+
+Video promise:
+Three tools, $20 a month, and about four hours of setup. This is what replaced my marketing agency.
+
+Likely tool stack:
+make.com, linkedin, claude
+
+Scene context:
+1. The Hook (0:00–0:30): Three tools, twenty dollars a month, and about four hours of setup. In this video, I'm going to show you the exact automation stack that completely replaced my three-thousand-dollar-a-month marketing agency. We're going to bypass the hype, show you the live ru
+2. The Problem (0:30–1:30): Standard B2B marketing agencies charge massive retainers for tasks that are incredibly repetitive. Every month, they bill you to write blog posts, draft cold outreach emails, manage social media calendars, and research potential leads. This manual agency struc
+3. The Stack (1:30–2:30): To build this agency replacement stack, we only need three tools: first, Make.com for visual workflow orchestration; second, Claude Sonnet via API for high-quality copywriting; and third, a simple Google Sheet for lead tracking and storage. The subscription co
+4. The Build (2:30–6:00): Let's walk through the setup. The system is split into two automated loops. Loop one handles lead research and copywriting. The workflow triggers when a new lead is added to our Google Sheet. Make.com intercepts the contact, calls a custom scraper to extract t
+5. The Results (6:00–7:00): The results are clear and measurable. What used to cost three thousand dollars a month in agency fees now costs less than twenty dollars. The workflow processes over five hundred targeted leads a week, drafts hyper-personalized campaigns, and keeps our social 
+6. The CTA (7:00–end): The complete blueprint, prompts, and Make.com templates are linked in the description below. If you want to scale your marketing without breaking the bank, clone these workflows and start running them today. Drop a comment below if you want to see a specific m
+
+The prompt should help a viewer generate a practical blueprint, implementation plan, test data plan, QA checklist, and go-live checklist for this specific workflow.

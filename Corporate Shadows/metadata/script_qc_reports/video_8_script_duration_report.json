@@ -1,0 +1,72 @@
+{
+  "script_id": 8,
+  "title": "The Company That Patented Nature: How a Corporate Giant Controlled the World's Seeds",
+  "total_words": 1586,
+  "estimated_seconds": 705,
+  "estimated_minutes": 11.8,
+  "target_words": "1250-1650",
+  "minimum_words": 1100,
+  "status": "passed",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Seed Police",
+      "word_count": 149
+    },
+    {
+      "scene_number": 2,
+      "title": "Patented Life",
+      "word_count": 155
+    },
+    {
+      "scene_number": 3,
+      "title": "The Resistance",
+      "word_count": 139
+    },
+    {
+      "scene_number": 4,
+      "title": "The Chemical Roots",
+      "word_count": 134
+    },
+    {
+      "scene_number": 5,
+      "title": "The Miracle Crop",
+      "word_count": 130
+    },
+    {
+      "scene_number": 6,
+      "title": "The Technology Trap",
+      "word_count": 119
+    },
+    {
+      "scene_number": 7,
+      "title": "The Spying Game",
+      "word_count": 126
+    },
+    {
+      "scene_number": 8,
+      "title": "The Seed Chokehold",
+      "word_count": 128
+    },
+    {
+      "scene_number": 9,
+      "title": "The Global Debt Cycle",
+      "word_count": 120
+    },
+    {
+      "scene_number": 10,
+      "title": "The Toxic Backlash",
+      "word_count": 114
+    },
+    {
+      "scene_number": 11,
+      "title": "The Sixty-Three Billion Debt",
+      "word_count": 128
+    },
+    {
+      "scene_number": 12,
+      "title": "The Patented Planet",
+      "word_count": 144
+    }
+  ]
+}

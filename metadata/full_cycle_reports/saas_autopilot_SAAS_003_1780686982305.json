@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-06-05T19:16:22.308Z",
+  "session_id": "SAAS_AUTOPILOT_SAAS_003_1780686982305",
+  "channel": "SAAS_AUTOPILOT",
+  "channel_name": "SaaS Autopilot Automation",
+  "topic_id": "SAAS-003",
+  "publish_at": "2026-06-06T06:00:00.000Z",
+  "dry_run": false,
+  "max_retries": 2,
+  "stages": [
+    {
+      "stage": "write",
+      "status": "failed",
+      "attempts": 1
+    }
+  ],
+  "issues": [
+    {
+      "stage": "write",
+      "type": "generic_failure",
+      "retryable": true,
+      "detected_at": "2026-06-05T19:16:23.371Z",
+      "exit_status": 1,
+      "stdout_tail": "◇ injected env (0) from automation\\credentials\\.env // tip: ⌘ enable debugging { debug: true }\n\n✍️  Script Writer Agent\n   Channel : SAAS_AUTOPILOT\n   Topic ID: SAAS-003\n   Model   : claude-sonnet-4-6\n   Title   : I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)\n\n⏳  Calling Anthropic API...\n",
+      "stderr_tail": "Fatal: Anthropic API error: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\n"
+    }
+  ],
+  "resolutions": [],
+  "unresolved": [
+    {
+      "stage": "write",
+      "type": "generic_failure",
+      "retryable": true,
+      "detected_at": "2026-06-05T19:16:23.371Z",
+      "exit_status": 1,
+      "stdout_tail": "◇ injected env (0) from automation\\credentials\\.env // tip: ⌘ enable debugging { debug: true }\n\n✍️  Script Writer Agent\n   Channel : SAAS_AUTOPILOT\n   Topic ID: SAAS-003\n   Model   : claude-sonnet-4-6\n   Title   : I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)\n\n⏳  Calling Anthropic API...\n",
+      "stderr_tail": "Fatal: Anthropic API error: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\n"
+    }
+  ],
+  "tracker_summary": {
+    "total_entries": 15,
+    "uploaded_files": [
+      {
+        "filename": "SAAS_001_FINAL.mp4",
+        "youtube_id": "OGwjUVY-TUM",
+        "publish_at": "",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Private — no schedule set."
+      },
+      {
+        "filename": "SAAS_002_FINAL.mp4",
+        "youtube_id": "nXYNOrKnxhU",
+        "publish_at": "",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Private — no schedule set."
+      },
+      {
+        "filename": "SAAS_003_FINAL.mp4",
+        "youtube_id": "Gf5oasoSl-s",
+        "publish_at": "2026-06-04T14:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-04T14:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_004_FINAL.mp4",
+        "youtube_id": "yIpPK8e8cyw",
+        "publish_at": "2026-06-06T14:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-06T14:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_005_FINAL.mp4",
+        "youtube_id": "Mnm6rQxm3MY",
+        "publish_at": "2026-06-08T14:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-08T14:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_006_FINAL.mp4",
+        "youtube_id": "CZ3Kq_msPzM",
+        "publish_at": "2026-06-10T14:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-10T14:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_007_FINAL.mp4",
+        "youtube_id": "PjfY7hdCX-w",
+        "publish_at": "2026-06-12T14:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-12T14:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_008_FINAL.mp4",
+        "youtube_id": "cxn767aiTGg",
+        "publish_at": "2026-06-14T13:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-14T13:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_009_FINAL.mp4",
+        "youtube_id": "8rPLvpiX5uA",
+        "publish_at": "2026-06-16T13:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-16T13:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_010_FINAL.mp4",
+        "youtube_id": "OdvlAw9YIFY",
+        "publish_at": "2026-06-18T13:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-18T13:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_011_FINAL.mp4",
+        "youtube_id": "JL9IMlqgetA",
+        "publish_at": "2026-06-20T13:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-20T13:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_012_FINAL.mp4",
+        "youtube_id": "jLxHw0ybwGQ",
+        "publish_at": "2026-06-22T13:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-22T13:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_013_FINAL.mp4",
+        "youtube_id": "2v0hZRqUrrE",
+        "publish_at": "2026-06-24T13:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-24T13:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_014_FINAL.mp4",
+        "youtube_id": "IiMUdspafGQ",
+        "publish_at": "2026-06-26T13:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-26T13:00:00.000Z"
+      },
+      {
+        "filename": "SAAS_015_FINAL.mp4",
+        "youtube_id": "wf1ngQ0LUOs",
+        "publish_at": "2026-06-28T13:00:00.000Z",
+        "status_note": "CANONICAL. SaaS Autopilot channel. Scheduled for 2026-06-28T13:00:00.000Z"
+      }
+    ]
+  },
+  "delay_report": null,
+  "status": "blocked"
+}

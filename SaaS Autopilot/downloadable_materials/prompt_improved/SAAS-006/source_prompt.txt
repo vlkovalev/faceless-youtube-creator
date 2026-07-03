@@ -1,0 +1,17 @@
+Create a reusable B2B automation build prompt for the SaaS Autopilot video "How to Build a Telegram AI CRM Agent That Closes Clients" (SAAS-006).
+
+Video promise:
+Millions of businesses run on messaging platforms, but sales reps cannot reply instantly. I built a Telegram AI agent connected to Claude and Google Sheets that automatically qualifies leads, handles B2B objections, and books meetings while you sleep.
+
+Likely tool stack:
+n8n, telegram, google sheets, claude, crm
+
+Scene context:
+1. The Hook (0:00â€“0:30): Millions of businesses run on messaging platforms, but sales reps cannot reply instantly. I built a Telegram AI agent connected to Claude and Google Sheets that automatically qualifies leads, handles B2B objections, and books meetings while you sleep.
+2. The Problem (0:30â€“1:30): In modern sales, response speed is everything. If a prospect messages your business and waits an hour for a reply, they have already gone to a competitor. But hiring a 24/7 support team to monitor messaging chats is highly expensive.
+3. The Stack (1:30â€“2:30): We build this messaging agent using Node.js, the Telegram Bot API, the Anthropic Sonnet SDK, and Google Sheets to store conversation logs and qualified leads. The total monthly API running cost is under three dollars.
+4. The Build (2:30â€“6:00): The logic is simple. When a prospect messages the bot, n8n routes the message to Claude. Claude evaluates their business size, checks if they qualify as a lead, writes a personalized B2B response, and updates the Google Sheet status.
+5. The Results (6:00â€“7:00): The results are impressive. Our Telegram agent responds to incoming queries in under three seconds, answers product objections perfectly, and books qualified leads directly into our calendar without requiring any manual sales labor.
+6. The CTA (7:00â€“end): You can grab the full Telegram agent source code and sheet templates in the playbook below.download the boilerplate, and start automating your client acquisition today. This channel needs your support. Please subscribe, leave a word of appreciation for the aut
+
+The prompt should help a viewer generate a practical blueprint, implementation plan, test data plan, QA checklist, and go-live checklist for this specific workflow.

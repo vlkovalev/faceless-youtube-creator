@@ -1,0 +1,18 @@
+{
+  "channel": "cs",
+  "topic_id": "3",
+  "publish_at": "2026-06-09T12:00:00.000Z",
+  "started_at": "2026-06-06T14:25:42.162Z",
+  "dry_run": false,
+  "stages": {
+    "qc": {
+      "status": "complete",
+      "timestamp": "2026-06-06T14:25:43.648Z"
+    },
+    "upload": {
+      "status": "complete",
+      "timestamp": "2026-06-06T14:25:45.435Z"
+    }
+  },
+  "last_updated": "2026-06-06T14:25:45.435Z"
+}

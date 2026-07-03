@@ -1,4 +1,4 @@
-﻿# Agent Registry
+# Agent Registry
 
 This registry defines reusable production agents for the channel portfolio. Agents should be modular: each agent has a clear job, inputs, outputs, quality rules, and stop conditions.
 
@@ -17,7 +17,7 @@ Tone: reverent, cinematic, historically careful, spiritually serious.
 Primary output: full-story saint and monastic documentaries with no upper runtime cap.
 Risk profile: denominational sensitivity, copyrighted modern hagiographies, overclaiming miracles, disrespectful visuals.
 
-### Future AI / B2B Automation Channel
+### Future SaaS Autopilot Channel
 Tone: practical, clear, systems-oriented, proof-based.
 Primary output: tutorials, workflows, tool comparisons, templates.
 Risk profile: tool churn, affiliate bias, low-quality AI hype.

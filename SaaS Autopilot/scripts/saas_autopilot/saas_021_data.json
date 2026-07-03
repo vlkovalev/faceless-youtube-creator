@@ -1,0 +1,759 @@
+{
+  "_generated_at": "2026-06-15T21:16:47.752Z",
+  "_format": "SAAS_AUTOPILOT_STRICT_DEMO_v2",
+  "_agent": "generate_18_scenes.js (Custom Step-by-Step Slide Builder)",
+  "channel": "SaaS Autopilot",
+  "video": {
+    "id": "SAAS-021",
+    "title": "How to Automate Construction Daily Reports (n8n + AI Step-by-Step)",
+    "angle": "Automating progress photo uploads, daily summaries, and ClickUp safety tickets using n8n and AI",
+    "hook": "Construction daily reports are critical, but chasing field workers for updates and manually organizing photos is a massive waste of time. In this video, I'm going to show you how to automate the entire process with n8n and AI.",
+    "target_ctr": "14%",
+    "difficulty": "Medium",
+    "status": "script_complete"
+  },
+  "production": {
+    "format": "screen_recorded_step_by_step_demo",
+    "style": "strict follow-along tutorial with real UI anchors, live test runs, and no static filler",
+    "voice_backend": "elevenlabs",
+    "target_duration_seconds": 540,
+    "minimum_duration_seconds": 480,
+    "assets_dir": "assets/saas_autopilot_assets/saas_021/"
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "Automation Preview",
+      "type": "result_preview",
+      "voiceover": "Construction daily reports are absolutely critical for project visibility, but chasing field workers for updates and manually organizing photos is a massive waste of time. In this step-by-step tutorial, I will show you how to build a complete automated pipeline that takes a simple mobile form submission, organizes progress photos in Google Drive, writes a clean operations summary using AI, and alerts the PM. Let's first inspect the finished result from a live run.",
+      "visual_type": "image",
+      "visual_note": "A high-tech overview dashboard of the construction report automation showing Google Forms, n8n canvas, and Gmail.",
+      "pacing_note": "Hook pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "0:00",
+          "action_type": "verify",
+          "ui_target": "Gmail inbox daily summary email",
+          "exact_instruction": "Open the Gmail inbox and verify the daily report summary.",
+          "sample_input": "completed report summary email",
+          "expected_result": "A beautifully formatted HTML report email is visible.",
+          "visual_anchor": "Inbox daily summary email open on screen."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "Gmail inbox",
+          "daily summary email"
+        ],
+        "cursor_action": "verify Gmail inbox daily summary email",
+        "zoom_target": "daily summary email",
+        "on_screen_text": "AUTOMATION PREVIEW: verify result",
+        "data_panels": [
+          "email payload"
+        ]
+      }
+    },
+    {
+      "scene_number": 2,
+      "title": "ClickUp Safety Escalation",
+      "type": "result_preview",
+      "voiceover": "If a field worker reports a safety hazard or incident in their submission, the automation instantly routes the details to ClickUp, creating a high-priority ticket in the Site Issues list. This ensures safety issues are addressed immediately by the safety officer and never forgotten on paper. You can download the complete template from the link in the description. Please subscribe and leave a comment to support this channel, and may God bless you.",
+      "visual_type": "image",
+      "visual_note": "ClickUp dashboard showing high-priority safety ticket.",
+      "pacing_note": "High-priority hook pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "0:45",
+          "action_type": "verify",
+          "ui_target": "ClickUp Site Issues list",
+          "exact_instruction": "Open the ClickUp dashboard and inspect the created task.",
+          "sample_input": "high-priority safety ticket",
+          "expected_result": "A high-priority ticket titled 'Safety Hazard: Water near power cords' is visible.",
+          "visual_anchor": "ClickUp Site Issues list open."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "ClickUp dashboard",
+          "Site Issues list"
+        ],
+        "cursor_action": "verify ClickUp Site Issues list",
+        "zoom_target": "Site Issues list",
+        "on_screen_text": "SAFETY ESCALATION: ClickUp integration",
+        "data_panels": [
+          "ClickUp task payload"
+        ]
+      }
+    },
+    {
+      "scene_number": 3,
+      "title": "Create n8n Workflow",
+      "type": "workspace_setup",
+      "voiceover": "To start building, open your self-hosted n8n instance or cloud dashboard in your browser. Click the Create New Workflow button in the top right corner of the dashboard interface. This opens a blank canvas where we will build our automated pipeline step-by-step. Make sure to save your canvas frequently as we add nodes to prevent losing work. This will ensure your workflow runs locally or on your own VPS server without paying Zapier fees.",
+      "visual_type": "image",
+      "visual_note": "n8n dashboard with a blank canvas open.",
+      "pacing_note": "Slower setup pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "1:30",
+          "action_type": "click",
+          "ui_target": "n8n dashboard Create New Workflow button",
+          "exact_instruction": "Open n8n dashboard and click the Create New Workflow button.",
+          "sample_input": "new workflow session",
+          "expected_result": "A blank canvas with a start node is loaded.",
+          "visual_anchor": "Create New Workflow button focus."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n dashboard",
+          "blank canvas"
+        ],
+        "cursor_action": "click n8n dashboard Create New Workflow button",
+        "zoom_target": "Create New Workflow button",
+        "on_screen_text": "WORKSPACE SETUP: Create n8n Workflow",
+        "data_panels": [
+          "n8n session"
+        ]
+      }
+    },
+    {
+      "scene_number": 4,
+      "title": "Configure Credentials",
+      "type": "workspace_setup",
+      "voiceover": "Double-click the default workflow name at the top left of the canvas and enter 'Construction Daily Report Automation'. Next, open the active credentials settings panel. Ensure that your API accounts for Google Sheets, Google Drive, OpenAI GPT-4o, Gmail, and ClickUp are fully authenticated, connected, and displaying active status badges.",
+      "visual_type": "image",
+      "visual_note": "Workflow rename prompt and API credentials status panel.",
+      "pacing_note": "Direct setup pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "2:15",
+          "action_type": "enter",
+          "ui_target": "Workflow name input field",
+          "exact_instruction": "Enter 'Construction Daily Report Automation' into the workflow name field.",
+          "sample_input": "Construction Daily Report Automation",
+          "expected_result": "The name updates in the header.",
+          "visual_anchor": "Workflow name input field."
+        },
+        {
+          "timestamp": "2:35",
+          "action_type": "connect",
+          "ui_target": "API credentials settings panel",
+          "exact_instruction": "Open the credentials page and select Google, OpenAI, Gmail, and ClickUp.",
+          "sample_input": "authenticated accounts",
+          "expected_result": "Connected indicators show green status.",
+          "visual_anchor": "API credentials settings panel."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "Workflow name input field",
+          "API credentials settings panel"
+        ],
+        "cursor_action": "enter Workflow name input field; connect API credentials settings panel",
+        "zoom_target": "Workflow name input field",
+        "on_screen_text": "WORKSPACE SETUP: Name and Credentials",
+        "data_panels": [
+          "credentials list"
+        ]
+      }
+    },
+    {
+      "scene_number": 5,
+      "title": "Create Intake Form",
+      "type": "trigger_build",
+      "voiceover": "Open Google Forms in your browser and click the blank form template option. Name the form 'Construction Daily Report'. Add input fields for Project Name, Date, Inspector Name, Crew Size, Weather, Work Completed, Delays, Safety Issues, and a File Upload question named Photos, restricting it to images with a ten megabyte file limit. Ensure the fields are named logically to avoid data extraction confusion later.",
+      "visual_type": "image",
+      "visual_note": "Google Forms editing page showing daily report questions.",
+      "pacing_note": "Step-by-step form setup.",
+      "demo_steps": [
+        {
+          "timestamp": "3:00",
+          "action_type": "open",
+          "ui_target": "Google Forms editor",
+          "exact_instruction": "Go to Google Forms and select blank form.",
+          "sample_input": "blank form",
+          "expected_result": "A new empty form is loaded.",
+          "visual_anchor": "Google Forms editor canvas."
+        },
+        {
+          "timestamp": "3:20",
+          "action_type": "create",
+          "ui_target": "Google Forms question fields",
+          "exact_instruction": "Add questions for Project Name, Date, Crew Size, Weather, Delays, Safety, and Photos.",
+          "sample_input": "Construction daily report questions",
+          "expected_result": "Form layout has all required inputs.",
+          "visual_anchor": "Google Forms question fields."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "Google Forms editor",
+          "Google Forms question fields"
+        ],
+        "cursor_action": "open Google Forms editor; create Google Forms question fields",
+        "zoom_target": "Google Forms editor",
+        "on_screen_text": "STEP 1: CREATE MOBILE INTAKE FORM",
+        "data_panels": [
+          "form layout"
+        ]
+      }
+    },
+    {
+      "scene_number": 6,
+      "title": "Link Sheet Database",
+      "type": "trigger_build",
+      "voiceover": "Once your intake form is designed, select the Responses tab at the top of the form editor. Click the green Link to Sheets button and choose Create a new spreadsheet. This creates a Google Sheet database that will record every form submission in real-time, acting as our central ledger.",
+      "visual_type": "image",
+      "visual_note": "Google Sheet responding spreadsheet displaying form output fields.",
+      "pacing_note": "Database connection setup.",
+      "demo_steps": [
+        {
+          "timestamp": "3:50",
+          "action_type": "click",
+          "ui_target": "Google Forms Responses tab",
+          "exact_instruction": "Open the Responses tab and click Link to Sheets.",
+          "sample_input": "link responses action",
+          "expected_result": "A spreadsheet setup modal appears.",
+          "visual_anchor": "Google Forms Responses tab."
+        },
+        {
+          "timestamp": "4:10",
+          "action_type": "create",
+          "ui_target": "New spreadsheet output",
+          "exact_instruction": "Choose create new spreadsheet and select Create.",
+          "sample_input": "Construction Daily Report responses spreadsheet",
+          "expected_result": "A new Google Sheet is opened with matching headers.",
+          "visual_anchor": "New spreadsheet output."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "Google Forms Responses tab",
+          "New spreadsheet output"
+        ],
+        "cursor_action": "click Google Forms Responses tab; create New spreadsheet output",
+        "zoom_target": "Google Forms Responses tab",
+        "on_screen_text": "STEP 1: LINK GOOGLE SHEET DATABASE",
+        "data_panels": [
+          "sheet schema"
+        ]
+      }
+    },
+    {
+      "scene_number": 7,
+      "title": "Add Google Sheets Trigger",
+      "type": "trigger_build",
+      "voiceover": "Go back to n8n and drag the Google Sheets Trigger node onto the canvas. Set the event option to On Row Added. Connect your Google account and select the response sheet we created in the previous step, ensuring the sheet name matches exactly. Verify that the connection credentials show a green status dot before moving to the next node.",
+      "visual_type": "image",
+      "visual_note": "n8n Google Sheets trigger node configuration sidebar panel.",
+      "pacing_note": "Trigger build configuration.",
+      "demo_steps": [
+        {
+          "timestamp": "4:30",
+          "action_type": "add",
+          "ui_target": "n8n Sheets trigger node",
+          "exact_instruction": "Search for Google Sheets trigger and add it to canvas.",
+          "sample_input": "Google Sheets trigger node",
+          "expected_result": "The node appears on the canvas.",
+          "visual_anchor": "n8n Sheets trigger node."
+        },
+        {
+          "timestamp": "4:50",
+          "action_type": "set",
+          "ui_target": "On Row Added trigger event configuration",
+          "exact_instruction": "Select event type On Row Added and select spreadsheet 'Construction Daily Report'.",
+          "sample_input": "On Row Added config",
+          "expected_result": "The node is configured and ready.",
+          "visual_anchor": "On Row Added trigger event configuration."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n Sheets trigger node",
+          "On Row Added trigger event configuration"
+        ],
+        "cursor_action": "add n8n Sheets trigger node; set On Row Added trigger event configuration",
+        "zoom_target": "n8n Sheets trigger node",
+        "on_screen_text": "STEP 2: CONNECT n8n TO GOOGLE SHEETS",
+        "data_panels": [
+          "trigger parameters"
+        ]
+      }
+    },
+    {
+      "scene_number": 8,
+      "title": "Test Inbound Payload",
+      "type": "input_schema",
+      "voiceover": "Submit a test daily report using the Google Form. In n8n, click the Listen for test event button. The trigger node will fire and fetch the JSON response payload. Verify that all fields like Project Name and Weather appear correctly in the output panel.",
+      "visual_type": "image",
+      "visual_note": "n8n canvas displaying inbound payload JSON output.",
+      "pacing_note": "Verification check pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "5:15",
+          "action_type": "click",
+          "ui_target": "Listen for test event button",
+          "exact_instruction": "Submit a form report and click Listen for test event in n8n.",
+          "sample_input": "form submission trigger",
+          "expected_result": "Payload appears with fields like Project Name.",
+          "visual_anchor": "Listen for test event button."
+        },
+        {
+          "timestamp": "5:30",
+          "action_type": "verify",
+          "ui_target": "Inbound payload JSON output",
+          "exact_instruction": "Check that form variables are mapped inside the JSON.",
+          "sample_input": "JSON keys",
+          "expected_result": "Fields like Weather and Crew Size exist.",
+          "visual_anchor": "Inbound payload JSON output."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "Listen for test event button",
+          "Inbound payload JSON output"
+        ],
+        "cursor_action": "click Listen for test event button; verify Inbound payload JSON output",
+        "zoom_target": "Inbound payload JSON output",
+        "on_screen_text": "STEP 3: RUN EVENT INTAKE SCHEMA TEST",
+        "data_panels": [
+          "inbound JSON"
+        ]
+      }
+    },
+    {
+      "scene_number": 9,
+      "title": "Search Drive Folder",
+      "type": "mapping",
+      "voiceover": "Now we set up folder organization in Google Drive. Add a Google Drive node to check if a project folder matching the Project Name already exists. Configure the action to Get Folders and enter a search query query matching the folder name dynamically.",
+      "visual_type": "image",
+      "visual_note": "n8n Google Drive search query configuration panel.",
+      "pacing_note": "Folder search pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "5:45",
+          "action_type": "add",
+          "ui_target": "n8n Google Drive node",
+          "exact_instruction": "Search for Google Drive node and add it to canvas.",
+          "sample_input": "Google Drive node",
+          "expected_result": "The node appears on the canvas.",
+          "visual_anchor": "n8n Google Drive node."
+        },
+        {
+          "timestamp": "6:00",
+          "action_type": "set",
+          "ui_target": "Google Drive Get Folders action config",
+          "exact_instruction": "Select Action 'Get Folders' and set query to match form 'Project Name'.",
+          "sample_input": "Get Folders configuration",
+          "expected_result": "The lookup query is saved.",
+          "visual_anchor": "Google Drive Get Folders action config."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n Google Drive node",
+          "Google Drive Get Folders action config"
+        ],
+        "cursor_action": "add n8n Google Drive node; set Google Drive Get Folders action config",
+        "zoom_target": "n8n Google Drive node",
+        "on_screen_text": "STEP 4: DEFINE DRIVE DOCUMENT CONTROL",
+        "data_panels": [
+          "Drive query parameters"
+        ]
+      }
+    },
+    {
+      "scene_number": 10,
+      "title": "Create Project Folder",
+      "type": "mapping",
+      "voiceover": "Add an If node to check if the folder ID exists. Connect the False path to a Google Drive Create Folder node. Set the folder name to the Project Name from the Form. This dynamically creates a folder for new projects, keeping files organized.",
+      "visual_type": "image",
+      "visual_note": "n8n If node branching logic for folder check.",
+      "pacing_note": "Branching setup pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "6:15",
+          "action_type": "add",
+          "ui_target": "n8n If node folder check",
+          "exact_instruction": "Add an If node to check if folder lookup returned empty.",
+          "sample_input": "If folder exists check",
+          "expected_result": "If node is placed after Google Drive search node.",
+          "visual_anchor": "n8n If node folder check."
+        },
+        {
+          "timestamp": "6:30",
+          "action_type": "add",
+          "ui_target": "Google Drive Create Folder node",
+          "exact_instruction": "Add a Google Drive node to False branch and select Create Folder action.",
+          "sample_input": "Google Drive Create Folder",
+          "expected_result": "Folder creation node is connected.",
+          "visual_anchor": "Google Drive Create Folder node."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n If node folder check",
+          "Google Drive Create Folder node"
+        ],
+        "cursor_action": "add n8n If node folder check; add Google Drive Create Folder node",
+        "zoom_target": "n8n If node folder check",
+        "on_screen_text": "STEP 4: ROUTE FOLDER CREATION LOGIC",
+        "data_panels": [
+          "If statement logic"
+        ]
+      }
+    },
+    {
+      "scene_number": 11,
+      "title": "Download Photo Binary",
+      "type": "mapping",
+      "voiceover": "To save progress photos, we must download the files first. Add an HTTP Request node to get the image URL from the Sheets trigger. Set the response format to file to download the raw binary image data into n8n.",
+      "visual_type": "image",
+      "visual_note": "n8n HTTP Request node binary download settings.",
+      "pacing_note": "File download logic pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "6:45",
+          "action_type": "add",
+          "ui_target": "n8n HTTP Request node",
+          "exact_instruction": "Add HTTP Request node to download file.",
+          "sample_input": "HTTP download node",
+          "expected_result": "HTTP Request node is connected.",
+          "visual_anchor": "n8n HTTP Request node."
+        },
+        {
+          "timestamp": "7:00",
+          "action_type": "set",
+          "ui_target": "HTTP Request Response Format setting",
+          "exact_instruction": "Set Action to GET, map URL, and select Response Format to 'File'.",
+          "sample_input": "binary file response",
+          "expected_result": "Node is set to pull file binary data.",
+          "visual_anchor": "HTTP Request Response Format setting."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n HTTP Request node",
+          "HTTP Request Response Format setting"
+        ],
+        "cursor_action": "add n8n HTTP Request node; set HTTP Request Response Format setting",
+        "zoom_target": "n8n HTTP Request node",
+        "on_screen_text": "STEP 4: DOWNLOAD PHOTO BINARY",
+        "data_panels": [
+          "HTTP variables"
+        ]
+      }
+    },
+    {
+      "scene_number": 12,
+      "title": "Upload Photos to Drive",
+      "type": "mapping",
+      "voiceover": "Add a Google Drive Upload File node. Map the binary data input from the HTTP node. Set the Parent Folder ID to the project folder ID we looked up. This saves all site photos in the correct project folder automatically.",
+      "visual_type": "image",
+      "visual_note": "n8n Google Drive upload node file properties mapping panel.",
+      "pacing_note": "Drive upload pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "7:15",
+          "action_type": "add",
+          "ui_target": "n8n Google Drive upload node",
+          "exact_instruction": "Add Google Drive node and select Upload File action.",
+          "sample_input": "Google Drive Upload node",
+          "expected_result": "Upload node is connected.",
+          "visual_anchor": "n8n Google Drive upload node."
+        },
+        {
+          "timestamp": "7:30",
+          "action_type": "map",
+          "ui_target": "Upload parent folder and binary parameter",
+          "exact_instruction": "Map Parent Folder ID and set Binary Property to 'data'.",
+          "sample_input": "binary mapping parameter",
+          "expected_result": "Drive upload node is configured.",
+          "visual_anchor": "Upload parent folder and binary parameter."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n Google Drive upload node",
+          "Upload parent folder and binary parameter"
+        ],
+        "cursor_action": "add n8n Google Drive upload node; map Upload parent folder and binary parameter",
+        "zoom_target": "n8n Google Drive upload node",
+        "on_screen_text": "STEP 4: UPLOAD PHOTOS TO PROJECT FOLDER",
+        "data_panels": [
+          "binary parameter JSON"
+        ]
+      }
+    },
+    {
+      "scene_number": 13,
+      "title": "Add OpenAI Node",
+      "type": "action_configuration",
+      "voiceover": "Next, drag the OpenAI Chat node onto the canvas. Connect it after the folder upload step. Choose model gpt-4o from the dropdown menu. We will use this node to translate raw crew notes into a polished executive report.",
+      "visual_type": "image",
+      "visual_note": "n8n OpenAI node connection and model selection setup.",
+      "pacing_note": "AI node adding pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "7:45",
+          "action_type": "add",
+          "ui_target": "n8n OpenAI Chat node",
+          "exact_instruction": "Search for OpenAI Chat node and add it to canvas.",
+          "sample_input": "OpenAI node",
+          "expected_result": "The node appears on the canvas.",
+          "visual_anchor": "n8n OpenAI Chat node."
+        },
+        {
+          "timestamp": "8:00",
+          "action_type": "select",
+          "ui_target": "OpenAI Model selection dropdown menu",
+          "exact_instruction": "Select GPT-4o from the model options.",
+          "sample_input": "gpt-4o",
+          "expected_result": "The model is loaded.",
+          "visual_anchor": "OpenAI Model selection dropdown menu."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n OpenAI Chat node",
+          "OpenAI Model selection dropdown menu"
+        ],
+        "cursor_action": "add n8n OpenAI Chat node; select OpenAI Model selection dropdown menu",
+        "zoom_target": "n8n OpenAI Chat node",
+        "on_screen_text": "STEP 5: INSERT AI OPERATIONS PARSER",
+        "data_panels": [
+          "OpenAI options"
+        ]
+      }
+    },
+    {
+      "scene_number": 14,
+      "title": "Write AI Prompt",
+      "type": "action_configuration",
+      "voiceover": "Open the prompt settings in the OpenAI node. Paste our structured operations prompt template. Map the dynamic variables from the Google Sheets trigger node directly into the prompt text to provide the raw daily report data to the AI model.",
+      "visual_type": "image",
+      "visual_note": "n8n OpenAI prompt editor showing report summary rules and JSON fields.",
+      "pacing_note": "AI prompt mapping pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "8:15",
+          "action_type": "enter",
+          "ui_target": "OpenAI prompt editor text box",
+          "exact_instruction": "Open Prompt settings and paste the daily report summary prompt.",
+          "sample_input": "operations prompt template",
+          "expected_result": "The prompt template is active.",
+          "visual_anchor": "OpenAI prompt editor text box."
+        },
+        {
+          "timestamp": "8:30",
+          "action_type": "map",
+          "ui_target": "Prompt dynamic variables",
+          "exact_instruction": "Drag dynamic variables for Weather, Work Completed, and Crew Size into prompt.",
+          "sample_input": "dynamic tags mapping",
+          "expected_result": "JSON fields are mapped dynamically.",
+          "visual_anchor": "Prompt dynamic variables."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "OpenAI prompt editor text box",
+          "Prompt dynamic variables"
+        ],
+        "cursor_action": "enter OpenAI prompt editor text box; map Prompt dynamic variables",
+        "zoom_target": "OpenAI prompt editor text box",
+        "on_screen_text": "STEP 5: CONFIGURE AI PROMPT",
+        "data_panels": [
+          "prompt string"
+        ]
+      }
+    },
+    {
+      "scene_number": 15,
+      "title": "Evaluate Safety Issues",
+      "type": "qa_debug",
+      "voiceover": "Add an If node after the OpenAI step. Set the condition to check if the 'Safety Issues' field is empty. If it contains text, the workflow routes to the True branch; otherwise, it skips task creation and goes straight to email.",
+      "visual_type": "image",
+      "visual_note": "n8n If node check for safety issues text content.",
+      "pacing_note": "Branching validation setup.",
+      "demo_steps": [
+        {
+          "timestamp": "8:45",
+          "action_type": "add",
+          "ui_target": "n8n If node check safety",
+          "exact_instruction": "Add If node and name it Check Safety.",
+          "sample_input": "Check Safety node",
+          "expected_result": "If node is placed after OpenAI node.",
+          "visual_anchor": "n8n If node check safety."
+        },
+        {
+          "timestamp": "9:00",
+          "action_type": "set",
+          "ui_target": "If node condition logic selector",
+          "exact_instruction": "Set value to check if Safety Issues string is not empty.",
+          "sample_input": "Safety issues logic condition",
+          "expected_result": "The conditional rule is active.",
+          "visual_anchor": "If node condition logic selector."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n If node check safety",
+          "If node condition logic selector"
+        ],
+        "cursor_action": "add n8n If node check safety; set If node condition logic selector",
+        "zoom_target": "n8n If node check safety",
+        "on_screen_text": "STEP 6: CONFIGURE CONDITIONAL ROUTING",
+        "data_panels": [
+          "conditional logic parameters"
+        ]
+      }
+    },
+    {
+      "scene_number": 16,
+      "title": "Create ClickUp Task",
+      "type": "qa_debug",
+      "voiceover": "Connect the True branch of the If node to a ClickUp Create Task node. Set list ID to Site Issues and priority to High. Map the task name and description to show the reporter's name and the safety issue details.",
+      "visual_type": "image",
+      "visual_note": "n8n ClickUp node configuration panel showing list ID and high priority.",
+      "pacing_note": "ClickUp task creation pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "9:15",
+          "action_type": "add",
+          "ui_target": "n8n ClickUp node",
+          "exact_instruction": "Add ClickUp node to True path of If node.",
+          "sample_input": "ClickUp node setup",
+          "expected_result": "ClickUp node is connected.",
+          "visual_anchor": "n8n ClickUp node."
+        },
+        {
+          "timestamp": "9:30",
+          "action_type": "map",
+          "ui_target": "ClickUp task parameters list priority",
+          "exact_instruction": "Select Action Create Task, list 'Site Issues', priority 'High', and map name.",
+          "sample_input": "ClickUp dynamic task mapping",
+          "expected_result": "ClickUp task fields are configured.",
+          "visual_anchor": "ClickUp task parameters list priority."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n ClickUp node",
+          "ClickUp task parameters list priority"
+        ],
+        "cursor_action": "add n8n ClickUp node; map ClickUp task parameters list priority",
+        "zoom_target": "n8n ClickUp node",
+        "on_screen_text": "STEP 6: CREATE CLICKUP SAFETY TASK",
+        "data_panels": [
+          "ClickUp payload variables"
+        ]
+      }
+    },
+    {
+      "scene_number": 17,
+      "title": "Gmail Delivery Setup",
+      "type": "publish_handoff",
+      "voiceover": "Finally, add a Gmail Send Email node to notify the PM. Set the body type to HTML. Paste the styled HTML code template, mapping the AI summary and the Google Drive folder link dynamically so the PM has access.",
+      "visual_type": "image",
+      "visual_note": "n8n Gmail node configuration panel with HTML body template.",
+      "pacing_note": "Gmail setup pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "9:45",
+          "action_type": "add",
+          "ui_target": "n8n Gmail node",
+          "exact_instruction": "Add Gmail node after ClickUp node, merging paths.",
+          "sample_input": "Gmail node",
+          "expected_result": "Gmail node is connected.",
+          "visual_anchor": "n8n Gmail node."
+        },
+        {
+          "timestamp": "10:00",
+          "action_type": "map",
+          "ui_target": "Gmail HTML email body field",
+          "exact_instruction": "Select Send Email, set recipient, choose HTML body, and map AI output.",
+          "sample_input": "HTML body template",
+          "expected_result": "Gmail delivery settings are saved.",
+          "visual_anchor": "Gmail HTML email body field."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n Gmail node",
+          "Gmail HTML email body field"
+        ],
+        "cursor_action": "add n8n Gmail node; map Gmail HTML email body field",
+        "zoom_target": "n8n Gmail node",
+        "on_screen_text": "STEP 7: BUILD HTML EMAIL TEMPLATE",
+        "data_panels": [
+          "HTML template body"
+        ]
+      }
+    },
+    {
+      "scene_number": 18,
+      "title": "Turn Workflow Live",
+      "type": "publish_handoff",
+      "voiceover": "Click the active toggle switch in the top right to turn the workflow live. Submit a test daily report to verify that n8n runs green, ClickUp receives the task, and Gmail receives the report. May God bless you. This setup will completely eliminate manual report chasing and keep your operations structured.",
+      "visual_type": "image",
+      "visual_note": "n8n active toggle glowing green on n8n canvas header.",
+      "pacing_note": "Handoff/Outro pacing.",
+      "demo_steps": [
+        {
+          "timestamp": "10:15",
+          "action_type": "click",
+          "ui_target": "n8n active workflow toggle switch",
+          "exact_instruction": "Click the active toggle in the top right.",
+          "sample_input": "active toggle",
+          "expected_result": "The workflow is active and listening.",
+          "visual_anchor": "n8n active workflow toggle switch."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "screen_recording",
+        "foreground_elements": [
+          "n8n active workflow toggle switch"
+        ],
+        "cursor_action": "click n8n active workflow toggle switch",
+        "zoom_target": "n8n active workflow toggle switch",
+        "on_screen_text": "STEP 8: RUN FULL SYSTEM END-TO-END TEST",
+        "data_panels": [
+          "active state"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "primary_keyword": "Construction automation",
+    "description_template": "Construction daily reports are critical, but chasing field workers for updates and manually organizing photos is a massive waste of time. In this video, I'm going to show you how to automate the entire process with n8n and AI.\n\n💬 AUTOMATION CHALLENGE:\nDescribe your B2B daily operational tasks in the comments, and I will write a custom workflow guide to automate it.\n\n📋 CHAPTERS:\n0:00 — Hook\n1:30 — Workspace Setup\n3:00 — Intake Form Setup\n4:30 — Sheets Trigger\n5:45 — Google Drive folders\n7:45 — OpenAI summarizer\n8:45 — ClickUp safety tickets\n9:45 — Gmail notifications\n10:15 — Live end-to-end test\n\n📥 **Download the complete workflow blueprints:**\nhttps://drive.google.com/drive/folders/1NB4deu0_7g23VByy4txQXYjtjJONZcrD\n\n#AIAutomation #B2B #ClaudeAI #SaaS #Productivity",
+    "tags": [
+      "AI automation",
+      "B2B SaaS",
+      "workflow automation",
+      "n8n tutorial",
+      "construction daily report",
+      "ClickUp integration",
+      "OpenAI GPT-4o"
+    ],
+    "pinned_comment_template": "🤖 Pinned by AI Operator\nDid you get stuck setting up n8n binary downloads from Google Forms? Let me know in the comments and I'll jump in to help! Also, let me know what B2B stack you want to see automated next.",
+    "thumbnail_concept": "Sleek dark background (#0d1117). Mobile mockup of daily form with hard hat on left; n8n workflow canvas glowing green on right. Text overlay: 'AUTOMATE DAILY REPORTS'"
+  }
+}

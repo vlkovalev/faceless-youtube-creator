@@ -1,0 +1,15 @@
+{
+  "channel": "saas_autopilot",
+  "hold_active": false,
+  "set_at": "2026-06-29T00:00:00.000Z",
+  "set_by": "Codex",
+  "reason": "User explicitly resumed local production to rebuild all old videos under the new quality standard. Uploads, comments, and schedulers remain operationally disabled.",
+  "blocked_activities": [
+    "scheduled channel production",
+    "comment moderation/replies",
+    "manual production pipeline",
+    "master autopilot",
+    "publisher/upload actions"
+  ],
+  "resume_requires_user_request": false
+}

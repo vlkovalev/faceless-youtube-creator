@@ -1,0 +1,1196 @@
+{
+  "video_id": 1,
+  "title": "How One Family Fooled the World into Buying Worthless Rocks",
+  "niche": "Dark Business History",
+  "generated_at": "2026-06-30T03:42:00.276Z",
+  "estimated_total_duration_s": 566,
+  "script_duration_ok": true,
+  "total_beats": 52,
+  "source_priority": [
+    "1. wikimedia_commons — free, public domain, best for historical",
+    "2. library_of_congress — vintage ads, newspapers, portraits",
+    "3. internet_archive — newsreels, documentary footage",
+    "4. generated_graphic — charts, timelines, evidence boards",
+    "5. stock_broll — Storyblocks for industrial/corporate b-roll"
+  ],
+  "visual_formula": [
+    {
+      "key": "hook",
+      "name": "Hook",
+      "start_s": 0,
+      "end_s": 28
+    },
+    {
+      "key": "the_promise",
+      "name": "The Promise",
+      "start_s": 28,
+      "end_s": 113
+    },
+    {
+      "key": "the_growth",
+      "name": "The Growth",
+      "start_s": 113,
+      "end_s": 226
+    },
+    {
+      "key": "warning_signs",
+      "name": "Warning Signs",
+      "start_s": 226,
+      "end_s": 340
+    },
+    {
+      "key": "investigation",
+      "name": "Investigation",
+      "start_s": 340,
+      "end_s": 453
+    },
+    {
+      "key": "collapse",
+      "name": "Collapse",
+      "start_s": 453,
+      "end_s": 509
+    },
+    {
+      "key": "lessons_learned",
+      "name": "Lessons Learned",
+      "start_s": 509,
+      "end_s": 566
+    }
+  ],
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Illusion",
+      "start_s": 0,
+      "duration_s": 50,
+      "beat_count": 5,
+      "primary_asset_file": "scene_1_image.png",
+      "visual_prompt": "Soul Cinema, close-up of a pristine, large diamond resting on deep black velvet. A single, sharp white spotlight slices through the pitch blackness, refracting cold, brilliant rainbows through the crystal facets. High-contrast, premium, dark aesthetic.",
+      "act": {
+        "key": "hook",
+        "name": "Hook",
+        "b_roll": [
+          "City skyline at night",
+          "Glass corporate towers",
+          "Boardroom lights turning off",
+          "Redacted documents",
+          "Computer code scrolling",
+          "Stock chart rising rapidly"
+        ],
+        "sound_design": [
+          "Low cinematic drones",
+          "Keyboard clicks",
+          "Camera shutter sounds",
+          "Soft heartbeat rhythm"
+        ],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "1a",
+          "start_s": 0,
+          "duration_s": 5,
+          "narration_excerpt": "Take a look at this. Beautiful, rare, and absolutely priceless.",
+          "act": "hook",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "take look beautiful rare absolutely — City skyline at night, Glass corporate towers, Boardroom lights turning off, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        },
+        {
+          "beat_id": "1b",
+          "start_s": 5,
+          "duration_s": 7,
+          "narration_excerpt": "... Or at least, that is what you have been told your entire life.",
+          "act": "hook",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "least told your entire life — City skyline at night, Glass corporate towers, Boardroom lights turning off, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        },
+        {
+          "beat_id": "1c",
+          "start_s": 12,
+          "duration_s": 17,
+          "narration_excerpt": "For over a century, you, your parents, and your grandparents have been the silent victims of the single greatest marketi...",
+          "act": "hook",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "over century your parents grandparents",
+          "source_url": "https://www.loc.gov/search/?q=over%20century%20your%20parents%20grandparents",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        },
+        {
+          "beat_id": "1d",
+          "start_s": 29,
+          "duration_s": 9,
+          "narration_excerpt": "In reality, diamonds are not rare, they are not an investment, and they are certainly not priceless. ...",
+          "act": "the_promise",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "reality diamonds rare investment certainly — Startup office, Engineers working (anonymous silhouettes), Investor pitch deck, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        },
+        {
+          "beat_id": "1e",
+          "start_s": 38,
+          "duration_s": 12,
+          "narration_excerpt": "They are common carbon stones, controlled by a single family who convinced the world that a shiny rock was the ultimate ...",
+          "act": "the_promise",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "common carbon stones controlled single — Startup office, Engineers working (anonymous silhouettes), Investor pitch deck, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_1_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "title": "The Vintage Office (The Plot)",
+      "start_s": 50,
+      "duration_s": 45,
+      "beat_count": 4,
+      "primary_asset_file": "scene_2_image.png",
+      "visual_prompt": "Soul Cinema, a weary executive in a tailored 1940s suit sitting at a heavy vintage wooden desk at night. A single brass banker's desk lamp pools warm, intense amber light over scattered financial ledgers, magnifying glasses, and rough, uncut stones. Smoke slowly rises from an amber glass ashtray.",
+      "act": {
+        "key": "the_promise",
+        "name": "The Promise",
+        "b_roll": [
+          "Startup office",
+          "Engineers working (anonymous silhouettes)",
+          "Investor pitch deck",
+          "Headlines appearing",
+          "Funding announcements",
+          "Product renders"
+        ],
+        "sound_design": [
+          "Low cinematic drones",
+          "Keyboard clicks",
+          "Camera shutter sounds",
+          "Soft heartbeat rhythm"
+        ],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "2a",
+          "start_s": 50,
+          "duration_s": 12,
+          "narration_excerpt": "It began in the late 1930s. Inside a quiet, wood-paneled office in London, the executives of the De Beers diamond cartel...",
+          "act": "the_promise",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "executive or scientist portrait",
+          "search_query": "began late 1930s inside quiet",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=began%20late%201930s%20inside%20quiet&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2b",
+          "start_s": 62,
+          "duration_s": 11,
+          "narration_excerpt": "... In the wake of the Great Depression, people were starting to realize the truth: diamonds were common, and they were ...",
+          "act": "the_promise",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "executive or scientist portrait",
+          "search_query": "wake great depression people starting",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=wake%20great%20depression%20people%20starting&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2c",
+          "start_s": 73,
+          "duration_s": 13,
+          "narration_excerpt": "Sales were plummeting, and their massive corporate empire was on the verge of total collapse. They needed a plan to save...",
+          "act": "the_promise",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "executive or scientist portrait",
+          "search_query": "sales plummeting massive corporate empire",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=sales%20plummeting%20massive%20corporate%20empire&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        },
+        {
+          "beat_id": "2d",
+          "start_s": 86,
+          "duration_s": 8,
+          "narration_excerpt": "They decided to target the American consumer, embarking on a psychological crusade to change the human mind forever.",
+          "act": "the_promise",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "executive or scientist portrait",
+          "search_query": "decided target american consumer embarking",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=decided%20target%20american%20consumer%20embarking&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_2_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 3,
+      "title": "The South African Mine",
+      "start_s": 95,
+      "duration_s": 66,
+      "beat_count": 6,
+      "primary_asset_file": "scene_3_image.png",
+      "visual_prompt": "Soul Cinema, thousands of desperate diamond prospectors swarming a massive, dry open-pit mine in South Africa in the late 1800s. Plumes of dust rise as workers dig under a harsh, burning midday sun. Vintage sepia tint, historical documentary style.",
+      "act": {
+        "key": "the_promise",
+        "name": "The Promise",
+        "b_roll": [
+          "Startup office",
+          "Engineers working (anonymous silhouettes)",
+          "Investor pitch deck",
+          "Headlines appearing",
+          "Funding announcements",
+          "Product renders"
+        ],
+        "sound_design": [
+          "Low cinematic drones",
+          "Keyboard clicks",
+          "Camera shutter sounds",
+          "Soft heartbeat rhythm"
+        ],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "3a",
+          "start_s": 95,
+          "duration_s": 12,
+          "narration_excerpt": "To understand how they got here, we must travel back to 1869, when a massive diamond rush in South Africa flooded the gl...",
+          "act": "the_promise",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "understand here must travel back",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=understand%20here%20must%20travel%20back&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3b",
+          "start_s": 107,
+          "duration_s": 9,
+          "narration_excerpt": "Suddenly, prospectors were pulling millions of carats out of the earth. Diamonds were cheap, common, and losing all thei...",
+          "act": "the_promise",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "suddenly prospectors pulling millions carats",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=suddenly%20prospectors%20pulling%20millions%20carats&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3c",
+          "start_s": 116,
+          "duration_s": 11,
+          "narration_excerpt": "The industry was in chaos. To prevent a catastrophic price collapse, Cecil Rhodes and the founders of De Beers bought ev...",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "industry chaos prevent catastrophic price",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=industry%20chaos%20prevent%20catastrophic%20price&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3d",
+          "start_s": 127,
+          "duration_s": 11,
+          "narration_excerpt": "in South Africa, effectively bottlenecking the global supply. If you control the tap, you control the price—and they tur...",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "south africa effectively bottlenecking global",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=south%20africa%20effectively%20bottlenecking%20global&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3e",
+          "start_s": 138,
+          "duration_s": 10,
+          "narration_excerpt": "The genius of the scheme was not that De Beers made diamonds disappear. The stones were still being pulled from the grou...",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "genius scheme beers made diamonds",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=genius%20scheme%20beers%20made%20diamonds&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        },
+        {
+          "beat_id": "3f",
+          "start_s": 148,
+          "duration_s": 13,
+          "narration_excerpt": "The trick was to store them, ration them, and release only enough to keep the fantasy alive. Scarcity stopped being a ge...",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "trick store ration release enough",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=trick%20store%20ration%20release%20enough&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_3_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 4,
+      "title": "The Ad Agency (The Formula)",
+      "start_s": 161,
+      "duration_s": 61,
+      "beat_count": 7,
+      "primary_asset_file": "scene_4_image.png",
+      "visual_prompt": "Soul Cinema, a sleek mid-century corporate advertising boardroom in New York. Elegant print ad layouts are pinned to a dark mahogany wall, with the handwritten slogan 'A Diamond is Forever' in cursive. A crystal glass of whiskey sits on a polished table reflecting the lights.",
+      "act": {
+        "key": "the_growth",
+        "name": "The Growth",
+        "b_roll": [
+          "News headline animations",
+          "Funding charts",
+          "Office expansion",
+          "Hiring growth",
+          "Product launches"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "4a",
+          "start_s": 161,
+          "duration_s": 11,
+          "narration_excerpt": "Controlling the mines was only the first step. De Beers realized they couldn't just limit the supply; they had to artifi...",
+          "act": "the_growth",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "controlling mines first step beers",
+          "source_url": "https://www.loc.gov/search/?q=controlling%20mines%20first%20step%20beers",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4b",
+          "start_s": 172,
+          "duration_s": 6,
+          "narration_excerpt": "... In 1938, Harry Oppenheimer traveled to New York to meet with N.",
+          "act": "the_growth",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "1938 harry oppenheimer traveled york",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=1938%20harry%20oppenheimer%20traveled%20york&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4c",
+          "start_s": 178,
+          "duration_s": 3,
+          "narration_excerpt": "W. Ayer, a legendary advertising agency.",
+          "act": "the_growth",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "ayer legendary advertising agency",
+          "source_url": "https://www.loc.gov/search/?q=ayer%20legendary%20advertising%20agency",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4d",
+          "start_s": 181,
+          "duration_s": 13,
+          "narration_excerpt": "The mission was seemingly impossible: convince every young American man that buying a diamond engagement ring was a mand...",
+          "act": "the_growth",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "mission seemingly impossible convince every",
+          "source_url": "https://www.loc.gov/search/?q=mission%20seemingly%20impossible%20convince%20every",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4e",
+          "start_s": 194,
+          "duration_s": 9,
+          "narration_excerpt": "The agency set out to build a psychological trap, blending romance with financial obligation. They did not sell chemistr...",
+          "act": "the_growth",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "agency build psychological trap blending",
+          "source_url": "https://www.loc.gov/search/?q=agency%20build%20psychological%20trap%20blending",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4f",
+          "start_s": 203,
+          "duration_s": 6,
+          "narration_excerpt": "They sold anxiety. The question was no longer, do you want a diamond?",
+          "act": "the_growth",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "sold anxiety question longer want",
+          "source_url": "https://www.loc.gov/search/?q=sold%20anxiety%20question%20longer%20want",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        },
+        {
+          "beat_id": "4g",
+          "start_s": 209,
+          "duration_s": 13,
+          "narration_excerpt": "It became, what will people think if you do not buy one? That tiny shift turned a luxury object into a public test of ma...",
+          "act": "the_growth",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "became will people think tiny",
+          "source_url": "https://www.loc.gov/search/?q=became%20will%20people%20think%20tiny",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_4_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 5,
+      "title": "The Psychological Trap",
+      "start_s": 222,
+      "duration_s": 41,
+      "beat_count": 4,
+      "primary_asset_file": "scene_5_image.png",
+      "visual_prompt": "Soul Cinema, a young, nervous couple standing in front of a glowing glass jewelry case inside a high-end 1950s department store. The young man secretly checks his empty leather wallet under the counter, a sweat bead on his brow. The salesman smiles warmly.",
+      "act": {
+        "key": "the_growth",
+        "name": "The Growth",
+        "b_roll": [
+          "News headline animations",
+          "Funding charts",
+          "Office expansion",
+          "Hiring growth",
+          "Product launches"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "5a",
+          "start_s": 222,
+          "duration_s": 14,
+          "narration_excerpt": "The advertising agency targeted our deepest insecurities: social status and self-worth. They filled magazines and movies...",
+          "act": "the_growth",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "advertising agency targeted deepest insecurities — News headline animations, Funding charts, Office expansion, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5b",
+          "start_s": 236,
+          "duration_s": 7,
+          "narration_excerpt": "the direct measure of a man's professional success and his love for his bride. ...",
+          "act": "warning_signs",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "direct measure professional success love — Anonymous employee opening email, Error reports, Failed testing screens, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5c",
+          "start_s": 243,
+          "duration_s": 13,
+          "narration_excerpt": "They established an unwritten social rule that a man should spend two months' salary on a ring. If he didn't, he was bra...",
+          "act": "warning_signs",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "established unwritten social rule spend — Anonymous employee opening email, Error reports, Failed testing screens, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        },
+        {
+          "beat_id": "5d",
+          "start_s": 256,
+          "duration_s": 7,
+          "narration_excerpt": "The trap was sprung, and millions of ordinary men willingly walked right into it.",
+          "act": "warning_signs",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "trap sprung millions ordinary willingly — Anonymous employee opening email, Error reports, Failed testing screens, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_5_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 6,
+      "title": "The Slogan That Ruled the World",
+      "start_s": 263,
+      "duration_s": 40,
+      "beat_count": 3,
+      "primary_asset_file": "scene_6_image.png",
+      "visual_prompt": "Soul Cinema, an elegant woman in a dark 1940s evening gown staring out of a rain-slicked window at night. A large, sparkling diamond ring on her finger catches the distant city streetlights. Raindrops slide down the glass.",
+      "act": {
+        "key": "warning_signs",
+        "name": "Warning Signs",
+        "b_roll": [
+          "Anonymous employee opening email",
+          "Error reports",
+          "Failed testing screens",
+          "Red warning indicators",
+          "Internal memos"
+        ],
+        "sound_design": [],
+        "camera_style": [
+          "Slow zoom-ins",
+          "Security-camera effects",
+          "Dark corridors",
+          "Empty elevators"
+        ]
+      },
+      "beats": [
+        {
+          "beat_id": "6a",
+          "start_s": 263,
+          "duration_s": 10,
+          "narration_excerpt": "Then, in 1947, a copywriter named Frances Gerety wrote four simple words that changed society forever: 'A Diamond is For...",
+          "act": "warning_signs",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "historical period photo",
+          "search_query": "then 1947 copywriter named frances",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=then%201947%20copywriter%20named%20frances&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_6_image.png"
+        },
+        {
+          "beat_id": "6b",
+          "start_s": 273,
+          "duration_s": 16,
+          "narration_excerpt": "This wasn't just a brilliant marketing slogan; it was a highly sophisticated psychological lock. By convincing the publi...",
+          "act": "warning_signs",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "wasn brilliant marketing slogan highly",
+          "source_url": "https://www.loc.gov/search/?q=wasn%20brilliant%20marketing%20slogan%20highly",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_6_image.png"
+        },
+        {
+          "beat_id": "6c",
+          "start_s": 289,
+          "duration_s": 14,
+          "narration_excerpt": "If a diamond is forever, it stays in the family and never enters the secondhand market, ensuring that De Beers never had...",
+          "act": "warning_signs",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "diamond forever stays family never",
+          "source_url": "https://www.loc.gov/search/?q=diamond%20forever%20stays%20family%20never",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_6_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 7,
+      "title": "Hollywood's Bought Glamour",
+      "start_s": 303,
+      "duration_s": 39,
+      "beat_count": 3,
+      "primary_asset_file": "scene_7_image.png",
+      "visual_prompt": "Soul Cinema style, bright stage lights casting high contrast shadows. A glamourous performance under golden lights, with diamond jewelry sparkling intensely, surrounded by deep, dark theatrical shadows.",
+      "act": {
+        "key": "warning_signs",
+        "name": "Warning Signs",
+        "b_roll": [
+          "Anonymous employee opening email",
+          "Error reports",
+          "Failed testing screens",
+          "Red warning indicators",
+          "Internal memos"
+        ],
+        "sound_design": [],
+        "camera_style": [
+          "Slow zoom-ins",
+          "Security-camera effects",
+          "Dark corridors",
+          "Empty elevators"
+        ]
+      },
+      "beats": [
+        {
+          "beat_id": "7a",
+          "start_s": 303,
+          "duration_s": 5,
+          "narration_excerpt": "To reinforce the illusion, De Beers went to Hollywood. ...",
+          "act": "warning_signs",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "reinforce illusion beers went hollywood — Anonymous employee opening email, Error reports, Failed testing screens, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        },
+        {
+          "beat_id": "7b",
+          "start_s": 308,
+          "duration_s": 16,
+          "narration_excerpt": "They paid massive sums to feature diamonds in blockbuster movies, draped movie stars in brilliant necklaces at the Oscar...",
+          "act": "warning_signs",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "paid massive sums feature diamonds — Anonymous employee opening email, Error reports, Failed testing screens, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        },
+        {
+          "beat_id": "7c",
+          "start_s": 324,
+          "duration_s": 19,
+          "narration_excerpt": "When Marilyn Monroe sang 'Diamonds Are a Girl's Best Friend,' it wasn't a spontaneous pop song—it was a paid corporate c...",
+          "act": "warning_signs",
+          "asset_type": "library_of_congress",
+          "asset_note": "vintage advertisement",
+          "search_query": "marilyn monroe sang diamonds girl",
+          "source_url": "https://www.loc.gov/search/?q=marilyn%20monroe%20sang%20diamonds%20girl",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_7_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 8,
+      "title": "Cartel's Chokehold",
+      "start_s": 342,
+      "duration_s": 59,
+      "beat_count": 6,
+      "primary_asset_file": "scene_8_image.png",
+      "visual_prompt": "Soul Cinema style, dark industrial diamond sorting vault. Millions of tiny, sparkling rough diamonds being poured from canvas sacks onto a steel grading table under cold overhead lights. Shadowy guards stand in the background.",
+      "act": {
+        "key": "investigation",
+        "name": "Investigation",
+        "b_roll": [
+          "Newspaper printing press",
+          "Investigative journalist desk",
+          "Evidence board",
+          "Regulatory filings",
+          "Court building exteriors",
+          "Corporate headquarters"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "8a",
+          "start_s": 342,
+          "duration_s": 6,
+          "narration_excerpt": "For decades, the De Beers cartel ruled with an iron fist. ...",
+          "act": "investigation",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "decades beers cartel ruled iron stock footage",
+          "source_url": "https://www.pexels.com/search/videos/decades%20beers%20cartel%20ruled%20iron/",
+          "source_alternates": {
+            "pexels": "https://www.pexels.com/search/videos/decades%20beers%20cartel%20ruled%20iron/",
+            "pixabay": "https://pixabay.com/videos/search/decades%20beers%20cartel%20ruled%20iron/",
+            "mixkit": "https://mixkit.co/free-stock-video/?q=decades%20beers%20cartel%20ruled%20iron"
+          },
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8b",
+          "start_s": 348,
+          "duration_s": 19,
+          "narration_excerpt": "They controlled over ninety percent of the world's diamonds, dictating the supply, the price, and the distribution. If a...",
+          "act": "investigation",
+          "asset_type": "generated_graphic",
+          "asset_note": "animated stat or chart graphic",
+          "search_query": "controlled over ninety percent world — Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8c",
+          "start_s": 367,
+          "duration_s": 13,
+          "narration_excerpt": "They were so powerful that they successfully managed a global monopoly, operating completely outside the bounds of tradi...",
+          "act": "investigation",
+          "asset_type": "generated_graphic",
+          "asset_note": "animated stat or chart graphic",
+          "search_query": "powerful successfully managed global monopoly — Investigative documentary newsroom, evidence board, confidential files, dramatic lighting, ultra realistic, cinematic thriller",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8d",
+          "start_s": 380,
+          "duration_s": 6,
+          "narration_excerpt": "The cartel was not just selling stones. It was managing perception across continents.",
+          "act": "investigation",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "cartel selling stones managing perception stock footage",
+          "source_url": "https://www.pexels.com/search/videos/cartel%20selling%20stones%20managing%20perception/",
+          "source_alternates": {
+            "pexels": "https://www.pexels.com/search/videos/cartel%20selling%20stones%20managing%20perception/",
+            "pixabay": "https://pixabay.com/videos/search/cartel%20selling%20stones%20managing%20perception/",
+            "mixkit": "https://mixkit.co/free-stock-video/?q=cartel%20selling%20stones%20managing%20perception"
+          },
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8e",
+          "start_s": 386,
+          "duration_s": 10,
+          "narration_excerpt": "Every dealer, every wholesaler, every jeweler depended on the same illusion: that the price was natural. But the price w...",
+          "act": "investigation",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "every dealer wholesaler jeweler depended stock footage",
+          "source_url": "https://www.pexels.com/search/videos/every%20dealer%20wholesaler%20jeweler%20depended/",
+          "source_alternates": {
+            "pexels": "https://www.pexels.com/search/videos/every%20dealer%20wholesaler%20jeweler%20depended/",
+            "pixabay": "https://pixabay.com/videos/search/every%20dealer%20wholesaler%20jeweler%20depended/",
+            "mixkit": "https://mixkit.co/free-stock-video/?q=every%20dealer%20wholesaler%20jeweler%20depended"
+          },
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        },
+        {
+          "beat_id": "8f",
+          "start_s": 396,
+          "duration_s": 5,
+          "narration_excerpt": "It was curated, defended, and protected like a state secret.",
+          "act": "investigation",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "curated defended protected like state stock footage",
+          "source_url": "https://www.pexels.com/search/videos/curated%20defended%20protected%20like%20state/",
+          "source_alternates": {
+            "pexels": "https://www.pexels.com/search/videos/curated%20defended%20protected%20like%20state/",
+            "pixabay": "https://pixabay.com/videos/search/curated%20defended%20protected%20like%20state/",
+            "mixkit": "https://mixkit.co/free-stock-video/?q=curated%20defended%20protected%20like%20state"
+          },
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_8_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 9,
+      "title": "The Cartel Cracks",
+      "start_s": 401,
+      "duration_s": 37,
+      "beat_count": 3,
+      "primary_asset_file": "scene_9_image.png",
+      "visual_prompt": "Soul Cinema style, dramatic high contrast. A large map of the world in a corporate boardroom, with its borderlines catching fire and burning away into ashes, leaving only black soot.",
+      "act": {
+        "key": "investigation",
+        "name": "Investigation",
+        "b_roll": [
+          "Newspaper printing press",
+          "Investigative journalist desk",
+          "Evidence board",
+          "Regulatory filings",
+          "Court building exteriors",
+          "Corporate headquarters"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "9a",
+          "start_s": 401,
+          "duration_s": 8,
+          "narration_excerpt": "But no monopoly lasts forever. By the late 1990s, the cartel's absolute control began to splinter.",
+          "act": "investigation",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "monopoly lasts forever late 1990s",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=monopoly%20lasts%20forever%20late%201990s&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        },
+        {
+          "beat_id": "9b",
+          "start_s": 409,
+          "duration_s": 9,
+          "narration_excerpt": "... Massive new diamond deposits were discovered in Canada, Russia, and Australia, outside of De Beers' physical reach.",
+          "act": "investigation",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "massive diamond deposits discovered canada",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=massive%20diamond%20deposits%20discovered%20canada&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        },
+        {
+          "beat_id": "9c",
+          "start_s": 418,
+          "duration_s": 21,
+          "narration_excerpt": "Furthermore, the public became increasingly aware of the dark reality of blood diamonds —stones mined in war zones to fu...",
+          "act": "investigation",
+          "asset_type": "wikimedia_commons",
+          "asset_note": "map or geographic illustration",
+          "search_query": "furthermore public became increasingly aware",
+          "source_url": "https://commons.wikimedia.org/w/index.php?search=furthermore%20public%20became%20increasingly%20aware&title=Special:MediaSearch&type=image",
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_9_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 10,
+      "title": "The Lab-Grown Revolution",
+      "start_s": 438,
+      "duration_s": 35,
+      "beat_count": 3,
+      "primary_asset_file": "scene_10_image.png",
+      "visual_prompt": "Soul Cinema style, futuristic but atmospheric. A high-tech scientific chamber filled with glowing plasma, growing a large, perfect diamond seed in deep violet light. Contrast with heavy industrial equipment.",
+      "act": {
+        "key": "investigation",
+        "name": "Investigation",
+        "b_roll": [
+          "Newspaper printing press",
+          "Investigative journalist desk",
+          "Evidence board",
+          "Regulatory filings",
+          "Court building exteriors",
+          "Corporate headquarters"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "10a",
+          "start_s": 438,
+          "duration_s": 6,
+          "narration_excerpt": "Today, the diamond industry faces its greatest threat yet: the lab-grown revolution. ...",
+          "act": "investigation",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "today diamond industry faces greatest stock footage",
+          "source_url": "https://www.pexels.com/search/videos/today%20diamond%20industry%20faces%20greatest/",
+          "source_alternates": {
+            "pexels": "https://www.pexels.com/search/videos/today%20diamond%20industry%20faces%20greatest/",
+            "pixabay": "https://pixabay.com/videos/search/today%20diamond%20industry%20faces%20greatest/",
+            "mixkit": "https://mixkit.co/free-stock-video/?q=today%20diamond%20industry%20faces%20greatest"
+          },
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        },
+        {
+          "beat_id": "10b",
+          "start_s": 444,
+          "duration_s": 12,
+          "narration_excerpt": "Using advanced technology, scientists can now create diamonds in a laboratory that are chemically, physically, and optic...",
+          "act": "investigation",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "using advanced technology scientists create stock footage",
+          "source_url": "https://www.pexels.com/search/videos/using%20advanced%20technology%20scientists%20create/",
+          "source_alternates": {
+            "pexels": "https://www.pexels.com/search/videos/using%20advanced%20technology%20scientists%20create/",
+            "pixabay": "https://pixabay.com/videos/search/using%20advanced%20technology%20scientists%20create/",
+            "mixkit": "https://mixkit.co/free-stock-video/?q=using%20advanced%20technology%20scientists%20create"
+          },
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        },
+        {
+          "beat_id": "10c",
+          "start_s": 456,
+          "duration_s": 17,
+          "narration_excerpt": "The traditional mining giants are terrified, launching massive marketing campaigns to claim that lab-grown diamonds lack...",
+          "act": "collapse",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "traditional mining giants terrified launching stock footage",
+          "source_url": "https://www.pexels.com/search/videos/traditional%20mining%20giants%20terrified%20launching/",
+          "source_alternates": {
+            "pexels": "https://www.pexels.com/search/videos/traditional%20mining%20giants%20terrified%20launching/",
+            "pixabay": "https://pixabay.com/videos/search/traditional%20mining%20giants%20terrified%20launching/",
+            "mixkit": "https://mixkit.co/free-stock-video/?q=traditional%20mining%20giants%20terrified%20launching"
+          },
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_10_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 11,
+      "title": "The Bitter Truth",
+      "start_s": 473,
+      "duration_s": 59,
+      "beat_count": 5,
+      "primary_asset_file": "scene_11_image.png",
+      "visual_prompt": "Soul Cinema style, dark jewelry store at closing time. A single glass case illuminated by a dim spotlight. A silhouetted worker slowly locks the case, casting a long shadow across a cold marble floor.",
+      "act": {
+        "key": "collapse",
+        "name": "Collapse",
+        "b_roll": [
+          "Falling stock chart",
+          "Employees leaving",
+          "Empty desks",
+          "Closed office",
+          "Headlines changing"
+        ],
+        "sound_design": [
+          "Deep bass hits",
+          "Ticking clock",
+          "Distorted ambient sounds"
+        ],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "11a",
+          "start_s": 473,
+          "duration_s": 6,
+          "narration_excerpt": "The bitter truth is that a diamond is not a rare investment. ...",
+          "act": "collapse",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "bitter truth diamond rare investment — Falling stock chart, Employees leaving, Empty desks, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        },
+        {
+          "beat_id": "11b",
+          "start_s": 479,
+          "duration_s": 14,
+          "narration_excerpt": "The moment you walk out of a jewelry store, your precious ring loses over fifty percent of its resale value. It is a dep...",
+          "act": "collapse",
+          "asset_type": "generated_graphic",
+          "asset_note": "animated stat or chart graphic",
+          "search_query": "moment walk jewelry store your — Falling stock chart, Employees leaving, Empty desks, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        },
+        {
+          "beat_id": "11c",
+          "start_s": 493,
+          "duration_s": 17,
+          "narration_excerpt": "The entire industry was built on a psychological trick, a house of cards constructed by advertising executives and corpo...",
+          "act": "collapse",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "entire industry built psychological trick — Falling stock chart, Employees leaving, Empty desks, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        },
+        {
+          "beat_id": "11d",
+          "start_s": 510,
+          "duration_s": 9,
+          "narration_excerpt": "at the price of gold. And the most brutal part is that the customer is trained to defend the scam.",
+          "act": "lessons_learned",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "price gold most brutal part — Sunrise over city, Empty boardroom, Closing financial report, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        },
+        {
+          "beat_id": "11e",
+          "start_s": 519,
+          "duration_s": 13,
+          "narration_excerpt": "If someone questions the ring, they are accused of questioning the relationship. That is how powerful branding becomes c...",
+          "act": "lessons_learned",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "someone questions ring accused questioning — Sunrise over city, Empty boardroom, Closing financial report, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_11_image.png"
+        }
+      ]
+    },
+    {
+      "scene_number": 12,
+      "title": "Outro",
+      "start_s": 532,
+      "duration_s": 34,
+      "beat_count": 3,
+      "primary_asset_file": "scene_12_image.png",
+      "visual_prompt": "Soul Cinema style, pitch black. A single diamond ring sits under a fading spotlight, then the light snaps off, leaving only total darkness. The words 'CORPORATE SHADOWS' fade in slowly in blood red.",
+      "act": {
+        "key": "lessons_learned",
+        "name": "Lessons Learned",
+        "b_roll": [
+          "Sunrise over city",
+          "Empty boardroom",
+          "Closing financial report",
+          "Question mark graphic"
+        ],
+        "sound_design": [],
+        "camera_style": []
+      },
+      "beats": [
+        {
+          "beat_id": "12a",
+          "start_s": 532,
+          "duration_s": 6,
+          "narration_excerpt": "They did not just sell us a rock; they bought our culture. ...",
+          "act": "lessons_learned",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "sell rock bought culture — Sunrise over city, Empty boardroom, Closing financial report, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        },
+        {
+          "beat_id": "12b",
+          "start_s": 538,
+          "duration_s": 18,
+          "narration_excerpt": "The next time you see a diamond sparkle, remember the quiet London office where the illusion was born. If you want to un...",
+          "act": "lessons_learned",
+          "asset_type": "stock_broll",
+          "asset_note": "industrial or corporate b-roll",
+          "search_query": "next time diamond sparkle remember stock footage",
+          "source_url": "https://www.pexels.com/search/videos/next%20time%20diamond%20sparkle%20remember/",
+          "source_alternates": {
+            "pexels": "https://www.pexels.com/search/videos/next%20time%20diamond%20sparkle%20remember/",
+            "pixabay": "https://pixabay.com/videos/search/next%20time%20diamond%20sparkle%20remember/",
+            "mixkit": "https://mixkit.co/free-stock-video/?q=next%20time%20diamond%20sparkle%20remember"
+          },
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        },
+        {
+          "beat_id": "12c",
+          "start_s": 556,
+          "duration_s": 9,
+          "narration_excerpt": "This channel needs your support. Please subscribe, leave a word of appreciation for the author, and may God bless you.",
+          "act": "lessons_learned",
+          "asset_type": "generated_graphic",
+          "asset_note": "cinematic title card or mood graphic",
+          "search_query": "channel needs your support please — Sunrise over city, Empty boardroom, Closing financial report, cinematic documentary, ultra realistic, dark corporate thriller aesthetic, Netflix style",
+          "source_url": null,
+          "source_alternates": null,
+          "asset_file": null,
+          "status": "pending",
+          "fallback": "scene_12_image.png"
+        }
+      ]
+    }
+  ]
+}

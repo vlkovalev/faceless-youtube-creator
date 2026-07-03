@@ -1,22 +1,214 @@
 {
+  "_note": "canonical: true = this is the one YouTube ID that should be public/scheduled for its slot. All other uploads for the same slot should be unscheduled (private, no publishAt) in YouTube Studio.",
+  "_timezone_note": "YouTube Studio displays dates in browser local timezone. Jun 2 06:00 UTC = Jun 1 in Mountain/Pacific time. All slots stored in UTC.",
   "uploaded_files": {
     "FINAL_VIDEO_1.mp4": {
       "youtube_id": "ze6IFb9F0lY",
       "uploaded_at": "2026-05-25T02:20:10.677Z",
       "publish_at": "2026-05-26T16:00:00.000Z",
-      "title": "How One Family Fooled the World into Buying Worthless Rocks"
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "canonical": false,
+      "status_note": "Original draft. Non-canonical. Keep private."
     },
     "FINAL_VIDEO_2.mp4": {
       "youtube_id": "9egMNpLFr5w",
       "uploaded_at": "2026-05-25T02:20:37.189Z",
       "publish_at": "2026-05-29T16:00:00.000Z",
-      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets"
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "canonical": false,
+      "status_note": "Original draft. Non-canonical. Keep private."
     },
     "FINAL_VIDEO_3.mp4": {
       "youtube_id": "feTnR0QeeBc",
       "uploaded_at": "2026-05-25T02:21:34.490Z",
-      "publish_at": "2026-06-02T16:00:00.000Z",
-      "title": "The Secret Society That Controlled the World's Electricity"
+      "publish_at": null,
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "canonical": false,
+      "status_note": "Original draft. Non-canonical. Already unscheduled."
+    },
+    "FINAL_VIDEO_1_REVISED.mp4": {
+      "youtube_id": "_Spau9VPbBQ",
+      "uploaded_at": "2026-05-29T00:14:36.838Z",
+      "publish_at": null,
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "canonical": false,
+      "superseded_by": "FCPe5Dlk_xw",
+      "status_note": "Revised draft. Non-canonical. Keep private."
+    },
+    "FINAL_VIDEO_2_REVISED.mp4": {
+      "youtube_id": "kLUo1PG78Vs",
+      "uploaded_at": "2026-05-29T00:15:18.934Z",
+      "publish_at": null,
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "canonical": false,
+      "superseded_by": "ZloTBQbWyf4",
+      "status_note": "Revised draft. Non-canonical. Keep private."
+    },
+    "FINAL_VIDEO_3_REVISED.mp4": {
+      "youtube_id": "-6VsjG1ubT8",
+      "uploaded_at": "2026-05-29T00:16:01.512Z",
+      "publish_at": null,
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "canonical": false,
+      "superseded_by": "mM0axfPaZBU",
+      "status_note": "Revised draft. Non-canonical. Keep private."
+    },
+    "FINAL_VIDEO_1_VISUAL_UPGRADE.mp4": {
+      "youtube_id": "FCPe5Dlk_xw",
+      "uploaded_at": "2026-05-29T21:23:35.000Z",
+      "publish_at": null,
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "canonical": false,
+      "status_note": "DELETED from YouTube."
+    },
+    "FINAL_VIDEO_2_VISUAL_UPGRADE.mp4": {
+      "youtube_id": "ZloTBQbWyf4",
+      "uploaded_at": "2026-05-29T22:08:37.000Z",
+      "publish_at": null,
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "canonical": false,
+      "status_note": "Superseded by Omni Flash version"
+    },
+    "FINAL_VIDEO_3_VISUAL_UPGRADE.mp4": {
+      "youtube_id": "mM0axfPaZBU",
+      "uploaded_at": "2026-05-29T23:19:01.000Z",
+      "publish_at": null,
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "canonical": false,
+      "status_note": "Superseded by Omni Flash version"
+    },
+    "FINAL_VIDEO_4_VISUAL_UPGRADE.mp4": {
+      "youtube_id": "-Tt_ijOCCRI",
+      "uploaded_at": "2026-05-30T00:09:35Z",
+      "publish_at": "2026-06-11T06:00:00Z",
+      "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+      "canonical": false,
+      "status_note": "Deleted or not present on YouTube."
+    },
+    "FINAL_VIDEO_5_VISUAL_UPGRADE.mp4": {
+      "youtube_id": "ZM0fbdddYZA",
+      "uploaded_at": "2026-05-30T00:42:44Z",
+      "publish_at": "2026-06-14T06:00:00Z",
+      "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+      "canonical": false,
+      "status_note": "Deleted or not present on YouTube channel. Superseded by FINAL_VIDEO_5.mp4 / 9PiTNO3WETE."
+    },
+    "FINAL_VIDEO_1_REALIMAGE_REPLACEMENT.mp4": {
+      "youtube_id": "6iydrpqSseU",
+      "uploaded_at": "2026-05-31T16:09:40.664Z",
+      "publish_at": null,
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "canonical": false,
+      "superseded_by": "FCPe5Dlk_xw",
+      "status_note": "DELETED from YouTube."
+    },
+    "FINAL_VIDEO_1_DENSE_CREATED_REPLACEMENT.mp4": {
+      "youtube_id": "OZlUgyKROv4",
+      "uploaded_at": "2026-05-31T16:27:10.849Z",
+      "publish_at": null,
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "canonical": false,
+      "superseded_by": "FCPe5Dlk_xw",
+      "status_note": "DELETED from YouTube."
+    },
+    "FINAL_VIDEO_1_OMNI_FLASH.mp4": {
+      "youtube_id": "21DRL-iGzBs",
+      "uploaded_at": "2026-06-02T02:33:23Z",
+      "publish_at": null,
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "canonical": true,
+      "status_note": "CANONICAL. Live synchronized status: public"
+    },
+    "FINAL_VIDEO_3_OMNI_FLASH.mp4": {
+      "youtube_id": "PxBdlAu-hvY",
+      "uploaded_at": "2026-05-31T17:49:27Z",
+      "publish_at": "2026-06-08T06:00:00Z",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "canonical": true,
+      "status_note": "CANONICAL. Live synchronized status: private"
+    },
+    "FINAL_VIDEO_4_OMNI_FLASH.mp4": {
+      "youtube_id": "A2WQxHuiFcg",
+      "uploaded_at": "2026-05-31T18:21:24.882Z",
+      "publish_at": "2026-06-12T06:00:00.000Z",
+      "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+      "canonical": false,
+      "superseded_by": "-Tt_ijOCCRI",
+      "status_note": "Omni Flash alternate. Non-canonical. Keep private — available for future A/B test."
+    },
+    "FINAL_VIDEO_2_OMNI_FLASH.mp4": {
+      "youtube_id": "gPhHnEjKaP8",
+      "uploaded_at": "2026-06-06T04:18:15Z",
+      "publish_at": null,
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "canonical": true,
+      "status_note": "CANONICAL. Live synchronized status: public"
+    },
+    "FINAL_VIDEO_7_OMNI_FLASH.mp4": {
+      "youtube_id": "CXDTHbQVuPQ",
+      "uploaded_at": "2026-06-02T04:40:47Z",
+      "publish_at": "2026-06-20T06:00:00Z",
+      "title": "The Silent Killer: How a Chemical Giant Poisoned a Town",
+      "canonical": false,
+      "status_note": "Deleted or not present on YouTube."
+    },
+    "FINAL_VIDEO_6.mp4": {
+      "youtube_id": "nlOlrWsHc9w",
+      "uploaded_at": "2026-06-02T05:15:13.869Z",
+      "publish_at": "2026-06-17T06:00:00.000Z",
+      "title": "The Toxic Empire: The Family That Hooked America on Pain",
+      "canonical": false,
+      "status_note": "Deleted or not present on YouTube."
+    },
+    "FINAL_VIDEO_8.mp4": {
+      "youtube_id": "1TkYFsLq8QM",
+      "uploaded_at": "2026-06-03T13:51:43.016Z",
+      "publish_at": "2026-06-23T06:00:00.000Z",
+      "title": "The Company That Patented Nature: How a Corporate Giant Controlled the World's Seeds",
+      "canonical": false,
+      "status_note": "Deleted or not present on YouTube."
+    },
+    "FINAL_VIDEO_6_VISUAL_UPGRADE.mp4": {
+      "youtube_id": "nlOlrWsHc9w",
+      "uploaded_at": "2026-06-02T05:14:09Z",
+      "publish_at": "2026-06-17T06:00:00Z",
+      "title": "The Toxic Empire: The Family That Hooked America on Pain",
+      "canonical": false,
+      "status_note": "Deleted or not present on YouTube."
+    },
+    "FINAL_VIDEO_8_VISUAL_UPGRADE.mp4": {
+      "youtube_id": "1TkYFsLq8QM",
+      "uploaded_at": "2026-06-03T13:51:12Z",
+      "publish_at": "2026-06-23T06:00:00Z",
+      "title": "The Company That Patented Nature: How a Corporate Giant Controlled the World's Seeds",
+      "canonical": false,
+      "status_note": "Deleted or not present on YouTube."
+    },
+    "FINAL_VIDEO_10.mp4": {
+      "youtube_id": "5Vyt61T0keg",
+      "uploaded_at": "2026-06-08T15:55:57.950Z",
+      "publish_at": "2026-06-26T06:00:00.000Z",
+      "title": "The Golden Scam: The Man Who Sold a Fake Gold Mine",
+      "canonical": false,
+      "status_note": "Deleted or not present on YouTube.",
+      "previous_youtube_id": "mjeN21ONyAA"
+    },
+    "FINAL_VIDEO_10_VISUAL_UPGRADE.mp4": {
+      "youtube_id": "5Vyt61T0keg",
+      "uploaded_at": "2026-06-08T15:55:49Z",
+      "publish_at": "2026-06-26T06:00:00Z",
+      "title": "The Golden Scam: The Man Who Sold a Fake Gold Mine",
+      "canonical": false,
+      "superseded_by": "FINAL_VIDEO_10.mp4",
+      "status_note": "Historical visual-upgrade alias. Canonical replacement is FINAL_VIDEO_10.mp4 / 5Vyt61T0keg."
+    },
+    "FINAL_VIDEO_5.mp4": {
+      "youtube_id": "9PiTNO3WETE",
+      "uploaded_at": "2026-06-19T20:37:48.426Z",
+      "publish_at": null,
+      "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+      "canonical": true,
+      "status_note": "CANONICAL replacement upload."
     }
   }
 }

@@ -1,0 +1,281 @@
+{
+  "generated_at": "2026-06-26T04:09:17.624Z",
+  "mode": "multi_channel_active_saints_visual_upgrade_priority",
+  "channel_status": {
+    "channel_id": "UCdXKrXsLAL_EhU-lPHDg3bw",
+    "video_count": 14
+  },
+  "saints_queue_count": 27,
+  "rights_summary": {
+    "ok": 340,
+    "warning": 13,
+    "blocker": 0
+  },
+  "videos": [
+    {
+      "id": 1,
+      "script": true,
+      "plan": true,
+      "audio": 10,
+      "sceneImages": 0,
+      "beatImages": 30,
+      "realSources": 1,
+      "verifiedRealBeats": 30,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 2,
+      "script": true,
+      "plan": true,
+      "audio": 14,
+      "sceneImages": 0,
+      "beatImages": 48,
+      "realSources": 1,
+      "verifiedRealBeats": 48,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 3,
+      "script": true,
+      "plan": true,
+      "audio": 14,
+      "sceneImages": 0,
+      "beatImages": 56,
+      "realSources": 1,
+      "verifiedRealBeats": 56,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 4,
+      "script": true,
+      "plan": true,
+      "audio": 14,
+      "sceneImages": 0,
+      "beatImages": 56,
+      "realSources": 1,
+      "verifiedRealBeats": 53,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 5,
+      "script": true,
+      "plan": true,
+      "audio": 14,
+      "sceneImages": 0,
+      "beatImages": 64,
+      "realSources": 1,
+      "verifiedRealBeats": 64,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 6,
+      "script": true,
+      "plan": true,
+      "audio": 14,
+      "sceneImages": 0,
+      "beatImages": 53,
+      "realSources": 1,
+      "verifiedRealBeats": 52,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 7,
+      "script": true,
+      "plan": true,
+      "audio": 14,
+      "sceneImages": 0,
+      "beatImages": 57,
+      "realSources": 1,
+      "verifiedRealBeats": 56,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 8,
+      "script": true,
+      "plan": false,
+      "audio": 0,
+      "sceneImages": 0,
+      "beatImages": 0,
+      "realSources": 0,
+      "verifiedRealBeats": 0,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 9,
+      "script": true,
+      "plan": false,
+      "audio": 0,
+      "sceneImages": 0,
+      "beatImages": 0,
+      "realSources": 0,
+      "verifiedRealBeats": 0,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 10,
+      "script": true,
+      "plan": false,
+      "audio": 0,
+      "sceneImages": 0,
+      "beatImages": 0,
+      "realSources": 0,
+      "verifiedRealBeats": 0,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 11,
+      "script": true,
+      "plan": false,
+      "audio": 0,
+      "sceneImages": 0,
+      "beatImages": 0,
+      "realSources": 0,
+      "verifiedRealBeats": 0,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 12,
+      "script": true,
+      "plan": false,
+      "audio": 0,
+      "sceneImages": 0,
+      "beatImages": 0,
+      "realSources": 0,
+      "verifiedRealBeats": 0,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 13,
+      "script": true,
+      "plan": true,
+      "audio": 11,
+      "sceneImages": 21,
+      "beatImages": 41,
+      "realSources": 1,
+      "verifiedRealBeats": 41,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 14,
+      "script": true,
+      "plan": true,
+      "audio": 14,
+      "sceneImages": 14,
+      "beatImages": 50,
+      "realSources": 1,
+      "verifiedRealBeats": 50,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 15,
+      "script": true,
+      "plan": true,
+      "audio": 14,
+      "sceneImages": 4,
+      "beatImages": 47,
+      "realSources": 1,
+      "verifiedRealBeats": 47,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 16,
+      "script": true,
+      "plan": true,
+      "audio": 15,
+      "sceneImages": 0,
+      "beatImages": 48,
+      "realSources": 1,
+      "verifiedRealBeats": 48,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 17,
+      "script": true,
+      "plan": true,
+      "audio": 14,
+      "sceneImages": 0,
+      "beatImages": 44,
+      "realSources": 1,
+      "verifiedRealBeats": 44,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 18,
+      "script": true,
+      "plan": true,
+      "audio": 16,
+      "sceneImages": 0,
+      "beatImages": 48,
+      "realSources": 1,
+      "verifiedRealBeats": 48,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 19,
+      "script": true,
+      "plan": true,
+      "audio": 10,
+      "sceneImages": 0,
+      "beatImages": 38,
+      "realSources": 1,
+      "verifiedRealBeats": 38,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 20,
+      "script": true,
+      "plan": true,
+      "audio": 10,
+      "sceneImages": 0,
+      "beatImages": 31,
+      "realSources": 1,
+      "verifiedRealBeats": 31,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 21,
+      "script": true,
+      "plan": true,
+      "audio": 12,
+      "sceneImages": 0,
+      "beatImages": 41,
+      "realSources": 1,
+      "verifiedRealBeats": 40,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 22,
+      "script": true,
+      "plan": true,
+      "audio": 13,
+      "sceneImages": 0,
+      "beatImages": 41,
+      "realSources": 1,
+      "verifiedRealBeats": 41,
+      "qcFailedChecks": []
+    },
+    {
+      "id": 23,
+      "script": false,
+      "plan": false,
+      "audio": 0,
+      "sceneImages": 0,
+      "beatImages": 0,
+      "realSources": 0,
+      "verifiedRealBeats": 0,
+      "qcFailedChecks": []
+    }
+  ],
+  "actions": [
+    {
+      "priority": 2,
+      "type": "youtube_review",
+      "action": "Review 2 Saints private draft(s) in YouTube Studio only after visual QC passes; do not publish while visual/rights gates fail."
+    },
+    {
+      "priority": 5,
+      "type": "multi_channel_policy",
+      "action": "All three channels stay active and isolated; do not delete, public-publish, spend, or use uncleared rights without approval."
+    }
+  ]
+}

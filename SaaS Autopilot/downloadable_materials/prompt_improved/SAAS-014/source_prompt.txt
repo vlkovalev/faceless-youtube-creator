@@ -1,0 +1,17 @@
+Create a reusable B2B automation build prompt for the SaaS Autopilot video "The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes" (SAAS-014).
+
+Video promise:
+Free tools are the best way to capture B2B emails, but hiring developers to build them takes weeks. I used Claude to build a free B2B automation ROI calculator, styled it with clean CSS, and embedded it on our landing page.
+
+Likely tool stack:
+claude
+
+Scene context:
+1. The Hook (0:00â€“0:30): Here is the automated workflow I built for The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes. It streamlines your operations, cuts costs, and runs in the background.
+2. The Problem (0:30â€“1:30): Before this system, teams spent hours managing this manually. It was slow, error-prone, and highly expensive.
+3. The Stack (1:30â€“2:30): Our automated stack utilizes standard B2B developer tools, Claude API, and a simple local database. Total cost is virtually free.
+4. The Build (2:30â€“6:00): Let's dive into the technical details of the build. We configure the webhook, set up data selectors, and chain API actions.
+5. The Results (6:00â€“7:00): The results are incredible. Execution time dropped by ninety percent, while output reliability reached absolute perfection.
+6. The CTA (7:00â€“end): The full boilerplate and playbook are linked in the description.download the code, and drop a comment today. This channel needs your support. Please subscribe, leave a word of appreciation for the author, and may God bless you.
+
+The prompt should help a viewer generate a practical blueprint, implementation plan, test data plan, QA checklist, and go-live checklist for this specific workflow.

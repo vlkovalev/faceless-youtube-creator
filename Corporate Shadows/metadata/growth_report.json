@@ -1,0 +1,181 @@
+{
+  "generated_at": "2026-05-29T19:33:17.467Z",
+  "channel": "Shadow Empires",
+  "primary_playlist": {
+    "title": "Dark Business Empires",
+    "youtube_playlist_id": "",
+    "visibility": "public_when_videos_public",
+    "description": "Dark business history documentaries about monopolies, corporate scandals, cartels, and empires built on power.",
+    "rule": "Every Corporate Shadows long-form upload must be added to this playlist before or immediately after public release."
+  },
+  "publishing_cadence": {
+    "days": [
+      "Tuesday",
+      "Friday"
+    ],
+    "time": "10:00",
+    "timezone": "America/Denver",
+    "rule": "Keep cadence even if a video is 95 percent ready, unless the blocker is legal, factual, severe brand risk, or missing final approval."
+  },
+  "summary": {
+    "videos_checked": 8,
+    "blockers": 0,
+    "playlist_id_pending": 8,
+    "ready_for_distribution_sprint": true,
+    "recommendations_open": 0
+  },
+  "checks": [
+    {
+      "filename": "FINAL_VIDEO_1.mp4",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "playlist_ready": true,
+      "playlist_id_present": false,
+      "chapters_ready": true,
+      "cadence_ready": true,
+      "thumbnail_tracking_ready": true,
+      "public_release_gate": "approval required"
+    },
+    {
+      "filename": "FINAL_VIDEO_2.mp4",
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "playlist_ready": true,
+      "playlist_id_present": false,
+      "chapters_ready": true,
+      "cadence_ready": true,
+      "thumbnail_tracking_ready": true,
+      "public_release_gate": "approval required"
+    },
+    {
+      "filename": "FINAL_VIDEO_3.mp4",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "playlist_ready": true,
+      "playlist_id_present": false,
+      "chapters_ready": true,
+      "cadence_ready": true,
+      "thumbnail_tracking_ready": true,
+      "public_release_gate": "approval required"
+    },
+    {
+      "filename": "FINAL_VIDEO_4.mp4",
+      "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+      "playlist_ready": true,
+      "playlist_id_present": false,
+      "chapters_ready": true,
+      "cadence_ready": true,
+      "thumbnail_tracking_ready": true,
+      "public_release_gate": "approval required"
+    },
+    {
+      "filename": "FINAL_VIDEO_5.mp4",
+      "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+      "playlist_ready": true,
+      "playlist_id_present": false,
+      "chapters_ready": true,
+      "cadence_ready": true,
+      "thumbnail_tracking_ready": true,
+      "public_release_gate": "approval required"
+    },
+    {
+      "filename": "FINAL_VIDEO_1_REVISED.mp4",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "playlist_ready": true,
+      "playlist_id_present": false,
+      "chapters_ready": true,
+      "cadence_ready": true,
+      "thumbnail_tracking_ready": true,
+      "public_release_gate": "approval required"
+    },
+    {
+      "filename": "FINAL_VIDEO_2_REVISED.mp4",
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "playlist_ready": true,
+      "playlist_id_present": false,
+      "chapters_ready": true,
+      "cadence_ready": true,
+      "thumbnail_tracking_ready": true,
+      "public_release_gate": "approval required"
+    },
+    {
+      "filename": "FINAL_VIDEO_3_REVISED.mp4",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "playlist_ready": true,
+      "playlist_id_present": false,
+      "chapters_ready": true,
+      "cadence_ready": true,
+      "thumbnail_tracking_ready": true,
+      "public_release_gate": "approval required"
+    }
+  ],
+  "thumbnail_tracking": [
+    {
+      "filename": "FINAL_VIDEO_1.mp4",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "target_ctr": "12.4%",
+      "actual_ctr": "",
+      "first_30s_retention": "",
+      "decision": "measure after public release"
+    },
+    {
+      "filename": "FINAL_VIDEO_2.mp4",
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "target_ctr": "9.8%",
+      "actual_ctr": "",
+      "first_30s_retention": "",
+      "decision": "measure after public release"
+    },
+    {
+      "filename": "FINAL_VIDEO_3.mp4",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "target_ctr": "11.2%",
+      "actual_ctr": "",
+      "first_30s_retention": "",
+      "decision": "measure after public release"
+    },
+    {
+      "filename": "FINAL_VIDEO_4.mp4",
+      "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+      "target_ctr": "10.5%",
+      "actual_ctr": "",
+      "first_30s_retention": "",
+      "decision": "measure after public release"
+    },
+    {
+      "filename": "FINAL_VIDEO_5.mp4",
+      "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+      "target_ctr": "8.7%",
+      "actual_ctr": "",
+      "first_30s_retention": "",
+      "decision": "measure after public release"
+    },
+    {
+      "filename": "FINAL_VIDEO_1_REVISED.mp4",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "target_ctr": "12.4%",
+      "actual_ctr": "",
+      "first_30s_retention": "",
+      "decision": "measure after public release"
+    },
+    {
+      "filename": "FINAL_VIDEO_2_REVISED.mp4",
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "target_ctr": "9.8%",
+      "actual_ctr": "",
+      "first_30s_retention": "",
+      "decision": "measure after public release"
+    },
+    {
+      "filename": "FINAL_VIDEO_3_REVISED.mp4",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "target_ctr": "11.2%",
+      "actual_ctr": "",
+      "first_30s_retention": "",
+      "decision": "measure after public release"
+    }
+  ],
+  "next_actions": [
+    "Create or identify the YouTube playlist Dark Business Empires and fill growth_system.primary_playlist.youtube_playlist_id.",
+    "Regenerate metadata for every video before upload so descriptions include chapters.",
+    "After each public release, sync YouTube Analytics API metrics before changing thumbnails or titles.",
+    "Keep Tuesday/Friday cadence unless a video has a legal, factual, serious brand-risk, or final-approval blocker."
+  ]
+}

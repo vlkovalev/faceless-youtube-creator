@@ -1,0 +1,49 @@
+﻿{
+  "policy_name": "Saints Production Approval Policy",
+  "mode": "allow_all_except_delete",
+  "updated_at": "2026-06-02T13:20:00.000Z",
+  "default_decision": "allow",
+  "always_allow": [
+    "research",
+    "archive_search",
+    "source_queue_update",
+    "script_draft",
+    "script_revision",
+    "voiceover_prepare",
+    "local_voiceover_generation",
+    "local_visual_generation",
+    "visual_polish",
+    "render",
+    "qc",
+    "dry_run",
+    "metadata_draft",
+    "caption_generation",
+    "private_draft_upload",
+    "public_publish_after_qc",
+    "playlist_add",
+    "status_sync",
+    "pm_report",
+    "local_file_move_within_project",
+    "github_backup_commit",
+    "thumbnail_upload",
+    "youtube_status_sync"
+  ],
+  "require_approval": [
+    "delete",
+    "delete_file",
+    "delete_local_file",
+    "delete_local_archive",
+    "delete_youtube_video",
+    "remove_video",
+    "cleanup_old",
+    "auto_delete",
+    "wipe",
+    "destructive_cleanup"
+  ],
+  "block": [
+    "bypass_copyright",
+    "impersonation",
+    "destructive_wipe_without_approval"
+  ],
+  "note": "Per Vlad: the project permission agent should ask only when deleting files/destructive cleanup. This policy governs project agents and cannot bypass Codex app sandbox permission prompts."
+}

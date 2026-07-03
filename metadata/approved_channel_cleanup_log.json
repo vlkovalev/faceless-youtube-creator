@@ -1,0 +1,227 @@
+[
+  {
+    "started_at": "2026-06-06T00:23:20.579Z",
+    "approved_by_user": true,
+    "results": [
+      {
+        "profile": "saints",
+        "video_id": "wf1ngQ0LUOs",
+        "title": "How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "IiMUdspafGQ",
+        "title": "The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "2v0hZRqUrrE",
+        "title": "I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "jLxHw0ybwGQ",
+        "title": "How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "JL9IMlqgetA",
+        "title": "Build a Custom AI Customer Support Bot Connected to Company Docs",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "OdvlAw9YIFY",
+        "title": "I Automated My B2B Cold Email Outreach Using Claude & n8n",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "8rPLvpiX5uA",
+        "title": "I Automated My Company's Tech Newsletter (0 to 10k Subscribers)",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "cxn767aiTGg",
+        "title": "How to Build a LinkedIn AI Lead Extractor in 10 Minutes",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "PjfY7hdCX-w",
+        "title": "Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "CZ3Kq_msPzM",
+        "title": "How to Build a Telegram AI CRM Agent That Closes Clients",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "Mnm6rQxm3MY",
+        "title": "Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "yIpPK8e8cyw",
+        "title": "The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "Gf5oasoSl-s",
+        "title": "I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "nXYNOrKnxhU",
+        "title": "The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+        "privacy_status": "private",
+        "reason": "wrong_channel_saas_autopilot_draft_on_saints",
+        "status": "deleted"
+      },
+      {
+        "profile": "saas_autopilot",
+        "video_id": "OGwjUVY-TUM",
+        "title": "How I Automated My Entire YouTube Script Pipeline with Claude + Node.js",
+        "privacy_status": "private",
+        "reason": "superseded_duplicate_saas_001",
+        "status": "deleted"
+      }
+    ],
+    "finished_at": "2026-06-06T00:23:35.031Z"
+  },
+  {
+    "started_at": "2026-06-06T00:25:31.163Z",
+    "approved_by_user": true,
+    "results": [
+      {
+        "profile": "saints",
+        "video_id": "VAZJ__9HNRQ",
+        "keep_id": "v_M0lj7zMa8",
+        "title": "The Forest Monk Who Became the Soul of Russia",
+        "privacy_status": "private",
+        "reason": "older_duplicate_forest_monk_private_draft",
+        "status": "deleted"
+      },
+      {
+        "profile": "saints",
+        "video_id": "ZYHkagi3kLw",
+        "keep_id": "K0l1lvbk1F0",
+        "title": "Saint Ambrose of Optina: The Elder Who Answered Two Hundred Souls a Day",
+        "privacy_status": "private",
+        "reason": "older_duplicate_ambrose_private_draft_public_version_kept",
+        "status": "deleted"
+      }
+    ],
+    "finished_at": "2026-06-06T00:25:33.191Z"
+  },
+  {
+    "started_at": "2026-06-06T14:56:23.566Z",
+    "approved_by_user": true,
+    "results": [
+      {
+        "profile": "saints",
+        "video_id": "v_M0lj7zMa8",
+        "keep_id": "em--8jLdjPw",
+        "title": "The Forest Monk Who Became the Soul of Russia",
+        "privacy_status": "private",
+        "reason": "older_duplicate_forest_monk_private_draft_superseded_by_polished_version",
+        "status": "deleted"
+      }
+    ],
+    "finished_at": "2026-06-06T14:56:24.540Z"
+  },
+  {
+    "started_at": "2026-06-06T15:05:24.037Z",
+    "approved_by_user": true,
+    "results": [
+      {
+        "profile": "saints",
+        "video_id": "v_M0lj7zMa8",
+        "keep_id": "em--8jLdjPw",
+        "status": "already_missing",
+        "reason": "older_duplicate_forest_monk_private_draft_superseded_by_polished_version"
+      }
+    ],
+    "finished_at": "2026-06-06T15:05:24.356Z"
+  },
+  {
+    "profile": "saints",
+    "rule": "delete_superseded_private_drafts_after_successful_replacement_upload",
+    "approved_by_user_message": "delete old drafts as soon as replacement video uploaded no my approval required set it as a rule",
+    "keeper_video_id": "yHxIiFxzP0g",
+    "deleted_at": "2026-06-08T04:03:31.551Z",
+    "results": [
+      {
+        "id": "em--8jLdjPw",
+        "title": "The Forest Monk Who Became the Soul of Russia",
+        "privacy": "private",
+        "status": "deleted"
+      },
+      {
+        "id": "JMJCaWjNY5E",
+        "title": "The Forest Monk Who Became the Soul of Russia (Real Visuals Review Draft)",
+        "privacy": "private",
+        "status": "deleted"
+      },
+      {
+        "id": "t0LetX0aLZE",
+        "title": "The Forest Monk Who Became the Soul of Russia (No-Crop Icon Review Draft)",
+        "privacy": "private",
+        "status": "deleted"
+      }
+    ]
+  },
+  {
+    "started_at": "2026-06-11T19:36:29.782Z",
+    "approved_by_user": true,
+    "results": [
+      {
+        "profile": "saints",
+        "video_id": "tc1noKHenZk",
+        "keep_id": "Cf70OjBuSWE",
+        "title": "The Athonite Translator Who Rebuilt Monastic Prayer",
+        "privacy_status": "private",
+        "reason": "private non-icon duplicate superseded by icon-only Athonite Translator draft",
+        "status": "deleted"
+      }
+    ],
+    "finished_at": "2026-06-11T19:36:29.782Z"
+  }
+]

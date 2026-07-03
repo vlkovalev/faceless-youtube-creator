@@ -1,0 +1,115 @@
+{
+  "video_id": "SAINTS-0022",
+  "script_id": "saints_22",
+  "qc_status": "passed_with_warnings",
+  "generated_at": "2026-06-18T01:28:30.224Z",
+  "checks": [
+    {
+      "name": "final_video_exists",
+      "ok": true,
+      "detail": "The Saints/videos/saints_ready/SAINTS_VIDEO_22_FINAL.mp4"
+    },
+    {
+      "name": "final_video_non_empty",
+      "ok": true,
+      "detail": "44.42 MB"
+    },
+    {
+      "name": "long_form_duration_minimum",
+      "ok": true,
+      "detail": "483s / 480s minimum (exempt for video 20)"
+    },
+    {
+      "name": "captions_exist",
+      "ok": true,
+      "detail": "The Saints/videos/saints_ready/SAINTS_VIDEO_22_FINAL.srt"
+    },
+    {
+      "name": "thumbnail_exists",
+      "ok": true,
+      "detail": "saints_thumbnail_video_22.png"
+    },
+    {
+      "name": "scene_audio_count",
+      "ok": true,
+      "detail": "13/13"
+    },
+    {
+      "name": "scene_visual_count",
+      "ok": true,
+      "detail": "41/13"
+    },
+    {
+      "name": "metadata_queue_entry",
+      "ok": true,
+      "detail": "Why Are You Writing Such Despondent Letters?"
+    },
+    {
+      "name": "upload_visibility_safe",
+      "ok": true,
+      "detail": "private"
+    },
+    {
+      "name": "saints_visual_plan_exists",
+      "ok": true,
+      "detail": "assets/saints_video_22_assets/visual_plan.json"
+    },
+    {
+      "name": "saints_minimum_real_image_coverage",
+      "ok": true,
+      "detail": "41/41 verified real beats (100% / 90% minimum)"
+    },
+    {
+      "name": "saints_real_image_coverage_per_scene",
+      "ok": true,
+      "detail": "13/13 scenes covered"
+    },
+    {
+      "name": "saints_minimum_one_icon_or_painting",
+      "ok": true,
+      "detail": "At least one verified saint icon/painting is present"
+    },
+    {
+      "name": "saints_required_visual_types_present",
+      "ok": true,
+      "detail": "Present: icon_or_painting"
+    },
+    {
+      "name": "saints_unverified_real_visuals_resolved",
+      "ok": true,
+      "detail": "All real visual beats have verified license/public-domain status"
+    },
+    {
+      "name": "saints_icon_framing_not_cropped",
+      "ok": true,
+      "detail": "All saint icon/painting beats use no-crop full-subject framing"
+    },
+    {
+      "name": "saints_left_text_right_saint_layout",
+      "ok": true,
+      "detail": "All saint icon/painting beats use left-text/right-saint layout"
+    },
+    {
+      "name": "saints_final_render_includes_latest_beat_visuals",
+      "ok": true,
+      "detail": "final video 2026-06-15T06:02:25.514Z, newest beat visual 2026-06-15T05:51:37.517Z"
+    },
+    {
+      "name": "replacement_cleanup_declared",
+      "ok": true,
+      "detail": "not a replacement upload"
+    },
+    {
+      "name": "named_individual_in_hook",
+      "ok": true,
+      "detail": "Named individual found in scenes 1-3"
+    },
+    {
+      "name": "scene_depth_review",
+      "ok": true,
+      "detail": "All scenes >=80 words"
+    }
+  ],
+  "warnings": [],
+  "approval_required_before_public": true
+}

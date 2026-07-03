@@ -1,0 +1,164 @@
+{
+  "generated_at": "2026-05-31T17:52:50.010Z",
+  "mode": {
+    "upload": false,
+    "dry_run": true,
+    "requested_video": 4,
+    "run_saints": true,
+    "run_pm": true,
+    "run_growth": false
+  },
+  "omni_intake": [
+    {
+      "video_number": 4,
+      "filename": "FINAL_VIDEO_4_OMNI_FLASH.mp4",
+      "srt_exists": true,
+      "size_mb": 34.84,
+      "queue": {
+        "ok": true,
+        "entry": {
+          "filename": "FINAL_VIDEO_4_OMNI_FLASH.mp4",
+          "srt_filename": "FINAL_VIDEO_4_OMNI_FLASH.srt",
+          "thumbnail_filename": "youtube_thumbnail_video_4.png",
+          "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+          "description": "For fifty years , you were told that fat makes you fat. That butter, red meat, and eggs were quietly killing you.\nThis is the dark business history behind The sugar lobby's bribery of scientists in the 1960s to blame fat for heart disease.\nChapters:\n0:00 The Big Lie\n0:50 A Nation in Fear\n1:48 The Two Suspects\n2:59 Project 226\n3:52 The Payoff\n4:55 Forging the Science\n6:03 The Golden Stamp\n7:14 The Hit Job\n8:24 The Low-Fat Craze\n9:37 The Unseen Epidemic\n10:46 The Paper Trail\n12:04 The Bitter Truth\nWatch the full Dark Business Empires series on this channel.\nSubscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.",
+          "tags": [
+            "billiondollar",
+            "poison",
+            "americas",
+            "sweetest",
+            "brand",
+            "fooled",
+            "generation",
+            "dark business history",
+            "corporate scandals",
+            "corporate history",
+            "business documentary",
+            "shadow empires"
+          ],
+          "category_id": "27",
+          "playlist_id": "PLNuBIVB7e5UoUFDds4rOK8dsfvK0T-Crn",
+          "status": "scheduled",
+          "publish_days": [
+            "Tuesday",
+            "Friday"
+          ],
+          "publish_time": "00:00",
+          "timezone": "America/Edmonton",
+          "human_approval": false,
+          "chapters": [
+            {
+              "timestamp": "0:00",
+              "title": "The Big Lie",
+              "scene_number": 1,
+              "estimated_duration_seconds": 50
+            },
+            {
+              "timestamp": "0:50",
+              "title": "A Nation in Fear",
+              "scene_number": 2,
+              "estimated_duration_seconds": 58
+            },
+            {
+              "timestamp": "1:48",
+              "title": "The Two Suspects",
+              "scene_number": 3,
+              "estimated_duration_seconds": 71
+            },
+            {
+              "timestamp": "2:59",
+              "title": "Project 226",
+              "scene_number": 4,
+              "estimated_duration_seconds": 53
+            },
+            {
+              "timestamp": "3:52",
+              "title": "The Payoff",
+              "scene_number": 5,
+              "estimated_duration_seconds": 63
+            },
+            {
+              "timestamp": "4:55",
+              "title": "Forging the Science",
+              "scene_number": 6,
+              "estimated_duration_seconds": 68
+            },
+            {
+              "timestamp": "6:03",
+              "title": "The Golden Stamp",
+              "scene_number": 7,
+              "estimated_duration_seconds": 71
+            },
+            {
+              "timestamp": "7:14",
+              "title": "The Hit Job",
+              "scene_number": 8,
+              "estimated_duration_seconds": 70
+            },
+            {
+              "timestamp": "8:24",
+              "title": "The Low-Fat Craze",
+              "scene_number": 9,
+              "estimated_duration_seconds": 73
+            },
+            {
+              "timestamp": "9:37",
+              "title": "The Unseen Epidemic",
+              "scene_number": 10,
+              "estimated_duration_seconds": 69
+            },
+            {
+              "timestamp": "10:46",
+              "title": "The Paper Trail",
+              "scene_number": 11,
+              "estimated_duration_seconds": 78
+            },
+            {
+              "timestamp": "12:04",
+              "title": "The Bitter Truth",
+              "scene_number": 12,
+              "estimated_duration_seconds": 101
+            }
+          ],
+          "playlist_title": "Dark Business Empires",
+          "thumbnail_test": {
+            "target_ctr": "10.5%",
+            "actual_ctr": "",
+            "retention_first_30s": "",
+            "decision": "measure after public release"
+          },
+          "visual_upgrade": true,
+          "publish_at": "2026-06-12T06:00:00.000Z",
+          "source_path": "omni_videos/FINAL_VIDEO_4_OMNI_FLASH.mp4",
+          "srt_source_path": "omni_videos/FINAL_VIDEO_4_OMNI_FLASH.srt",
+          "replacement_for_uploaded_video": true,
+          "keep_existing_until_verified": true,
+          "visual_style": "omni_flash",
+          "notes": "Omni Flash replacement registered by autopilot on 2026-05-31T17:52:50.016Z. Upload new version first; keep existing scheduled upload until thumbnail/captions/playlist/schedule are verified."
+        }
+      },
+      "qc": {
+        "ok": true,
+        "stdout_tail": "\n[OK] scheduled_midnight_alberta: 2026-06-12T06:00:00.000Z / 00:00 / America/Edmonton\n[OK] replacement_cleanup_declared: replacement upload has cleanup/hold instruction\n[OK] named_individual_in_hook: Named individual found in scenes 1-3\n[OK] scene_depth_review: All scenes ≥80 words\n[WARN] Placeholder visuals are present. This is acceptable for pipeline testing, but replace them before public publishing.\n✅ Release QC passed for 'FINAL_VIDEO_4_OMNI_FLASH.mp4'.\n✅ File Verified: FINAL_VIDEO_4_OMNI_FLASH.mp4 (34.84 MB)\n📅 Computed Schedule Publish Slot:\n   ISO Format:  2026-06-12T06:00:00.000Z\n   Local time:  6/12/2026, 12:00:00 AM (America/Edmonton)\n🏷️  Tags:        billiondollar, poison, americas, sweetest, brand, fooled, generation, dark business history, corporate scandals, corporate history, business documentary, shadow empires\n?? Visibility:  SCHEDULED\n\n🟢 [SIMULATED SUCCESS] (Dry-Run Mode)\n   Would upload:       FINAL_VIDEO_4_OMNI_FLASH.mp4\n   Would schedule for: 2026-06-12T06:00:00.000Z\n   Would tag:          billiondollar, poison, americas, sweetest, brand, fooled, generation, dark business history, corporate scandals, corporate history, business documentary, shadow empires\n   Would upload thumbnail: youtube_thumbnail_video_4.png\n   Would upload captions: FINAL_VIDEO_4_OMNI_FLASH.srt\n\nDry-run simulation completed successfully.\n\n   Dry-run reservation logging skipped by --no-reserve-dry-run.\n=================================================\n🏁 Uploader Agent finished processing queue.\n   Successfully processed: 1 videos.\n=================================================",
+        "stderr_tail": ""
+      },
+      "upload": null,
+      "playlist": null,
+      "status": "dry_run_ready"
+    }
+  ],
+  "agents_run": [
+    {
+      "agent": "pm_agent",
+      "ok": true,
+      "stdout_tail": " metadata/visual_density_upgrade_queue.json\n- ?? omni_videos/\n- ?? scripts/saints_video_13_data.js\n- ?? scripts/saints_video_14_data.js\n- ?? scripts/video_6_data.js\n\nSensitive/local changed files, do not auto-push:\n- M assets/video_1_assets/scene_10_image.png\n- M assets/video_1_assets/scene_11_image.png\n- M assets/video_1_assets/scene_12_image.png\n- M assets/video_1_assets/scene_1_image.png\n- M assets/video_1_assets/scene_2_image.png\n- M assets/video_1_assets/scene_3_image.png\n- M assets/video_1_assets/scene_4_image.png\n- M assets/video_1_assets/scene_6_image.png\n- M assets/video_1_assets/scene_7_image.png\n- M assets/video_1_assets/scene_8_image.png\n- M assets/video_1_assets/scene_9_image.png\n- M assets/video_1_assets/visual_plan.json\n- M assets/video_2_assets/visual_plan.json\n- M assets/video_3_assets/visual_plan.json\n- M assets/video_4_assets/visual_plan.json\n- M assets/video_5_assets/visual_plan.json\n- M metadata/uploads_tracker.json\n- M metadata/youtube_channel_status.json\n\n## Recommended Next Actions\n\n1. Keep The Saints research-only until the Corporate Shadows public-video gate is met.\n2. Continue Corporate Shadows Video 3 sourcing sprint.\n3. Keep private YouTube tracker/status files local unless explicitly approved for disclosure.\n4. Start SaaS Autopilot concept and offer map on 2026-06-10.\n5. Review docs/pm_dashboard.html for a browser dashboard.\n\n\nPM report written: metadata/pm_reports/latest_pm_report.md\nPM brief written: metadata/pm_reports/latest_pm_brief.txt\nPM dashboard written: docs/pm_dashboard.html\n\nSensitive files remain local and were not committed automatically.",
+      "stderr_tail": ""
+    },
+    {
+      "agent": "saints_visual_asset_planner",
+      "ok": true,
+      "stdout_tail": "ance listened prayed kept Mount Athos monastery path cell Wikimedia Commons\n       https://commons.wikimedia.org/wiki/Category:Mount_Athos\n  [2a] icon_or_painting - Paisios of Mount Athos mosaic\n       Saint Paisios of Mount Athos icon portrait Wikimedia Commons\n       https://commons.wikimedia.org/wiki/File:Paisios_of_Mount_Athos.jpg\n  [2b] monastery_or_location - Mount Athos\n       child exile matters because later tenderness grow Mount Athos monastery path cell Wikimedia Commons\n       https://commons.wikimedia.org/wiki/Category:Mount_Athos\n  [2c] manuscript_book_or_letter - Wikimedia manuscript and book search\n       child exile sought silence worked hands learned Orthodox manuscript prayer book Wikimedia Commons\n       https://commons.wikimedia.org/w/index.php?search=child%20exile%20sought%20silence%20worked%20hands%20learned%20Orthodox%20manuscript%20prayer%20book%20Mount%20Athos&title=Special:MediaSearch&type=image\n  [2d] monastery_or_location - Mount Athos\n       child exile road sometimes began loss Mount Athos monastery path cell Wikimedia Commons\n       https://commons.wikimedia.org/wiki/Category:Mount_Athos\n\nPlan written: C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\assets\\saints_video_14_assets\\visual_plan.json\n\nNext steps:\n  1. Open assets/saints_video_N_assets/visual_plan.json\n  2. Download real icon, painting, monastery, portrait, or manuscript assets first\n  3. Save files as beat_1a.jpg, beat_1b.jpg, etc.\n  4. Record the exact file page/license in asset_attribution.json\n  5. Use generated cards only where the plan marks conceptual fallback",
+      "stderr_tail": ""
+    }
+  ]
+}

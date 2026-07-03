@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-010",
+  "title": "I Automated My B2B Cold Email Outreach Using Claude & n8n",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-010 - I Automated My B2B Cold Email Outreach Using Claude & n8n",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1DPsUxDagAsYZedY9PNrZru5QejpxkxbD",
+  "files": [
+    "SAAS-010_blueprint.pdf",
+    "SAAS-010_templates.pdf",
+    "SAAS-010_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-010\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1D4q967VrLOcRS7FQGl_WAWd2Dyzp_Iqh",
+      "name": "SAAS-010_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1D4q967VrLOcRS7FQGl_WAWd2Dyzp_Iqh/view?usp=drivesdk"
+    },
+    {
+      "id": "1f9P8g7Uen4EeVOw6K56d33bcVWZ-X51L",
+      "name": "SAAS-010_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1f9P8g7Uen4EeVOw6K56d33bcVWZ-X51L/view?usp=drivesdk"
+    },
+    {
+      "id": "11EGfA9HVsd23dY0mv9C3Ng_Z3n1T3wxK",
+      "name": "SAAS-010_templates.pdf",
+      "url": "https://drive.google.com/file/d/11EGfA9HVsd23dY0mv9C3Ng_Z3n1T3wxK/view?usp=drivesdk"
+    }
+  ]
+}

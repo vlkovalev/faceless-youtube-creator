@@ -1,0 +1,353 @@
+{
+  "checked_at": "2026-06-07T12:44:40.635Z",
+  "parent_folder_id": "1VyPdFS2YEy7nT48-crmrOizs3dX_ObtX",
+  "parent_folder_url": "https://drive.google.com/drive/folders/1VyPdFS2YEy7nT48-crmrOizs3dX_ObtX",
+  "trashed_duplicate_folder_ids": [],
+  "videos": [
+    {
+      "video_id": "SAAS-001",
+      "title": "How I Automated My Entire YouTube Script Pipeline with Claude + Node.js",
+      "folder_id": "1NB4deu0_7g23VByy4txQXYjtjJONZcrD",
+      "folder_url": "https://drive.google.com/drive/folders/1NB4deu0_7g23VByy4txQXYjtjJONZcrD",
+      "files": [
+        {
+          "id": "1iDrEDDpUNMNjXZCpYiMknbSp6xbTQaRw",
+          "name": "SAAS-001_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1iDrEDDpUNMNjXZCpYiMknbSp6xbTQaRw/view?usp=drivesdk"
+        },
+        {
+          "id": "1nrcjwmF6bi07I2zt_ObHNLr9FHPmTzsC",
+          "name": "SAAS-001_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1nrcjwmF6bi07I2zt_ObHNLr9FHPmTzsC/view?usp=drivesdk"
+        },
+        {
+          "id": "10s1PcT0MsYTW-Un8y_rG87vObqX16y-y",
+          "name": "SAAS-001_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/10s1PcT0MsYTW-Un8y_rG87vObqX16y-y/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-002",
+      "title": "The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+      "folder_id": "1tgKqHiXx7_GazoJu4XPE-SKQgv5e_MiM",
+      "folder_url": "https://drive.google.com/drive/folders/1tgKqHiXx7_GazoJu4XPE-SKQgv5e_MiM",
+      "files": [
+        {
+          "id": "15etEweDFKkQFdF55xqaHSox_cN_QTU0H",
+          "name": "SAAS-002_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/15etEweDFKkQFdF55xqaHSox_cN_QTU0H/view?usp=drivesdk"
+        },
+        {
+          "id": "1rF5ql8F4T521Ynok5fhVNbdQPkYVQ_TW",
+          "name": "SAAS-002_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1rF5ql8F4T521Ynok5fhVNbdQPkYVQ_TW/view?usp=drivesdk"
+        },
+        {
+          "id": "10IG64TGc9O_TIHprtX_Zdw6bCbW3u7Wj",
+          "name": "SAAS-002_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/10IG64TGc9O_TIHprtX_Zdw6bCbW3u7Wj/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-003",
+      "title": "I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)",
+      "folder_id": "18xDtknojCsWaGMg9KpgUr9_5V-vvOfmg",
+      "folder_url": "https://drive.google.com/drive/folders/18xDtknojCsWaGMg9KpgUr9_5V-vvOfmg",
+      "files": [
+        {
+          "id": "1ZhGRGQngA_fQDEVXCSs8uCPKGAXnNUNJ",
+          "name": "SAAS-003_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1ZhGRGQngA_fQDEVXCSs8uCPKGAXnNUNJ/view?usp=drivesdk"
+        },
+        {
+          "id": "14GC7uxv5F7pRMQS8zL6JUWdKKXUsaMNk",
+          "name": "SAAS-003_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/14GC7uxv5F7pRMQS8zL6JUWdKKXUsaMNk/view?usp=drivesdk"
+        },
+        {
+          "id": "1JYGItKKlwfTPNyzb-O220hW2UE2AsaLu",
+          "name": "SAAS-003_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1JYGItKKlwfTPNyzb-O220hW2UE2AsaLu/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-004",
+      "title": "The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)",
+      "folder_id": "1NtNXaRHXtUK48xPanEjyHFL347U6sAWn",
+      "folder_url": "https://drive.google.com/drive/folders/1NtNXaRHXtUK48xPanEjyHFL347U6sAWn",
+      "files": [
+        {
+          "id": "1GO-eJILMK2Jypy0Pev9En8gqwTg4jQqN",
+          "name": "SAAS-004_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1GO-eJILMK2Jypy0Pev9En8gqwTg4jQqN/view?usp=drivesdk"
+        },
+        {
+          "id": "17Z5F9AUVCwyq-wbPVxUAwXWRo5habZ82",
+          "name": "SAAS-004_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/17Z5F9AUVCwyq-wbPVxUAwXWRo5habZ82/view?usp=drivesdk"
+        },
+        {
+          "id": "1-b-YA-gvUzjGpDuiPCx-pmfel_m6Mm0d",
+          "name": "SAAS-004_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1-b-YA-gvUzjGpDuiPCx-pmfel_m6Mm0d/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-005",
+      "title": "Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new",
+      "folder_id": "1nloiyZQ8gLIEFfNpnemnZ1koEu6_gbVE",
+      "folder_url": "https://drive.google.com/drive/folders/1nloiyZQ8gLIEFfNpnemnZ1koEu6_gbVE",
+      "files": [
+        {
+          "id": "1gcG_6WJ77164at-Jcl9qn7P2xou10Yp-",
+          "name": "SAAS-005_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1gcG_6WJ77164at-Jcl9qn7P2xou10Yp-/view?usp=drivesdk"
+        },
+        {
+          "id": "1iNs7HC5K4ZAwrpISe1KhAO80nSsCaywp",
+          "name": "SAAS-005_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1iNs7HC5K4ZAwrpISe1KhAO80nSsCaywp/view?usp=drivesdk"
+        },
+        {
+          "id": "1BQbQ0wS-5JnUNNyms8extgKFRKioST5R",
+          "name": "SAAS-005_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1BQbQ0wS-5JnUNNyms8extgKFRKioST5R/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-006",
+      "title": "How to Build a Telegram AI CRM Agent That Closes Clients",
+      "folder_id": "1RjvFXyQTCca0sMf72-Y1SVxgXQDW05GY",
+      "folder_url": "https://drive.google.com/drive/folders/1RjvFXyQTCca0sMf72-Y1SVxgXQDW05GY",
+      "files": [
+        {
+          "id": "1gPvfCF5LPYig52Tg2HyrBjrnzV9R7RCJ",
+          "name": "SAAS-006_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1gPvfCF5LPYig52Tg2HyrBjrnzV9R7RCJ/view?usp=drivesdk"
+        },
+        {
+          "id": "11mab4KW_Eosj7wj39Lde3D1Uc-UFpHUC",
+          "name": "SAAS-006_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/11mab4KW_Eosj7wj39Lde3D1Uc-UFpHUC/view?usp=drivesdk"
+        },
+        {
+          "id": "1ApmDPmKh-phoqeT1AsiHXrpxs7WYro6L",
+          "name": "SAAS-006_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1ApmDPmKh-phoqeT1AsiHXrpxs7WYro6L/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-007",
+      "title": "Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity",
+      "folder_id": "1ToBiJueR4ZhoE1xUTqvvCDeDkUGrglK4",
+      "folder_url": "https://drive.google.com/drive/folders/1ToBiJueR4ZhoE1xUTqvvCDeDkUGrglK4",
+      "files": [
+        {
+          "id": "1CTXGbfzcJL-1vGhCANdmp9PZmu-zjDxY",
+          "name": "SAAS-007_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1CTXGbfzcJL-1vGhCANdmp9PZmu-zjDxY/view?usp=drivesdk"
+        },
+        {
+          "id": "1PwgT9C9h5Fx1VFAX2V11KtmYBI76lZJO",
+          "name": "SAAS-007_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1PwgT9C9h5Fx1VFAX2V11KtmYBI76lZJO/view?usp=drivesdk"
+        },
+        {
+          "id": "1bZryTg7xzw_A-Y3tanFudxpKPBpnOYiz",
+          "name": "SAAS-007_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1bZryTg7xzw_A-Y3tanFudxpKPBpnOYiz/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-008",
+      "title": "How to Build a LinkedIn AI Lead Extractor in 10 Minutes",
+      "folder_id": "1Nw2Wu5DUWsINNjLzXx24ma8Rou-rcvol",
+      "folder_url": "https://drive.google.com/drive/folders/1Nw2Wu5DUWsINNjLzXx24ma8Rou-rcvol",
+      "files": [
+        {
+          "id": "17hTopfja1V40GgQQoltiTxRq9m8OxFVy",
+          "name": "SAAS-008_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/17hTopfja1V40GgQQoltiTxRq9m8OxFVy/view?usp=drivesdk"
+        },
+        {
+          "id": "1y9WmZrfoChchgmwRoSnpUZ0tlRQtXCYg",
+          "name": "SAAS-008_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1y9WmZrfoChchgmwRoSnpUZ0tlRQtXCYg/view?usp=drivesdk"
+        },
+        {
+          "id": "18MeTi9ic5XTSSCHxPXUTgtYHvX5izr38",
+          "name": "SAAS-008_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/18MeTi9ic5XTSSCHxPXUTgtYHvX5izr38/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-009",
+      "title": "I Automated My Company's Tech Newsletter (0 to 10k Subscribers)",
+      "folder_id": "1ajfLhh7a4475cRnJRUAueNRY_iIVTQjv",
+      "folder_url": "https://drive.google.com/drive/folders/1ajfLhh7a4475cRnJRUAueNRY_iIVTQjv",
+      "files": [
+        {
+          "id": "13Cqt5ks0UbW7_4oXcrOFLot__OMM67Md",
+          "name": "SAAS-009_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/13Cqt5ks0UbW7_4oXcrOFLot__OMM67Md/view?usp=drivesdk"
+        },
+        {
+          "id": "1fAJvgKHPv7aCXLE6lpkGcF2OIsQEW4Uc",
+          "name": "SAAS-009_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1fAJvgKHPv7aCXLE6lpkGcF2OIsQEW4Uc/view?usp=drivesdk"
+        },
+        {
+          "id": "1U7gJjFea70MYEqbSHj-yPo2vKymJTiel",
+          "name": "SAAS-009_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1U7gJjFea70MYEqbSHj-yPo2vKymJTiel/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-010",
+      "title": "I Automated My B2B Cold Email Outreach Using Claude & n8n",
+      "folder_id": "1DPsUxDagAsYZedY9PNrZru5QejpxkxbD",
+      "folder_url": "https://drive.google.com/drive/folders/1DPsUxDagAsYZedY9PNrZru5QejpxkxbD",
+      "files": [
+        {
+          "id": "1D4q967VrLOcRS7FQGl_WAWd2Dyzp_Iqh",
+          "name": "SAAS-010_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1D4q967VrLOcRS7FQGl_WAWd2Dyzp_Iqh/view?usp=drivesdk"
+        },
+        {
+          "id": "1f9P8g7Uen4EeVOw6K56d33bcVWZ-X51L",
+          "name": "SAAS-010_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1f9P8g7Uen4EeVOw6K56d33bcVWZ-X51L/view?usp=drivesdk"
+        },
+        {
+          "id": "11EGfA9HVsd23dY0mv9C3Ng_Z3n1T3wxK",
+          "name": "SAAS-010_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/11EGfA9HVsd23dY0mv9C3Ng_Z3n1T3wxK/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-011",
+      "title": "Build a Custom AI Customer Support Bot Connected to Company Docs",
+      "folder_id": "1fa9I05jF1tFvtpNjEEiipGQ_iD4R9PMn",
+      "folder_url": "https://drive.google.com/drive/folders/1fa9I05jF1tFvtpNjEEiipGQ_iD4R9PMn",
+      "files": [
+        {
+          "id": "1qjvCeDBQxgNPQR0iG7RdJEI7r4IakjHx",
+          "name": "SAAS-011_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1qjvCeDBQxgNPQR0iG7RdJEI7r4IakjHx/view?usp=drivesdk"
+        },
+        {
+          "id": "1j92gxNHPqrxPN_MbLUuucP8FL2UXnB8F",
+          "name": "SAAS-011_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1j92gxNHPqrxPN_MbLUuucP8FL2UXnB8F/view?usp=drivesdk"
+        },
+        {
+          "id": "19RHB4q88T9MFFXTKrzvIbfNEuunS9LC6",
+          "name": "SAAS-011_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/19RHB4q88T9MFFXTKrzvIbfNEuunS9LC6/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-012",
+      "title": "How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs",
+      "folder_id": "1y6WTIlO0QGBLRN80aQpcE_l0NYvzzzgh",
+      "folder_url": "https://drive.google.com/drive/folders/1y6WTIlO0QGBLRN80aQpcE_l0NYvzzzgh",
+      "files": [
+        {
+          "id": "1jSCpa0F12ybNLqtNkYFmCQOAj83mpSae",
+          "name": "SAAS-012_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1jSCpa0F12ybNLqtNkYFmCQOAj83mpSae/view?usp=drivesdk"
+        },
+        {
+          "id": "1N_mRLgzbwZXFcMb6-9ypOKXyVnE4rB17",
+          "name": "SAAS-012_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1N_mRLgzbwZXFcMb6-9ypOKXyVnE4rB17/view?usp=drivesdk"
+        },
+        {
+          "id": "1ecvnEB-aazCK3cSJOKNRv4-ZdWYFT7RH",
+          "name": "SAAS-012_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1ecvnEB-aazCK3cSJOKNRv4-ZdWYFT7RH/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-013",
+      "title": "I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks",
+      "folder_id": "1iPvqiqjfYvgmMnk2Jnonjaefa56GywHq",
+      "folder_url": "https://drive.google.com/drive/folders/1iPvqiqjfYvgmMnk2Jnonjaefa56GywHq",
+      "files": [
+        {
+          "id": "118_VzPWV7_WY-XPy-iPwSwlglWRXDfqX",
+          "name": "SAAS-013_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/118_VzPWV7_WY-XPy-iPwSwlglWRXDfqX/view?usp=drivesdk"
+        },
+        {
+          "id": "1RcTnPxmTwceBnvcN3Oa9uiW7EZV---_H",
+          "name": "SAAS-013_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1RcTnPxmTwceBnvcN3Oa9uiW7EZV---_H/view?usp=drivesdk"
+        },
+        {
+          "id": "1zuRmzlgLRnNkVzsI3Z3Ay_8nokkIeUVc",
+          "name": "SAAS-013_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1zuRmzlgLRnNkVzsI3Z3Ay_8nokkIeUVc/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-014",
+      "title": "The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes",
+      "folder_id": "1WitNFHgr7nB0Sb7wGobypPKmFyPPcR0R",
+      "folder_url": "https://drive.google.com/drive/folders/1WitNFHgr7nB0Sb7wGobypPKmFyPPcR0R",
+      "files": [
+        {
+          "id": "1w8MdVhsRoZvluR6jfDGmXrn8Za0K8PPz",
+          "name": "SAAS-014_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1w8MdVhsRoZvluR6jfDGmXrn8Za0K8PPz/view?usp=drivesdk"
+        },
+        {
+          "id": "1pKyBb3Se-zbqHurZReTCCMbxAigtFsJj",
+          "name": "SAAS-014_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1pKyBb3Se-zbqHurZReTCCMbxAigtFsJj/view?usp=drivesdk"
+        },
+        {
+          "id": "1EFJa3dF04fEWX9NEldZYvQQCF_AwYbtJ",
+          "name": "SAAS-014_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1EFJa3dF04fEWX9NEldZYvQQCF_AwYbtJ/view?usp=drivesdk"
+        }
+      ]
+    },
+    {
+      "video_id": "SAAS-015",
+      "title": "How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers",
+      "folder_id": "1Q9pb89tc5nwIL8mcNBg1o999-ph3XiCS",
+      "folder_url": "https://drive.google.com/drive/folders/1Q9pb89tc5nwIL8mcNBg1o999-ph3XiCS",
+      "files": [
+        {
+          "id": "1Oq2h3XebvHAuKeuLqZ9MuTmjrd-OKjd9",
+          "name": "SAAS-015_blueprint.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1Oq2h3XebvHAuKeuLqZ9MuTmjrd-OKjd9/view?usp=drivesdk"
+        },
+        {
+          "id": "1nZlxGPkeNxYPUjcX4CvV0dep8MC0lfMa",
+          "name": "SAAS-015_setup_checklist.pdf",
+          "webViewLink": "https://drive.google.com/file/d/1nZlxGPkeNxYPUjcX4CvV0dep8MC0lfMa/view?usp=drivesdk"
+        },
+        {
+          "id": "13kqSBuZDpQH9OW6cqWhP6pgLpgTF9mAs",
+          "name": "SAAS-015_templates.pdf",
+          "webViewLink": "https://drive.google.com/file/d/13kqSBuZDpQH9OW6cqWhP6pgLpgTF9mAs/view?usp=drivesdk"
+        }
+      ]
+    }
+  ]
+}

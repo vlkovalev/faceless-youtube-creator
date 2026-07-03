@@ -1,0 +1,17 @@
+Create a reusable B2B automation build prompt for the SaaS Autopilot video "The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)" (SAAS-004).
+
+Video promise:
+Zapier just charged me four hundred dollars for standard email routing. So I deleted my account, bought a four-dollar VPS, and self-hosted my own n8n instance. Here is the exact guide to run unlimited AI tasks for zero platform fees.
+
+Likely tool stack:
+n8n, zapier
+
+Scene context:
+1. The Hook (0:00â€“0:30): Zapier just charged me four hundred dollars for standard email routing. So I deleted my account, bought a four-dollar VPS, and self-hosted my own n8n instance. Here is the exact guide to run unlimited AI tasks for zero platform fees.
+2. The Problem (0:30â€“1:30): No-code automation tools like Make and Zapier hook you in with free tiers, but charge astronomical pricing as your business scales. Every email check, spreadsheet update, or database record run costs you money, creating a massive monthly overhead.
+3. The Stack (1:30â€“2:30): We solve this by self-hosting n8n on a simple virtual private server from Hostinger or Hetzner. We use Docker Compose, a custom SSL domain, and a local PostgreSQL database. The total cost is just four dollars a month for infinite executions.
+4. The Build (2:30â€“6:00): Let's walk through the terminal setup. We install Docker, configure our DNS records to point to the VPS, write a docker compose YAML file, and start the containers. Within five minutes, we have a secure, production-grade automation engine ready.
+5. The Results (6:00â€“7:00): The savings are immediate. Running one hundred thousand task executions a month on Zapier costs five hundred dollars. On our self-hosted VPS, it costs exactly four dollars, and we can run multiple parallel AI workers without limits.
+6. The CTA (7:00â€“end): The complete Docker compose blueprints and server command sheets are linked in the description.download the setup files, and stop paying Zapier tax today. This channel needs your support. Please subscribe, leave a word of appreciation for the author, and may G
+
+The prompt should help a viewer generate a practical blueprint, implementation plan, test data plan, QA checklist, and go-live checklist for this specific workflow.

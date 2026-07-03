@@ -1,0 +1,78 @@
+{
+  "name": "SaaS Autopilot - Competitor Price Monitor Blueprint",
+  "version": "1.0.0",
+  "platform": "make.com",
+  "description": "A Make.com-style blueprint for monitoring competitor pricing pages, logging changes, and creating an alert for pricing review.",
+  "disclaimer": "Respect website terms, robots.txt, rate limits, and applicable law. This template is for legitimate monitoring of public pricing pages.",
+  "variables_required": [
+    "COMPETITOR_PRICING_URL",
+    "GOOGLE_SHEET_ID",
+    "OPENAI_API_KEY",
+    "SLACK_OR_TELEGRAM_WEBHOOK_URL"
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "name": "Scheduler - Daily Pricing Check",
+      "type": "scheduler.daily",
+      "inputs": {
+        "time": "09:00",
+        "timezone": "America/Edmonton"
+      }
+    },
+    {
+      "id": 2,
+      "name": "HTTP - Fetch Pricing Page",
+      "type": "http.get",
+      "inputs": {
+        "url": "{{COMPETITOR_PRICING_URL}}",
+        "headers": {
+          "user-agent": "SaaS Autopilot QA price monitor"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "AI - Extract Pricing Table",
+      "type": "http.openai_chat_completion",
+      "inputs": {
+        "api_key": "{{OPENAI_API_KEY}}",
+        "model": "gpt-4.1-mini",
+        "prompt": "Extract the visible plan names, prices, billing terms, and feature limits from this pricing page HTML. Return strict JSON. If uncertain, mark field as unknown. HTML: {{2.body}}"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Google Sheets - Log Snapshot",
+      "type": "google_sheets.add_row",
+      "inputs": {
+        "sheet_id": "{{GOOGLE_SHEET_ID}}",
+        "worksheet": "Pricing Snapshots",
+        "row": {
+          "checked_at": "{{now}}",
+          "url": "{{COMPETITOR_PRICING_URL}}",
+          "pricing_json": "{{3.output_text}}"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Alert - Review Pricing Snapshot",
+      "type": "http.post_webhook",
+      "inputs": {
+        "url": "{{SLACK_OR_TELEGRAM_WEBHOOK_URL}}",
+        "body": {
+          "text": "Pricing snapshot captured. Review the latest row before making pricing decisions."
+        }
+      }
+    }
+  ],
+  "qa_checks": [
+    "Pricing page fetch returns HTTP 200.",
+    "Extraction output is valid JSON.",
+    "Unknown fields are labeled unknown rather than guessed.",
+    "Snapshot is logged with timestamp and source URL.",
+    "Alert goes to the correct review channel.",
+    "No automated pricing changes happen without human approval."
+  ]
+}

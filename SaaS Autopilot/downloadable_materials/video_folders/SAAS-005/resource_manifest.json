@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-005",
+  "title": "Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-005 - Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1nloiyZQ8gLIEFfNpnemnZ1koEu6_gbVE",
+  "files": [
+    "SAAS-005_blueprint.pdf",
+    "SAAS-005_templates.pdf",
+    "SAAS-005_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-005\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1gcG_6WJ77164at-Jcl9qn7P2xou10Yp-",
+      "name": "SAAS-005_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1gcG_6WJ77164at-Jcl9qn7P2xou10Yp-/view?usp=drivesdk"
+    },
+    {
+      "id": "1iNs7HC5K4ZAwrpISe1KhAO80nSsCaywp",
+      "name": "SAAS-005_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1iNs7HC5K4ZAwrpISe1KhAO80nSsCaywp/view?usp=drivesdk"
+    },
+    {
+      "id": "1BQbQ0wS-5JnUNNyms8extgKFRKioST5R",
+      "name": "SAAS-005_templates.pdf",
+      "url": "https://drive.google.com/file/d/1BQbQ0wS-5JnUNNyms8extgKFRKioST5R/view?usp=drivesdk"
+    }
+  ]
+}

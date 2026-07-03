@@ -1,0 +1,16 @@
+{
+  "source": "Akathists.com",
+  "contact_url": "https://www.akathists.com/contact/",
+  "permission_status": "permission_granted",
+  "permission_scope": "Use akathist texts from Akathists.com in The Saints YouTube prayer videos, including on-screen text and audio recitation.",
+  "permission_reply_from": "admin@akathists.com",
+  "permission_reply_summary": "Yes, by all means, permission granted.",
+  "permission_recorded_from": "User-provided email screenshot in Codex thread",
+  "recorded_at": "2026-06-11",
+  "required_attribution": "Akathist text used with permission from Akathists.com.",
+  "production_notes": [
+    "Use poster-style thumbnails for prayer/akathist videos.",
+    "Keep Akathists.com attribution in video description and local metadata.",
+    "This permission record applies to Akathists.com texts only; other prayer text sources still require separate verification."
+  ]
+}

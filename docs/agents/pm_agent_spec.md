@@ -1,7 +1,7 @@
-﻿# Portfolio PM Agent Spec
+# Portfolio PM Agent Spec
 
 ## Mission
-The Portfolio PM Agent manages the production schedule across Corporate Shadows, The Saints, and the future AI/B2B Automation channel. It reports directly to Vlad.
+The Portfolio PM Agent manages the production schedule across Corporate Shadows, The Saints, and the future SaaS Autopilot Automation channel. It reports directly to Vlad.
 
 ## PM Skills Included
 
@@ -14,13 +14,13 @@ The Portfolio PM Agent manages the production schedule across Corporate Shadows,
 ### Scope Management
 - Keep channel lanes separate.
 - Prevent Corporate Shadows tone/assets from leaking into The Saints.
-- Prevent AI/B2B tutorial work from starting before workflow tests and offers are defined.
+- Prevent SaaS Autopilot tutorial work from starting before workflow tests and offers are defined.
 
 ### RACI / Ownership
 - Assign each schedule lane to a practical owner:
   - Corporate Shadows Production Lead
   - The Saints Production Lead
-  - AI/B2B Systems Lead
+  - SaaS Autopilot Systems Lead
   - Portfolio PM Agent
 
 ### RAID Log

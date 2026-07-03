@@ -1,0 +1,80 @@
+{
+  "video_id": "VID-0007",
+  "script_id": 7,
+  "qc_status": "passed",
+  "generated_at": "2026-06-28T18:15:19.147Z",
+  "checks": [
+    {
+      "name": "final_video_exists",
+      "ok": true,
+      "detail": "FINAL_VIDEO_7.mp4"
+    },
+    {
+      "name": "final_video_non_empty",
+      "ok": true,
+      "detail": "178.87 MB"
+    },
+    {
+      "name": "long_form_duration_minimum",
+      "ok": true,
+      "detail": "559s / 480s minimum"
+    },
+    {
+      "name": "captions_exist",
+      "ok": true,
+      "detail": "FINAL_VIDEO_7.srt"
+    },
+    {
+      "name": "thumbnail_exists",
+      "ok": true,
+      "detail": "youtube_thumbnail_video_7.png"
+    },
+    {
+      "name": "scene_audio_count",
+      "ok": true,
+      "detail": "24/12"
+    },
+    {
+      "name": "scene_visual_count",
+      "ok": true,
+      "detail": "24/12"
+    },
+    {
+      "name": "scene_visuals_not_raw_beat_cards",
+      "ok": true,
+      "detail": "scene images are distinct final plates"
+    },
+    {
+      "name": "metadata_queue_entry",
+      "ok": true,
+      "detail": "The Silent Killer: How a Chemical Giant Poisoned a Town"
+    },
+    {
+      "name": "upload_visibility_safe",
+      "ok": true,
+      "detail": "scheduled"
+    },
+    {
+      "name": "scheduled_midnight_alberta",
+      "ok": true,
+      "detail": "2026-06-20T06:00:00.000Z / 10:00 / America/Denver"
+    },
+    {
+      "name": "replacement_cleanup_declared",
+      "ok": true,
+      "detail": "replacement upload has cleanup/hold instruction"
+    },
+    {
+      "name": "named_individual_in_hook",
+      "ok": true,
+      "detail": "Named individual found in scenes 1-3"
+    },
+    {
+      "name": "scene_depth_review",
+      "ok": true,
+      "detail": "All scenes >=80 words"
+    }
+  ],
+  "warnings": [],
+  "approval_required_before_public": true
+}

@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-06-02T13:19:35.659Z",
+  "channel": "saints",
+  "mode": "balanced",
+  "action": "publish after qc thumbnail upload",
+  "decision": "allow",
+  "reason": "Action matches approval_policy.json always-allow list.",
+  "rules": {
+    "mode": "allow_all_except_delete",
+    "allow_non_delete_actions_without_asking": true,
+    "require_approval_for_delete_or_destructive_cleanup": true,
+    "note": "Per Vlad, the project permission agent asks only for delete/destructive actions."
+  }
+}

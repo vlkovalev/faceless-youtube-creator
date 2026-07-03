@@ -1,0 +1,553 @@
+{
+  "checked_at": "2026-06-15T21:17:00.842593+00:00",
+  "output_root": "downloadable_materials\\video_folders",
+  "summary": {
+    "folders": 15,
+    "passed": 15,
+    "failed": 0,
+    "blueprint_failures": 0,
+    "warnings": 0
+  },
+  "results": [
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-001",
+      "video_id": "SAAS-001",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-001\\SAAS-001_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 6008,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-001\\SAAS-001_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2667,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-001\\SAAS-001_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 801,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-002",
+      "video_id": "SAAS-002",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-002\\SAAS-002_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 5587,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-002\\SAAS-002_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2663,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-002\\SAAS-002_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 789,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-003",
+      "video_id": "SAAS-003",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-003\\SAAS-003_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 4197,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-003\\SAAS-003_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2661,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-003\\SAAS-003_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 794,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-004",
+      "video_id": "SAAS-004",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-004\\SAAS-004_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 4211,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-004\\SAAS-004_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2636,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-004\\SAAS-004_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 783,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-005",
+      "video_id": "SAAS-005",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-005\\SAAS-005_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 4120,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-005\\SAAS-005_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2671,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-005\\SAAS-005_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 798,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-006",
+      "video_id": "SAAS-006",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-006\\SAAS-006_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 4280,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-006\\SAAS-006_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2672,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-006\\SAAS-006_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 786,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-007",
+      "video_id": "SAAS-007",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-007\\SAAS-007_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 4297,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-007\\SAAS-007_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2698,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-007\\SAAS-007_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 806,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-008",
+      "video_id": "SAAS-008",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-008\\SAAS-008_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 3615,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-008\\SAAS-008_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2645,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-008\\SAAS-008_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 785,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-009",
+      "video_id": "SAAS-009",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-009\\SAAS-009_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 3640,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-009\\SAAS-009_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2651,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-009\\SAAS-009_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 793,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-010",
+      "video_id": "SAAS-010",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-010\\SAAS-010_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 3627,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-010\\SAAS-010_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2644,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-010\\SAAS-010_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 787,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-011",
+      "video_id": "SAAS-011",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-011\\SAAS-011_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 3639,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-011\\SAAS-011_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2653,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-011\\SAAS-011_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 794,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-012",
+      "video_id": "SAAS-012",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-012\\SAAS-012_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 3625,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-012\\SAAS-012_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2660,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-012\\SAAS-012_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 795,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-013",
+      "video_id": "SAAS-013",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-013\\SAAS-013_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 3665,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-013\\SAAS-013_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2674,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-013\\SAAS-013_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 801,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-014",
+      "video_id": "SAAS-014",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-014\\SAAS-014_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 3620,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-014\\SAAS-014_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2645,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-014\\SAAS-014_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 790,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "folder": "downloadable_materials\\video_folders\\SAAS-015",
+      "video_id": "SAAS-015",
+      "status": "passed",
+      "issues": [],
+      "warnings": [],
+      "files": [
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-015\\SAAS-015_blueprint.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 3659,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-015\\SAAS-015_templates.pdf",
+          "status": "passed",
+          "page_count": 3,
+          "extracted_chars": 2687,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        },
+        {
+          "file": "downloadable_materials\\video_folders\\SAAS-015\\SAAS-015_setup_checklist.pdf",
+          "status": "passed",
+          "page_count": 1,
+          "extracted_chars": 811,
+          "out_of_bounds_samples": [],
+          "issues": [],
+          "warnings": []
+        }
+      ]
+    }
+  ]
+}

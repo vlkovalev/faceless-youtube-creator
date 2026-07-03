@@ -36,7 +36,7 @@ function countFiles(dirRel, matcher) {
 }
 
 function commandExists(command) {
-  const result = spawnSync('where.exe', [command], { encoding: 'utf8' });
+  const result = spawnSync('where.exe', [command], { encoding: 'utf8', windowsHide: true });
   return result.status === 0 ? result.stdout.trim().split(/\r?\n/)[0] : '';
 }
 
@@ -65,7 +65,7 @@ function checkReadiness(id) {
     { check: 'FFmpeg', ok: Boolean(ffmpegPath), detail: ffmpegPath || 'missing: install ffmpeg or set FFMPEG_PATH' },
     { check: 'FFprobe', ok: Boolean(ffprobePath), detail: ffprobePath || 'missing: install ffprobe or set FFPROBE_PATH' },
     { check: 'Background music', ok: exists('assets/bg_music_dark.mp3'), detail: 'assets/bg_music_dark.mp3' },
-    { check: 'Scene audio files', ok: countFiles(assetsDir, name => /^scene_\d+_audio\.wav$/.test(name)) >= 12, detail: `${countFiles(assetsDir, name => /^scene_\d+_audio\.wav$/.test(name))}/12 wav files` },
+    { check: 'Scene audio files', ok: countFiles(assetsDir, name => /^scene_\d+_audio\.(wav|mp3)$/.test(name)) >= 12, detail: `${countFiles(assetsDir, name => /^scene_\d+_audio\.(wav|mp3)$/.test(name))}/12 audio files` },
     { check: 'Scene visual files', ok: countFiles(assetsDir, name => /^scene_\d+_(image\.png|video\.mp4)$/.test(name)) >= 12, detail: `${countFiles(assetsDir, name => /^scene_\d+_(image\.png|video\.mp4)$/.test(name))}/12 visual files` },
     { check: 'Final video', ok: exists(finalVideoPath), detail: finalVideoPath },
     { check: 'Captions', ok: exists(srtPath), detail: srtPath },
@@ -93,10 +93,18 @@ function getBlockers(id) {
 }
 
 function runNodeScript(scriptName, id, extraArgs = []) {
-  const result = spawnSync(process.execPath, [path.join(__dirname, scriptName), id, ...extraArgs], {
+  let targetScript = scriptName;
+  if (scriptName === 'editor_agent.js') {
+    const beatVideos = ['4', '5', '6', '8', '9', '10'];
+    if (beatVideos.includes(String(id))) {
+      targetScript = 'editor_beat_agent.js';
+    }
+  }
+  const result = spawnSync(process.execPath, [path.join(__dirname, targetScript), id, ...extraArgs], {
     cwd: __dirname,
     stdio: 'inherit',
-    shell: false
+    shell: false,
+    windowsHide: true
   });
   if (result.status !== 0) {
     process.exit(result.status || 1);
@@ -115,7 +123,7 @@ function updateStatus(stageName, last, next, blocking = '', file = '', final = '
     `--file=${file}`,
     `--final=${final}`
   ];
-  spawnSync(process.execPath, args, { cwd: __dirname, stdio: 'inherit', shell: false });
+  spawnSync(process.execPath, args, { cwd: __dirname, stdio: 'inherit', shell: false, windowsHide: true });
 }
 
 function runStage(stageName) {

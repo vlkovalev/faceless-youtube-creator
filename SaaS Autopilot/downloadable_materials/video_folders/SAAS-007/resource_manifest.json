@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-007",
+  "title": "Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-007 - Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1ToBiJueR4ZhoE1xUTqvvCDeDkUGrglK4",
+  "files": [
+    "SAAS-007_blueprint.pdf",
+    "SAAS-007_templates.pdf",
+    "SAAS-007_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-007\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1CTXGbfzcJL-1vGhCANdmp9PZmu-zjDxY",
+      "name": "SAAS-007_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1CTXGbfzcJL-1vGhCANdmp9PZmu-zjDxY/view?usp=drivesdk"
+    },
+    {
+      "id": "1PwgT9C9h5Fx1VFAX2V11KtmYBI76lZJO",
+      "name": "SAAS-007_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1PwgT9C9h5Fx1VFAX2V11KtmYBI76lZJO/view?usp=drivesdk"
+    },
+    {
+      "id": "1bZryTg7xzw_A-Y3tanFudxpKPBpnOYiz",
+      "name": "SAAS-007_templates.pdf",
+      "url": "https://drive.google.com/file/d/1bZryTg7xzw_A-Y3tanFudxpKPBpnOYiz/view?usp=drivesdk"
+    }
+  ]
+}

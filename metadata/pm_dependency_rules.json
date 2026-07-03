@@ -1,42 +1,42 @@
 [
-  {
-    "id": "dep-saints-channel",
-    "channel": "The Saints",
-    "severity": "P1",
-    "rule": "Do not upload The Saints videos until a separate YouTube channel/Brand Account and OAuth routing exist.",
-    "check": "manual",
-    "status": "open"
-  },
-  {
-    "id": "dep-corporate-visuals",
-    "channel": "Corporate Shadows",
-    "severity": "P2",
-    "rule": "Do not public publish Corporate Shadows videos that rely on placeholder visuals.",
-    "check": "metadata/qc_reports and asset manifests",
-    "status": "open"
-  },
-  {
-    "id": "dep-public-approval",
-    "channel": "All",
-    "severity": "P1",
-    "rule": "Do not publish publicly without explicit approval.",
-    "check": "human approval gate",
-    "status": "active"
-  },
-  {
-    "id": "dep-custom-thumbnails",
-    "channel": "All",
-    "severity": "P2",
-    "rule": "Custom thumbnails require YouTube account permission/verification.",
-    "check": "YouTube upload warning",
-    "status": "open"
-  },
-  {
-    "id": "dep-ai-tested-workflows",
-    "channel": "AI / B2B Automation Channel",
-    "severity": "P1",
-    "rule": "Do not launch AI/B2B channel until at least 3 workflows are tested and template-backed.",
-    "check": "workflow artifacts",
-    "status": "planned"
-  }
+    {
+        "id":  "dep-saints-channel",
+        "channel":  "The Saints",
+        "severity":  "P1",
+        "rule":  "Do not upload The Saints videos until a separate YouTube channel/Brand Account and OAuth routing exist.",
+        "check":  "manual",
+        "status":  "resolved"
+    },
+    {
+        "id":  "dep-corporate-visuals",
+        "channel":  "Corporate Shadows",
+        "severity":  "P2",
+        "rule":  "Do not public publish Corporate Shadows videos that rely on placeholder visuals.",
+        "check":  "metadata/qc_reports and asset manifests",
+        "status":  "open"
+    },
+    {
+        "id":  "dep-public-approval",
+        "channel":  "Corporate Shadows",
+        "severity":  "P1",
+        "rule":  "Do not publish publicly without explicit approval.",
+        "check":  "human approval gate",
+        "status":  "active"
+    },
+    {
+        "id":  "dep-custom-thumbnails",
+        "channel":  "All",
+        "severity":  "P3",
+        "rule":  "Custom thumbnail permission verified; Video 1 and Video 2 custom thumbnails uploaded successfully.",
+        "check":  "YouTube upload warning",
+        "status":  "resolved"
+    },
+    {
+        "id":  "dep-ai-tested-workflows",
+        "channel":  "SaaS Autopilot Channel",
+        "severity":  "P1",
+        "rule":  "Do not launch SaaS Autopilot channel until at least 3 workflows are tested and template-backed.",
+        "check":  "workflow artifacts",
+        "status":  "planned"
+    }
 ]

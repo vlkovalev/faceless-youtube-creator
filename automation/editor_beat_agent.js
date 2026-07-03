@@ -22,7 +22,7 @@ ffmpeg.setFfprobePath(ffprobePath);
 const SCRIPT_ID = process.argv[2] || '1';
 const ASSETS_DIR = path.join(WORKSPACE_DIR, 'assets', `video_${SCRIPT_ID}_assets`);
 const PLAN_PATH = path.join(ASSETS_DIR, 'visual_plan.json');
-const OUTPUT_FILE = path.join(WORKSPACE_DIR, `FINAL_VIDEO_${SCRIPT_ID}_VISUAL_UPGRADE.mp4`);
+const OUTPUT_FILE = path.join(WORKSPACE_DIR, `FINAL_VIDEO_${SCRIPT_ID}.mp4`);
 const BGM_PATH = path.join(WORKSPACE_DIR, 'assets', 'bg_music_dark.mp3');
 const DATA_PATH = path.join(WORKSPACE_DIR, 'scripts', `video_${SCRIPT_ID}_data.js`);
 
@@ -51,21 +51,52 @@ function safePathForConcat(filePath) {
   return filePath.replace(/\\/g, '/').replace(/'/g, "'\\''");
 }
 
-function resolveAsset(assetFile, fallback) {
+function resolveAsset(assetFile, fallback, beat) {
   const rel = assetFile || fallback;
-  const p = path.join(WORKSPACE_DIR, rel.replace(/^assets[\\/]/, 'assets/'));
-  if (fs.existsSync(p)) return p;
+  if (rel) {
+    const p = path.join(WORKSPACE_DIR, rel.replace(/^assets[\\/]/, 'assets/'));
+    if (fs.existsSync(p)) return p;
+  }
+
+  if (beat && beat.beat_id) {
+    const beatId = String(beat.beat_id);
+    const compactBeatId = beatId.replace(/_(\d+)$/, '$1');
+    const baseBeatId = beatId.replace(/_\d+$/, '');
+    const candidates = [
+      `beat_${beatId}_loc.jpg`,
+      `beat_${compactBeatId}_loc.jpg`,
+      `beat_${baseBeatId}_loc.jpg`,
+      `beat_${beatId}_commons.jpg`,
+      `beat_${compactBeatId}_commons.jpg`,
+      `beat_${baseBeatId}_commons.jpg`,
+      `beat_${beatId}.jpg`,
+      `beat_${compactBeatId}.jpg`,
+      `beat_${baseBeatId}.jpg`,
+      `beat_${beatId}.png`,
+      `beat_${compactBeatId}.png`,
+      `beat_${baseBeatId}.png`,
+    ];
+
+    for (const candidate of candidates) {
+      const p = path.join(ASSETS_DIR, candidate);
+      if (fs.existsSync(p)) return p;
+    }
+  }
+
   const fallbackPath = path.join(ASSETS_DIR, fallback || 'scene_1_image.png');
   if (fs.existsSync(fallbackPath)) return fallbackPath;
-  throw new Error(`Missing beat asset: ${assetFile}`);
+  throw new Error(`Missing beat asset: ${assetFile || (beat && beat.beat_id) || fallback}`);
 }
 
 function renderImageClip(imagePath, duration, outPath, zoomSeed) {
   return new Promise((resolve, reject) => {
     const frames = Math.max(30, Math.ceil(duration * 30));
-    const zoom = zoomSeed % 2 === 0
-      ? `zoompan=z='min(zoom+0.0009,1.18)':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30`
-      : `zoompan=z='1.12':d=${frames}:x='iw/2-(iw/zoom/2)+sin(on/35)*18':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30`;
+    const isCreatedCard = /\.png$/i.test(imagePath);
+    const zoom = isCreatedCard
+      ? `zoompan=z='min(zoom+0.00025,1.045)':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30`
+      : (zoomSeed % 2 === 0
+        ? `zoompan=z='min(zoom+0.0009,1.18)':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30`
+        : `zoompan=z='1.12':d=${frames}:x='iw/2-(iw/zoom/2)+sin(on/35)*18':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30`);
 
     ffmpeg()
       .input(imagePath)
@@ -103,8 +134,11 @@ function muxScene(videoPath, audioPath, duration, outPath) {
 }
 
 async function renderScene(scenePlan, scriptScene, sceneIndex) {
-  const audioPath = path.join(ASSETS_DIR, `scene_${sceneIndex}_audio.wav`);
-  if (!fs.existsSync(audioPath)) throw new Error(`Missing audio: ${audioPath}`);
+  let audioPath = path.join(ASSETS_DIR, `scene_${sceneIndex}_audio.wav`);
+  if (!fs.existsSync(audioPath)) {
+    audioPath = path.join(ASSETS_DIR, `scene_${sceneIndex}_audio.mp3`);
+  }
+  if (!fs.existsSync(audioPath)) throw new Error(`Missing audio: scene_${sceneIndex}_audio.wav or .mp3`);
   const audioDuration = getAudioDuration(audioPath);
   const beats = scenePlan.beats || [];
   const totalBeatDuration = beats.reduce((sum, beat) => sum + Number(beat.duration_s || 1), 0) || beats.length;
@@ -115,7 +149,7 @@ async function renderScene(scenePlan, scriptScene, sceneIndex) {
     const duration = i === beats.length - 1
       ? Math.max(1, audioDuration - clipPaths.reduce((sum, clip) => sum + clip.duration, 0))
       : Math.max(1.2, audioDuration * (Number(beat.duration_s || 1) / totalBeatDuration));
-    const imagePath = resolveAsset(beat.asset_file, beat.fallback || `scene_${sceneIndex}_image.png`);
+    const imagePath = resolveAsset(beat.asset_file, beat.fallback || `scene_${sceneIndex}_image.png`, beat);
     const outPath = path.join(ASSETS_DIR, `scene_${sceneIndex}_beat_${beat.beat_id}.mp4`);
     console.log(`Scene ${sceneIndex} beat ${beat.beat_id}: ${duration.toFixed(1)}s -> ${path.basename(imagePath)}`);
     await renderImageClip(imagePath, duration, outPath, i + sceneIndex);

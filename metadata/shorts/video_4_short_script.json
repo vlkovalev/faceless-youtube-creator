@@ -1,0 +1,20 @@
+{
+  "video_id": "VID-0004",
+  "youtube_id": "-Tt_ijOCCRI",
+  "suggested_title": "Harvard scientists were paid to lie to you. #Shorts",
+  "description": "Harvard scientists were paid to lie to you.\n\nFull video: [paste YouTube link]\n\n#Shorts #DarkHistory #SugarLobby #CorporateScandal #History",
+  "tags": ["Shorts", "DarkHistory", "SugarLobby", "CorporateScandal", "History", "Health"],
+  "category": "Education",
+  "estimated_duration_sec": 58,
+  "word_count": 147,
+  "hook_scenes": [
+    {
+      "scene": 1,
+      "title": "The Big Lie",
+      "trimmed": false,
+      "narration_preview": "For fifty years, you were told that fat makes you fat. That butter, red meat, and eggs were quietly killing you..."
+    }
+  ],
+  "full_narration": "For fifty years, you were told that fat makes you fat. That butter, red meat, and eggs were quietly killing you. That if you wanted to live, you had to cut out the fat. Governments told you. Doctors told you. The food pyramid told you. And you believed them. Your parents believed them. An entire civilization changed what it ate based on this single idea. It was a lie. A calculated, deliberate lie. A lie bought and paid for by three Harvard scientists, a bag of cash, and one of the most powerful food lobbies in American history. In 1967, the Sugar Research Foundation paid those scientists to publish a review blaming fat for heart disease — and burying every study that pointed to sugar. The scientists never disclosed the payment. The lie became government policy. And fifty years later, we're still recovering from it.",
+  "notes": "Trim at ~58s. Adjust -t in ffmpeg if actual voiceover runs longer. Add full video link in description before uploading."
+}

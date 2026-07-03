@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-06-13T12:06:29.844Z",
+  "mode": "build_and_private_upload",
+  "safety": {
+    "public_publish": false,
+    "delete": false,
+    "paid_generation": false
+  },
+  "runs": [
+    {
+      "command": "node.exe C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\automation\\youtube_status_agent.js --channel=saints",
+      "status": 1,
+      "ok": false,
+      "stdout": "",
+      "stderr": "YouTube status sync failed: request to https://oauth2.googleapis.com/token failed, reason: \n"
+    },
+    {
+      "command": "node.exe C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\automation\\saints_pm_push_agent.js",
+      "status": 0,
+      "ok": true,
+      "stdout": "# Saints PM Report\n\nGenerated: 2026-06-13T12:06:32.550Z\n\n## Priority Actions\n- P1 verified_visual_upgrade: Review/add verified real visuals for Saints 13: each needs at least one verified icon/portrait, monastery/location photo, manuscript/source image, and per-scene real-image coverage.\n- P2 youtube_review: Review 7 Saints private draft(s) in YouTube Studio only after visual QC passes; do not publish while visual/rights gates fail.\n- P5 multi_channel_policy: All three channels stay active and isolated; do not delete, public-publish, spend, or use uncleared rights without approval.\n\n## Video State\n- Saints 13: script=true plan=true audio=11 sceneImages=21 beatImages=41 realSources=2 qcFailed=saints_minimum_real_image_coverage,saints_real_image_coverage_per_scene,saints_minimum_one_icon_or_painting,saints_required_visual_types_present\n- Saints 14: script=true plan=true audio=14 sceneImages=14 beatImages=46 realSources=3 qcFailed=none\n- Saints 15: script=true plan=true audio=14 sceneImages=4 beatImages=47 realSources=3 qcFailed=none\n- Saints 16: script=true plan=true audio=15 sceneImages=0 beatImages=48 realSources=3 qcFailed=none\n- Saints 17: script=true plan=true audio=14 sceneImages=0 beatImages=44 realSources=3 qcFailed=none\n- Saints 18: script=true plan=true audio=16 sceneImages=0 beatImages=48 realSources=5 qcFailed=none\n- Saints 19: script=true plan=true audio=10 sceneImages=0 beatImages=38 realSources=9 qcFailed=none\n- Saints 20: script=true plan=true audio=10 sceneImages=0 beatImages=31 realSources=9 qcFailed=none\n",
+      "stderr": ""
+    }
+  ],
+  "result": "blocked_no_next_video",
+  "video_id": null
+}

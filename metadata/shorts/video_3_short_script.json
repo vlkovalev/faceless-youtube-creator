@@ -1,0 +1,26 @@
+{
+  "video_id": "VID-0003",
+  "youtube_id": "mM0axfPaZBU",
+  "suggested_title": "They designed your lightbulb to break. #Shorts",
+  "description": "They designed your lightbulb to break.\n\nFull video: [paste YouTube link]\n\n#Shorts #DarkHistory #CorporateScandal #PlannedObsolescence #History",
+  "tags": ["Shorts", "DarkHistory", "CorporateScandal", "PlannedObsolescence", "History", "Business"],
+  "category": "Education",
+  "estimated_duration_sec": 55,
+  "word_count": 140,
+  "hook_scenes": [
+    {
+      "scene": 1,
+      "title": "The Smoke-Filled Room",
+      "trimmed": false,
+      "narration_preview": "In the winter of 1924, a group of powerful industrialists quietly gathered in a smoke-filled room in Geneva..."
+    },
+    {
+      "scene": 2,
+      "title": "The Centennial Anomaly",
+      "trimmed": true,
+      "narration_preview": "Hanging in a fire station in Livermore, California, is a bulb that has been burning since 1901..."
+    }
+  ],
+  "full_narration": "In the winter of 1924, far from the public eye, a group of powerful industrialists quietly gathered in a smoke-filled room in Geneva, Switzerland. Representing the world's leading lighting conglomerates, these men were not there to celebrate innovation. They were planning a conspiracy that would secretly restrict global progress. Their objective was simple yet sinister: to intentionally design a lightbulb that would fail sooner, forcing consumers to buy more. It was the birth of planned obsolescence — a calculated sabotage of human engineering. And for decades, they got away with it completely. Here's the proof they tried to erase. Hanging in a fire station in Livermore, California, is a small bulb that has been burning continuously since 1901. Over a century. It proves we had the technology to make lightbulbs last forever. And the industry deliberately chose to destroy it.",
+  "notes": "Trim at ~55s. Adjust -t in ffmpeg if actual voiceover runs longer. Add full video link in description before uploading."
+}

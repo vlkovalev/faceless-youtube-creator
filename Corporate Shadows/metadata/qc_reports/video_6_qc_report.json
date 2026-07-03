@@ -1,0 +1,80 @@
+{
+  "video_id": "VID-0006",
+  "script_id": 6,
+  "qc_status": "passed",
+  "generated_at": "2026-07-01T15:29:28.797Z",
+  "checks": [
+    {
+      "name": "final_video_exists",
+      "ok": true,
+      "detail": "videos/uploaded/FINAL_VIDEO_6.mp4"
+    },
+    {
+      "name": "final_video_non_empty",
+      "ok": true,
+      "detail": "192.87 MB"
+    },
+    {
+      "name": "long_form_duration_minimum",
+      "ok": true,
+      "detail": "608s / 480s minimum"
+    },
+    {
+      "name": "captions_exist",
+      "ok": true,
+      "detail": "omni_videos/FINAL_VIDEO_6_OMNI_FLASH.srt"
+    },
+    {
+      "name": "thumbnail_exists",
+      "ok": true,
+      "detail": "youtube_thumbnail_video_6.png"
+    },
+    {
+      "name": "scene_audio_count",
+      "ok": true,
+      "detail": "12/12"
+    },
+    {
+      "name": "scene_visual_count",
+      "ok": true,
+      "detail": "81/12"
+    },
+    {
+      "name": "scene_visuals_not_raw_beat_cards",
+      "ok": true,
+      "detail": "scene images are distinct final plates"
+    },
+    {
+      "name": "metadata_queue_entry",
+      "ok": true,
+      "detail": "The Toxic Empire: The Family That Hooked America on Pain"
+    },
+    {
+      "name": "upload_visibility_safe",
+      "ok": true,
+      "detail": "scheduled"
+    },
+    {
+      "name": "scheduled_midnight_alberta",
+      "ok": true,
+      "detail": "2026-06-30T06:00:00.000Z / 00:00 / America/Edmonton"
+    },
+    {
+      "name": "replacement_cleanup_declared",
+      "ok": true,
+      "detail": "not a replacement upload"
+    },
+    {
+      "name": "named_individual_in_hook",
+      "ok": true,
+      "detail": "Named individual found in scenes 1-3"
+    },
+    {
+      "name": "scene_depth_review",
+      "ok": true,
+      "detail": "All scenes >=80 words"
+    }
+  ],
+  "warnings": [],
+  "approval_required_before_public": true
+}

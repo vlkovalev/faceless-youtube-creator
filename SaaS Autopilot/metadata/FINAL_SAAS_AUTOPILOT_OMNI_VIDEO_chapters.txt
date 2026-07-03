@@ -1,0 +1,15 @@
+00:00 - How I Automated My Entire YouTube Script Pipeline with Claude + Node.js
+04:15 - The $20/Month Stack That Replaced a $3,000 Marketing Agency
+07:56 - I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)
+09:32 - The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)
+11:13 - Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new
+12:47 - How to Build a Telegram AI CRM Agent That Closes Clients
+14:25 - Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity
+16:08 - How to Build a LinkedIn AI Lead Extractor in 10 Minutes
+17:30 - I Automated My Company's Tech Newsletter (0 to 10k Subscribers)
+18:28 - I Automated My B2B Cold Email Outreach Using Claude & n8n
+19:26 - Build a Custom AI Customer Support Bot Connected to Company Docs
+20:24 - How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs
+21:23 - I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks
+22:21 - The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes
+23:19 - How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers

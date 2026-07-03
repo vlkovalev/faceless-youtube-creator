@@ -1,0 +1,89 @@
+{
+  "name": "SaaS Autopilot - Lead Capture and Outreach Draft Blueprint",
+  "version": "1.0.0",
+  "platform": "make.com",
+  "description": "A Make.com-style blueprint for capturing a lead, enriching context, drafting a personalized outreach message, storing the result, and alerting the team.",
+  "disclaimer": "This is a viewer blueprint template. Replace placeholder module IDs, connection IDs, API keys, webhook URLs, and sheet IDs before use.",
+  "variables_required": [
+    "LEAD_SOURCE_URL",
+    "GOOGLE_SHEET_ID",
+    "OPENAI_API_KEY",
+    "EMAIL_SENDER_NAME",
+    "EMAIL_SENDER_ADDRESS",
+    "SLACK_OR_TELEGRAM_WEBHOOK_URL"
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "name": "Webhook - New Lead",
+      "type": "webhook.custom",
+      "inputs": {
+        "expected_fields": [
+          "first_name",
+          "last_name",
+          "email",
+          "company_name",
+          "company_website",
+          "role",
+          "source"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Normalize Lead Fields",
+      "type": "tools.set_variables",
+      "inputs": {
+        "company_name": "{{1.company_name}}",
+        "website": "{{1.company_website}}",
+        "contact_name": "{{1.first_name}} {{1.last_name}}",
+        "role": "{{1.role}}"
+      }
+    },
+    {
+      "id": 3,
+      "name": "AI - Draft Personalized Outreach",
+      "type": "http.openai_chat_completion",
+      "inputs": {
+        "api_key": "{{OPENAI_API_KEY}}",
+        "model": "gpt-4.1-mini",
+        "prompt": "Write a concise B2B outreach email for {{2.contact_name}} at {{2.company_name}}. Reference their role {{2.role}} and propose an automation that reduces manual follow-up. Do not invent facts. Keep it under 130 words."
+      }
+    },
+    {
+      "id": 4,
+      "name": "Google Sheets - Add Draft Row",
+      "type": "google_sheets.add_row",
+      "inputs": {
+        "sheet_id": "{{GOOGLE_SHEET_ID}}",
+        "worksheet": "Outreach Drafts",
+        "row": {
+          "contact_name": "{{2.contact_name}}",
+          "company_name": "{{2.company_name}}",
+          "email": "{{1.email}}",
+          "draft": "{{3.output_text}}",
+          "status": "needs_review"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": "Alert - Draft Ready",
+      "type": "http.post_webhook",
+      "inputs": {
+        "url": "{{SLACK_OR_TELEGRAM_WEBHOOK_URL}}",
+        "body": {
+          "text": "New outreach draft ready for {{2.company_name}}. Review it in the outreach sheet before sending."
+        }
+      }
+    }
+  ],
+  "qa_checks": [
+    "Webhook receives test payload.",
+    "No private API key is stored in module output.",
+    "Draft does not invent company facts.",
+    "Sheet row is created with status needs_review.",
+    "Alert is sent to the correct channel.",
+    "Human review happens before any outbound email is sent."
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "channel": {
+    "name": "SaaS Autopilot",
+    "working_name": "SaaS Autopilot",
+    "niche": "AI Tools & B2B SaaS Automation",
+    "tagline": "Real workflows. Real results. No hype.",
+    "description": "Practical AI automation walkthroughs for operators, founders, and teams. We build real workflows, test real tools, and show exactly what works.",
+    "status": "active_production",
+    "created_at": "2026-05-31",
+    "target_first_upload": "2026-06-06",
+    "current_state_note": "Channel is live with 15 public uploads. Immediate ops focus is isolated backlog extension beyond SAAS-015, not initial setup.",
+    "branding": {
+      "colors": {
+        "background": "#0d1117",
+        "panel": "#161b22",
+        "primary": "#58a6ff",
+        "secondary": "#3fb950",
+        "text": "#f0f6fc",
+        "text_secondary": "#8b949e",
+        "border": "#30363d"
+      },
+      "fonts": {
+        "headings": "Inter, sans-serif",
+        "body": "Inter, sans-serif"
+      },
+      "style_note": "Clean tech aesthetic — dark mode, code-like. Contrast with Corporate Shadows (dark cinematic) and Saints (warm reverent)."
+    }
+  },
+  "team": {
+    "name": "SaaS Autopilot Team",
+    "status": "active_production",
+    "scope": "Channel strategy, topic research, isolated workflow production, upload QA, playlist hygiene, and backlog extension.",
+    "gate": "Keep uploads isolated to the SaaS channel OAuth and route. No public publishing changes without QA/QC clearance. Immediate production gate is creating the next topic batch beyond SAAS-015.",
+    "oauth_file": "automation/credentials/saas_autopilot_oauth_token.json"
+  },
+  "production_targets": {
+    "format": "workflow_walkthrough",
+    "style": "Screen recording + narration, or animated explainer. Clean, fast, practical. No cinematic drama.",
+    "long_form_duration": {
+      "recommended_range": "8m 00s - 14m 00s",
+      "hard_qc_minimum_seconds": 480,
+      "rule": "Every video must demonstrate a complete working workflow — not a concept, a result."
+    },
+    "shorts_duration": {
+      "recommended_range": "30s - 60s",
+      "rule": "Cut a Short from the single most impressive result or time-save in each long-form video."
+    }
+  },
+  "topic_backlog": [
+    {
+      "id": "SAAS-001",
+      "title": "How I Automated My Entire YouTube Script Pipeline with Claude + Node.js",
+      "angle": "Meta-content showing the actual system behind this channel portfolio",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "I built a system that writes, voices, edits, and schedules YouTube videos while I sleep. Here's every piece of it.",
+      "target_ctr": "11%"
+    },
+    {
+      "id": "SAAS-002",
+      "title": "The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+      "angle": "Cost-saving automation for small teams",
+      "difficulty": "Easy",
+      "status": "idea",
+      "hook": "Three tools, $20 a month, and about four hours of setup. This is what replaced my marketing agency.",
+      "target_ctr": "13%"
+    },
+    {
+      "id": "SAAS-003",
+      "title": "I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)",
+      "angle": "Highly popular voice agent demo showing realistic conversation and objection handling",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "This AI voice agent just booked three sales calls while I was sleeping. It talks like a human, handles cold outreach objections, and costs under two cents per minute to run. I'll build it live on screen in fifteen minutes.",
+      "target_ctr": "14%"
+    },
+    {
+      "id": "SAAS-004",
+      "title": "The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)",
+      "angle": "Cost-saving self-hosting guide that bypasses platform fees entirely",
+      "difficulty": "Easy",
+      "status": "idea",
+      "hook": "Zapier just charged me four hundred dollars for standard email routing. So I deleted my account, bought a four-dollar VPS, and self-hosted my own n8n instance. Here is the exact guide to run unlimited AI tasks for zero platform fees.",
+      "target_ctr": "13%"
+    },
+    {
+      "id": "SAAS-005",
+      "title": "Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new",
+      "angle": "Modern AI app building workflow using conversational developer tools",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "I don't write code, but I built and deployed a fully functional B2B lead enrichment SaaS in two hours using Cursor and Bolt dot new. Here is the step-by-step vibe-coding process.",
+      "target_ctr": "15%"
+    },
+    {
+      "id": "SAAS-006",
+      "title": "How to Build a Telegram AI CRM Agent That Closes Clients",
+      "angle": "Messaging-first sales pipeline automating lead qualification and booking",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "Millions of businesses run on messaging platforms, but sales reps cannot reply instantly. I built a Telegram AI agent connected to Claude and Google Sheets that automatically qualifies leads, handles B2B objections, and books meetings while you sleep.",
+      "target_ctr": "14%"
+    },
+    {
+      "id": "SAAS-007",
+      "title": "Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity",
+      "angle": "New B2B marketing trend targeting AI search recommendations",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "B2B buyers are no longer searching Google. They are asking ChatGPT, Claude, and Perplexity for software and vendor recommendations. Here is the exact strategy to optimize your B2B brand so AI search engines recommend you first.",
+      "target_ctr": "15%"
+    },
+    {
+      "id": "SAAS-008",
+      "title": "How to Build a LinkedIn AI Lead Extractor in 10 Minutes",
+      "angle": "Automated B2B prospecting and personalization targeting professional networks",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "LinkedIn is the gold mine for B2B leads, but copying contacts manually takes hours. I built a scraper connected to Claude that finds prospects, scores them, and writes a personalized outreach hook in ten minutes.",
+      "target_ctr": "14%"
+    },
+    {
+      "id": "SAAS-009",
+      "title": "I Automated My Company's Tech Newsletter (0 to 10k Subscribers)",
+      "angle": "Autonomous content curation and campaign delivery bypassing manual writers",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "Creating a newsletter means hours of reading tech news, compiling summaries, formatting HTML, and scheduling. I built an AI agent that automatically monitors RSS feeds, selects the best articles, writes summaries, and sends the email.",
+      "target_ctr": "13%"
+    },
+    {
+      "id": "SAAS-010",
+      "title": "I Automated My B2B Cold Email Outreach Using Claude & n8n",
+      "angle": "Bespoke outreach drafting at scale utilizing real-time company research",
+      "difficulty": "Easy",
+      "status": "idea",
+      "hook": "Cold emailing is a numbers game, but generic template spam gets marked as junk. I built a workflow that researches a lead's company website, finds their main problem, drafts a bespoke pitch email, and schedules it automatically.",
+      "target_ctr": "15%"
+    },
+    {
+      "id": "SAAS-011",
+      "title": "Build a Custom AI Customer Support Bot Connected to Company Docs",
+      "angle": "24/7 autonomous support agent connected to internal wiki guides",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "Hiring customer support agents for night shifts is highly expensive. I built a customer support agent that connects to our company documentation, answers technical setup questions in under three seconds, and integrates with Slack.",
+      "target_ctr": "14%"
+    },
+    {
+      "id": "SAAS-012",
+      "title": "How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs",
+      "angle": "Accounting automation extracting line-item details to ledger books",
+      "difficulty": "Easy",
+      "status": "idea",
+      "hook": "Manual bookkeeping is a massive time-waster. I built an inbox watcher that extracts incoming invoice PDFs, parses lines with OCR, gets Claude to classify expense categories, and logs them in QuickBooks.",
+      "target_ctr": "12%"
+    },
+    {
+      "id": "SAAS-013",
+      "title": "I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks",
+      "angle": "Sales intelligence agent surfacing real-time client dossier briefs",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "When a high-value B2B lead signs up, your sales reps need to act immediately. I built a Slack bot that triggers on new signups, researches their industry, posts a dossier to Slack, and drafts a custom pitch presentation.",
+      "target_ctr": "13%"
+    },
+    {
+      "id": "SAAS-014",
+      "title": "The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes",
+      "angle": "Viral B2B tool building to drive organic email conversions",
+      "difficulty": "Easy",
+      "status": "idea",
+      "hook": "Free tools are the best way to capture B2B emails, but hiring developers to build them takes weeks. I used Claude to build a free B2B automation ROI calculator, styled it with clean CSS, and embedded it on our landing page.",
+      "target_ctr": "15%"
+    },
+    {
+      "id": "SAAS-015",
+      "title": "How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers",
+      "angle": "Autonomous price tracking to protect SaaS margins and margins",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "Tracking competitor prices manually is tedious. I built an agent that monitors competitor pricing pages daily, flags adjustments, and automatically optimizes our B2B pricing tier to stay competitive.",
+      "target_ctr": "14%"
+    },
+    {
+      "id": "SAAS-016",
+      "title": "I Built an AI Churn Rescue Agent That Saves Cancelling SaaS Customers",
+      "angle": "Cancellation-intent rescue workflow combining billing events, account history, and tailored retention offers",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "When a customer clicks cancel, most SaaS teams just ask why and lose the account. I built an AI rescue agent that reads product usage, detects churn risk, drafts the right save offer, and triggers a human follow-up before revenue disappears.",
+      "target_ctr": "14%"
+    },
+    {
+      "id": "SAAS-017",
+      "title": "How to Auto-Qualify Demo Requests with AI Before Your Sales Team Wastes a Call",
+      "angle": "Inbound pipeline triage using form enrichment, ICP scoring, and instant routing",
+      "difficulty": "Easy",
+      "status": "idea",
+      "hook": "Demo forms look great until your calendar fills with students, agencies, and tiny teams that will never buy. I built an AI intake workflow that enriches each lead, scores fit in seconds, and routes only real pipeline to sales.",
+      "target_ctr": "15%"
+    },
+    {
+      "id": "SAAS-018",
+      "title": "I Automated Feature Request Triage from Intercom, Slack, and Call Notes",
+      "angle": "Product feedback consolidation turning scattered requests into ranked roadmap inputs",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "Feature requests usually die inside Slack threads, support tickets, and random sales notes. I built an AI workflow that collects every request, deduplicates them, tags the pain behind them, and gives product teams a ranked weekly brief.",
+      "target_ctr": "13%"
+    },
+    {
+      "id": "SAAS-019",
+      "title": "How to Build a Weekly SaaS KPI Narrator That Explains Your Metrics Automatically",
+      "angle": "Exec reporting automation that converts warehouse or spreadsheet metrics into a readable operating brief",
+      "difficulty": "Easy",
+      "status": "idea",
+      "hook": "Dashboards tell you what changed, but not what matters. I built an AI KPI narrator that pulls weekly SaaS numbers, writes the operator summary, flags anomalies, and posts the brief to Slack before the Monday meeting starts.",
+      "target_ctr": "14%"
+    },
+    {
+      "id": "SAAS-020",
+      "title": "I Built an AI Renewal Prep Agent for High-Ticket SaaS Accounts",
+      "angle": "Customer success workflow that assembles renewal risk, usage proof, and expansion opportunities ahead of QBRs",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "Renewals slip when customer success teams walk into the call unprepared. I built an AI renewal prep agent that gathers usage wins, support pain, stakeholder history, and upsell signals into one account brief before every renewal meeting.",
+      "target_ctr": "13%"
+    },
+    {
+      "id": "SAAS-021",
+      "title": "How to Automate Construction Daily Reports (n8n + AI Step-by-Step)",
+      "angle": "Automating progress photo uploads, daily summaries, and ClickUp safety tickets using n8n and AI",
+      "difficulty": "Medium",
+      "status": "idea",
+      "hook": "Construction daily reports are critical, but chasing field workers for updates and manually organizing photos is a massive waste of time. In this video, I'm going to show you how to automate the entire process with n8n and AI.",
+      "target_ctr": "14%"
+    }
+  ],
+  "workflow_templates_required_before_production": [
+    "Script generation pipeline (input: topic → output: structured scene JSON)",
+    "Voiceover pipeline (input: script JSON → output: audio files via ElevenLabs)",
+    "Upload pipeline (input: final video + metadata → output: scheduled YouTube upload with thumbnail, captions, playlist)"
+  ],
+  "voice_backend": "elevenlabs",
+  "growth_system": {
+    "publishing_cadence": {
+      "rule": "No schedule. Publish publicly immediately as soon as cleared by QA/QC."
+    },
+    "primary_playlist": {
+      "title": "AI Automation Workflows",
+      "visibility": "public_when_videos_public"
+    }
+  }
+}
+

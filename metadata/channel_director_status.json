@@ -1,0 +1,62 @@
+{
+  "generated_at": "2026-06-06T15:08:54.976Z",
+  "status": "ACTIVE",
+  "videos": {
+    "1": {
+      "script_id": 1,
+      "qc_status": "failed",
+      "assets_ready": false,
+      "animated_video_exists": false,
+      "autopilot_rendered": false,
+      "last_checked": "2026-06-06T15:08:56.588Z"
+    },
+    "2": {
+      "script_id": 2,
+      "qc_status": "failed",
+      "assets_ready": false,
+      "animated_video_exists": false,
+      "autopilot_rendered": false,
+      "last_checked": "2026-06-06T15:08:57.182Z"
+    },
+    "3": {
+      "script_id": 3,
+      "qc_status": "failed",
+      "assets_ready": false,
+      "animated_video_exists": false,
+      "autopilot_rendered": false,
+      "last_checked": "2026-06-06T15:08:57.552Z"
+    },
+    "4": {
+      "script_id": 4,
+      "qc_status": "failed",
+      "assets_ready": false,
+      "animated_video_exists": false,
+      "autopilot_rendered": false,
+      "last_checked": "2026-06-06T15:08:57.871Z"
+    },
+    "5": {
+      "script_id": 5,
+      "qc_status": "failed",
+      "assets_ready": false,
+      "animated_video_exists": false,
+      "autopilot_rendered": false,
+      "last_checked": "2026-06-06T15:08:58.221Z"
+    },
+    "6": {
+      "script_id": 6,
+      "qc_status": "failed",
+      "assets_ready": false,
+      "animated_video_exists": false,
+      "autopilot_rendered": false,
+      "last_checked": "2026-06-06T15:08:58.577Z"
+    },
+    "7": {
+      "script_id": 7,
+      "qc_status": "failed",
+      "assets_ready": false,
+      "animated_video_exists": false,
+      "autopilot_rendered": false,
+      "last_checked": "2026-06-06T15:08:58.880Z"
+    }
+  }
+}

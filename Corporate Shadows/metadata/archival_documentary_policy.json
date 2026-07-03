@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "name": "Archival Documentary Standard",
+  "requirements": {
+    "narration_locked_beats": true,
+    "era_correct_visuals": true,
+    "minimum_actual_story_artifact_ratio": 0.4,
+    "allowed_primary_sources": [
+      "Library of Congress",
+      "National Archives",
+      "Internet Archive",
+      "Wikimedia Commons",
+      "court filings",
+      "regulatory filings",
+      "company archives",
+      "contemporary newspapers"
+    ],
+    "modern_stock_for_historical_claims": false,
+    "generic_stock_max_ratio": 0.1,
+    "source_attribution_required": true
+  },
+  "qc_rule": "Every beat must identify the narration excerpt, source URL, source title, date or era, and whether it is an actual story artifact or era-context bridge."
+}

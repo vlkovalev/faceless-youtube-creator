@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-07-02T02:19:24.553Z",
+  "topic_id": "SAAS-021",
+  "canonical_youtube_id": "ah1q8SQBN00",
+  "duplicate_ids": [
+    "2WiEZqej-YM",
+    "OZikwvv_SiU",
+    "69v0T0JAAUg"
+  ],
+  "results": [
+    {
+      "youtube_id": "2WiEZqej-YM",
+      "deleted": false,
+      "already_absent": true,
+      "error": null
+    },
+    {
+      "youtube_id": "OZikwvv_SiU",
+      "deleted": false,
+      "already_absent": true,
+      "error": null
+    },
+    {
+      "youtube_id": "69v0T0JAAUg",
+      "deleted": false,
+      "already_absent": true,
+      "error": null
+    }
+  ],
+  "passed": true
+}

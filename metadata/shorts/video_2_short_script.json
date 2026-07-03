@@ -1,0 +1,26 @@
+{
+  "video_id": "VID-0002",
+  "youtube_id": "ZloTBQbWyf4",
+  "suggested_title": "They killed babies to sell formula. #Shorts",
+  "description": "They killed babies to sell formula.\n\nFull video: [paste YouTube link]\n\n#Shorts #DarkHistory #CorporateScandal #Nestle #History",
+  "tags": ["Shorts", "DarkHistory", "CorporateScandal", "Nestle", "History", "Business"],
+  "category": "Education",
+  "estimated_duration_sec": 57,
+  "word_count": 148,
+  "hook_scenes": [
+    {
+      "scene": 1,
+      "title": "The Hook",
+      "trimmed": false,
+      "narration_preview": "In the mid-1970s, Nestlé launched a sales campaign so aggressive it led to thousands of infant deaths..."
+    },
+    {
+      "scene": 2,
+      "title": "The White Coats",
+      "trimmed": true,
+      "narration_preview": "They hired saleswomen, dressed them in stark white nurse uniforms, and sent them into impoverished villages..."
+    }
+  ],
+  "full_narration": "In the mid-1970s, Nestlé — one of the most powerful food corporations in the world — launched a sales campaign so aggressive it led to thousands of infant deaths. Operating far from public scrutiny, they targeted some of the poorest, most vulnerable populations on Earth. They didn't use weapons. They used a white powder packaged in beautiful metallic tins. A product designed to replace mother's milk and capture a massive, untapped continent. To execute their plan, they hired saleswomen, dressed them in stark white nurse uniforms, and sent them into impoverished rural villages. These women were not healthcare professionals. But in places where medical access was rare, a white coat carried enormous trust. The company borrowed that trust, wrapped it around a product, and sold dependence as progress. This is how they almost got away with it completely.",
+  "notes": "Trim at ~57s. Adjust -t in ffmpeg if actual voiceover runs longer. Add full video link in description before uploading."
+}

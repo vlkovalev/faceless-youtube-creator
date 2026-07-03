@@ -1,0 +1,40 @@
+{
+  "resource_name": "SaaS Autopilot Blueprint Pack",
+  "resource_type": "zip",
+  "version": "1.0.0",
+  "related_channel": "SaaS Autopilot",
+  "related_video_ids": [
+    "SAAS-003",
+    "SAAS-004",
+    "SAAS-005",
+    "SAAS-006",
+    "SAAS-007",
+    "SAAS-008",
+    "SAAS-009",
+    "SAAS-010",
+    "SAAS-011",
+    "SAAS-012",
+    "SAAS-013",
+    "SAAS-014",
+    "SAAS-015"
+  ],
+  "storage_url": "https://drive.google.com/drive/folders/1qQPY836PBZmGxIH3cN_WbowJjveCwtqj",
+  "public_download_url": "https://drive.google.com/uc?id=1d-ulBGFgzTbIhOERg9n3OSFryNfaHt1P&export=download",
+  "landing_page_url": "https://drive.google.com/file/d/1d-ulBGFgzTbIhOERg9n3OSFryNfaHt1P/view?usp=drivesdk",
+  "permission_status": "anyone_with_link_viewer",
+  "utm_source": "youtube",
+  "utm_medium": "description",
+  "utm_campaign": "saas_autopilot_blueprint_pack",
+  "owner": "SaaS Autopilot Team",
+  "qa_status": "uploaded_to_google_drive_pending_qaqc",
+  "last_checked_date": "2026-06-07",
+  "expiry_review_date": "2026-09-06",
+  "files": [
+    "README.md",
+    "outreach_templates.md",
+    "setup_checklist.md",
+    "variables.env.example",
+    "make_blueprint_lead_capture_email_sequence.json",
+    "make_blueprint_competitor_price_monitor.json"
+  ]
+}

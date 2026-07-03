@@ -1,4 +1,4 @@
-﻿# Channel-Specific Agent Overlays
+# Channel-Specific Agent Overlays
 
 ## Corporate Shadows Overlay
 
@@ -63,7 +63,7 @@ Minimum 8 minutes for monetized long-form. No upper limit. The full story or tal
 - reverent composition
 - no fantasy costumes or generic medieval nonsense
 
-## AI / B2B Automation Overlay
+## SaaS Autopilot Overlay
 
 Use this overlay for future software, AI workflow, SaaS, automation, and business tutorial channels.
 

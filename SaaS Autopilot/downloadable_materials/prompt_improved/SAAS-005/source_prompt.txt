@@ -1,0 +1,17 @@
+Create a reusable B2B automation build prompt for the SaaS Autopilot video "Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new" (SAAS-005).
+
+Video promise:
+I don't write code, but I built and deployed a fully functional B2B lead enrichment SaaS in two hours using Cursor and Bolt dot new. Here is the step-by-step vibe-coding process.
+
+Likely tool stack:
+cursor, bolt.new
+
+Scene context:
+1. The Hook (0:00â€“0:30): I don't write code, but I built and deployed a fully functional B2B lead enrichment SaaS in two hours using Cursor and Bolt dot new. In this video, I'll walk you through the step-by-step vibe-coding process.
+2. The Problem (0:30â€“1:30): Building a software MVP used to take months of developer hiring, product design, database setup, and endless debugging. Founders spent ten thousand dollars just to get a basic login page working, only to find no one wanted it.
+3. The Stack (1:30â€“2:30): Our development stack is simple: Cursor AI editor for workspace logic, Bolt dot new for instant full-stack environment generation, and Netlify for production hosting. We use natural language to describe features instead of writing code.
+4. The Build (2:30â€“6:00): Here's the workflow. We ask Bolt dot new to generate a lead enrichment dashboard. It builds the UI, adds mock APIs, and sets up routing. We download the project into Cursor to add the real backend APIs, connecting to a lead database.
+5. The Results (6:00â€“7:00): Vibe-coding is a complete game-changer. We created a fully styled dashboard, integrated real-time web scraping, and deployed it to a live production domain in under two hours, without writing a single line of syntax manually.
+6. The CTA (7:00â€“end): The complete prompt playbook and workspace source code are available in the link below.download the playbook, and start building your own SaaS today. This channel needs your support. Please subscribe, leave a word of appreciation for the author, and may God bl
+
+The prompt should help a viewer generate a practical blueprint, implementation plan, test data plan, QA checklist, and go-live checklist for this specific workflow.

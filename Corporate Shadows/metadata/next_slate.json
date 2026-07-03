@@ -1,0 +1,131 @@
+{
+  "updated_at": "2026-06-02",
+  "rules": {
+    "corporate_shadows_style": "Omni visual style: dark cinematic documentary, image-rich, short generated clips, real images only when high-quality and licensed.",
+    "generated_clip_duration_target": "Under 8-10 seconds per clip before a beat change or variation.",
+    "corporate_shadows_schedule_timezone": "America/Edmonton",
+    "corporate_shadows_schedule_local_time": "00:00",
+    "saints_gate": "Build research, scripts, and visual plans now; hold publishing until Corporate Shadows first five have public analytics.",
+    "corporate_shadows_new_production": "active per user instruction on 2026-06-02",
+    "saints_priority": "active production focus: research, scripts, visual plans, source-safe episode preparation"
+  },
+  "corporate_shadows": [
+    {
+      "id": "VID-0006",
+      "script_id": 6,
+      "topic": "United Fruit Company and banana republics",
+      "title": "The Fruit Company That Invented Banana Republics",
+      "status": "paused",
+      "script_path": "scripts/video_6_data.js",
+      "target_publish_at": "2026-06-19T06:00:00.000Z",
+      "next_step": "Paused. Do not continue unless user explicitly resumes Corporate Shadows production."
+    },
+    {
+      "id": "VID-0007",
+      "script_id": 7,
+      "topic": "Purdue Pharma and OxyContin",
+      "title": "The Painkiller Empire That Sold Addiction",
+      "status": "paused",
+      "target_publish_at": "2026-06-23T06:00:00.000Z",
+      "next_step": "Paused. Do not continue unless user explicitly resumes Corporate Shadows production."
+    },
+    {
+      "id": "VID-0008",
+      "script_id": 8,
+      "topic": "Monsanto, PCB, and chemical legacy",
+      "title": "The Chemical Company That Poisoned Tomorrow",
+      "status": "active_production",
+      "target_publish_at": "2026-06-26T06:00:00.000Z",
+      "next_step": "Research brief complete. Write the full 12-scene JavaScript script and compile visual layout."
+    },
+    {
+      "id": "VID-0009",
+      "script_id": 9,
+      "topic": "Enron",
+      "title": "The Company That Turned Lies Into Accounting",
+      "status": "paused",
+      "target_publish_at": "2026-06-30T06:00:00.000Z",
+      "next_step": "Paused. Do not continue unless user explicitly resumes Corporate Shadows production."
+    },
+    {
+      "id": "VID-0010",
+      "script_id": 10,
+      "topic": "Standard Oil",
+      "title": "The Monopoly That Taught America to Fear Big Business",
+      "status": "paused",
+      "target_publish_at": "2026-07-03T06:00:00.000Z",
+      "next_step": "Paused. Do not continue unless user explicitly resumes Corporate Shadows production."
+    }
+  ],
+  "the_saints": [
+    {
+      "id": "SAINTS-013",
+      "script_id": 13,
+      "topic": "Saint Ambrose of Optina",
+      "title": "The Elder Who Answered Two Hundred Souls a Day",
+      "status": "script_v1_exists",
+      "script_path": "scripts/saints_video_13_data.js",
+      "next_step": "Run Saints visual asset planner and source icons, Optina imagery, letters, monastery photos."
+    },
+    {
+      "id": "SAINTS-014",
+      "script_id": 14,
+      "topic": "Saint Paisios of Mount Athos",
+      "title": "The Monk Who Told the Modern World to Thirst for God",
+      "status": "script_v1_created",
+      "script_path": "scripts/saints_video_14_data.js",
+      "next_step": "Run Saints visual asset planner and source Athos imagery, icon/photo references, monastery/cell visuals."
+    },
+    {
+      "id": "SAINTS-015",
+      "script_id": 15,
+      "topic": "Saint Silouan the Athonite",
+      "title": "Keep Your Mind in Hell: The Monk Who Survived Despair",
+      "status": "script_v1_and_visual_plan_created",
+      "script_path": "scripts/saints_video_15_data.js",
+      "asset_plan_path": "assets/saints_video_15_assets/visual_plan.json",
+      "next_step": "Source Silouan icon/portrait, Mount Athos monastery imagery, Saint Panteleimon visuals, manuscripts/prayer visuals; then prepare voiceover."
+    },
+    {
+      "id": "SAINTS-016",
+      "script_id": 16,
+      "topic": "The Optina Elders",
+      "title": "The Monastery That Became Russia's Spiritual Hospital",
+      "status": "script_v1_and_visual_plan_created",
+      "script_path": "scripts/saints_video_16_data.js",
+      "asset_plan_path": "assets/saints_video_16_assets/visual_plan.json",
+      "next_step": "Source Optina monastery imagery, elder icons/portraits, Russian letters/manuscripts, Dostoevsky-era public-domain visuals; then prepare voiceover."
+    },
+    {
+      "id": "SAINTS-017",
+      "script_id": 17,
+      "topic": "Saint Herman of Alaska",
+      "title": "The Monk Who Crossed the World to Protect Alaska",
+      "status": "script_v1_and_visual_plan_created",
+      "script_path": "scripts/saints_video_17_data.js",
+      "asset_plan_path": "assets/saints_video_17_assets/visual_plan.json",
+      "next_step": "Source Saint Herman icon, Spruce Island/Kodiak imagery, Valaam/Russian mission route visuals, and mission letters/ledgers; then prepare voiceover."
+    },
+    {
+      "id": "SAINTS-018",
+      "script_id": 18,
+      "topic": "Saint Sergius of Radonezh",
+      "title": "The Forest Monk Who Became the Soul of Russia",
+      "status": "script_v1_and_visual_plan_created",
+      "script_path": "scripts/saints_video_18_data.js",
+      "asset_plan_path": "assets/saints_video_18_assets/visual_plan.json",
+      "next_step": "Source Sergius icons/paintings, Trinity Lavra imagery, medieval Russian manuscript visuals, and restrained forest/bear miracle generated visuals; then prepare voiceover."
+    },
+    {
+      "id": "SAINTS-019",
+      "script_id": 19,
+      "topic": "Saint Paisius Velichkovsky",
+      "title": "The Athonite Translator Who Rebuilt Monastic Prayer",
+      "status": "script_v1_and_visual_plan_created",
+      "script_path": "scripts/saints_video_19_data.js",
+      "asset_plan_path": "assets/saints_video_19_assets/visual_plan.json",
+      "next_step": "Source Paisius icons, Athos/Neamt monastery imagery, Slavonic Philokalia/manuscript visuals; then prepare voiceover."
+    }
+  ],
+  "active_focus": "the_saints"
+}

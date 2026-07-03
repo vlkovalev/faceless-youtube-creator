@@ -1,0 +1,16 @@
+{
+  "active": false,
+  "pilot_topic_id": "SAAS-001",
+  "status": "pilot_in_production",
+  "created_at": "2026-06-29T00:00:00.000Z",
+  "purpose": "Block batch uploads until one new-quality pilot passes full QA and human review.",
+  "approval_requirements": [
+    "script QA passed",
+    "real screen recording for every scene",
+    "full render QA passed",
+    "downloadable materials QA passed",
+    "human watched the complete final video",
+    "action and narration synchronization verified",
+    "final automation output verified"
+  ]
+}

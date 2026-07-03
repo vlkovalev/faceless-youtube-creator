@@ -1,0 +1,48 @@
+{
+    "name":  "automation",
+    "version":  "1.0.0",
+    "description":  "",
+    "main":  "index.js",
+    "scripts":  {
+                    "check":  "node run_pipeline.js --stage check",
+                    "script:qc":  "node run_pipeline.js --stage script-qc",
+                    "voiceover":  "node run_pipeline.js --stage voiceover",
+                    "visuals:fallback":  "node run_pipeline.js --stage visuals-fallback",
+                    "edit":  "node run_pipeline.js --stage edit",
+                    "metadata":  "node run_pipeline.js --stage metadata",
+                    "revisions:queue":  "node revision_queue_agent.js",
+                    "qc":  "node run_pipeline.js --stage qc",
+                    "youtube:status":  "node youtube_status_agent.js",
+                    "upload:dry-run":  "node run_pipeline.js --stage upload-dry-run",
+                    "all":  "node run_pipeline.js --stage all",
+                    "pm:report":  "node pm_agent.js",
+                    "pm:push-safe":  "node pm_agent.js --push-safe",
+                    "visual:plan":  "node visual_asset_planner.js --all",
+                    "visual:plan:1":  "node visual_asset_planner.js --video 1",
+                    "visual:plan:2":  "node visual_asset_planner.js --video 2",
+                    "visual:plan:3":  "node visual_asset_planner.js --video 3",
+                    "visual:plan:4":  "node visual_asset_planner.js --video 4",
+                    "visual:plan:5":  "node visual_asset_planner.js --video 5",
+                    "broll:shortlist":  "node broll_shortlist_generator.js --all",
+                    "broll:source":  "node broll_sourcing_agent.js --all",
+                    "thumbnail": "node thumbnail_agent.js",
+                    "growth:check":  "node growth_agent.js",
+                    "compilation:omni": "node compile_omni_video.js",
+                    "autopilot:scan": "node autopilot_orchestrator_agent.js --dry-run --saints",
+                    "autopilot:upload": "node autopilot_orchestrator_agent.js --upload --saints"
+                },
+    "keywords":  [
+
+                 ],
+    "author":  "",
+    "license":  "ISC",
+    "type":  "commonjs",
+    "dependencies":  {
+                         "@googleapis/youtube":  "^32.0.0",
+                         "axios":  "^1.16.1",
+                         "dotenv":  "^17.4.2",
+                         "fluent-ffmpeg":  "^2.1.3",
+                         "google-auth-library":  "^10.6.2",
+                         "msedge-tts":  "^2.0.5"
+                     }
+}

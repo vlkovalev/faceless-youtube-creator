@@ -1,0 +1,72 @@
+{
+  "script_id": 11,
+  "title": "The Bananapocalypse: The Fruit Company That Overthrew Governments",
+  "total_words": 1100,
+  "estimated_seconds": 489,
+  "estimated_minutes": 8.2,
+  "target_words": "1250-1650",
+  "minimum_words": 1100,
+  "status": "passed",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Fruit Company",
+      "word_count": 75
+    },
+    {
+      "scene_number": 2,
+      "title": "The Banana Republic",
+      "word_count": 92
+    },
+    {
+      "scene_number": 3,
+      "title": "Land Without Limit",
+      "word_count": 98
+    },
+    {
+      "scene_number": 4,
+      "title": "Guatemala Changes Course",
+      "word_count": 91
+    },
+    {
+      "scene_number": 5,
+      "title": "The Lobbying Machine",
+      "word_count": 95
+    },
+    {
+      "scene_number": 6,
+      "title": "Operation PBSUCCESS",
+      "word_count": 85
+    },
+    {
+      "scene_number": 7,
+      "title": "The Public Story",
+      "word_count": 97
+    },
+    {
+      "scene_number": 8,
+      "title": "The Cost",
+      "word_count": 83
+    },
+    {
+      "scene_number": 9,
+      "title": "The Brand Survives",
+      "word_count": 104
+    },
+    {
+      "scene_number": 10,
+      "title": "A System, Not a Fluke",
+      "word_count": 86
+    },
+    {
+      "scene_number": 11,
+      "title": "The Files Remain",
+      "word_count": 86
+    },
+    {
+      "scene_number": 12,
+      "title": "The Peel",
+      "word_count": 108
+    }
+  ]
+}

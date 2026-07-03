@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-014",
+  "title": "The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-014 - The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1WitNFHgr7nB0Sb7wGobypPKmFyPPcR0R",
+  "files": [
+    "SAAS-014_blueprint.pdf",
+    "SAAS-014_templates.pdf",
+    "SAAS-014_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-014\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1w8MdVhsRoZvluR6jfDGmXrn8Za0K8PPz",
+      "name": "SAAS-014_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1w8MdVhsRoZvluR6jfDGmXrn8Za0K8PPz/view?usp=drivesdk"
+    },
+    {
+      "id": "1pKyBb3Se-zbqHurZReTCCMbxAigtFsJj",
+      "name": "SAAS-014_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1pKyBb3Se-zbqHurZReTCCMbxAigtFsJj/view?usp=drivesdk"
+    },
+    {
+      "id": "1EFJa3dF04fEWX9NEldZYvQQCF_AwYbtJ",
+      "name": "SAAS-014_templates.pdf",
+      "url": "https://drive.google.com/file/d/1EFJa3dF04fEWX9NEldZYvQQCF_AwYbtJ/view?usp=drivesdk"
+    }
+  ]
+}

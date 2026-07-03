@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-06-12T01:06:19.755Z",
+  "mode": {
+    "upload": false,
+    "dry_run": true,
+    "requested_video": null,
+    "run_saints": true,
+    "run_pm": true,
+    "run_growth": false
+  },
+  "omni_intake": [],
+  "agents_run": [
+    {
+      "agent": "pm_agent",
+      "ok": true,
+      "stdout_tail": "ve/local changed files, do not auto-push:\n- M assets/video_1_assets/scene_10_image.png\n- M assets/video_1_assets/scene_11_image.png\n- M assets/video_1_assets/scene_12_image.png\n- M assets/video_1_assets/scene_1_image.png\n- M assets/video_1_assets/scene_2_image.png\n- M assets/video_1_assets/scene_3_image.png\n- M assets/video_1_assets/scene_4_image.png\n- M assets/video_1_assets/scene_6_image.png\n- M assets/video_1_assets/scene_7_image.png\n- M assets/video_1_assets/scene_8_image.png\n- M assets/video_1_assets/scene_9_image.png\n- M assets/video_1_assets/visual_plan.json\n- M assets/video_2_assets/visual_plan.json\n- M assets/video_3_assets/visual_plan.json\n- M assets/video_4_assets/visual_plan.json\n- M assets/video_5_assets/visual_plan.json\n- M metadata/uploads_tracker.json\n- M metadata/youtube_channel_status.json\n- ?? assets/video_10_assets/\n- ?? assets/video_8_assets/\n- ?? automation/credentials/\n\n## Recommended Next Actions\n\n1. Continue The Saints verified visual upgrades and publish ready episodes immediately after QC/rights checks pass.\n2. Keep Corporate Shadows cadence active and resolve any unscheduled private drafts.\n3. Keep SaaS Autopilot active with isolated credentials, QA, and upload routing.\n4. Keep private YouTube tracker/status files local unless explicitly approved for disclosure.\n5. Review docs/pm_dashboard.html for a browser dashboard.\n\n\nPM report written: metadata/pm_reports/latest_pm_report.md\nPM brief written: metadata/pm_reports/latest_pm_brief.txt\nPM dashboard written: docs/pm_dashboard.html\n\nSensitive files remain local and were not committed automatically.",
+      "stderr_tail": ""
+    },
+    {
+      "agent": "saints_visual_asset_planner",
+      "ok": true,
+      "stdout_tail": "ed prayed kept Mount Athos monastery path cell Wikimedia Commons\n       https://commons.wikimedia.org/wiki/Category:Mount_Athos\n  [2a] icon_or_painting - Paisios of Mount Athos mosaic\n       Saint Paisios of Mount Athos icon portrait Wikimedia Commons\n       https://commons.wikimedia.org/wiki/File:Paisios_of_Mount_Athos.jpg\n  [2b] monastery_or_location - Mount Athos\n       child exile matters because later tenderness grow Mount Athos monastery path cell Wikimedia Commons\n       https://commons.wikimedia.org/wiki/Category:Mount_Athos\n  [2c] manuscript_book_or_letter - Wikimedia manuscript and book search\n       child exile sought silence worked hands learned Orthodox manuscript prayer book Wikimedia Commons\n       https://commons.wikimedia.org/w/index.php?search=child%20exile%20sought%20silence%20worked%20hands%20learned%20Orthodox%20manuscript%20prayer%20book%20Mount%20Athos&title=Special:MediaSearch&type=image\n  [2d] monastery_or_location - Mount Athos\n       child exile road sometimes began loss Mount Athos monastery path cell Wikimedia Commons\n       https://commons.wikimedia.org/wiki/Category:Mount_Athos\n\nPlan written: C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\The Saints\\assets\\saints_video_14_assets\\visual_plan.json\n\nNext steps:\n  1. Open assets/saints_video_N_assets/visual_plan.json\n  2. Download real icon, painting, monastery, portrait, or manuscript assets first\n  3. Save files as beat_1a.jpg, beat_1b.jpg, etc.\n  4. Record the exact file page/license in asset_attribution.json\n  5. Use generated cards only where the plan marks conceptual fallback",
+      "stderr_tail": ""
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "checked_at": "2026-06-13T01:45:42.317Z",
+  "dry_run": false,
+  "threshold": 0.8,
+  "summary": {
+    "scheduled_checked": 5,
+    "held": 5,
+    "would_hold": 0,
+    "passed_visual_qc": 0
+  },
+  "results": [
+    {
+      "topic_id": "SAAS-016",
+      "file_name": "SAAS_016_FINAL.mp4",
+      "youtube_id": "ZZgS09mSOP4",
+      "original_publish_at": "2026-06-30T13:00:00Z",
+      "visual_qc": {
+        "checked": true,
+        "passed": false,
+        "duration_seconds": 65.5,
+        "black_seconds": 65.417,
+        "black_ratio": 0.9987,
+        "black_segments": [
+          {
+            "start": 0.0410156,
+            "end": 65.457682,
+            "duration": 65.416667
+          }
+        ]
+      },
+      "action": "held_private_clear_schedule",
+      "hold": {
+        "held": true,
+        "previous_privacy_status": "private",
+        "previous_publish_at": "2026-06-30T13:00:00Z",
+        "new_privacy_status": "private",
+        "new_publish_at": null
+      }
+    },
+    {
+      "topic_id": "SAAS-017",
+      "file_name": "SAAS_017_FINAL.mp4",
+      "youtube_id": "_uzGQcwNuoc",
+      "original_publish_at": "2026-07-02T13:00:00Z",
+      "visual_qc": {
+        "checked": true,
+        "passed": false,
+        "duration_seconds": 65.04,
+        "black_seconds": 64.917,
+        "black_ratio": 0.9981,
+        "black_segments": [
+          {
+            "start": 0.0410156,
+            "end": 64.957682,
+            "duration": 64.916667
+          }
+        ]
+      },
+      "action": "held_private_clear_schedule",
+      "hold": {
+        "held": true,
+        "previous_privacy_status": "private",
+        "previous_publish_at": "2026-07-02T13:00:00Z",
+        "new_privacy_status": "private",
+        "new_publish_at": null
+      }
+    },
+    {
+      "topic_id": "SAAS-018",
+      "file_name": "SAAS_018_FINAL.mp4",
+      "youtube_id": "Go-H9Pcy0OY",
+      "original_publish_at": "2026-07-04T13:00:00Z",
+      "visual_qc": {
+        "checked": true,
+        "passed": false,
+        "duration_seconds": 64.84,
+        "black_seconds": 64.75,
+        "black_ratio": 0.9986,
+        "black_segments": [
+          {
+            "start": 0.0410156,
+            "end": 64.791016,
+            "duration": 64.75
+          }
+        ]
+      },
+      "action": "held_private_clear_schedule",
+      "hold": {
+        "held": true,
+        "previous_privacy_status": "private",
+        "previous_publish_at": "2026-07-04T13:00:00Z",
+        "new_privacy_status": "private",
+        "new_publish_at": null
+      }
+    },
+    {
+      "topic_id": "SAAS-019",
+      "file_name": "SAAS_019_FINAL.mp4",
+      "youtube_id": "f9Rd6iMYOMo",
+      "original_publish_at": "2026-07-06T13:00:00Z",
+      "visual_qc": {
+        "checked": true,
+        "passed": false,
+        "duration_seconds": 65.42,
+        "black_seconds": 65.292,
+        "black_ratio": 0.998,
+        "black_segments": [
+          {
+            "start": 0.0410156,
+            "end": 65.332682,
+            "duration": 65.291667
+          }
+        ]
+      },
+      "action": "held_private_clear_schedule",
+      "hold": {
+        "held": true,
+        "previous_privacy_status": "private",
+        "previous_publish_at": "2026-07-06T13:00:00Z",
+        "new_privacy_status": "private",
+        "new_publish_at": null
+      }
+    },
+    {
+      "topic_id": "SAAS-020",
+      "file_name": "SAAS_020_FINAL.mp4",
+      "youtube_id": "7UZVY4BsUcw",
+      "original_publish_at": "2026-07-08T13:00:00Z",
+      "visual_qc": {
+        "checked": true,
+        "passed": false,
+        "duration_seconds": 64.83,
+        "black_seconds": 64.75,
+        "black_ratio": 0.9988,
+        "black_segments": [
+          {
+            "start": 0.0410156,
+            "end": 64.791016,
+            "duration": 64.75
+          }
+        ]
+      },
+      "action": "held_private_clear_schedule",
+      "hold": {
+        "held": true,
+        "previous_privacy_status": "private",
+        "previous_publish_at": "2026-07-08T13:00:00Z",
+        "new_privacy_status": "private",
+        "new_publish_at": null
+      }
+    }
+  ]
+}

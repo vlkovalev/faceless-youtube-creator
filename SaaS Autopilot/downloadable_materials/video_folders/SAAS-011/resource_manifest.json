@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-011",
+  "title": "Build a Custom AI Customer Support Bot Connected to Company Docs",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-011 - Build a Custom AI Customer Support Bot Connected to Company Docs",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1fa9I05jF1tFvtpNjEEiipGQ_iD4R9PMn",
+  "files": [
+    "SAAS-011_blueprint.pdf",
+    "SAAS-011_templates.pdf",
+    "SAAS-011_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-011\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1qjvCeDBQxgNPQR0iG7RdJEI7r4IakjHx",
+      "name": "SAAS-011_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1qjvCeDBQxgNPQR0iG7RdJEI7r4IakjHx/view?usp=drivesdk"
+    },
+    {
+      "id": "1j92gxNHPqrxPN_MbLUuucP8FL2UXnB8F",
+      "name": "SAAS-011_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1j92gxNHPqrxPN_MbLUuucP8FL2UXnB8F/view?usp=drivesdk"
+    },
+    {
+      "id": "19RHB4q88T9MFFXTKrzvIbfNEuunS9LC6",
+      "name": "SAAS-011_templates.pdf",
+      "url": "https://drive.google.com/file/d/19RHB4q88T9MFFXTKrzvIbfNEuunS9LC6/view?usp=drivesdk"
+    }
+  ]
+}

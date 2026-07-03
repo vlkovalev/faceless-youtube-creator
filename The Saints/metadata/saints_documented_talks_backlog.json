@@ -1,0 +1,248 @@
+{
+  "channel": "The Saints",
+  "created_at": "2026-05-30",
+  "purpose": "Additional long-form video candidates based on documented talks, letters, conversations, and witness accounts from Orthodox elders, Optina monks, Mount Athos elders, and Russian monastic saints.",
+  "editorial_rules": [
+    "Use letters and official saint lives as factual backbone.",
+    "Use modern copyrighted biographies only for verification and paraphrase; do not quote long passages.",
+    "Label miracle accounts and oral testimonies as witness accounts or tradition, not as modern laboratory proof.",
+    "Avoid speculative prophecy content unless it is directly relevant and sourced responsibly.",
+    "Prefer stories with a clear dramatic arc: visitor arrives with pain, elder responds, life changes."
+  ],
+  "source_library": [
+    {
+      "id": "src_optina_ambrose_oca",
+      "title": "Venerable Ambrose of Optina",
+      "type": "official church saint life",
+      "url": "https://www.oca.org/saints/lives/2016/10/10/102934-venerable-ambrose-of-optina",
+      "usable_for": "Life structure, daily routine, Dostoevsky visit, elder receiving visitors, letter ministry.",
+      "rights_note": "Use as citation and paraphrased summary."
+    },
+    {
+      "id": "src_ambrose_letters_ori",
+      "title": "Letters of Guidance by Elder Ambrose of Optina",
+      "type": "translated letters / spiritual counsel",
+      "url": "https://www.orthodoxresearchinstitute.org/articles/misc/ambrose_optina_letters_guidance.html",
+      "usable_for": "Documented spiritual counsel, letter-based episodes, advice on judging, humility, illness, grief.",
+      "rights_note": "Quote sparingly; paraphrase counsel into narration."
+    },
+    {
+      "id": "src_optina_elders_roca",
+      "title": "Optina's Elders: Instructors of Monks and Conversers with Angels",
+      "type": "Orthodox America archive article",
+      "url": "https://roca.org/oa/volume-x/issue-97/optinas-elders-instructors-of-monks-and-conversers-with-angels/",
+      "usable_for": "Optina as a place-centered story, Ambrose and Nektary context, Russian spiritual hunger.",
+      "rights_note": "Use as research and attribution; paraphrase."
+    },
+    {
+      "id": "src_optina_summary_st_paisius",
+      "title": "Optina Elders",
+      "type": "monastery article",
+      "url": "https://stpaisiusmonastery.org/about-the-monastery/life-of-st-paisius/optina-elders/",
+      "usable_for": "Optina elders overview, elder Ambrose receiving rich and poor, learned and unlettered.",
+      "rights_note": "Use as secondary verification."
+    },
+    {
+      "id": "src_paisios_oca",
+      "title": "Venerable Paisios of the Holy Mountain",
+      "type": "official church saint life",
+      "url": "https://www.oca.org/saints/lives/1001/07/12/100401-venerable-paisios-of-the-holy-mountain",
+      "usable_for": "Paisios life chronology, Cappadocia childhood, Mount Athos return, asceticism.",
+      "rights_note": "Use as factual backbone and citation."
+    },
+    {
+      "id": "src_paisios_taped_conversation",
+      "title": "St. Paisios: Let our soul always thirst for God",
+      "type": "tape-recorded conversation excerpt",
+      "url": "https://otelders.org/en/wisdom-from-mount-athos/st-paisios-let-our-soul-always-thirst-for-god/",
+      "usable_for": "Conversation-based video structure about longing for God, modern anxiety, and spiritual thirst.",
+      "rights_note": "Modern translation/source; paraphrase and cite. Do not reproduce long transcript."
+    },
+    {
+      "id": "src_paisios_testimony_greek_hindus",
+      "title": "Saint Paisios and the Greek Hindus",
+      "type": "personal testimony / documented conversation",
+      "url": "https://otelders.org/theology-and-spirituality/saint-paisios-and-the-greek-hindus-part-1-mount-athos/",
+      "usable_for": "Witness-account episode about a long conversation with Paisios and spiritual discernment.",
+      "rights_note": "Use carefully as testimony; avoid sensationalism."
+    },
+    {
+      "id": "src_silouan_openlibrary",
+      "title": "Saint Silouan the Athonite by Archimandrite Sophrony",
+      "type": "book record / primary modern biography and writings collection",
+      "url": "https://openlibrary.org/works/OL770119W/Saint_Silouan_the_Athonite",
+      "usable_for": "Canonical source to verify Silouan's life and teachings through Sophrony.",
+      "rights_note": "Copyrighted modern book; use only for verification and short attributed references."
+    },
+    {
+      "id": "src_silouan_church",
+      "title": "Saint Silouan the Athonite",
+      "type": "parish saint-life summary",
+      "url": "https://saintsilouan.org/saint-silouan-the-athonite/",
+      "usable_for": "Life summary, Athonite context, repose date.",
+      "rights_note": "Use as secondary summary; paraphrase."
+    },
+    {
+      "id": "src_paisios_velichkovsky_oca",
+      "title": "Venerable Paisios Velichkovsky",
+      "type": "official church saint life",
+      "url": "https://www.oca.org/saints/lives/0200/11/15/103311-venerable-paisios-velichkovsky",
+      "usable_for": "Russian/Athonite monastic renewal, elder guidance, translation of patristic texts.",
+      "rights_note": "Use as factual backbone for a Russian monastic renewal episode."
+    }
+  ],
+  "video_candidates": [
+    {
+      "id": "SAINTS-013",
+      "title": "The Elder Who Answered Two Hundred Souls a Day",
+      "saint_or_elder": "Saint Ambrose of Optina",
+      "pillar": "Optina Elders",
+      "format": "documentary story built from official life plus letters",
+      "estimated_length": "10-14 minutes",
+      "hook": "In a small Russian monastery, sick and exhausted, one monk became a spiritual hospital for an entire nation.",
+      "core_sources": ["src_optina_ambrose_oca", "src_ambrose_letters_ori", "src_optina_elders_roca"],
+      "story_beats": [
+        "Open with Ambrose's cell already surrounded by visitors and letters.",
+        "Flash back to his illness and promise to become a monk.",
+        "Show Optina as Russia's spiritual refuge.",
+        "Explain what eldership meant: not prediction, but spiritual diagnosis.",
+        "Use letters as documented counsel scenes: grief, judging others, illness, humility.",
+        "Bring in Dostoevsky's visit after the death of Alyosha and the later echo in Starets Zosima.",
+        "End with Ambrose as a man physically weak but spiritually inexhaustible."
+      ],
+      "miracle_or_witness_accounts": [
+        "Changed lives after conversations with the elder.",
+        "Dostoevsky's encounter as a documented cultural witness.",
+        "Ambrose receiving rich, poor, educated, and simple people with tailored counsel."
+      ],
+      "visual_direction": "Optina monastery exteriors, candlelit cell, stacks of letters, Russian winter roads, Dostoevsky-era interiors, handwritten counsel overlays.",
+      "rights_risk": "Low to medium. Avoid long direct letter quotations."
+    },
+    {
+      "id": "SAINTS-014",
+      "title": "The Monk Who Told the Modern World to Thirst for God",
+      "saint_or_elder": "Saint Paisios of Mount Athos",
+      "pillar": "Athonite Elders",
+      "format": "conversation-centered Athos episode",
+      "estimated_length": "9-13 minutes",
+      "hook": "People climbed the mountain looking for answers, but Paisios kept turning them toward one question: what does your soul thirst for?",
+      "core_sources": ["src_paisios_oca", "src_paisios_taped_conversation"],
+      "story_beats": [
+        "Open with a pilgrim sitting near an elder's hut on Mount Athos.",
+        "Ground Paisios in Cappadocia, refugee childhood, and Athonite life.",
+        "Frame the taped conversation as a documented spiritual encounter.",
+        "Explore spiritual thirst versus distraction, comfort, and modern anxiety.",
+        "Show why his counsel felt simple but cut deeply.",
+        "End with the image of an elder hidden in poverty becoming a guide for a restless century."
+      ],
+      "miracle_or_witness_accounts": [
+        "Visitor testimonies of discernment and consolation.",
+        "Accounts of hours-long conversations with pilgrims.",
+        "Use miracle claims only as attributed witness accounts."
+      ],
+      "visual_direction": "Mount Athos paths, a humble cell, prayer rope, rough wooden bench, dawn over the sea, handwritten counsel cards.",
+      "rights_risk": "Medium. Modern conversations must be paraphrased and cited."
+    },
+    {
+      "id": "SAINTS-015",
+      "title": "The Athonite Elder and the Men Searching in the Wrong Place",
+      "saint_or_elder": "Saint Paisios of Mount Athos",
+      "pillar": "Athonite Elders",
+      "format": "testimony-based story with caution labels",
+      "estimated_length": "10-15 minutes",
+      "hook": "They came to Mount Athos carrying spiritual confusion from the modern world. Paisios did not argue with them. He listened until the night became prayer.",
+      "core_sources": ["src_paisios_oca", "src_paisios_testimony_greek_hindus"],
+      "story_beats": [
+        "Open with the midnight setting and a conversation continuing toward the monastery service.",
+        "Explain why Mount Athos attracted seekers, not only believers.",
+        "Introduce the testimony as a witness account, not a courtroom transcript.",
+        "Show Paisios' method: patience, discernment, clarity without cruelty.",
+        "Contrast spiritual curiosity with repentance and commitment.",
+        "End with the idea that the elder's real miracle was seeing the human soul without contempt."
+      ],
+      "miracle_or_witness_accounts": [
+        "Witness account of a long conversation with Paisios.",
+        "Possible life change after the meeting, presented as testimony."
+      ],
+      "visual_direction": "Night at Athos, monastery bells, dim cell interior, pilgrims walking with lanterns, Midnight Office atmosphere.",
+      "rights_risk": "Medium. Avoid copying testimony wording; identify as personal testimony."
+    },
+    {
+      "id": "SAINTS-016",
+      "title": "Keep Your Mind in Hell: The Monk Who Survived Despair",
+      "saint_or_elder": "Saint Silouan the Athonite",
+      "pillar": "Athonite Elders",
+      "format": "teaching-centered biography",
+      "estimated_length": "11-16 minutes",
+      "hook": "One sentence saved a monk from despair, and it became one of the most severe teachings in modern Christian spirituality.",
+      "core_sources": ["src_silouan_openlibrary", "src_silouan_church"],
+      "story_beats": [
+        "Open with Silouan's interior darkness on Athos.",
+        "Trace his Russian village childhood and arrival at Saint Panteleimon Monastery.",
+        "Explain the famous counsel carefully, without turning it into self-hatred.",
+        "Explore humility, prayer for enemies, and spiritual warfare.",
+        "Use Sophrony as the documented transmitter of Silouan's writings.",
+        "End with why Silouan speaks powerfully to people trapped between pride and despair."
+      ],
+      "miracle_or_witness_accounts": [
+        "The inner encounter/counsel is treated as hagiographic spiritual testimony.",
+        "Sophrony's preservation of Silouan's writings."
+      ],
+      "visual_direction": "Russian village, Athonite monastery, night prayer, handwritten phrase reveal, candles and sea wind.",
+      "rights_risk": "Medium-high. Sophrony source is copyrighted; paraphrase and keep direct quotes minimal."
+    },
+    {
+      "id": "SAINTS-017",
+      "title": "The Monastery That Became Russia's Spiritual Hospital",
+      "saint_or_elder": "The Optina Elders",
+      "pillar": "Optina Elders",
+      "format": "place-centered documentary",
+      "estimated_length": "12-18 minutes",
+      "hook": "Before therapy offices and self-help books, Russia had a monastery where writers, peasants, nobles, and broken souls came for one thing: a word from an elder.",
+      "core_sources": ["src_optina_elders_roca", "src_optina_summary_st_paisius", "src_optina_ambrose_oca"],
+      "story_beats": [
+        "Open with a road to Optina and people arriving from every class.",
+        "Explain eldership and why it mattered in Russian spiritual life.",
+        "Introduce Leonid, Macarius, Ambrose, and later Nektary as a chain of counsel.",
+        "Show Optina's link to literature and the Russian intelligentsia.",
+        "Build scenes around confession, counsel, letters, and silence.",
+        "End with Optina as a hospital of souls rather than a museum of saints."
+      ],
+      "miracle_or_witness_accounts": [
+        "Visitors whose lives changed after conversations.",
+        "Optina's reputation as a place of prophetic counsel, framed carefully."
+      ],
+      "visual_direction": "Monastery exterior, forest road, pilgrims, writing desk, chapel candles, Russian literary portraits as context.",
+      "rights_risk": "Low to medium."
+    },
+    {
+      "id": "SAINTS-018",
+      "title": "The Athonite Translator Who Rebuilt Monastic Prayer",
+      "saint_or_elder": "Saint Paisios Velichkovsky",
+      "pillar": "Russian Monastic Saints / Athonite Elders",
+      "format": "historical renewal documentary",
+      "estimated_length": "10-14 minutes",
+      "hook": "A monk went to Athos looking for a teacher. He returned with a library that helped revive the prayer of the heart across the Slavic world.",
+      "core_sources": ["src_paisios_velichkovsky_oca"],
+      "story_beats": [
+        "Open with manuscripts being copied by candlelight.",
+        "Show Paisios seeking elder guidance and refusing shallow monastic life.",
+        "Follow him to Mount Athos for patristic copying and translation.",
+        "Explain why translation became spiritual warfare against forgetfulness.",
+        "Connect his work to later monastic renewal and Optina's spiritual culture.",
+        "End with books as living conversations between old monks and future generations."
+      ],
+      "miracle_or_witness_accounts": [
+        "Not miracle-driven; focus on providential preservation of prayer tradition."
+      ],
+      "visual_direction": "Manuscripts, Athonite skete, Slavonic text, candlelit copying, monastic library.",
+      "rights_risk": "Low."
+    }
+  ],
+  "recommended_first_three": [
+    "SAINTS-013",
+    "SAINTS-014",
+    "SAINTS-017"
+  ],
+  "next_production_step": "Turn SAINTS-013 into a full 1300-1800 word script and scene table after Corporate Shadows first-video analytics are checked."
+}

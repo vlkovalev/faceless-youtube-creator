@@ -1,4 +1,4 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 const { spawnSync } = require('child_process');
 
@@ -31,7 +31,7 @@ const SENSITIVE_PATTERNS = [
 const CHANNEL_OWNERS = {
   'Corporate Shadows': 'Corporate Shadows Production Lead',
   'The Saints': 'The Saints Production Lead',
-  'AI / B2B Automation Channel': 'AI/B2B Systems Lead',
+  'SaaS Autopilot Channel': 'SaaS Autopilot Systems Lead',
   'Shared Systems': 'Portfolio PM Agent'
 };
 
@@ -77,9 +77,13 @@ function fileExists(relPath) {
   return fs.existsSync(file(relPath));
 }
 
+function anyFileExists(relPaths) {
+  return relPaths.some(relPath => fileExists(relPath));
+}
+
 function git(args) {
   const gitExe = 'C:\\Program Files\\Git\\cmd\\git.exe';
-  const result = spawnSync(gitExe, args, { cwd: WORKSPACE_DIR, encoding: 'utf8' });
+  const result = spawnSync(gitExe, args, { cwd: WORKSPACE_DIR, encoding: 'utf8', windowsHide: true });
   return { ok: result.status === 0, stdout: result.stdout.trim(), stderr: result.stderr.trim(), status: result.status };
 }
 
@@ -182,9 +186,9 @@ function createDefaultDependencyRules() {
   const rules = [
     { id: 'dep-saints-channel', channel: 'The Saints', severity: 'P1', rule: 'Do not upload The Saints videos until a separate YouTube channel/Brand Account and OAuth routing exist.', check: 'manual', status: 'open' },
     { id: 'dep-corporate-visuals', channel: 'Corporate Shadows', severity: 'P2', rule: 'Do not public publish Corporate Shadows videos that rely on placeholder visuals.', check: 'metadata/qc_reports and asset manifests', status: 'open' },
-    { id: 'dep-public-approval', channel: 'All', severity: 'P1', rule: 'Do not publish publicly without explicit approval.', check: 'human approval gate', status: 'active' },
+    { id: 'dep-public-approval', channel: 'Corporate Shadows', severity: 'P1', rule: 'Do not publish publicly without explicit approval.', check: 'human approval gate', status: 'active' },
     { id: 'dep-custom-thumbnails', channel: 'All', severity: 'P2', rule: 'Custom thumbnails require YouTube account permission/verification.', check: 'YouTube upload warning', status: 'open' },
-    { id: 'dep-ai-tested-workflows', channel: 'AI / B2B Automation Channel', severity: 'P1', rule: 'Do not launch AI/B2B channel until at least 3 workflows are tested and template-backed.', check: 'workflow artifacts', status: 'planned' }
+    { id: 'dep-ai-tested-workflows', channel: 'SaaS Autopilot Channel', severity: 'P1', rule: 'Do not launch SaaS Autopilot channel until at least 3 workflows are tested and template-backed.', check: 'workflow artifacts', status: 'planned' }
   ];
   writeJson(DEPENDENCIES_FILE, rules);
   return rules;
@@ -202,7 +206,7 @@ function createDefaultCapacityPlan() {
     lanes: [
       { channel: 'Corporate Shadows', weekly_capacity_units: 4, cadence_goal: '1-2 production actions/week until visual workflow stabilizes' },
       { channel: 'The Saints', weekly_capacity_units: 4, cadence_goal: '1 complete long-form episode every 2-3 weeks at first' },
-      { channel: 'AI / B2B Automation Channel', weekly_capacity_units: 2, cadence_goal: 'research/prototype only until July pilots' }
+      { channel: 'SaaS Autopilot Channel', weekly_capacity_units: 2, cadence_goal: 'research/prototype only until July pilots' }
     ],
     task_unit_estimates: {
       research_brief: 1,
@@ -226,7 +230,7 @@ function ensureCapacityPlan() {
 function inferContentCalendar() {
   const queue = readJson('metadata/queue.json', []);
   const existingCalendar = readJson('metadata/content_calendar.json', []);
-  const saintsConfig = readJson('saints_channel_config.json', { first_backlog: [] });
+  const saintsConfig = readJson('The Saints/saints_channel_config.json', { first_backlog: [] });
   const items = [];
 
   for (const item of queue) {
@@ -278,7 +282,7 @@ function inferContentCalendar() {
       topic: saint.title,
       status: saint.id === 1 ? 'research-outline-ready' : saint.status || 'research_ready',
       owner: 'The Saints Production Lead',
-      script_path: saint.id === 1 ? 'docs/saints_episodes/001_saint_seraphim_of_sarov_script_v1.md' : '',
+      script_path: saint.id === 1 ? 'The Saints/docs/saints_episodes/001_saint_seraphim_of_sarov_script_v1.md' : '',
       video_path: '',
       captions_path: '',
       thumbnail_path: '',
@@ -291,11 +295,11 @@ function inferContentCalendar() {
 
   items.push({
     id: 'AI-001',
-    channel: 'AI / B2B Automation Channel',
+    channel: 'SaaS Autopilot Channel',
     episode_id: '001',
     topic: 'Define AI automation channel concept and offer map',
     status: 'planned',
-    owner: 'AI/B2B Systems Lead',
+    owner: 'SaaS Autopilot Systems Lead',
     script_path: '',
     video_path: '',
     captions_path: '',
@@ -313,11 +317,14 @@ function inferContentCalendar() {
 function detectBlockers(dependencyRules) {
   const blockers = [];
   const add = (severity, item) => blockers.push({ severity, item });
-  if (!fileExists('docs/saints_episodes/001_saint_seraphim_of_sarov_research_brief.md')) add('P1', 'Missing Saint Seraphim research brief.');
-  if (!fileExists('docs/saints_episodes/001_saint_seraphim_of_sarov_episode_outline.md')) add('P1', 'Missing Saint Seraphim episode outline.');
-  if (!fileExists('saints_channel_config.json')) add('P1', 'Missing The Saints channel config.');
+  if (!fileExists('The Saints/docs/saints_episodes/001_saint_seraphim_of_sarov_research_brief.md')) add('P1', 'Missing Saint Seraphim research brief.');
+  if (!fileExists('The Saints/docs/saints_episodes/001_saint_seraphim_of_sarov_episode_outline.md')) add('P1', 'Missing Saint Seraphim episode outline.');
+  if (!fileExists('The Saints/saints_channel_config.json')) add('P1', 'Missing The Saints channel config.');
   if (!fileExists('docs/channel_portfolio_gantt_schedule.md')) add('P1', 'Missing portfolio Gantt schedule.');
-  if (!fileExists('automation/credentials/oauth_tokens.json')) add('P1', 'YouTube OAuth tokens are missing locally.');
+  if (!anyFileExists([
+    'automation/credentials/oauth_tokens.json',
+    'Corporate Shadows/automation/credentials/oauth_tokens.json'
+  ])) add('P1', 'Corporate Shadows YouTube OAuth tokens are missing locally.');
   if (!fileExists('docs/agents/agent_registry.md')) add('P2', 'Missing agent registry.');
   for (const rule of dependencyRules.filter(rule => rule.status === 'open')) {
     add(rule.severity, rule.rule);
@@ -337,9 +344,9 @@ function buildRaid(classified, production, blockers, sensitiveFiles, dependencyR
     if (String(item.blocker || '').toLowerCase().includes('public publishing')) risks.push('Public publishing remains approval-gated.');
   }
   blockers.forEach(blocker => issues.push(`${blocker.severity}: ${blocker.item}`));
-  assumptions.push('Corporate Shadows remains the active/live channel until The Saints channel is created.');
+  assumptions.push('All three channels are active; The Saints is no longer gated by Corporate Shadows thresholds.');
   assumptions.push('The Saints will be a separate channel, not uploaded through Corporate Shadows.');
-  assumptions.push('AI/B2B automation content must be based on tested workflows, not generic AI news.');
+  assumptions.push('SaaS Autopilot automation content must be based on tested workflows, not generic AI news.');
   dependencyRules.forEach(rule => dependencies.push(`${rule.severity}: ${rule.rule}`));
   return { risks: [...new Set(risks)], assumptions, issues, dependencies };
 }
@@ -353,9 +360,9 @@ function getRagStatus(classified, blockers, sensitiveFiles) {
 function buildDecisionLog(classified, production) {
   const decisions = [];
   if (production.some(item => String(item.blocker || '').includes('Public publishing'))) decisions.push('Public release approval is still required before any scheduled/public upload goes live.');
-  if (classified.upcoming.some(task => task.name.includes('Create actual Saints YouTube channel'))) decisions.push('The Saints channel/Brand Account needs to be created before the first private draft upload target.');
+  if (classified.upcoming.some(task => task.name.includes('Create actual Saints YouTube channel'))) decisions.push('Verify The Saints channel routing remains isolated before any Saints upload.');
   decisions.push('Decide whether Corporate Shadows visuals must be replaced before publishing videos 4-5 publicly.');
-  decisions.push('Decide whether AI/B2B channel launch remains August 7 or moves earlier/later after pilot review.');
+  decisions.push('Decide whether SaaS Autopilot channel launch remains August 7 or moves earlier/later after pilot review.');
   return decisions;
 }
 
@@ -451,9 +458,9 @@ function buildReport() {
   const calendarRows = calendar.slice(0, 15).map(item => ({ Channel: item.channel, Topic: item.topic, Status: item.status, Owner: item.owner, Blocker: item.blocker || 'none' }));
 
   const gateSummary = gateStatus
-    ? ` Corporate Shadows upgraded videos: ${gateStatus.corporate_shadows.upgraded_public_videos} public, ${gateStatus.corporate_shadows.scheduled_upgraded_videos} scheduled. Saints gate: ${gateStatus.saints_gate.status}; research-only until ${gateStatus.saints_gate.required_public_corporate_videos} Corporate Shadows videos are public. Gate clock starts ${gateStatus.saints_gate.clock_starts_on.slice(0, 10)}.`
+    ? ` Corporate Shadows upgraded videos: ${gateStatus.corporate_shadows.public_videos} public, ${gateStatus.corporate_shadows.scheduled_videos} scheduled. Saints gate: ${gateStatus.saints_gate.status}; publishing gate: ${gateStatus.saints_gate.publishing_gate || 'none'}.`
     : '';
-  const stakeholderSummary = `Status: ${rag}. Active tasks: ${kpis.activeTasks}. Overdue: ${kpis.overdueTasks}. P1 blockers: ${kpis.p1Blockers}.${gateSummary} Main focus is Corporate Shadows visual sourcing and schedule integrity. Sensitive YouTube tracker/status files remain local and are excluded from auto-push.`;
+  const stakeholderSummary = `Status: ${rag}. Active tasks: ${kpis.activeTasks}. Overdue: ${kpis.overdueTasks}. P1 blockers: ${kpis.p1Blockers}.${gateSummary} Main focus is multi-channel production: Saints verified visual upgrades, Corporate Shadows cadence, and SaaS Autopilot QA. Sensitive YouTube tracker/status files remain local and are excluded from auto-push.`;
 
   const report = `# PM Agent Portfolio Report\n\n` +
     `Generated: ${new Date().toISOString()}\n\n` +
@@ -471,10 +478,10 @@ function buildReport() {
     `## Production Records\n\n${markdownList(production, item => `- ${item.video_id}: ${item.stage}; next: ${item.next}; blocker: [${item.severity}] ${item.blocker || 'none'}`)}\n\n` +
     `## RAID Log\n\n### Risks\n${markdownList(raid.risks, item => `- ${item}`)}\n\n### Assumptions\n${markdownList(raid.assumptions, item => `- ${item}`)}\n\n### Issues\n${markdownList(raid.issues, item => `- ${item}`)}\n\n### Dependencies\n${markdownList(raid.dependencies, item => `- ${item}`)}\n\n` +
     `## Decisions Needed\n\n${markdownList(decisions, item => `- ${item}`)}\n\n` +
-    `## Channel Gate Status\n\n${gateStatus ? `- Corporate Shadows upgraded public videos: ${gateStatus.corporate_shadows.upgraded_public_videos}\n- Corporate Shadows upgraded scheduled videos: ${gateStatus.corporate_shadows.scheduled_upgraded_videos}\n- Saints gate: ${gateStatus.saints_gate.status}\n- Saints allowed work: ${gateStatus.saints_gate.allowed_work}\n- Gate clock starts: ${gateStatus.saints_gate.clock_starts_on}\n- Earliest gate review: ${gateStatus.saints_gate.earliest_gate_review}` : '- No gate status file found.'}\n\n` +
+    `## Channel Gate Status\n\n${gateStatus ? `- Corporate Shadows upgraded public videos: ${gateStatus.corporate_shadows.public_videos}\n- Corporate Shadows upgraded scheduled videos: ${gateStatus.corporate_shadows.scheduled_videos}\n- Saints gate: ${gateStatus.saints_gate.status}\n- Saints allowed work: ${gateStatus.teams.saints_team.allowed_work}\n- Saints publishing gate: ${gateStatus.saints_gate.publishing_gate}\n- Earliest Saints publish target: ${gateStatus.saints_gate.earliest_publish}` : '- No gate status file found.'}\n\n` +
     `## Queue Summary\n\n- Total entries: ${queue.total}\n- Scheduled status entries: ${queue.scheduled}\n- Replacement entries: ${queue.replacements}\n- Human approval entries: ${queue.humanApproval}\n\n` +
     `## Git Safety Review\n\n${gitStatus.ok ? '' : `Git status failed: ${gitStatus.error}\n\n`}Safe changed files:\n${markdownList(safeFiles, item => `- ${item.status.trim() || 'M'} ${item.file}`)}\n\nSensitive/local changed files, do not auto-push:\n${markdownList(sensitiveFiles, item => `- ${item.status.trim() || 'M'} ${item.file}`)}\n\n` +
-    `## Recommended Next Actions\n\n1. Keep The Saints research-only until the Corporate Shadows public-video gate is met.\n2. Continue Corporate Shadows Video 3 sourcing sprint.\n3. Keep private YouTube tracker/status files local unless explicitly approved for disclosure.\n4. Start AI/B2B concept and offer map on 2026-06-10.\n5. Review ${DASHBOARD_FILE} for a browser dashboard.\n`;
+    `## Recommended Next Actions\n\n1. Continue The Saints verified visual upgrades and publish ready episodes immediately after QC/rights checks pass.\n2. Keep Corporate Shadows cadence active and resolve any unscheduled private drafts.\n3. Keep SaaS Autopilot active with isolated credentials, QA, and upload routing.\n4. Keep private YouTube tracker/status files local unless explicitly approved for disclosure.\n5. Review ${DASHBOARD_FILE} for a browser dashboard.\n`;
 
   const brief = `PM Status (${formatDate(TODAY)}): ${stakeholderSummary}`;
   return { report, brief, safeFiles, sensitiveFiles, gitStatus };
@@ -523,5 +530,6 @@ function main() {
 }
 
 if (require.main === module) main();
+
 
 

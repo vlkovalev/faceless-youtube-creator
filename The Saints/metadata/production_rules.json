@@ -1,0 +1,13 @@
+﻿{
+    "updated_at":  "2026-06-08T04:04:24Z",
+    "saints_visual_rule":  "icon_only",
+    "saints_visual_detail":  "Use only verified picture/icon/painting of the saint. If multiple verified saint images exist, sequence them one after another. Do not use monastery, manuscript, map, landscape, or generic source images in Saints final videos.",
+    "thumbnail_rule":  "thumbnails_folder_first",
+    "thumbnail_detail":  "For every Saints upload, use The Saints/assets/Thumbnails as the source of truth for thumbnails. If the assigned thumbnail is missing, create a cinematic thumbnail in the same visual style as the existing Saints thumbnails, include the saint/elder picture, save it into The Saints/assets/Thumbnails, then copy it to assets/saints_thumbnail_video_<id>.png for upload. Never use abstract or generic placeholder thumbnail art. For the Nikon story video, use the HE LEFT IT ALL thumbnail; for prayer-to-the-saint Nikon content, use the other philosophy/repentance thumbnail.",
+    "replacement_cleanup_rule":  "delete_superseded_private_drafts_after_successful_replacement_upload",
+    "replacement_cleanup_detail":  "For Saints, once a replacement video uploads successfully as private, delete the older private drafts declared by replacement_for_uploaded_video/delete_after_success_ids without asking again. Never delete public videos. Always keep the uploaded replacement and log deletions.",
+    "akathists_text_rule": "akathists_com_permissioned",
+    "akathists_text_detail": "Akathists.com granted permission for The Saints to use akathist texts in YouTube prayer videos. Use full text/audio/on-screen text only with attribution: Akathist text used with permission from Akathists.com.",
+    "akathists_permission_source": "Email reply from admin@akathists.com to Vlad, shown 2026-06-08/2026-06-09: Yes, by all means, permission granted.",
+    "other_prayer_text_rule": "separate_permission_required"
+}

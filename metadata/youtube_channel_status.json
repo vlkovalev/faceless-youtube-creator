@@ -1,46 +1,70 @@
 {
-  "synced_at": "2026-05-28T04:16:59.875Z",
+  "synced_at": "2026-06-19T20:38:05.160Z",
   "channel": {
     "id": "UCLoMxa-9cfCOP_5fPkL0lPg",
     "title": "Corporate Shadows",
     "uploads_playlist_id": "UULoMxa-9cfCOP_5fPkL0lPg",
     "subscriber_count": 0,
-    "video_count": 1,
-    "view_count": 0
+    "video_count": 3,
+    "view_count": 4
   },
   "videos": [
     {
-      "youtube_id": "ze6IFb9F0lY",
+      "youtube_id": "9PiTNO3WETE",
+      "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+      "privacy_status": "public",
+      "publish_at": "",
+      "published_at": "2026-06-19T20:37:12Z",
+      "duration": "PT10M55S",
+      "view_count": 0,
+      "like_count": 0,
+      "comment_count": 0,
+      "made_for_kids": false
+    },
+    {
+      "youtube_id": "6TIKAR-UfzM",
+      "title": "The Silent Killer: How a Chemical Giant Poisoned a Town",
+      "privacy_status": "private",
+      "publish_at": "2026-06-20T06:00:00Z",
+      "published_at": "2026-06-14T03:58:53Z",
+      "duration": "PT9M19S",
+      "view_count": 0,
+      "like_count": 0,
+      "comment_count": 0,
+      "made_for_kids": false
+    },
+    {
+      "youtube_id": "PxBdlAu-hvY",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "privacy_status": "public",
+      "publish_at": "",
+      "published_at": "2026-06-08T06:00:25Z",
+      "duration": "PT8M29S",
+      "view_count": 0,
+      "like_count": 0,
+      "comment_count": 0,
+      "made_for_kids": false
+    },
+    {
+      "youtube_id": "gPhHnEjKaP8",
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "privacy_status": "public",
+      "publish_at": "",
+      "published_at": "2026-06-06T04:18:15Z",
+      "duration": "PT8M33S",
+      "view_count": 3,
+      "like_count": 0,
+      "comment_count": 0,
+      "made_for_kids": false
+    },
+    {
+      "youtube_id": "21DRL-iGzBs",
       "title": "How One Family Fooled the World into Buying Worthless Rocks",
       "privacy_status": "public",
       "publish_at": "",
-      "published_at": "2026-05-26T16:00:16Z",
-      "duration": "PT7M",
+      "published_at": "2026-06-02T02:33:23Z",
+      "duration": "PT8M13S",
       "view_count": 1,
-      "like_count": 0,
-      "comment_count": 0,
-      "made_for_kids": false
-    },
-    {
-      "youtube_id": "feTnR0QeeBc",
-      "title": "The Secret Society That Controlled the World's Electricity",
-      "privacy_status": "private",
-      "publish_at": "2026-06-02T16:00:00Z",
-      "published_at": "2026-05-25T02:20:46Z",
-      "duration": "PT7M19S",
-      "view_count": 0,
-      "like_count": 0,
-      "comment_count": 0,
-      "made_for_kids": false
-    },
-    {
-      "youtube_id": "9egMNpLFr5w",
-      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
-      "privacy_status": "private",
-      "publish_at": "2026-05-29T16:00:00Z",
-      "published_at": "2026-05-25T02:20:23Z",
-      "duration": "PT7M26S",
-      "view_count": 0,
       "like_count": 0,
       "comment_count": 0,
       "made_for_kids": false

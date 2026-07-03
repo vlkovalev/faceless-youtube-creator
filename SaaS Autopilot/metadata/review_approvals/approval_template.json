@@ -1,0 +1,11 @@
+{
+  "topic_id": "SAAS-XXX",
+  "approved": false,
+  "watched_full_video": false,
+  "action_sync_verified": false,
+  "final_output_verified": false,
+  "reviewer": "",
+  "reviewed_at": null,
+  "video_sha256": "",
+  "notes": ""
+}

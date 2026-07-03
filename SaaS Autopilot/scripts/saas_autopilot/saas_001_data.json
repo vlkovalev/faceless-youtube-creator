@@ -1,0 +1,710 @@
+{
+  "_generated_at": "2026-06-30T23:36:38.429Z",
+  "_format": "SAAS_AUTOPILOT_BEGINNER_PILOT_v2",
+  "_agent": "saas_001_beginner_script.js",
+  "channel": "SaaS Autopilot",
+  "video": {
+    "id": "SAAS-001",
+    "title": "How to Build a YouTube Automation Pipeline with Node.js, Step by Step",
+    "topic": "Beginner Node.js YouTube production pipeline",
+    "angle": "One input, one command, and one visible result per stage",
+    "hook": "Turn one topic into a checked local review video.",
+    "target_ctr": "11%",
+    "difficulty": "Beginner",
+    "status": "pilot_script_complete"
+  },
+  "production": {
+    "format": "screen_recorded_step_by_step_demo",
+    "style": "beginner follow-along with input-action-result framing",
+    "voice_backend": "elevenlabs",
+    "target_duration_seconds": 600,
+    "minimum_duration_seconds": 480,
+    "assets_dir": "assets/saas_autopilot_assets/saas_001/"
+  },
+  "scenes": [
+    {
+      "title": "What We Are Building",
+      "type": "result_preview",
+      "source_file": "scripts/saas_autopilot/saas_001_data.json",
+      "focus_terms": [
+        "\"video\"",
+        "\"title\"",
+        "\"scenes\""
+      ],
+      "voiceover": "Here is the whole project in one sentence. We will enter one video topic, run a Node.js command, and receive a complete production package: a structured script, narration files, screen recordings, a finished video, and a quality report. Start by looking at the output, not the code. On the left is our input topic: how to automate a YouTube script pipeline. In the center is the generated script with eight teaching scenes. On the right are the files the pipeline creates. The important idea is simple: one topic moves through four stages. Stage one writes the lesson. Stage two creates the voice. Stage three combines voice with matching screen demonstrations. Stage four checks the finished file. During this tutorial, every stage will have one command and one visible result. You do not need to understand the entire repository before starting. First, verify the topic title. Then count eight scenes. Finally, confirm the expected output list is visible.",
+      "steps": [
+        [
+          "open",
+          "Input topic",
+          "Read the single video topic that starts the workflow.",
+          "How I Automated My Entire YouTube Script Pipeline",
+          "The topic is clear before any command runs."
+        ],
+        [
+          "verify",
+          "Generated lesson",
+          "Open the script output and count its teaching scenes.",
+          "8 scenes",
+          "The script contains eight ordered sections."
+        ],
+        [
+          "verify",
+          "Output checklist",
+          "Review the five files produced by the workflow.",
+          "script, audio, recordings, video, QA report",
+          "The viewer understands the finished package."
+        ]
+      ],
+      "scene_number": 1,
+      "visual_type": "screen_recording",
+      "visual_note": "Show only the relevant area of scripts/saas_autopilot/saas_001_data.json; use large labels for INPUT, ACTION, and RESULT.",
+      "pacing_note": "One goal, one action, one verified result before moving on.",
+      "demo_steps": [
+        {
+          "timestamp": "0:00",
+          "action_type": "open",
+          "ui_target": "Input topic",
+          "exact_instruction": "Read the single video topic that starts the workflow.",
+          "sample_input": "How I Automated My Entire YouTube Script Pipeline",
+          "expected_result": "The topic is clear before any command runs.",
+          "visual_anchor": "Input topic -> The topic is clear before any command runs."
+        },
+        {
+          "timestamp": "0:20",
+          "action_type": "verify",
+          "ui_target": "Generated lesson",
+          "exact_instruction": "Open the script output and count its teaching scenes.",
+          "sample_input": "8 scenes",
+          "expected_result": "The script contains eight ordered sections.",
+          "visual_anchor": "Generated lesson -> The script contains eight ordered sections."
+        },
+        {
+          "timestamp": "0:40",
+          "action_type": "verify",
+          "ui_target": "Output checklist",
+          "exact_instruction": "Review the five files produced by the workflow.",
+          "sample_input": "script, audio, recordings, video, QA report",
+          "expected_result": "The viewer understands the finished package.",
+          "visual_anchor": "Output checklist -> The viewer understands the finished package."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "beginner_real_pipeline_capture",
+        "foreground_elements": [
+          "scripts/saas_autopilot/saas_001_data.json",
+          "Input topic",
+          "Generated lesson",
+          "Output checklist"
+        ],
+        "cursor_action": "open Input topic; verify Generated lesson; verify Output checklist",
+        "zoom_target": "Input topic",
+        "on_screen_text": "What We Are Building: INPUT -> ACTION -> RESULT",
+        "data_panels": [
+          "input",
+          "action",
+          "result"
+        ]
+      }
+    },
+    {
+      "title": "Find The Topic In The Config",
+      "type": "workspace_setup",
+      "source_file": "saas_autopilot_channel_config.json",
+      "focus_terms": [
+        "SAAS-001",
+        "title",
+        "hook"
+      ],
+      "voiceover": "Now locate the only input we need. Open saas autopilot channel config dot json. Use search and enter S A A S dash zero zero one. The matching record contains an ID, title, hook, angle, and difficulty. Think of this record as one row in a production spreadsheet. The ID gives every related file the same name. The title tells the script agent what to teach. The hook describes the result the viewer should see first. We are not editing credentials, schedules, or upload settings in this lesson. Click the title field and read it once. Next, look at the ID and notice that the output script uses the same number. This naming rule prevents one episode from borrowing another episode’s assets. Save only if you changed the topic. The result of this step is not a video yet. It is a clean, unambiguous job definition that every later command can locate.",
+      "steps": [
+        [
+          "open",
+          "Topic configuration",
+          "Open the channel configuration file.",
+          "saas_autopilot_channel_config.json",
+          "The topic backlog is visible."
+        ],
+        [
+          "select",
+          "SAAS-001 record",
+          "Search for the exact topic ID.",
+          "SAAS-001",
+          "One matching topic record is highlighted."
+        ],
+        [
+          "verify",
+          "Title and hook",
+          "Read the title and promised outcome.",
+          "title + hook",
+          "The input job is clear and uniquely named."
+        ]
+      ],
+      "scene_number": 2,
+      "visual_type": "screen_recording",
+      "visual_note": "Show only the relevant area of saas_autopilot_channel_config.json; use large labels for INPUT, ACTION, and RESULT.",
+      "pacing_note": "One goal, one action, one verified result before moving on.",
+      "demo_steps": [
+        {
+          "timestamp": "1:00",
+          "action_type": "open",
+          "ui_target": "Topic configuration",
+          "exact_instruction": "Open the channel configuration file.",
+          "sample_input": "saas_autopilot_channel_config.json",
+          "expected_result": "The topic backlog is visible.",
+          "visual_anchor": "Topic configuration -> The topic backlog is visible."
+        },
+        {
+          "timestamp": "1:20",
+          "action_type": "select",
+          "ui_target": "SAAS-001 record",
+          "exact_instruction": "Search for the exact topic ID.",
+          "sample_input": "SAAS-001",
+          "expected_result": "One matching topic record is highlighted.",
+          "visual_anchor": "SAAS-001 record -> One matching topic record is highlighted."
+        },
+        {
+          "timestamp": "1:40",
+          "action_type": "verify",
+          "ui_target": "Title and hook",
+          "exact_instruction": "Read the title and promised outcome.",
+          "sample_input": "title + hook",
+          "expected_result": "The input job is clear and uniquely named.",
+          "visual_anchor": "Title and hook -> The input job is clear and uniquely named."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "beginner_real_pipeline_capture",
+        "foreground_elements": [
+          "saas_autopilot_channel_config.json",
+          "Topic configuration",
+          "SAAS-001 record",
+          "Title and hook"
+        ],
+        "cursor_action": "open Topic configuration; select SAAS-001 record; verify Title and hook",
+        "zoom_target": "Topic configuration",
+        "on_screen_text": "Find The Topic In The Config: INPUT -> ACTION -> RESULT",
+        "data_panels": [
+          "input",
+          "action",
+          "result"
+        ]
+      }
+    },
+    {
+      "title": "Generate The Eight-Scene Script",
+      "type": "trigger_build",
+      "source_file": "automation/saas_autopilot_script_agent.js",
+      "focus_terms": [
+        "TOPIC_ID",
+        "analyzeScriptQuality",
+        "writeFileSync"
+      ],
+      "voiceover": "With the topic selected, generate the lesson. Open a terminal in the SaaS Autopilot folder. Enter node automation slash saas autopilot script agent dot j s, followed by topic S A A S dash zero zero one. Press Enter. The agent finds the topic record, builds the eight-scene script, checks its structure, and writes one JSON file. Watch for the saved path ending in scripts slash saas autopilot slash saas zero zero one data dot json. Open that file. Do not read every line. First confirm the video title at the top. Then collapse and expand the scenes array. There should be eight numbered scenes. Expand one demo steps array and look for three things: the exact instruction, the sample input, and the expected result. If those fields are missing, the lesson is too vague and must stop here. Our visible result is an eight-scene script that can be followed and recorded.",
+      "steps": [
+        [
+          "enter",
+          "Terminal command",
+          "Run the script agent for this topic.",
+          "node automation/saas_autopilot_script_agent.js --topic SAAS-001",
+          "The agent prints the saved script path."
+        ],
+        [
+          "open",
+          "Generated JSON",
+          "Open scripts/saas_autopilot/saas_001_data.json.",
+          "saas_001_data.json",
+          "The title and scenes array are visible."
+        ],
+        [
+          "verify",
+          "Scene structure",
+          "Count scenes and inspect one demo step.",
+          "8 scenes + exact instruction + expected result",
+          "The script is specific enough to record."
+        ]
+      ],
+      "scene_number": 3,
+      "visual_type": "screen_recording",
+      "visual_note": "Show only the relevant area of automation/saas_autopilot_script_agent.js; use large labels for INPUT, ACTION, and RESULT.",
+      "pacing_note": "One goal, one action, one verified result before moving on.",
+      "demo_steps": [
+        {
+          "timestamp": "2:00",
+          "action_type": "enter",
+          "ui_target": "Terminal command",
+          "exact_instruction": "Run the script agent for this topic.",
+          "sample_input": "node automation/saas_autopilot_script_agent.js --topic SAAS-001",
+          "expected_result": "The agent prints the saved script path.",
+          "visual_anchor": "Terminal command -> The agent prints the saved script path."
+        },
+        {
+          "timestamp": "2:20",
+          "action_type": "open",
+          "ui_target": "Generated JSON",
+          "exact_instruction": "Open scripts/saas_autopilot/saas_001_data.json.",
+          "sample_input": "saas_001_data.json",
+          "expected_result": "The title and scenes array are visible.",
+          "visual_anchor": "Generated JSON -> The title and scenes array are visible."
+        },
+        {
+          "timestamp": "2:40",
+          "action_type": "verify",
+          "ui_target": "Scene structure",
+          "exact_instruction": "Count scenes and inspect one demo step.",
+          "sample_input": "8 scenes + exact instruction + expected result",
+          "expected_result": "The script is specific enough to record.",
+          "visual_anchor": "Scene structure -> The script is specific enough to record."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "beginner_real_pipeline_capture",
+        "foreground_elements": [
+          "automation/saas_autopilot_script_agent.js",
+          "Terminal command",
+          "Generated JSON",
+          "Scene structure"
+        ],
+        "cursor_action": "enter Terminal command; open Generated JSON; verify Scene structure",
+        "zoom_target": "Terminal command",
+        "on_screen_text": "Generate The Eight-Scene Script: INPUT -> ACTION -> RESULT",
+        "data_panels": [
+          "input",
+          "action",
+          "result"
+        ]
+      }
+    },
+    {
+      "title": "Create Fresh Narration",
+      "type": "input_schema",
+      "source_file": "automation/saas_autopilot_tts_agent.js",
+      "focus_terms": [
+        "overwrite",
+        "audio",
+        "scene_"
+      ],
+      "voiceover": "Next, turn the script into narration. Use the command node automation slash saas autopilot T T S agent dot j s, topic S A A S dash zero zero one, overwrite. The overwrite word is important. It tells the agent to replace every older audio file instead of reusing a file that merely has the same name. Press Enter and watch the list. Scene one through scene eight should each finish successfully. Open the asset folder named assets slash saas autopilot assets slash saas zero zero one. Sort by name. You should see scene one audio through scene eight audio. Count them. The script has eight scenes, so the folder must have eight current narration files. Compare the modified times and confirm they belong to this run. At this point, play a few seconds of scene one. The words should match the new beginner lesson. The result is a complete, current voice track with no stale six-scene audio left behind.",
+      "steps": [
+        [
+          "enter",
+          "Narration command",
+          "Run TTS with overwrite enabled.",
+          "node automation/saas_autopilot_tts_agent.js --topic SAAS-001 --overwrite",
+          "All eight narration jobs run."
+        ],
+        [
+          "open",
+          "Audio asset folder",
+          "Open the SAAS-001 asset directory.",
+          "assets/saas_autopilot_assets/saas_001",
+          "Eight audio files are visible."
+        ],
+        [
+          "verify",
+          "Audio count and time",
+          "Compare scene count and modified timestamps.",
+          "8 current audio files",
+          "No narration from the old version remains."
+        ]
+      ],
+      "scene_number": 4,
+      "visual_type": "screen_recording",
+      "visual_note": "Show only the relevant area of automation/saas_autopilot_tts_agent.js; use large labels for INPUT, ACTION, and RESULT.",
+      "pacing_note": "One goal, one action, one verified result before moving on.",
+      "demo_steps": [
+        {
+          "timestamp": "3:00",
+          "action_type": "enter",
+          "ui_target": "Narration command",
+          "exact_instruction": "Run TTS with overwrite enabled.",
+          "sample_input": "node automation/saas_autopilot_tts_agent.js --topic SAAS-001 --overwrite",
+          "expected_result": "All eight narration jobs run.",
+          "visual_anchor": "Narration command -> All eight narration jobs run."
+        },
+        {
+          "timestamp": "3:20",
+          "action_type": "open",
+          "ui_target": "Audio asset folder",
+          "exact_instruction": "Open the SAAS-001 asset directory.",
+          "sample_input": "assets/saas_autopilot_assets/saas_001",
+          "expected_result": "Eight audio files are visible.",
+          "visual_anchor": "Audio asset folder -> Eight audio files are visible."
+        },
+        {
+          "timestamp": "3:40",
+          "action_type": "verify",
+          "ui_target": "Audio count and time",
+          "exact_instruction": "Compare scene count and modified timestamps.",
+          "sample_input": "8 current audio files",
+          "expected_result": "No narration from the old version remains.",
+          "visual_anchor": "Audio count and time -> No narration from the old version remains."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "beginner_real_pipeline_capture",
+        "foreground_elements": [
+          "automation/saas_autopilot_tts_agent.js",
+          "Narration command",
+          "Audio asset folder",
+          "Audio count and time"
+        ],
+        "cursor_action": "enter Narration command; open Audio asset folder; verify Audio count and time",
+        "zoom_target": "Narration command",
+        "on_screen_text": "Create Fresh Narration: INPUT -> ACTION -> RESULT",
+        "data_panels": [
+          "input",
+          "action",
+          "result"
+        ]
+      }
+    },
+    {
+      "title": "Match Every Voice Scene With A Demonstration",
+      "type": "mapping",
+      "source_file": "automation/saas_autopilot_editor_agent.js",
+      "focus_terms": [
+        "recording.mp4",
+        "0.9",
+        "looping is forbidden"
+      ],
+      "voiceover": "Narration alone is not a tutorial. Every voice scene needs a matching screen recording. In the same asset folder, scene one audio pairs with scene one recording. Scene two audio pairs with scene two recording, and so on through scene eight. Open the editor agent and find the recording duration check. The recording must cover at least ninety percent of its narration. If it is shorter, the editor stops. It does not loop the same clip, and it does not substitute a text slide. Now inspect the asset checklist. For each number, confirm both files exist. Play scene three recording and look for the script-generation command shown in scene three narration. Play scene four recording and look for the narration command. This quick comparison catches mismatched footage before a ten-minute render. The result is eight complete audio-and-recording pairs, each showing the action that the viewer hears.",
+      "steps": [
+        [
+          "map",
+          "Scene pairs",
+          "Pair each numbered audio file with the same numbered recording.",
+          "scene_N_audio + scene_N_recording",
+          "Eight complete pairs are listed."
+        ],
+        [
+          "test",
+          "Duration check",
+          "Compare each recording duration with its narration.",
+          "recording at least 90 percent of audio",
+          "No short clip needs to be looped."
+        ],
+        [
+          "verify",
+          "Action match",
+          "Preview scenes three and four against their narration.",
+          "visible command matches spoken command",
+          "The demonstration supports the explanation."
+        ]
+      ],
+      "scene_number": 5,
+      "visual_type": "screen_recording",
+      "visual_note": "Show only the relevant area of automation/saas_autopilot_editor_agent.js; use large labels for INPUT, ACTION, and RESULT.",
+      "pacing_note": "One goal, one action, one verified result before moving on.",
+      "demo_steps": [
+        {
+          "timestamp": "4:00",
+          "action_type": "map",
+          "ui_target": "Scene pairs",
+          "exact_instruction": "Pair each numbered audio file with the same numbered recording.",
+          "sample_input": "scene_N_audio + scene_N_recording",
+          "expected_result": "Eight complete pairs are listed.",
+          "visual_anchor": "Scene pairs -> Eight complete pairs are listed."
+        },
+        {
+          "timestamp": "4:20",
+          "action_type": "test",
+          "ui_target": "Duration check",
+          "exact_instruction": "Compare each recording duration with its narration.",
+          "sample_input": "recording at least 90 percent of audio",
+          "expected_result": "No short clip needs to be looped.",
+          "visual_anchor": "Duration check -> No short clip needs to be looped."
+        },
+        {
+          "timestamp": "4:40",
+          "action_type": "verify",
+          "ui_target": "Action match",
+          "exact_instruction": "Preview scenes three and four against their narration.",
+          "sample_input": "visible command matches spoken command",
+          "expected_result": "The demonstration supports the explanation.",
+          "visual_anchor": "Action match -> The demonstration supports the explanation."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "beginner_real_pipeline_capture",
+        "foreground_elements": [
+          "automation/saas_autopilot_editor_agent.js",
+          "Scene pairs",
+          "Duration check",
+          "Action match"
+        ],
+        "cursor_action": "map Scene pairs; test Duration check; verify Action match",
+        "zoom_target": "Scene pairs",
+        "on_screen_text": "Match Every Voice Scene With A Demonstration: INPUT -> ACTION -> RESULT",
+        "data_panels": [
+          "input",
+          "action",
+          "result"
+        ]
+      }
+    },
+    {
+      "title": "Render The Final Video",
+      "type": "action_configuration",
+      "source_file": "automation/saas_autopilot_editor_agent.js",
+      "focus_terms": [
+        "PRODUCTION_FPS",
+        "Concatenating",
+        "outputFile"
+      ],
+      "voiceover": "Now combine the eight pairs into one video. Enter node automation slash saas autopilot editor agent dot j s, topic S A A S dash zero zero one, overwrite. Press Enter. The editor processes one scene at a time. For every scene it prints the narration duration. It then joins the scenes in order, mixes quiet background music under the voice, and writes the final M P four file. Watch for the line that begins final video. Open videos slash saas autopilot slash S A A S underscore zero zero one underscore final dot M P four. Check the file details. The duration should be longer than eight minutes, the resolution should be nineteen twenty by ten eighty, and the frame rate should be twenty-four frames per second. Scrub to the beginning, middle, and end. You should see different steps, not one repeated picture. The result is a complete local review video. Nothing has been uploaded.",
+      "steps": [
+        [
+          "enter",
+          "Editor command",
+          "Start a clean production render.",
+          "node automation/saas_autopilot_editor_agent.js --topic SAAS-001 --overwrite",
+          "Eight scenes begin processing."
+        ],
+        [
+          "verify",
+          "Editor summary",
+          "Read the final path, size, and scene durations.",
+          "SAAS_001_FINAL.mp4",
+          "The editor reports a successful render."
+        ],
+        [
+          "open",
+          "Review video",
+          "Open the final MP4 and scrub three positions.",
+          "beginning, middle, end",
+          "The video is complete and visually changes."
+        ]
+      ],
+      "scene_number": 6,
+      "visual_type": "screen_recording",
+      "visual_note": "Show only the relevant area of automation/saas_autopilot_editor_agent.js; use large labels for INPUT, ACTION, and RESULT.",
+      "pacing_note": "One goal, one action, one verified result before moving on.",
+      "demo_steps": [
+        {
+          "timestamp": "5:00",
+          "action_type": "enter",
+          "ui_target": "Editor command",
+          "exact_instruction": "Start a clean production render.",
+          "sample_input": "node automation/saas_autopilot_editor_agent.js --topic SAAS-001 --overwrite",
+          "expected_result": "Eight scenes begin processing.",
+          "visual_anchor": "Editor command -> Eight scenes begin processing."
+        },
+        {
+          "timestamp": "5:20",
+          "action_type": "verify",
+          "ui_target": "Editor summary",
+          "exact_instruction": "Read the final path, size, and scene durations.",
+          "sample_input": "SAAS_001_FINAL.mp4",
+          "expected_result": "The editor reports a successful render.",
+          "visual_anchor": "Editor summary -> The editor reports a successful render."
+        },
+        {
+          "timestamp": "5:40",
+          "action_type": "open",
+          "ui_target": "Review video",
+          "exact_instruction": "Open the final MP4 and scrub three positions.",
+          "sample_input": "beginning, middle, end",
+          "expected_result": "The video is complete and visually changes.",
+          "visual_anchor": "Review video -> The video is complete and visually changes."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "beginner_real_pipeline_capture",
+        "foreground_elements": [
+          "automation/saas_autopilot_editor_agent.js",
+          "Editor command",
+          "Editor summary",
+          "Review video"
+        ],
+        "cursor_action": "enter Editor command; verify Editor summary; open Review video",
+        "zoom_target": "Editor command",
+        "on_screen_text": "Render The Final Video: INPUT -> ACTION -> RESULT",
+        "data_panels": [
+          "input",
+          "action",
+          "result"
+        ]
+      }
+    },
+    {
+      "title": "Read The Quality Report",
+      "type": "qa_debug",
+      "source_file": "metadata/qa_reports/saas_001_qa_report.json",
+      "focus_terms": [
+        "duration_qc",
+        "visual_qc",
+        "repetition_qc"
+      ],
+      "voiceover": "Before trusting the video, run the quality agent. Enter node automation slash saas autopilot Q A agent dot j s, topic S A A S dash zero zero one. The agent creates a report in metadata slash Q A reports. Open saas zero zero one Q A report dot json. Read only three sections first. Duration Q C shows the number of seconds and the minimum of four hundred eighty. Visual Q C shows how much of the video was black. Repetition Q C shows whether sampled frames were duplicated. For this review copy, duration is about six hundred thirty-three seconds, black ratio is zero, and repeated ratio is zero. Next, look at production evidence. It confirms that every scene came from a recording and gives the final video hash. If any metric fails, fix the source and render again. Do not turn a red result green by changing the threshold. The result is evidence that the file is technically complete, not merely long.",
+      "steps": [
+        [
+          "enter",
+          "QA command",
+          "Run the topic quality agent.",
+          "node automation/saas_autopilot_qa_agent.js --topic SAAS-001",
+          "A JSON report is written."
+        ],
+        [
+          "open",
+          "Three QA sections",
+          "Open duration, visual, and repetition results.",
+          "duration_qc + visual_qc + repetition_qc",
+          "The measured values are visible."
+        ],
+        [
+          "verify",
+          "Production evidence",
+          "Confirm recording sources and the final hash.",
+          "8 recordings + video SHA-256",
+          "The report belongs to this exact render."
+        ]
+      ],
+      "scene_number": 7,
+      "visual_type": "screen_recording",
+      "visual_note": "Show only the relevant area of metadata/qa_reports/saas_001_qa_report.json; use large labels for INPUT, ACTION, and RESULT.",
+      "pacing_note": "One goal, one action, one verified result before moving on.",
+      "demo_steps": [
+        {
+          "timestamp": "6:00",
+          "action_type": "enter",
+          "ui_target": "QA command",
+          "exact_instruction": "Run the topic quality agent.",
+          "sample_input": "node automation/saas_autopilot_qa_agent.js --topic SAAS-001",
+          "expected_result": "A JSON report is written.",
+          "visual_anchor": "QA command -> A JSON report is written."
+        },
+        {
+          "timestamp": "6:20",
+          "action_type": "open",
+          "ui_target": "Three QA sections",
+          "exact_instruction": "Open duration, visual, and repetition results.",
+          "sample_input": "duration_qc + visual_qc + repetition_qc",
+          "expected_result": "The measured values are visible.",
+          "visual_anchor": "Three QA sections -> The measured values are visible."
+        },
+        {
+          "timestamp": "6:40",
+          "action_type": "verify",
+          "ui_target": "Production evidence",
+          "exact_instruction": "Confirm recording sources and the final hash.",
+          "sample_input": "8 recordings + video SHA-256",
+          "expected_result": "The report belongs to this exact render.",
+          "visual_anchor": "Production evidence -> The report belongs to this exact render."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "beginner_real_pipeline_capture",
+        "foreground_elements": [
+          "metadata/qa_reports/saas_001_qa_report.json",
+          "QA command",
+          "Three QA sections",
+          "Production evidence"
+        ],
+        "cursor_action": "enter QA command; open Three QA sections; verify Production evidence",
+        "zoom_target": "QA command",
+        "on_screen_text": "Read The Quality Report: INPUT -> ACTION -> RESULT",
+        "data_panels": [
+          "input",
+          "action",
+          "result"
+        ]
+      }
+    },
+    {
+      "title": "Review Before Uploading",
+      "type": "publish_handoff",
+      "source_file": "metadata/review_approvals/saas_001_approval.json",
+      "focus_terms": [
+        "approved",
+        "watched_full_video",
+        "action_sync_verified"
+      ],
+      "voiceover": "The final step belongs to a person, not an automated score. Watch the entire review video. Ask three simple questions. First, can a beginner explain what the pipeline does after the opening minute? Second, does every spoken action appear on screen at the same time? Third, can the viewer identify the input, command, and result in each scene? Open metadata slash review approvals slash saas zero zero one approval dot json. The fields approved, watched full video, action sync verified, and final output verified remain false until the review is complete. Add a reviewer name only after watching the whole file. The video hash already identifies the exact copy under review. If the lesson is confusing, leave approval false and rebuild it, which is exactly what this revision does. Only an approved pilot can unlock the remaining twenty episodes. The result is a controlled handoff: a clear review copy locally, with uploads and schedulers still disabled.",
+      "steps": [
+        [
+          "open",
+          "Review checklist",
+          "Open the SAAS-001 approval record.",
+          "saas_001_approval.json",
+          "The required human checks are visible."
+        ],
+        [
+          "verify",
+          "Full-watch questions",
+          "Check clarity, action synchronization, and final output.",
+          "understand + follow + verify",
+          "The reviewer evaluates teaching quality."
+        ],
+        [
+          "verify",
+          "Upload remains blocked",
+          "Leave approval false until the complete review passes.",
+          "approved = false",
+          "No unclear pilot can reach the channel."
+        ]
+      ],
+      "scene_number": 8,
+      "visual_type": "screen_recording",
+      "visual_note": "Show only the relevant area of metadata/review_approvals/saas_001_approval.json; use large labels for INPUT, ACTION, and RESULT.",
+      "pacing_note": "One goal, one action, one verified result before moving on.",
+      "demo_steps": [
+        {
+          "timestamp": "7:00",
+          "action_type": "open",
+          "ui_target": "Review checklist",
+          "exact_instruction": "Open the SAAS-001 approval record.",
+          "sample_input": "saas_001_approval.json",
+          "expected_result": "The required human checks are visible.",
+          "visual_anchor": "Review checklist -> The required human checks are visible."
+        },
+        {
+          "timestamp": "7:20",
+          "action_type": "verify",
+          "ui_target": "Full-watch questions",
+          "exact_instruction": "Check clarity, action synchronization, and final output.",
+          "sample_input": "understand + follow + verify",
+          "expected_result": "The reviewer evaluates teaching quality.",
+          "visual_anchor": "Full-watch questions -> The reviewer evaluates teaching quality."
+        },
+        {
+          "timestamp": "7:40",
+          "action_type": "verify",
+          "ui_target": "Upload remains blocked",
+          "exact_instruction": "Leave approval false until the complete review passes.",
+          "sample_input": "approved = false",
+          "expected_result": "No unclear pilot can reach the channel.",
+          "visual_anchor": "Upload remains blocked -> No unclear pilot can reach the channel."
+        }
+      ],
+      "visual_plan": {
+        "screen_type": "beginner_real_pipeline_capture",
+        "foreground_elements": [
+          "metadata/review_approvals/saas_001_approval.json",
+          "Review checklist",
+          "Full-watch questions",
+          "Upload remains blocked"
+        ],
+        "cursor_action": "open Review checklist; verify Full-watch questions; verify Upload remains blocked",
+        "zoom_target": "Review checklist",
+        "on_screen_text": "Review Before Uploading: INPUT -> ACTION -> RESULT",
+        "data_panels": [
+          "input",
+          "action",
+          "result"
+        ]
+      }
+    }
+  ],
+  "metadata": {
+    "primary_keyword": "YouTube automation pipeline Node.js beginner",
+    "description_template": "Build a local YouTube automation pipeline with Node.js, one step at a time.\n\nDownload this video's PDF materials:\nhttps://drive.google.com/drive/folders/1NB4deu0_7g23VByy4txQXYjtjJONZcrD\n\n#AIAutomation #NodeJS #YouTubeAutomation #HowTo",
+    "tags": [
+      "YouTube automation",
+      "Node.js tutorial",
+      "AI workflow",
+      "beginner automation",
+      "production QA"
+    ],
+    "thumbnail_concept": "One topic entering a four-stage pipeline and a checked final video coming out."
+  }
+}

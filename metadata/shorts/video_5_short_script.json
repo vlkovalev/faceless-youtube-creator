@@ -1,0 +1,20 @@
+{
+  "video_id": "VID-0005",
+  "youtube_id": "ZM0fbdddYZA",
+  "suggested_title": "A company had a bigger army than most countries. #Shorts",
+  "description": "A company had a bigger army than most countries.\n\nFull video: [paste YouTube link]\n\n#Shorts #DarkHistory #EastIndiaCompany #CorporateScandal #History",
+  "tags": ["Shorts", "DarkHistory", "EastIndiaCompany", "CorporateScandal", "History", "ColonialHistory"],
+  "category": "Education",
+  "estimated_duration_sec": 60,
+  "word_count": 135,
+  "hook_scenes": [
+    {
+      "scene": 1,
+      "title": "The Ultimate Monopoly",
+      "trimmed": false,
+      "narration_preview": "It had its own army of 260,000 men. It ruled over more people than most kings..."
+    }
+  ],
+  "full_narration": "It had its own army of 260,000 men. It ruled over more people than most kings. And for nearly two centuries, it answered to shareholders before it answered to morality. This was not a country. It was not an empire in the traditional sense. It was a business. A boardroom with ships, soldiers, tax collectors, prisons, and political power. The East India Company began as a group of merchants chasing spices and textiles. It ended as a warning about what happens when profit gets the power of a state. This is the story of the corporation that conquered India, helped bankrupt itself, and forced the British government to invent a rescue plan for a private company that had become too dangerous to fail. The first corporation too big to fail — and it happened 300 years before anyone invented that phrase.",
+  "notes": "Trim at ~60s. Adjust -t in ffmpeg if actual voiceover runs longer. Add full video link in description before uploading."
+}

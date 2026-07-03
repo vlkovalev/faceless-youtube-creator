@@ -1,0 +1,17 @@
+Create a reusable B2B automation build prompt for the SaaS Autopilot video "I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)" (SAAS-003).
+
+Video promise:
+This AI voice agent just booked three sales calls while I was sleeping. It talks like a human, handles cold outreach objections, and costs under two cents per minute to run. I'll build it live on screen in fifteen minutes.
+
+Likely tool stack:
+n8n, vapi, crm
+
+Scene context:
+1. The Hook (0:00â€“0:30): This AI voice agent just booked three sales calls while I was sleeping. It talks like a human, handles cold outreach objections, and costs under two cents per minute to run. In this video, I'll build it live on screen in fifteen minutes.
+2. The Problem (0:30â€“1:30): Traditional appointment setting is expensive and slow. Hire a virtual assistant and you're paying thousands a month for someone to manually dial leads, handle voicemail, and struggle with time zones. Most of the budget is wasted on unanswered calls.
+3. The Stack (1:30â€“2:30): We build this system using Vapi for the voice engine, n8n to connect our database, and Cal dot com to handle booking. The total infrastructure cost is just a few cents per conversation, with zero monthly retainers.
+4. The Build (2:30â€“6:00): Here's the technical integration. We configure Vapi with a highly realistic ElevenLabs voice. When a call triggers, Vapi uses webhooks to check client calendar availability. If they agree to book, n8n logs the meeting in Cal dot com.
+5. The Results (6:00â€“7:00): The speed-to-lead latency is virtually zero. The agent responds instantly, captures objections in real-time, and logs lead details directly to our CRM. It replaces hundreds of hours of manual dialing at a tiny fraction of the cost.
+6. The CTA (7:00â€“end): You can download the n8n voice blueprint and Vapi prompts from the description below.grab your copy, and tell me what voice agent you want us to build next. This channel needs your support. Please subscribe, leave a word of appreciation for the author, and may
+
+The prompt should help a viewer generate a practical blueprint, implementation plan, test data plan, QA checklist, and go-live checklist for this specific workflow.

@@ -1,0 +1,97 @@
+{
+  "deletions": [
+    {
+      "logged_at": "2026-05-31T16:31:45.083Z",
+      "filename": "FINAL_VIDEO_1_DENSE_CREATED_REPLACEMENT.mp4",
+      "new_video_id": "OZlUgyKROv4",
+      "old_video_id": "FCPe5Dlk_xw",
+      "action": "deleted_after_user_approval"
+    },
+    {
+      "logged_at": "2026-05-31T16:31:45.084Z",
+      "filename": "FINAL_VIDEO_1_DENSE_CREATED_REPLACEMENT.mp4",
+      "new_video_id": "OZlUgyKROv4",
+      "old_video_id": "6iydrpqSseU",
+      "action": "deleted_after_user_approval"
+    },
+    {
+      "filename": "FINAL_VIDEO_10.mp4",
+      "new_video_id": "5Vyt61T0keg",
+      "old_video_id": "mjeN21ONyAA",
+      "action": "deleted",
+      "logged_at": "2026-06-08T15:55:58.780Z"
+    },
+    {
+      "filename": "FINAL_VIDEO_10.mp4",
+      "new_video_id": "1hB81RZRcE4",
+      "old_video_id": "mjeN21ONyAA",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-13T04:14:32.366Z"
+    },
+    {
+      "filename": "FINAL_VIDEO_10.mp4",
+      "new_video_id": "2YTl5XwA-oU",
+      "old_video_id": "mjeN21ONyAA",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-13T14:28:39.802Z"
+    },
+    {
+      "filename": "FINAL_VIDEO_7.mp4",
+      "new_video_id": "6TIKAR-UfzM",
+      "old_video_id": "v6u99b6HWQA",
+      "action": "delete_failed",
+      "error": "The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.",
+      "logged_at": "2026-06-14T03:58:54.535Z"
+    },
+    {
+      "filename": "FINAL_VIDEO_8.mp4",
+      "new_video_id": "EYzUD2QZaqo",
+      "old_video_id": "Fg8fv9GO4FY",
+      "action": "delete_failed",
+      "error": "The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.",
+      "logged_at": "2026-06-14T03:59:52.757Z"
+    },
+    {
+      "filename": "FINAL_VIDEO_10.mp4",
+      "new_video_id": "l9-2UYfTAg0",
+      "old_video_id": "2YTl5XwA-oU",
+      "action": "delete_failed",
+      "error": "The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.",
+      "logged_at": "2026-06-14T04:00:28.263Z"
+    },
+    {
+      "filename": "FINAL_VIDEO_8.mp4",
+      "new_video_id": "ch9a7WqBrRw",
+      "old_video_id": "Fg8fv9GO4FY",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-14T22:48:30.975Z"
+    },
+    {
+      "filename": "FINAL_VIDEO_10.mp4",
+      "new_video_id": "46nah7UfMWg",
+      "old_video_id": "2YTl5XwA-oU",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-14T23:14:08.504Z"
+    },
+    {
+      "filename": "FINAL_VIDEO_8.mp4",
+      "new_video_id": "Bsz9DE7OpNY",
+      "old_video_id": "Fg8fv9GO4FY",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-30T01:47:29.249Z"
+    },
+    {
+      "filename": "FINAL_VIDEO_10.mp4",
+      "new_video_id": "W53u9wpRJYM",
+      "old_video_id": "2YTl5XwA-oU",
+      "action": "delete_failed",
+      "error": "The video that you are trying to delete cannot be found. Check the value of the request's <code>id</code> parameter to ensure that it is correct.",
+      "logged_at": "2026-06-30T01:49:05.498Z"
+    }
+  ]
+}

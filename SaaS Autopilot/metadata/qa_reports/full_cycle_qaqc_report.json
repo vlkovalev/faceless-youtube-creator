@@ -1,0 +1,360 @@
+{
+  "checked_at": "2026-06-15T21:17:00.936Z",
+  "dry_run": true,
+  "skip_video": false,
+  "summary": {
+    "total": 21,
+    "passed": 1,
+    "failed": 20,
+    "warnings": 0
+  },
+  "pdf_materials": {
+    "passed": true,
+    "exit_code": 0,
+    "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\pdf_materials_qa_report.json",
+    "summary": {
+      "folders": 15,
+      "passed": 15,
+      "failed": 0,
+      "blueprint_failures": 0,
+      "warnings": 0
+    }
+  },
+  "youtube_links": {
+    "skipped": true,
+    "reason": "dry-run"
+  },
+  "youtube_category": {
+    "skipped": true,
+    "reason": "dry-run"
+  },
+  "items": [
+    {
+      "topic_id": "SAAS-001",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_001_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 527 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 12 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: the results are incredible.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-002",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_002_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 450 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 12 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-003",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_003_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 243 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 11 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: ken burns, byte the robot, manual pain, workflow walkthrough.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-004",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_004_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 239 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 12 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: ken burns, byte the robot, manual pain, workflow walkthrough.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-005",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_005_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 230 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 7 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: game-changer, ken burns, byte the robot, manual pain, workflow walkthrough.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-006",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_006_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 233 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 9 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: highly expensive, ken burns, byte the robot, manual pain, workflow walkthrough, automating your client acquisition today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-007",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_007_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 232 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 9 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: ken burns, byte the robot, manual pain, workflow walkthrough.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-008",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_008_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 141 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-009",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_009_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 140 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-010",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_010_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 140 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-011",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_011_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 141 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-012",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_012_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 140 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-013",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_013_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 143 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-014",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_014_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 142 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-015",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_015_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 142 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-016",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_016_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 142 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 10 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-017",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_017_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 144 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-018",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_018_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 141 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-019",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_019_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 143 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-020",
+      "passed": false,
+      "exit_code": 1,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_020_qa_report.json",
+      "failures": [
+        "Instructional quality: Script has 6 scene(s); minimum is 8 for an 8+ minute demonstration.",
+        "Instructional quality: Narration has 141 words; minimum is 900 so the video is not padded with silence.",
+        "Instructional quality: Script has 0 concrete demo step(s); minimum is 18.",
+        "Instructional quality: Script has 6 UI/visual anchor(s); minimum is 14.",
+        "Instructional quality: Script uses 8 actionable build verb(s); minimum is 30.",
+        "Instructional quality: Generic/low-value phrase(s) found: streamlines your operations, cuts costs, runs in the background, highly expensive, virtually free, the results are incredible, absolute perfection, ken burns, byte the robot, manual pain, workflow walkthrough, drop a comment today.",
+        "Instructional quality: Missing required instructional fields: scene 1 missing demo_steps; scene 1 missing visual_plan; scene 2 missing demo_steps; scene 2 missing visual_plan; scene 3 missing demo_steps; scene 3 missing visual_plan; scene 4 missing demo_steps; scene 4 missing visual_plan...."
+      ],
+      "warnings": []
+    },
+    {
+      "topic_id": "SAAS-021",
+      "passed": true,
+      "exit_code": 0,
+      "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\qa_reports\\saas_021_qa_report.json",
+      "failures": [],
+      "warnings": []
+    }
+  ]
+}

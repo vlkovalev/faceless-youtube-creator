@@ -1,0 +1,137 @@
+﻿{
+    "channel":  "The Saints",
+    "series_id":  "nikon_vorobyov_letters",
+    "series_title":  "Abbot Nikon Vorobyov: Letters to Spiritual Children",
+    "created_at":  "2026-06-06T04:31:45.4003117Z",
+    "status":  "queued_rights_review_needed",
+    "editorial_policy":  [
+                             "Use Nikon Vorobyov letters as spiritual-counsel source material, not as full-text public-domain assumptions.",
+                             "Do not reproduce complete modern translations unless reuse rights are verified.",
+                             "Prefer paraphrase, short attributed excerpts, and original narration around the counsel.",
+                             "Frame counsel reverently as Orthodox pastoral guidance; avoid sensational claims.",
+                             "Each produced video must pass Saints visual QC: at least one verified icon/portrait, monastery/context photo, manuscript/source image, and per-scene real-image coverage."
+                         ],
+    "core_sources":  [
+                         {
+                             "id":  "src_nikon_orthodoxwiki",
+                             "title":  "Nikon (Vorobiov) - OrthodoxWiki",
+                             "type":  "biographical reference",
+                             "url":  "https://orthodoxwiki.org/Nikon_(Vorobiov)",
+                             "usable_for":  "Biographical outline, dates, priesthood, persecution-era context, letters reputation.",
+                             "rights_note":  "Use as reference; verify primary details against additional Orthodox sources."
+                         },
+                         {
+                             "id":  "src_nikon_abbotnikon_about",
+                             "title":  "About Abbot Nikon Vorobiev - Spiritual Letters",
+                             "type":  "dedicated source project",
+                             "url":  "https://abbotnikon.org/about-abbot-nikon-vorobiev/",
+                             "usable_for":  "Life context and spiritual framing around the letters.",
+                             "rights_note":  "Use as source and citation; do not assume full-text reuse rights beyond what site permits."
+                         },
+                         {
+                             "id":  "src_nikon_abbotnikon_books",
+                             "title":  "Books - Spiritual Letters of Abbot Nikon",
+                             "type":  "book/source listing",
+                             "url":  "https://abbotnikon.org/books/",
+                             "usable_for":  "Identify editions including Letters to Spiritual Children.",
+                             "rights_note":  "Modern editions/translations likely copyrighted; use for sourcing and rights review."
+                         },
+                         {
+                             "id":  "src_nikon_ocanwa_spiritual_children",
+                             "title":  "Letter to His Spiritual Children by Igumen Nikon (Vorobiev)",
+                             "type":  "reposted translated letter",
+                             "url":  "https://www.ocanwa.org/single-post/2019/07/06/letter-to-his-spiritual-children-by-igumen-nikon-vorobiev",
+                             "usable_for":  "Episode about humility, forgiveness, peace of heart, and repentance.",
+                             "rights_note":  "Modern repost/translation. Paraphrase; quote sparingly only with attribution if needed."
+                         },
+                         {
+                             "id":  "src_nikon_ocanwa_daughter",
+                             "title":  "Letter to a Spiritual Daughter by Igumen Nikon (Vorobiev)",
+                             "type":  "reposted translated letter",
+                             "url":  "https://www.ocanwa.org/single-post/2019/06/29/letter-to-a-spiritual-daughter-by-igumen-nikon-vorobiev",
+                             "usable_for":  "Episode about despondency, suffering, endurance, and Christian hope.",
+                             "rights_note":  "Modern repost/translation. Paraphrase; quote sparingly only with attribution if needed."
+                         },
+                         {
+                             "id":  "src_nikon_ocanwa_another_letter",
+                             "title":  "Another Letter by Igumen Nikon (Vorobiev)",
+                             "type":  "reposted translated letter",
+                             "url":  "https://www.ocanwa.org/single-post/2019/08/17/another-letter-by-igumen-nikon-vorobiev",
+                             "usable_for":  "Episode about passions, struggle, betrayal of Christ, and spiritual growth.",
+                             "rights_note":  "Modern repost/translation. Paraphrase; quote sparingly only with attribution if needed."
+                         }
+                     ],
+    "visual_source_requirements":  {
+                                       "minimum_icon_or_portrait":  1,
+                                       "per_scene_real_image_coverage":  "required",
+                                       "preferred_visuals":  [
+                                                                 "portrait or icon of Abbot Nikon Vorobyov if license verified",
+                                                                 "Russian church/monastery context from public-domain or CC sources",
+                                                                 "book cover/source page only if rights-safe",
+                                                                 "handwritten manuscript or old letter imagery with verified license",
+                                                                 "period Russian church/persecution-era context photos where licensing is clear"
+                                                             ],
+                                       "generated_visuals":  "allowed only as short atmospheric fill after real-image coverage is met"
+                                   },
+    "episodes":  [
+                     {
+                         "id":  "SAINTS-NIKON-001",
+                         "working_title":  "The Letter That Teaches Peace of Heart",
+                         "format":  "letter-based spiritual counsel documentary",
+                         "status":  "queued_research",
+                         "source_ids":  [
+                                            "src_nikon_orthodoxwiki",
+                                            "src_nikon_abbotnikon_about",
+                                            "src_nikon_ocanwa_spiritual_children"
+                                        ],
+                         "hook":  "A persecuted Russian priest wrote to his spiritual children that peace of heart was not optional comfort, but the place where God is present.",
+                         "story_beats":  [
+                                             "Introduce Abbot Nikon and the world that formed his letters.",
+                                             "Explain why letters became pastoral care across distance and suffering.",
+                                             "Center the counsel on humility, forgiveness, and peace of heart.",
+                                             "Apply the letter carefully to modern anxiety and resentment without turning it into self-help.",
+                                             "End with repentance as the road back to peace."
+                                         ],
+                         "rights_risk":  "medium: modern translation/repost; paraphrase and cite."
+                     },
+                     {
+                         "id":  "SAINTS-NIKON-002",
+                         "working_title":  "Why Are You Writing Such Despondent Letters?",
+                         "format":  "letter-based pastoral story",
+                         "status":  "queued_research",
+                         "source_ids":  [
+                                            "src_nikon_orthodoxwiki",
+                                            "src_nikon_ocanwa_daughter"
+                                        ],
+                         "hook":  "A spiritual daughter wrote from despondency. Abbot Nikon answered not with flattery, but with a hard mercy about suffering and hope.",
+                         "story_beats":  [
+                                             "Open with the emotional force of a despondent letter.",
+                                             "Frame suffering in Orthodox pastoral language without cruelty.",
+                                             "Show Nikon as a sober spiritual father, not a sentimental comforter.",
+                                             "Translate the counsel into a viewer-facing meditation on endurance.",
+                                             "Close with prayer, patience, and refusing despair."
+                                         ],
+                         "rights_risk":  "medium: modern translation/repost; paraphrase and cite."
+                     },
+                     {
+                         "id":  "SAINTS-NIKON-003",
+                         "working_title":  "The Choice Between the Passions and Christ",
+                         "format":  "letter-based spiritual warfare episode",
+                         "status":  "queued_research",
+                         "source_ids":  [
+                                            "src_nikon_orthodoxwiki",
+                                            "src_nikon_ocanwa_another_letter"
+                                        ],
+                         "hook":  "In one letter, Abbot Nikon reduced the spiritual life to a terrible choice: give in to the passions, or suffer through the struggle toward Christ.",
+                         "story_beats":  [
+                                             "Open with the stark choice in the letter, paraphrased not quoted.",
+                                             "Explain passions in plain Orthodox terms.",
+                                             "Show why struggle is not failure but the arena of spiritual growth.",
+                                             "Connect Nikon to the Russian ascetic and pastoral tradition.",
+                                             "End with practical repentance and watchfulness."
+                                         ],
+                         "rights_risk":  "medium: modern translation/repost; paraphrase and cite."
+                     }
+                 ],
+    "next_action":  "Research episode 001 deeper, create script outline, and build visual_plan with verified icon/portrait plus real source images before render."
+}

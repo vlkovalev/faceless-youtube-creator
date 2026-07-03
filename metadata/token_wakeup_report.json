@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-06-13T23:18:18.973Z",
+  "channel": "saints",
+  "mode": "wake_enabled",
+  "woke_production_agents": true,
+  "token_state": {
+    "saints": {
+      "exists": true,
+      "rel": "automation/credentials/saints_oauth_tokens.json",
+      "size": 611,
+      "modified_at": "2026-06-13T22:28:50.441Z",
+      "has_access_token": true,
+      "has_refresh_token": true,
+      "expiry_date": 1781393329439
+    },
+    "corporate": {
+      "exists": true,
+      "rel": "automation/credentials/oauth_tokens.json",
+      "size": 611,
+      "modified_at": "2026-06-13T16:50:08.405Z",
+      "has_access_token": true,
+      "has_refresh_token": true,
+      "expiry_date": 1781373007402
+    }
+  },
+  "runs": [
+    {
+      "agent": "automation\\youtube_status_agent.js",
+      "args": [
+        "--channel=saints"
+      ],
+      "status": 1,
+      "ok": false,
+      "stdout_tail": "",
+      "stderr_tail": "YouTube status sync failed: request to https://youtube.googleapis.com/youtube/v3/channels?part=snippet&part=contentDetails&part=statistics&mine=true failed, reason:"
+    },
+    {
+      "agent": "The Saints\\automation\\saints_pm_push_agent.js",
+      "args": [],
+      "status": 0,
+      "ok": true,
+      "stdout_tail": "# Saints PM Report\n\nGenerated: 2026-06-13T23:18:18.833Z\n\n## Priority Actions\n- P2 youtube_review: Review 7 Saints private draft(s) in YouTube Studio only after visual QC passes; do not publish while visual/rights gates fail.\n- P5 multi_channel_policy: All three channels stay active and isolated; do not delete, public-publish, spend, or use uncleared rights without approval.\n\n## Video State\n- Saints 13: script=true plan=true audio=11 sceneImages=21 beatImages=41 realSources=1 verifiedRealBeats=41 qcFailed=none\n- Saints 14: script=true plan=true audio=14 sceneImages=14 beatImages=50 realSources=1 verifiedRealBeats=50 qcFailed=none\n- Saints 15: script=true plan=true audio=14 sceneImages=4 beatImages=47 realSources=1 verifiedRealBeats=47 qcFailed=none\n- Saints 16: script=true plan=true audio=15 sceneImages=0 beatImages=48 realSources=1 verifiedRealBeats=48 qcFailed=none\n- Saints 17: script=true plan=true audio=14 sceneImages=0 beatImages=44 realSources=1 verifiedRealBeats=44 qcFailed=none\n- Saints 18: script=true plan=true audio=16 sceneImages=0 beatImages=48 realSources=1 verifiedRealBeats=48 qcFailed=none\n- Saints 19: script=true plan=true audio=10 sceneImages=0 beatImages=38 realSources=1 verifiedRealBeats=38 qcFailed=none\n- Saints 20: script=true plan=true audio=10 sceneImages=0 beatImages=31 realSources=1 verifiedRealBeats=31 qcFailed=saints_final_render_includes_latest_beat_visuals",
+      "stderr_tail": ""
+    }
+  ],
+  "production_runs": [],
+  "recommendation": {
+    "action": "none",
+    "reason": "No next production action found in PM report."
+  },
+  "safety_rules": {
+    "never_delete_without_vlad_approval": true,
+    "never_public_publish_without_vlad_approval": true,
+    "never_spend_money_or_use_paid_generation_without_preapproval": true,
+    "all_channels_should_keep_moving": true
+  }
+}

@@ -2,7 +2,7 @@
  * visual_asset_planner.js
  *
  * Converts a Corporate Shadows script into a scene-by-scene visual plan
- * with 3-5 timed beats per scene, source recommendations, and search queries.
+ * with dense timed beats, source recommendations, and search queries.
  *
  * Output: assets/video_N_assets/visual_plan.json
  *
@@ -23,6 +23,9 @@ const ASSETS_DIR = path.join(ROOT, 'assets');
 
 // Documentary pacing: ~130 wpm = 2.2 words/second
 const WORDS_PER_SECOND = 2.2;
+const TARGET_BEAT_SECONDS = 8;
+const MIN_BEATS_PER_SCENE = 3;
+const MAX_BEATS_PER_SCENE = 9;
 
 // ---------------------------------------------------------------------------
 // Script loader
@@ -60,7 +63,18 @@ function estimateDuration(voiceover) {
 
 function splitIntoBeats(voiceover, target) {
     const clean = voiceover.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
-    const sentences = clean.match(/[^.!?]+[.!?]+/g) || [clean];
+    var sentences = clean.match(/[^.!?]+[.!?]+/g) || [clean];
+
+    sentences = sentences.flatMap(function(sentence) {
+        var words = sentence.trim().split(/\s+/);
+        if (words.length <= 24) return [sentence.trim()];
+        var chunks = [];
+        for (var i = 0; i < words.length; i += 18) {
+            chunks.push(words.slice(i, i + 18).join(' '));
+        }
+        return chunks;
+    });
+
     if (sentences.length <= target) {
         return sentences.map(function(s) { return s.trim(); }).filter(Boolean);
     }
@@ -181,7 +195,10 @@ function buildPlan(videoId, data) {
 
     data.scenes.forEach(function(scene) {
         var dur = estimateDuration(scene.voiceover);
-        var targetBeats = dur <= 20 ? 2 : dur <= 35 ? 3 : dur <= 50 ? 4 : 5;
+        var targetBeats = Math.max(
+            MIN_BEATS_PER_SCENE,
+            Math.min(MAX_BEATS_PER_SCENE, Math.ceil(dur / TARGET_BEAT_SECONDS))
+        );
         var beatTexts = splitIntoBeats(scene.voiceover, targetBeats);
         var timings = assignTimings(beatTexts, dur, runTime);
 

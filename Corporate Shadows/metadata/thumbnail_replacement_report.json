@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-06-20T22:53:23.157Z",
+  "channel": "Corporate Shadows",
+  "mode": "dry-run",
+  "public_only": true,
+  "thumbnail_dir": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\Corporate Shadows\\assets",
+  "items": [
+    {
+      "youtube_id": "9PiTNO3WETE",
+      "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+      "privacy_status": "public",
+      "thumbnail_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\Corporate Shadows\\assets\\youtube_thumbnail_video_5.png",
+      "action": "dry_run_replace",
+      "ok": true,
+      "status_code": null,
+      "error": ""
+    },
+    {
+      "youtube_id": "PxBdlAu-hvY",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "privacy_status": "public",
+      "thumbnail_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\Corporate Shadows\\assets\\youtube_thumbnail_video_3.png",
+      "action": "dry_run_replace",
+      "ok": true,
+      "status_code": null,
+      "error": ""
+    },
+    {
+      "youtube_id": "gPhHnEjKaP8",
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "privacy_status": "public",
+      "thumbnail_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\Corporate Shadows\\assets\\youtube_thumbnail_video_2.png",
+      "action": "dry_run_replace",
+      "ok": true,
+      "status_code": null,
+      "error": ""
+    },
+    {
+      "youtube_id": "21DRL-iGzBs",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "privacy_status": "public",
+      "thumbnail_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\Corporate Shadows\\assets\\youtube_thumbnail.png",
+      "action": "dry_run_replace",
+      "ok": true,
+      "status_code": null,
+      "error": ""
+    }
+  ],
+  "summary": {
+    "total": 4,
+    "matched": 4,
+    "succeeded": 4,
+    "skipped": 0,
+    "failed": 0
+  }
+}

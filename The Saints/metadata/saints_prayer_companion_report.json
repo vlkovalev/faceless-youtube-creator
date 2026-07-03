@@ -1,0 +1,274 @@
+{
+  "generated_at": "2026-06-28T16:14:40.123Z",
+  "mode": "prayer_companion_rights_gate",
+  "safety": {
+    "unauthorized_voice_cloning": false,
+    "render_full_unverified_text": false,
+    "upload": false
+  },
+  "companions": [
+    {
+      "companion_id": "saints_13_prayer",
+      "after_video_id": 13,
+      "saint": "Saint Ambrose of Optina",
+      "working_title": "Prayer to Saint Ambrose of Optina | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.sumarokovomp.ru/spravochnik/pravoslavny-molitvoslov/glavnyie-molitvyi/iisusova-molitva",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "grief and loss",
+        "illness and physical weakness",
+        "seeking spiritual guidance",
+        "temptation and spiritual warfare",
+        "judging others",
+        "humility and repentance",
+        "daily discouragement"
+      ]
+    },
+    {
+      "companion_id": "saints_14_prayer",
+      "after_video_id": 14,
+      "saint": "Saint Paisios of Mount Athos",
+      "working_title": "Prayer to Saint Paisios of Mount Athos | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://russianorthodoxchurchcardiff.com/akathist-paisios-athonite",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "anxiety and panic",
+        "family and marriage troubles",
+        "illness and cancer",
+        "spiritual confusion and doubt",
+        "seeking peace in a noisy world",
+        "restlessness"
+      ]
+    },
+    {
+      "companion_id": "saints_15_prayer",
+      "after_video_id": 15,
+      "saint": "Saint Silouan the Athonite",
+      "working_title": "Prayer to Saint Silouan the Athonite | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-silouan-the-athonite/",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "despair and depression",
+        "spiritual darkness and dryness",
+        "humility and pride",
+        "loving enemies",
+        "forgiving others",
+        "peace of heart"
+      ]
+    },
+    {
+      "companion_id": "saints_16_prayer",
+      "after_video_id": 16,
+      "saint": "The Optina Elders",
+      "working_title": "Prayer to the Venerable Elders of Optina | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/optina-monastery-and-its-elders/",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "seeking spiritual direction",
+        "confession and repentance",
+        "family and social conflict",
+        "comfort in times of persecution",
+        "humility and obedience",
+        "mental health and peace of mind"
+      ]
+    },
+    {
+      "companion_id": "saints_17_prayer",
+      "after_video_id": 17,
+      "saint": "Saint Herman of Alaska",
+      "working_title": "Prayer to Saint Herman of Alaska | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-herman-of-alaska/",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "protection of children",
+        "defense against injustice and greed",
+        "comfort in isolation or loneliness",
+        "fear of storms and natural disasters",
+        "missionary labor",
+        "healing during epidemics or illness"
+      ]
+    },
+    {
+      "companion_id": "saints_18_prayer",
+      "after_video_id": 18,
+      "saint": "Saint Sergius of Radonezh",
+      "working_title": "Prayer to Saint Sergius of Radonezh | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://russianorthodoxchurchcardiff.com/canons-for-the-feast-of-the-repose-of-st-sergius-of-radonezh",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "difficulty learning or reading",
+        "discouragement and shame about weakness",
+        "seeking humility and discipline",
+        "fear during unstable or violent times",
+        "need for wise spiritual guidance",
+        "family or community division",
+        "monastic vocation, obedience, and prayer life",
+        "sorrowful times and spiritual heaviness"
+      ]
+    },
+    {
+      "companion_id": "saints_19_prayer",
+      "after_video_id": 19,
+      "saint": "Saint Paisios Velichkovsky",
+      "working_title": "Prayer to Saint Paisios Velichkovsky | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-paisius-velichkovsky/",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "monastic vocation and obedience",
+        "studying and understanding spiritual texts",
+        "restoring prayer life",
+        "patience in work and translation",
+        "brotherly unity and peace in communities",
+        "mental attention and watchfulness"
+      ]
+    },
+    {
+      "companion_id": "saints_20_prayer",
+      "after_video_id": 20,
+      "saint": "Hegumen Nikon Vorobiev",
+      "working_title": "Akathist of Repentance | Prayer With Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.sumarokovomp.ru/spravochnik/pravoslavny-molitvoslov/molitvyi-na-anglijskom-grecheskom-latyini-azerbajdzhanskom-i-tatarskom/molitvyi-na-anglijskom-yazyike/akathist-hymn-of-repentance-in-christ",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "sincere repentance",
+        "overcoming pride and self-display",
+        "seeking spiritual sobriety",
+        "struggling with passions",
+        "courage in times of persecution",
+        "pitying and forgiving others"
+      ]
+    },
+    {
+      "companion_id": "saints_2_prayer",
+      "after_video_id": 2,
+      "saint": "Saint Seraphim of Sarov",
+      "working_title": "Prayer to Saint Seraphim of Sarov | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-seraphim-of-sarov/",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "seeking peace of heart",
+        "overcoming depression and sadness",
+        "patient endurance of illness",
+        "spiritual guidance",
+        "gaining joy in Christ"
+      ]
+    },
+    {
+      "companion_id": "saints_3_prayer",
+      "after_video_id": 3,
+      "saint": "Saint Nil Sorsky",
+      "working_title": "Prayer to Saint Nil Sorsky | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-nil-sorsky/",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "seeking simplicity and contentment",
+        "overcoming greed and materialism",
+        "guarding against bad thoughts",
+        "finding quietness in prayer",
+        "spiritual sobriety"
+      ]
+    },
+    {
+      "companion_id": "saints_4_prayer",
+      "after_video_id": 4,
+      "saint": "Saint Theophan the Recluse",
+      "working_title": "Prayer to Saint Theophan the Recluse | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-theophan-the-recluse/",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "learning to pray constantly",
+        "seeking spiritual guidance",
+        "comfort in isolation or loneliness",
+        "discernment and study",
+        "calming anxious thoughts"
+      ]
+    },
+    {
+      "companion_id": "saints_5_prayer",
+      "after_video_id": 5,
+      "saint": "Saint Innocent of Alaska",
+      "working_title": "Prayer to Saint Innocent of Alaska | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-innocent-of-alaska/",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "protection during travel",
+        "missionary labor and outreach",
+        "learning languages and study",
+        "serving others in difficult environments",
+        "guiding youth and students"
+      ]
+    },
+    {
+      "companion_id": "saints_6_prayer",
+      "after_video_id": 6,
+      "saint": "Saint Nicholas of Myra",
+      "working_title": "Prayer to Saint Nicholas of Myra | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-nicholas-the-wonderworker/",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "help in financial distress",
+        "protection of children and orphans",
+        "safety during travel and sea voyages",
+        "defense against injustice and false accusation",
+        "seeking relief from poverty"
+      ]
+    },
+    {
+      "companion_id": "saints_7_prayer",
+      "after_video_id": 7,
+      "saint": "Saint Mary of Egypt",
+      "working_title": "Prayer to Saint Mary of Egypt | Text and Icon",
+      "status": "ready_for_prayer_render",
+      "blockers": [],
+      "next_action": "Generate prayer audio, readable text cards, icon visual, QC, then create a private draft.",
+      "source_url": "https://www.orthodoxpath.org/saints-and-elders-lives/st-mary-of-egypt/",
+      "backup_source_url": null,
+      "life_circumstances_helped": [
+        "overcoming addictions and habits",
+        "repenting of past sins",
+        "struggling with lust and passions",
+        "seeking purity of heart",
+        "endurance in spiritual struggles"
+      ]
+    }
+  ]
+}

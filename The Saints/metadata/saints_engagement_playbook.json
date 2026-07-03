@@ -1,0 +1,43 @@
+﻿{
+  "channel": "The Saints",
+  "purpose": "Increase thoughtful viewer engagement without breaking reverent tone.",
+  "principles": [
+    "Invite reflection, not hype.",
+    "Use one strong spiritual question per video.",
+    "Avoid controversy bait between Orthodox/Catholic viewers.",
+    "Do not sensationalize miracles, demons, relics, or suffering.",
+    "Use playlists as spiritual/narrative pathways."
+  ],
+  "per_video_required_engagement": {
+    "pinned_comment": "Ask one reflective question connected to the saint's central struggle or virtue.",
+    "watch_next_line": "Point viewers to the next related Saints video before the final CTA.",
+    "description_question": "Add a short question near the end of the description to invite comments.",
+    "community_followup": "After publish, post one image/quote-style community prompt tied to the video theme."
+  },
+  "pinned_comment_templates": [
+    "Which part of this saint's life stayed with you most: the suffering, the counsel, the miracle accounts, or the final legacy?",
+    "What do you think this saint would say to the modern world today?",
+    "Have you ever heard of this saint before, or is this your first encounter with their story?",
+    "Which saint, elder, monk, or martyr should we cover next?"
+  ],
+  "playlist_strategy": [
+    "Athonite Elders",
+    "Russian Monks and Optina",
+    "Saints Who Faced Despair",
+    "Miracles and Mercy",
+    "Desert Fathers and Early Monks"
+  ],
+  "comment_reply_style": {
+    "tone": "warm, brief, respectful, pastoral but not pretending to be clergy",
+    "do": [
+      "Thank viewers for thoughtful reflections.",
+      "Ask one gentle follow-up question when useful.",
+      "Acknowledge denominational sensitivity respectfully."
+    ],
+    "avoid": [
+      "Arguing theology in long threads.",
+      "Declaring private miracle claims as proven fact.",
+      "Using manipulative engagement bait."
+    ]
+  }
+}

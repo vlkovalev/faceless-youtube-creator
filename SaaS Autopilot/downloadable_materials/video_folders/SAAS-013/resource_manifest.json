@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-013",
+  "title": "I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-013 - I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1iPvqiqjfYvgmMnk2Jnonjaefa56GywHq",
+  "files": [
+    "SAAS-013_blueprint.pdf",
+    "SAAS-013_templates.pdf",
+    "SAAS-013_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-013\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "118_VzPWV7_WY-XPy-iPwSwlglWRXDfqX",
+      "name": "SAAS-013_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/118_VzPWV7_WY-XPy-iPwSwlglWRXDfqX/view?usp=drivesdk"
+    },
+    {
+      "id": "1RcTnPxmTwceBnvcN3Oa9uiW7EZV---_H",
+      "name": "SAAS-013_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1RcTnPxmTwceBnvcN3Oa9uiW7EZV---_H/view?usp=drivesdk"
+    },
+    {
+      "id": "1zuRmzlgLRnNkVzsI3Z3Ay_8nokkIeUVc",
+      "name": "SAAS-013_templates.pdf",
+      "url": "https://drive.google.com/file/d/1zuRmzlgLRnNkVzsI3Z3Ay_8nokkIeUVc/view?usp=drivesdk"
+    }
+  ]
+}

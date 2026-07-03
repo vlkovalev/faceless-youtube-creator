@@ -1,0 +1,54 @@
+﻿{
+  "generated_at": "2026-06-02T13:12:00.000Z",
+  "channel": "The Saints",
+  "video_id": 13,
+  "target": "Saint Ambrose of Optina / Optina Pustyn old images",
+  "status": "source_leads_verified_for_followup",
+  "source_leads": [
+    {
+      "priority": 1,
+      "label": "Wikimedia Commons - Category: Ambrose of Optina",
+      "url": "https://commons.wikimedia.org/wiki/Category:Ambrose_of_Optina",
+      "why_use": "Confirmed category with seven Ambrose media files including portraits/photos such as Ambrosius of Optina.jpg, Amvrosiy Optinskiy.jpg, Photo Amvrosiy Optinskiy.jpg, and Russischer Photograph - Vater Ambrosij.",
+      "license_action": "Open each file page and record exact license before public use.",
+      "production_use": "Portrait/icon rotation for Ambrose scenes; avoid overusing one image."
+    },
+    {
+      "priority": 2,
+      "label": "Wikimedia Commons - Category: Optina Pustyn",
+      "url": "https://commons.wikimedia.org/wiki/Category:Optina_Pustyn",
+      "why_use": "Likely best source for monastery exteriors, interiors, church buildings, and pilgrimage location visuals.",
+      "license_action": "Open each file page and record license/author/source.",
+      "production_use": "Location anchors for opening, travel-to-Optina, legacy, and closing scenes."
+    },
+    {
+      "priority": 3,
+      "label": "GetArchive/PICRYL - pre-revolutionary Optina photograph lead",
+      "url": "https://itoldya420.getarchive.net/amp/media/vladimirskaya-cerkov-i-sobor-optina-pustyn-d10d2b",
+      "why_use": "Search result describes a public-domain pre-revolutionary photograph of Vladimir Church and cathedral at Optina Pustyn.",
+      "license_action": "Page fetch may be blocked; verify public-domain status and download original manually or from source collection.",
+      "production_use": "High-value old monastery image if license/source checks pass."
+    },
+    {
+      "priority": 4,
+      "label": "Neskuchny Sad gallery lead - 200 years of Saint Ambrose",
+      "url": "https://www.nsad.ru/articles/200-let-prepodobnomu-amvrosiyu-optinskomu-galereya",
+      "why_use": "Search result states Ambrose was one of the first saints captured in photographs and includes portraits/places connected to him.",
+      "license_action": "Treat as research/reference only unless explicit image reuse rights are shown.",
+      "production_use": "Use to identify image types and historical context; do not copy modern site images without rights."
+    },
+    {
+      "priority": 5,
+      "label": "Hoover Institution Archives photo research guide lead",
+      "url": "https://www.hoover.org/sites/default/files/2025-07/Photo-Research-Guide-Final.pdf",
+      "why_use": "Search result mentions an Optina Pustyn elders icon print in Hoover photo archive guide.",
+      "license_action": "Contact/archive lookup likely needed; not an immediate free-use source.",
+      "production_use": "Future premium/archive research lead for elder-group icon imagery."
+    }
+  ],
+  "next_actions": [
+    "Retry Wikimedia downloads after 429 rate-limit clears.",
+    "For each downloaded image, write asset_attribution.json with title, URL, author, license, and date accessed.",
+    "Prefer verified Wikimedia/Commons files first; use other Russian gallery pages only as visual reference unless reuse rights are explicit."
+  ]
+}

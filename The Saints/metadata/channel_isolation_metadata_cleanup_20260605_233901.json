@@ -1,0 +1,47 @@
+﻿[
+    {
+        "action":  "archived_duplicate",
+        "source":  "metadata\\saints_full_autopilot_report.json",
+        "destination":  "The Saints\\archive\\misplaced_root_metadata_20260605_233901\\metadata\\saints_full_autopilot_report.json"
+    },
+    {
+        "action":  "archived_duplicate",
+        "source":  "metadata\\saints_pm_report.json",
+        "destination":  "The Saints\\archive\\misplaced_root_metadata_20260605_233901\\metadata\\saints_pm_report.json"
+    },
+    {
+        "action":  "archived_duplicate",
+        "source":  "metadata\\saints_pm_report.md",
+        "destination":  "The Saints\\archive\\misplaced_root_metadata_20260605_233901\\metadata\\saints_pm_report.md"
+    },
+    {
+        "action":  "moved",
+        "source":  "metadata\\qc_reports\\saints_video_13_qc_report.json",
+        "destination":  "The Saints\\metadata\\qc_reports\\saints_video_13_qc_report.json"
+    },
+    {
+        "action":  "moved",
+        "source":  "metadata\\qc_reports\\saints_video_14_qc_report.json",
+        "destination":  "The Saints\\metadata\\qc_reports\\saints_video_14_qc_report.json"
+    },
+    {
+        "action":  "moved",
+        "source":  "metadata\\qc_reports\\saints_video_15_qc_report.json",
+        "destination":  "The Saints\\metadata\\qc_reports\\saints_video_15_qc_report.json"
+    },
+    {
+        "action":  "moved",
+        "source":  "metadata\\qc_reports\\saints_video_16_qc_report.json",
+        "destination":  "The Saints\\metadata\\qc_reports\\saints_video_16_qc_report.json"
+    },
+    {
+        "action":  "moved",
+        "source":  "metadata\\qc_reports\\saints_video_17_qc_report.json",
+        "destination":  "The Saints\\metadata\\qc_reports\\saints_video_17_qc_report.json"
+    },
+    {
+        "action":  "moved",
+        "source":  "metadata\\qc_reports\\saints_video_18_qc_report.json",
+        "destination":  "The Saints\\metadata\\qc_reports\\saints_video_18_qc_report.json"
+    }
+]

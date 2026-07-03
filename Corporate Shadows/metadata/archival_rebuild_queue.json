@@ -1,0 +1,93 @@
+{
+  "created_at": "2026-07-01T04:12:56.952Z",
+  "strategy": "Rebuild scheduled episodes before release, then replace public editions.",
+  "items": [
+    {
+      "video_number": 8,
+      "priority": 1,
+      "status": "research_and_archival_sourcing",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY",
+      "started_at": "2026-07-01T04:13:50.180Z",
+      "primary_records": [
+        "Bowman v. Monsanto, U.S. Supreme Court (2013)",
+        "Monsanto Canada Inc. v. Schmeiser, Supreme Court of Canada (2004)",
+        "Monsanto technology agreements and seed packaging",
+        "contemporary farm and court reporting"
+      ]
+    },
+    {
+      "video_number": 11,
+      "priority": 2,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    },
+    {
+      "video_number": 4,
+      "priority": 3,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    },
+    {
+      "video_number": 9,
+      "priority": 4,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    },
+    {
+      "video_number": 12,
+      "priority": 5,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    },
+    {
+      "video_number": 10,
+      "priority": 6,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    },
+    {
+      "video_number": 6,
+      "priority": 7,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    },
+    {
+      "video_number": 7,
+      "priority": 8,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    },
+    {
+      "video_number": 5,
+      "priority": 9,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    },
+    {
+      "video_number": 2,
+      "priority": 10,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    },
+    {
+      "video_number": 1,
+      "priority": 11,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    },
+    {
+      "video_number": 3,
+      "priority": 12,
+      "status": "pending_archival_rebuild",
+      "required_visual_policy": "ERA_LOCKED_STORY_ARCHIVE_ONLY"
+    }
+  ],
+  "completed": [
+    {
+      "video_number": 13,
+      "status": "qc_passed",
+      "review_file": "New video/FINAL_VIDEO_13.mp4",
+      "visual_beats": 55
+    }
+  ]
+}

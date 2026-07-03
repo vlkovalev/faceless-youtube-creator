@@ -113,7 +113,7 @@ function buildDescription({ intro, topic, chapters, playlistTitle }) {
     chapterText(chapters),
     '',
     playlistTitle ? `Watch the full ${playlistTitle} series on this channel.` : '',
-    'Subscribe to Shadow Empires for more corporate scandals, hidden monopolies, and stories of power gone wrong.'
+    'This channel needs your support. Please subscribe, leave a word of appreciation for the author, and may God bless you.'
   ].filter(line => line !== '').join('\n');
 }
 

@@ -1,0 +1,271 @@
+{
+  "created_at": "2026-05-31",
+  "purpose": "Reusable real-image source library for Corporate Shadows. Prefer these archival photographs, paintings, maps, documents, and public-domain collection pages over generated cards wherever possible.",
+  "global_rules": [
+    "Prefer real archival images over generated graphics for historical claims, people, locations, products, maps, courtrooms, factories, and documents.",
+    "Keep generated graphics for abstract concepts only: psychological manipulation, market structure, invisible cartel rules, or chart/table moments.",
+    "Generated visual holds should target 8 seconds and should not exceed 10 seconds whenever practical.",
+    "Complete the first five Corporate Shadows videos with this real-image workflow before expanding into Omni Flash or AI-video-heavy production.",
+    "If AI video is used later, use it as short supplemental clips only, not as the documentary backbone.",
+    "Verify each file page license before publishing. Commons category pages are discovery pools, not automatic license approval.",
+    "Record every selected file in asset_attribution.json with source_url, title, author/repository, license, and credit.",
+    "Use source diversity: do not repeat one archival image for more than 10 seconds unless the narration is intentionally pausing on a key reveal."
+  ],
+  "videos": [
+    {
+      "video_id": 1,
+      "title": "De Beers / The Diamond Engagement Ring",
+      "real_source_priority": [
+        {
+          "label": "De Beers Mine category",
+          "url": "https://commons.wikimedia.org/wiki/Category:De_Beers_Mine",
+          "best_for": "Kimberley mine exteriors, workers, sorting rooms, mine shafts, industrial machinery.",
+          "replace_generated_beats": ["3a", "3a_2", "3b", "3c", "3d", "4a", "8a"],
+          "notes": "Strongest real-image pool for this video. Includes many historic mine photos."
+        },
+        {
+          "label": "De Beers category",
+          "url": "https://commons.wikimedia.org/wiki/Category:De_Beers",
+          "best_for": "Company context, diamond industry visuals, related mine/category navigation.",
+          "replace_generated_beats": ["2a", "2b", "4b"]
+        },
+        {
+          "label": "Diamond mining category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Diamond_mining",
+          "best_for": "Generic diamond mining images, diagrams, historical engravings.",
+          "replace_generated_beats": ["3e", "8b", "8c", "9d"]
+        },
+        {
+          "label": "Library of Congress: Gold and diamond mines of South Africa",
+          "url": "https://www.loc.gov/item/00694217/",
+          "best_for": "Motion-picture/archival diamond mining operations in South Africa.",
+          "replace_generated_beats": ["3a", "3c", "8a"],
+          "notes": "Use as footage source if video clips are practical; otherwise use still frames only if rights allow."
+        },
+        {
+          "label": "Library of Congress: Diamond mining in Kimberley, South Africa",
+          "url": "https://www.loc.gov/pictures/item/2004676375/",
+          "best_for": "Kimberley diamond mining still imagery.",
+          "replace_generated_beats": ["3a", "3b", "3c", "4a"]
+        },
+        {
+          "label": "Specific Commons file: De Beers mine buildings and train",
+          "url": "https://commons.wikimedia.org/wiki/File:Bedrijfsgebouwen_en_een_trein_van_de_De_Beersmijnen_in_Kimberley,_RP-F-F01195-BX.jpg",
+          "best_for": "Industrial De Beers establishment shot.",
+          "replace_generated_beats": ["2b", "3a", "4a"],
+          "license_hint": "Commons page indicates CC0/public-domain dedication."
+        },
+        {
+          "label": "Specific Commons file: Diamond from De Beers Mine",
+          "url": "https://commons.wikimedia.org/wiki/File:Diamond-39506.jpg",
+          "best_for": "Close-up diamond object shot.",
+          "replace_generated_beats": ["1a", "1b", "10b", "12b"]
+        }
+      ]
+    },
+    {
+      "video_id": 2,
+      "title": "Nestle Infant Formula",
+      "real_source_priority": [
+        {
+          "label": "Infant formula category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Infant_formula",
+          "best_for": "Product/formula visual context without relying on copyrighted brand packaging.",
+          "replace_generated_beats": ["1a", "2a", "3a", "4a", "5a"],
+          "notes": "Avoid implying a specific pictured product is Nestle unless the image clearly documents that."
+        },
+        {
+          "label": "Library of Congress image search: infant feeding public health",
+          "url": "https://www.loc.gov/search/?fa=online-format:image&q=infant%20feeding%20public%20health",
+          "best_for": "Public-health, clinic, mother/infant, and historical education imagery.",
+          "replace_generated_beats": ["1c", "4c", "6c", "7a"]
+        },
+        {
+          "label": "UNICEF image/context search",
+          "url": "https://www.unicef.org/search?force=0&query=infant%20feeding",
+          "best_for": "Modern public-health context and breastfeeding/infant feeding visuals.",
+          "replace_generated_beats": ["4c", "5b", "6c"],
+          "rights_warning": "UNICEF media pages require per-item rights review before reuse."
+        },
+        {
+          "label": "WHO infant and young child feeding fact/topic pages",
+          "url": "https://www.who.int/health-topics/infant-nutrition",
+          "best_for": "Authoritative screenshots/documents, not necessarily reusable photos.",
+          "replace_generated_beats": ["8a", "9a", "11a"]
+        }
+      ]
+    },
+    {
+      "video_id": 3,
+      "title": "Phoebus Cartel / Planned Obsolescence",
+      "real_source_priority": [
+        {
+          "label": "Centennial Light category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Centennial_Light",
+          "best_for": "Long-lasting bulb counterexample, Shelby/Centennial bulb scenes.",
+          "replace_generated_beats": ["2c", "2c_2", "12a"],
+          "license_hint": "Multiple Commons files; verify per file. Livermore Centennial Light Bulb page indicates CC0."
+        },
+        {
+          "label": "Specific Commons file: Livermore Centennial Light Bulb",
+          "url": "https://commons.wikimedia.org/wiki/File:Livermore_Centennial_Light_Bulb.jpg",
+          "best_for": "Hero image for the 1901 bulb beat.",
+          "replace_generated_beats": ["2c", "2c_2"],
+          "license_hint": "Commons page indicates CC0/public-domain dedication."
+        },
+        {
+          "label": "Mazda light bulb category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Mazda_(light_bulb)",
+          "best_for": "General Electric / Mazda light bulb products, factory building, testers.",
+          "replace_generated_beats": ["3a", "3b", "6a", "7c", "10a"]
+        },
+        {
+          "label": "Osram light bulbs category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Osram_light_bulbs",
+          "best_for": "Osram bulbs and period advertising/product context.",
+          "replace_generated_beats": ["3c", "6b", "7c", "8a"]
+        },
+        {
+          "label": "Specific Commons file: General Electric National Mazda bulb",
+          "url": "https://commons.wikimedia.org/wiki/File:General_Electric_National_Mazda_Drawn_Tungsten_Filament_Incandescent_Light_Bulb_-_DPLA_-_e7482d5a269c6645ef8d76b7b55ffac7.jpg",
+          "best_for": "GE light bulb product visual.",
+          "replace_generated_beats": ["3a", "6a", "7c"]
+        }
+      ]
+    },
+    {
+      "video_id": 4,
+      "title": "Sugar Lobby / Low-Fat Era",
+      "real_source_priority": [
+        {
+          "label": "Dwight Eisenhower in 1955 category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Dwight_Eisenhower_in_1955",
+          "best_for": "Opening heart-attack era context; Eisenhower public imagery from the same year.",
+          "replace_generated_beats": ["2a", "2b", "2c", "2d"]
+        },
+        {
+          "label": "Ancel Keys category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Ancel_Keys",
+          "best_for": "Ancel Keys portrait/press conference/scientific authority scenes.",
+          "replace_generated_beats": ["4b", "6d", "8b", "8c"]
+        },
+        {
+          "label": "Specific Commons file: Ancel Keys 1959",
+          "url": "https://commons.wikimedia.org/wiki/File:Ancel_Keys_1959.png",
+          "best_for": "Ancel Keys portrait insert.",
+          "replace_generated_beats": ["4b", "8b"]
+        },
+        {
+          "label": "Specific Commons file: John Yudkin",
+          "url": "https://commons.wikimedia.org/wiki/File:John_Yudkin.jpg",
+          "best_for": "John Yudkin portrait scenes.",
+          "replace_generated_beats": ["6d", "8d", "8e"],
+          "rights_warning": "Commons VRT permission page; verify license and attribution carefully."
+        },
+        {
+          "label": "Library of Congress: Federal Register 1980",
+          "url": "https://tile.loc.gov/storage-services/service/ll/fedreg/fr045/fr045220/fr045220.pdf",
+          "best_for": "Government-document texture for 1980 nutrition/regulation beats.",
+          "replace_generated_beats": ["9a", "9b", "9c", "9d"]
+        },
+        {
+          "label": "Library of Congress search: food advertising cookbooks nutrition",
+          "url": "https://www.loc.gov/search/?fa=online-format:image&q=food%20advertising%20cookbook%20nutrition",
+          "best_for": "Food advertising/cookbook visuals, low-fat/sugar-era context.",
+          "replace_generated_beats": ["9d", "10a", "10b", "10c"]
+        }
+      ]
+    },
+    {
+      "video_id": 5,
+      "title": "British East India Company",
+      "real_source_priority": [
+        {
+          "label": "British East India Company category",
+          "url": "https://commons.wikimedia.org/wiki/Category:British_East_India_Company",
+          "best_for": "Ships, company documents, coats of arms, maps, political cartoons, treaties, coins, paintings.",
+          "replace_generated_beats": ["1e", "2a", "2b", "7d", "8b", "11b"]
+        },
+        {
+          "label": "Robert Clive category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Robert_Clive,_1st_Baron_Clive",
+          "best_for": "Robert Clive portraits and Plassey-era scenes.",
+          "replace_generated_beats": ["3e", "4a", "4b", "5b"]
+        },
+        {
+          "label": "Battle of Plassey category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Battle_of_Plassey",
+          "best_for": "Battle paintings/maps for the Plassey turning-point sequence.",
+          "replace_generated_beats": ["3e", "3f", "4a", "5b"]
+        },
+        {
+          "label": "A Map of Hindoostan, or the Mogul Empire (1788)",
+          "url": "https://commons.wikimedia.org/wiki/Category:A_Map_of_Hindoostan,_or_the_Mogul_Empire_(1788)",
+          "best_for": "Large historical India/Mughal map visuals.",
+          "replace_generated_beats": ["2a", "2c", "5b", "7d"]
+        },
+        {
+          "label": "Maps of the Mughal Empire category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Maps_of_the_Mughal_Empire",
+          "best_for": "India/Bengal/Mughal geographic context.",
+          "replace_generated_beats": ["2a", "3e", "5b"]
+        },
+        {
+          "label": "Treaty of Allahabad file via British East India Company category",
+          "url": "https://commons.wikimedia.org/wiki/Category:British_East_India_Company",
+          "best_for": "Treaty/document reveal for Diwani power and revenue scenes.",
+          "replace_generated_beats": ["5b", "6a", "6b", "7d"],
+          "notes": "Use category search within page for 'The Treaty of Allahabad, August 16, 1765.jpg'."
+        }
+      ]
+    },
+    {
+      "video_id": 10,
+      "title": "Bre-X / The Golden Scam",
+      "real_source_priority": [
+        {
+          "label": "Indonesian gold and copper mining context",
+          "url": "https://commons.wikimedia.org/wiki/Category:Grasberg_mine",
+          "best_for": "Indonesian mega-mine scale, open-pit mine exteriors, ore roads, industrial mining context.",
+          "replace_generated_beats": ["1a", "1b", "5a", "5b", "5c", "6a", "6b", "7a", "7b", "8a", "10a", "11a"],
+          "notes": "Use as contextual Indonesian mining imagery. Do not claim these images are Busang/Bre-X unless explicitly documented."
+        },
+        {
+          "label": "Batu Hijau mine category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Batu_Hijau_mine",
+          "best_for": "Indonesian open-pit mine and haul-road visuals, gold/copper mining infrastructure.",
+          "replace_generated_beats": ["1c", "4a", "4b", "5d", "6c", "7c", "8b", "8c", "9a", "10b"],
+          "notes": "Contextual Indonesian mining imagery; verify per-file license."
+        },
+        {
+          "label": "Gold mining category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Gold_mining",
+          "best_for": "General gold mining, ore, prospecting, miners, machinery, and mine-site visuals.",
+          "replace_generated_beats": ["1d", "2c", "2d", "3a", "3b", "3c", "4c", "4d", "6d", "8d", "10c", "11b"],
+          "notes": "Use for generic gold-mining context where Bre-X-specific imagery is unavailable."
+        },
+        {
+          "label": "Core samples and drill-core context",
+          "url": "https://commons.wikimedia.org/wiki/Category:Core_samples",
+          "best_for": "Drill cores, geology samples, assay/fraud scenes, technical mining due diligence.",
+          "replace_generated_beats": ["3d", "3e", "4e", "8e", "9b", "9c", "10d", "10e"],
+          "notes": "Strong fit for salting-the-core and due-diligence beats."
+        },
+        {
+          "label": "Toronto Stock Exchange category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Toronto_Stock_Exchange",
+          "best_for": "Market frenzy, Canadian finance, stock listing, investor mania scenes.",
+          "replace_generated_beats": ["2a", "2b", "5e", "7d", "11c"],
+          "notes": "Use for stock-market context only."
+        },
+        {
+          "label": "Kalimantan / Borneo jungle context",
+          "url": "https://commons.wikimedia.org/wiki/Category:Kalimantan",
+          "best_for": "Borneo/Kalimantan geography, jungle, rivers, remote landscape context.",
+          "replace_generated_beats": ["1a", "1e", "1f", "2e", "6e", "9d", "12a"],
+          "notes": "Use landscape/context imagery; do not imply a specific Busang site unless file page supports it."
+        }
+      ]
+    }
+  ]
+}

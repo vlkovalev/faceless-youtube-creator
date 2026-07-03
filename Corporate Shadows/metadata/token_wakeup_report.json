@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-06-13T17:12:45.520Z",
+  "channel": "corporate",
+  "mode": "check_only",
+  "woke_production_agents": false,
+  "token_state": {
+    "corporate": {
+      "exists": true,
+      "rel": "automation\\credentials\\oauth_tokens.json",
+      "size": 611,
+      "modified_at": "2026-06-13T14:27:49.174Z",
+      "has_access_token": true,
+      "has_refresh_token": true,
+      "expiry_date": 1781364468172
+    }
+  },
+  "runs": [],
+  "recommendation": {
+    "action": "continue_real_visual_replacements",
+    "video_id": 10,
+    "reason": "Video 10 has the largest remaining archival replacement queue (54 assets)."
+  },
+  "safety_rules": {
+    "never_delete_without_vlad_approval": true,
+    "never_public_publish_without_vlad_approval": true,
+    "never_spend_money_or_use_paid_generation_without_preapproval": true,
+    "all_channels_should_keep_moving": true
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "reserved_files": {
+    "FINAL_VIDEO_4.mp4": {
+      "reserved_at": "2026-06-30T01:48:15.504Z",
+      "publish_at": "2026-07-09T06:00:00.000Z",
+      "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_5.mp4": {
+      "reserved_at": "2026-05-28T04:16:06.050Z",
+      "publish_at": "2026-06-09T16:00:00.000Z",
+      "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+      "source": "dry-run"
+    },
+    "FINAL_VIDEO_1_REVISED.mp4": {
+      "reserved_at": "2026-05-29T00:14:36.839Z",
+      "publish_at": null,
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "source": "upload",
+      "superseded_by": "FINAL_VIDEO_1_VISUAL_UPGRADE.mp4",
+      "status_note": "Superseded by visual upgrade upload; not an active schedule reservation."
+    },
+    "FINAL_VIDEO_2_REVISED.mp4": {
+      "reserved_at": "2026-05-29T00:15:18.936Z",
+      "publish_at": null,
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "source": "upload",
+      "superseded_by": "FINAL_VIDEO_2_VISUAL_UPGRADE.mp4",
+      "status_note": "Superseded by visual upgrade upload; not an active schedule reservation."
+    },
+    "FINAL_VIDEO_3_REVISED.mp4": {
+      "reserved_at": "2026-05-29T00:16:01.513Z",
+      "publish_at": null,
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "source": "upload",
+      "superseded_by": "FINAL_VIDEO_3_VISUAL_UPGRADE.mp4",
+      "status_note": "Superseded by visual upgrade upload; not an active schedule reservation."
+    },
+    "FINAL_VIDEO_1_VISUAL_UPGRADE.mp4": {
+      "reserved_at": "2026-05-29T21:23:35.093Z",
+      "publish_at": "2026-06-02T16:00:00.000Z",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_2_VISUAL_UPGRADE.mp4": {
+      "reserved_at": "2026-05-29T22:08:37.675Z",
+      "publish_at": "2026-06-05T06:00:00.000Z",
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_3_VISUAL_UPGRADE.mp4": {
+      "reserved_at": "2026-05-29T23:19:01.437Z",
+      "publish_at": "2026-06-09T06:00:00.000Z",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_4_VISUAL_UPGRADE.mp4": {
+      "reserved_at": "2026-05-30T00:10:21.664Z",
+      "publish_at": "2026-06-11T06:00:00.000Z",
+      "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_5_VISUAL_UPGRADE.mp4": {
+      "reserved_at": "2026-05-30T00:43:27.403Z",
+      "publish_at": "2026-06-14T06:00:00.000Z",
+      "title": "The Company That Literally Conquered India (and Went Bankrupt)",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_1_REALIMAGE_REPLACEMENT.mp4": {
+      "reserved_at": "2026-05-31T16:09:40.665Z",
+      "publish_at": "2026-06-02T06:00:00.000Z",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_1_DENSE_CREATED_REPLACEMENT.mp4": {
+      "reserved_at": "2026-05-31T16:27:10.852Z",
+      "publish_at": "2026-06-02T06:00:00Z",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_1_OMNI_FLASH.mp4": {
+      "reserved_at": "2026-05-31T17:44:44.419Z",
+      "publish_at": "2026-06-02T06:00:00.000Z",
+      "title": "How One Family Fooled the World into Buying Worthless Rocks",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_3_OMNI_FLASH.mp4": {
+      "reserved_at": "2026-05-31T17:50:23.371Z",
+      "publish_at": "2026-06-08T06:00:00.000Z",
+      "title": "The Secret Society That Controlled the World's Electricity",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_4_OMNI_FLASH.mp4": {
+      "reserved_at": "2026-05-31T18:21:24.884Z",
+      "publish_at": "2026-06-12T06:00:00.000Z",
+      "title": "The Billion-Dollar Poison: How America's Sweetest Brand Fooled a Generation",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_2_OMNI_FLASH.mp4": {
+      "reserved_at": "2026-05-31T18:24:49.741Z",
+      "publish_at": "2026-06-05T06:00:00.000Z",
+      "title": "The Poisoned Formula: The Corporate Giant That Stole Africa's Markets",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_7_OMNI_FLASH.mp4": {
+      "reserved_at": "2026-06-02T04:41:36.291Z",
+      "publish_at": "2026-06-20T06:00:00.000Z",
+      "title": "The Silent Killer: How a Chemical Giant Poisoned a Town",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_6.mp4": {
+      "reserved_at": "2026-06-30T01:47:08.696Z",
+      "publish_at": "2026-06-30T06:00:00.000Z",
+      "title": "The Toxic Empire: The Family That Hooked America on Pain",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_8.mp4": {
+      "reserved_at": "2026-06-30T01:47:29.161Z",
+      "publish_at": "2026-07-03T06:00:00.000Z",
+      "title": "The Company That Patented Nature: How a Corporate Giant Controlled the World's Seeds",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_10.mp4": {
+      "reserved_at": "2026-06-30T01:49:05.404Z",
+      "publish_at": "2026-07-18T06:00:00.000Z",
+      "title": "The Golden Scam: The Man Who Sold a Fake Gold Mine",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_7.mp4": {
+      "reserved_at": "2026-06-14T03:58:54.370Z",
+      "publish_at": "2026-06-20T06:00:00.000Z",
+      "title": "The Silent Killer: How a Chemical Giant Poisoned a Town",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_9.mp4": {
+      "reserved_at": "2026-06-30T01:48:30.318Z",
+      "publish_at": "2026-07-12T06:00:00.000Z",
+      "title": "The Tech Empire That Sold Out the Free World",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_12.mp4": {
+      "reserved_at": "2026-06-30T01:48:47.504Z",
+      "publish_at": "2026-07-15T06:00:00.000Z",
+      "title": "The Secret Monopoly That Controls Everything You Wear",
+      "source": "upload"
+    },
+    "FINAL_VIDEO_11.mp4": {
+      "reserved_at": "2026-06-30T01:47:49.290Z",
+      "publish_at": "2026-07-06T06:00:00.000Z",
+      "title": "The Bananapocalypse: The Fruit Company That Overthrew Governments",
+      "source": "upload"
+    }
+  }
+}

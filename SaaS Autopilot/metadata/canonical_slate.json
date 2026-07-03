@@ -1,0 +1,546 @@
+{
+  "saas_autopilot": [
+    {
+      "slot": null,
+      "video_id": "SAAS-001",
+      "youtube_id": "kSJC0Kei4l8",
+      "title": "How I Automated My Entire YouTube Script Pipeline with Claude + Node.js",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload 9iHjhfB_Kp4",
+      "superseded_by": "9iHjhfB_Kp4"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-002",
+      "youtube_id": "sKd_IvCttcA",
+      "title": "The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload UyiYmTb9cJk",
+      "superseded_by": "UyiYmTb9cJk"
+    },
+    {
+      "slot": "2026-06-04T14:00:00.000Z",
+      "video_id": "SAAS-003",
+      "youtube_id": "39af3fhBnhg",
+      "title": "I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload xmXoMWaPNK0",
+      "superseded_by": "xmXoMWaPNK0"
+    },
+    {
+      "slot": "2026-06-06T14:00:00.000Z",
+      "video_id": "SAAS-004",
+      "youtube_id": "mtBd2WXqinQ",
+      "title": "The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload ffCFBUq9Oo0",
+      "superseded_by": "ffCFBUq9Oo0"
+    },
+    {
+      "slot": "2026-06-08T14:00:00.000Z",
+      "video_id": "SAAS-005",
+      "youtube_id": "tlKg0Nvmqnw",
+      "title": "Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload v-VgaNWc_ZQ",
+      "superseded_by": "v-VgaNWc_ZQ"
+    },
+    {
+      "slot": "2026-06-10T14:00:00.000Z",
+      "video_id": "SAAS-006",
+      "youtube_id": "TLCT8ii7b8Q",
+      "title": "How to Build a Telegram AI CRM Agent That Closes Clients",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload tu3Gj3gKic0",
+      "superseded_by": "tu3Gj3gKic0"
+    },
+    {
+      "slot": "2026-06-12T14:00:00.000Z",
+      "video_id": "SAAS-007",
+      "youtube_id": "nWMbNOFUXSY",
+      "title": "Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload l-AKqF9ptSE",
+      "superseded_by": "l-AKqF9ptSE"
+    },
+    {
+      "slot": "2026-06-14T13:00:00.000Z",
+      "video_id": "SAAS-008",
+      "youtube_id": "BHLlCg9tzks",
+      "title": "How to Build a LinkedIn AI Lead Extractor in 10 Minutes",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload eBrqdnfXz54",
+      "superseded_by": "eBrqdnfXz54"
+    },
+    {
+      "slot": "2026-06-16T13:00:00.000Z",
+      "video_id": "SAAS-009",
+      "youtube_id": "HPC_ij_weF4",
+      "title": "I Automated My Company's Tech Newsletter (0 to 10k Subscribers)",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload 5QUI-qtwLqw",
+      "superseded_by": "5QUI-qtwLqw"
+    },
+    {
+      "slot": "2026-06-18T13:00:00.000Z",
+      "video_id": "SAAS-010",
+      "youtube_id": "10Pg5K06SqY",
+      "title": "I Automated My B2B Cold Email Outreach Using Claude & n8n",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload 2GXsXbGydbA",
+      "superseded_by": "2GXsXbGydbA"
+    },
+    {
+      "slot": "2026-06-20T13:00:00.000Z",
+      "video_id": "SAAS-011",
+      "youtube_id": "Xr7ootYPR5g",
+      "title": "Build a Custom AI Customer Support Bot Connected to Company Docs",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload SDT8POIH148",
+      "superseded_by": "SDT8POIH148"
+    },
+    {
+      "slot": "2026-06-22T13:00:00.000Z",
+      "video_id": "SAAS-012",
+      "youtube_id": "fzaTrqDXGOM",
+      "title": "How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload wzVpt7Rtp2M",
+      "superseded_by": "wzVpt7Rtp2M"
+    },
+    {
+      "slot": "2026-06-24T13:00:00.000Z",
+      "video_id": "SAAS-013",
+      "youtube_id": "JXm9WjX8vi8",
+      "title": "I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload hLtfoYLkdlM",
+      "superseded_by": "hLtfoYLkdlM"
+    },
+    {
+      "slot": "2026-06-26T13:00:00.000Z",
+      "video_id": "SAAS-014",
+      "youtube_id": "DlJfALkmJ_4",
+      "title": "The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload 92Eaqyma-Ss",
+      "superseded_by": "92Eaqyma-Ss"
+    },
+    {
+      "slot": "2026-06-28T13:00:00.000Z",
+      "video_id": "SAAS-015",
+      "youtube_id": "Z16mRdEE-7Y",
+      "title": "How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload _DRUhUetH_s",
+      "superseded_by": "_DRUhUetH_s"
+    },
+    {
+      "slot": "2026-06-30T13:00:00.000Z",
+      "video_id": "SAAS-016",
+      "youtube_id": "ZZgS09mSOP4",
+      "title": "I Built an AI Churn Rescue Agent That Saves Cancelling SaaS Customers",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload sqmH5g0QzPk",
+      "superseded_by": "sqmH5g0QzPk"
+    },
+    {
+      "slot": "2026-07-02T13:00:00.000Z",
+      "video_id": "SAAS-017",
+      "youtube_id": "_uzGQcwNuoc",
+      "title": "How to Auto-Qualify Demo Requests with AI Before Your Sales Team Wastes a Call",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload eoOU7FEIXAY",
+      "superseded_by": "eoOU7FEIXAY"
+    },
+    {
+      "slot": "2026-07-04T13:00:00.000Z",
+      "video_id": "SAAS-018",
+      "youtube_id": "Go-H9Pcy0OY",
+      "title": "I Automated Feature Request Triage from Intercom, Slack, and Call Notes",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload f1OQPZ3uk-s",
+      "superseded_by": "f1OQPZ3uk-s"
+    },
+    {
+      "slot": "2026-07-06T13:00:00.000Z",
+      "video_id": "SAAS-019",
+      "youtube_id": "f9Rd6iMYOMo",
+      "title": "How to Build a Weekly SaaS KPI Narrator That Explains Your Metrics Automatically",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload jbiUO13lrJQ",
+      "superseded_by": "jbiUO13lrJQ"
+    },
+    {
+      "slot": "2026-07-08T13:00:00.000Z",
+      "video_id": "SAAS-020",
+      "youtube_id": "7UZVY4BsUcw",
+      "title": "I Built an AI Renewal Prep Agent for High-Ticket SaaS Accounts",
+      "format": "saas_autopilot_v1",
+      "canonical": false,
+      "non_canonical_ids": [],
+      "note": "Superseded on 2026-06-13 by corrected reupload rg_L6kfGaRU",
+      "superseded_by": "rg_L6kfGaRU"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-001",
+      "youtube_id": "9iHjhfB_Kp4",
+      "title": "How I Automated My Entire YouTube Script Pipeline with Claude + Node.js",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "kSJC0Kei4l8"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-002",
+      "youtube_id": "UyiYmTb9cJk",
+      "title": "The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "sKd_IvCttcA"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-003",
+      "youtube_id": "xmXoMWaPNK0",
+      "title": "I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "39af3fhBnhg"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-004",
+      "youtube_id": "ffCFBUq9Oo0",
+      "title": "The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "mtBd2WXqinQ"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-005",
+      "youtube_id": "v-VgaNWc_ZQ",
+      "title": "Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "tlKg0Nvmqnw"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-006",
+      "youtube_id": "tu3Gj3gKic0",
+      "title": "How to Build a Telegram AI CRM Agent That Closes Clients",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "TLCT8ii7b8Q"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-007",
+      "youtube_id": "l-AKqF9ptSE",
+      "title": "Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "nWMbNOFUXSY"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-008",
+      "youtube_id": "eBrqdnfXz54",
+      "title": "How to Build a LinkedIn AI Lead Extractor in 10 Minutes",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "BHLlCg9tzks"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-009",
+      "youtube_id": "5QUI-qtwLqw",
+      "title": "I Automated My Company's Tech Newsletter (0 to 10k Subscribers)",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "HPC_ij_weF4"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-010",
+      "youtube_id": "2GXsXbGydbA",
+      "title": "I Automated My B2B Cold Email Outreach Using Claude & n8n",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "10Pg5K06SqY"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-011",
+      "youtube_id": "SDT8POIH148",
+      "title": "Build a Custom AI Customer Support Bot Connected to Company Docs",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "Xr7ootYPR5g"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-012",
+      "youtube_id": "wzVpt7Rtp2M",
+      "title": "How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "fzaTrqDXGOM"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-013",
+      "youtube_id": "hLtfoYLkdlM",
+      "title": "I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "JXm9WjX8vi8"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-014",
+      "youtube_id": "92Eaqyma-Ss",
+      "title": "The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "DlJfALkmJ_4"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-015",
+      "youtube_id": "_DRUhUetH_s",
+      "title": "How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "Z16mRdEE-7Y"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-016",
+      "youtube_id": "sqmH5g0QzPk",
+      "title": "I Built an AI Churn Rescue Agent That Saves Cancelling SaaS Customers",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "ZZgS09mSOP4"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-017",
+      "youtube_id": "eoOU7FEIXAY",
+      "title": "How to Auto-Qualify Demo Requests with AI Before Your Sales Team Wastes a Call",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "_uzGQcwNuoc"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-018",
+      "youtube_id": "f1OQPZ3uk-s",
+      "title": "I Automated Feature Request Triage from Intercom, Slack, and Call Notes",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "Go-H9Pcy0OY"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-019",
+      "youtube_id": "jbiUO13lrJQ",
+      "title": "How to Build a Weekly SaaS KPI Narrator That Explains Your Metrics Automatically",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "f9Rd6iMYOMo"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": null,
+      "video_id": "SAAS-020",
+      "youtube_id": "rg_L6kfGaRU",
+      "title": "I Built an AI Renewal Prep Agent for High-Ticket SaaS Accounts",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "7UZVY4BsUcw"
+      ],
+      "note": "Uploaded 2026-06-13"
+    },
+    {
+      "slot": "2026-06-16T13:00:00.000Z",
+      "video_id": "SAAS-021",
+      "youtube_id": "2WiEZqej-YM",
+      "title": "How to Automate Construction Daily Reports (n8n + AI Step-by-Step)",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [],
+      "duplicate_cleanup": {
+        "checked_at": "2026-06-15T15:55:04.183Z",
+        "passed": true,
+        "deleted_or_absent_ids": [],
+        "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\saas_autopilot_duplicate_cleanup_report.json"
+      },
+      "note": "Uploaded 2026-06-15"
+    },
+    {
+      "slot": "2026-06-18T13:00:00.000Z",
+      "video_id": "SAAS-021",
+      "youtube_id": "OZikwvv_SiU",
+      "title": "How to Automate Construction Daily Reports (n8n + AI Step-by-Step)",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "2WiEZqej-YM"
+      ],
+      "duplicate_cleanup": {
+        "checked_at": "2026-06-15T20:48:24.851Z",
+        "passed": true,
+        "deleted_or_absent_ids": [
+          "2WiEZqej-YM"
+        ],
+        "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\saas_autopilot_duplicate_cleanup_report.json"
+      },
+      "note": "Uploaded 2026-06-15"
+    },
+    {
+      "slot": "2026-06-20T13:00:00.000Z",
+      "video_id": "SAAS-021",
+      "youtube_id": "69v0T0JAAUg",
+      "title": "How to Automate Construction Daily Reports (n8n + AI Step-by-Step)",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "2WiEZqej-YM",
+        "OZikwvv_SiU"
+      ],
+      "duplicate_cleanup": {
+        "checked_at": "2026-06-15T21:36:25.986Z",
+        "passed": true,
+        "deleted_or_absent_ids": [
+          "2WiEZqej-YM",
+          "OZikwvv_SiU"
+        ],
+        "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\saas_autopilot_duplicate_cleanup_report.json"
+      },
+      "note": "Uploaded 2026-06-15"
+    },
+    {
+      "slot": "2026-07-03T13:00:00.000Z",
+      "video_id": "SAAS-021",
+      "youtube_id": "ah1q8SQBN00",
+      "title": "How to Automate Construction Daily Reports (n8n + AI Step-by-Step)",
+      "format": "saas_autopilot_v1",
+      "canonical": true,
+      "non_canonical_ids": [
+        "2WiEZqej-YM",
+        "OZikwvv_SiU",
+        "69v0T0JAAUg"
+      ],
+      "duplicate_cleanup": {
+        "checked_at": "2026-07-02T02:19:24.553Z",
+        "passed": true,
+        "deleted_or_absent_ids": [
+          "2WiEZqej-YM",
+          "OZikwvv_SiU",
+          "69v0T0JAAUg"
+        ],
+        "report_path": "C:\\Users\\heliu\\Desktop\\WebSItes\\faceless-youtube-creator-clean\\SaaS Autopilot\\metadata\\saas_autopilot_duplicate_cleanup_report.json"
+      },
+      "note": "Uploaded 2026-07-02"
+    }
+  ]
+}

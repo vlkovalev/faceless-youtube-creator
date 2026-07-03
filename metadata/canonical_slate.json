@@ -1,0 +1,20 @@
+{
+  "_description": "Single source of truth for what goes live on each channel. One entry per publish slot. Agents must check this file before scheduling any upload — if a canonical entry exists for a slot, do not schedule another video there without first setting the existing entry to canonical: false and adding a superseded_by field.",
+  "_updated": "2026-05-31",
+  "_rule": "To replace a canonical: first set old entry canonical=false + superseded_by=<new_id>, then add new entry with canonical=true. Never have two canonical:true entries for the same channel+date.",
+  "_timezone_note": "Slots stored in UTC. YouTube Studio displays dates in browser local timezone — Jun 2 06:00 UTC shows as Jun 1 in Pacific/Mountain time. Dates confirmed from YouTube Studio screenshot.",
+  "the_saints": [
+    {
+      "slot": "2026-06-23T06:00:00.000Z",
+      "youtube_studio_display_date": "Jun 22, 2026",
+      "video_id": "SAINTS-013",
+      "youtube_id": "K0l1lvbk1F0",
+      "title": "Saint Ambrose of Optina: The Elder Who Answered Two Hundred Souls a Day",
+      "format": "saints_v1",
+      "canonical": true,
+      "non_canonical_ids": [],
+      "note": "Verify this is on the Saints Brand Account channel, not Corporate Shadows."
+    }
+  ],
+  "saas_autopilot": []
+}

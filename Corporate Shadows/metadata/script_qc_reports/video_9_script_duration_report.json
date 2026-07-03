@@ -1,0 +1,72 @@
+{
+  "script_id": 9,
+  "title": "The Tech Empire That Sold Out the Free World",
+  "total_words": 1189,
+  "estimated_seconds": 528,
+  "estimated_minutes": 8.8,
+  "target_words": "1250-1650",
+  "minimum_words": 1100,
+  "status": "passed",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Email Address",
+      "word_count": 101
+    },
+    {
+      "scene_number": 2,
+      "title": "The Web's First Empire",
+      "word_count": 105
+    },
+    {
+      "scene_number": 3,
+      "title": "The Price of Entry",
+      "word_count": 92
+    },
+    {
+      "scene_number": 4,
+      "title": "The Warning",
+      "word_count": 96
+    },
+    {
+      "scene_number": 5,
+      "title": "The Request",
+      "word_count": 92
+    },
+    {
+      "scene_number": 6,
+      "title": "Ten Years",
+      "word_count": 94
+    },
+    {
+      "scene_number": 7,
+      "title": "The Hearing",
+      "word_count": 87
+    },
+    {
+      "scene_number": 8,
+      "title": "The Convenient Defense",
+      "word_count": 91
+    },
+    {
+      "scene_number": 9,
+      "title": "Silicon Valley Learns",
+      "word_count": 83
+    },
+    {
+      "scene_number": 10,
+      "title": "The Business Model of Trust",
+      "word_count": 103
+    },
+    {
+      "scene_number": 11,
+      "title": "The Company Fades",
+      "word_count": 125
+    },
+    {
+      "scene_number": 12,
+      "title": "The Real Cost",
+      "word_count": 120
+    }
+  ]
+}

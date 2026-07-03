@@ -1,0 +1,11 @@
+{
+  "topic_id": "SAAS-001",
+  "approved": false,
+  "watched_full_video": false,
+  "action_sync_verified": false,
+  "final_output_verified": false,
+  "reviewer": "",
+  "reviewed_at": null,
+  "video_sha256": "38e8783b4fbcbf28869cbaac75a1867928aed9908d645beb536a1191176ebd5c",
+  "notes": "Beginner-focused review copy rendered on 2026-06-30 after clarity feedback. Human full-watch approval pending."
+}

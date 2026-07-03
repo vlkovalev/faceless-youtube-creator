@@ -1,0 +1,111 @@
+{
+  "_generated_at": "2026-06-02T14:20:45.026Z",
+  "_format": "SAAS_AUTOPILOT_v1",
+  "_agent": "SAAS_AUTOPILOT_script_agent.js",
+  "channel": "SaaS Autopilot",
+  "video": {
+    "id": "SAAS-002",
+    "title": "The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+    "angle": "Cost-saving automation for small teams",
+    "hook": "Three tools, $20 a month, and about four hours of setup. This is what replaced my marketing agency.",
+    "target_ctr": "13%",
+    "difficulty": "Easy",
+    "status": "script_completed"
+  },
+  "production": {
+    "format": "workflow_walkthrough",
+    "style": "Screen recording + narration. Clean, fast, results-first. No cinematic drama.",
+    "voice_backend": "elevenlabs",
+    "target_duration_seconds": 540,
+    "minimum_duration_seconds": 480,
+    "assets_dir": "assets/SAAS_AUTOPILOT_assets/saas_002/"
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Hook (0:00–0:30)",
+      "type": "hook",
+      "voiceover": "Three tools, twenty dollars a month, and about four hours of setup. In this video, I'm going to show you the exact automation stack that completely replaced my three-thousand-dollar-a-month marketing agency. We're going to bypass the hype, show you the live running workflows, and calculate the exact cost per run. Let's build it step by step.",
+      "visual_type": "screen_recording",
+      "visual_note": "Open on the END RESULT — show the finished output, dashboard, or workflow running. Then cut back to the starting problem. Never open on a blank screen or setup.",
+      "pacing_note": "Fast. Maximum 30 seconds. If viewer is not hooked, they are gone.",
+      "assets_needed": [
+        "result_screenshot.png or result_screen_recording.mp4"
+      ]
+    },
+    {
+      "scene_number": 2,
+      "title": "The Problem (0:30–1:30)",
+      "type": "problem",
+      "voiceover": "Standard B2B marketing agencies charge massive retainers for tasks that are incredibly repetitive. Every month, they bill you to write blog posts, draft cold outreach emails, manage social media calendars, and research potential leads. This manual agency structure is slow, expensive, and takes days to execute a single campaign. But with modern LLMs and agentic workflows, almost eighty percent of these tasks can be fully automated at a fraction of the cost, running continuously without human intervention.",
+      "visual_type": "screen_recording",
+      "visual_note": "Show the BEFORE state — the manual process, the messy spreadsheet, the repetitive clicking. Make it painful to watch.",
+      "pacing_note": "Medium pace. Let the frustration land.",
+      "assets_needed": [
+        "before_state_recording.mp4"
+      ]
+    },
+    {
+      "scene_number": 3,
+      "title": "The Stack (1:30–2:30)",
+      "type": "tools_overview",
+      "voiceover": "To build this agency replacement stack, we only need three tools: first, Make.com for visual workflow orchestration; second, Claude Sonnet via API for high-quality copywriting; and third, a simple Google Sheet for lead tracking and storage. The subscription costs are straightforward: Make.com is nine dollars, Google Workspace is six dollars, and Claude API usage is pay-as-you-go, averaging about five dollars a month for thousands of runs. Total cost: twenty dollars a month.",
+      "visual_type": "screen_recording",
+      "visual_note": "Show each tool open in browser or terminal. Quick cuts — 3–5 seconds per tool. Show the actual interface, not stock icons.",
+      "pacing_note": "Brisk. Viewers want to know if they have these tools already.",
+      "assets_needed": [
+        "tools_overview_recording.mp4"
+      ]
+    },
+    {
+      "scene_number": 4,
+      "title": "The Build (2:30–6:00)",
+      "type": "workflow_demo",
+      "voiceover": "Let's walk through the setup. The system is split into two automated loops. Loop one handles lead research and copywriting. The workflow triggers when a new lead is added to our Google Sheet. Make.com intercepts the contact, calls a custom scraper to extract their website content, and feeds the raw text into Claude. Claude analyzes the company's value proposition, identifies their pain points, and drafts a highly personalized, custom outreach email. Loop two handles content syndication. It takes our core topic, drafts a blog post, structures a companion LinkedIn update, and schedules both automatically. By designing modular prompts, the output feels entirely organic and tailored, avoiding generic AI-generated templates.",
+      "visual_type": "screen_recording",
+      "visual_note": "This is the core of the video. Show every meaningful step. Use zoom-in for key code or config. Speed up repetitive parts with 2x. Never cut away from a step that might confuse a viewer.",
+      "pacing_note": "Variable — slow for complex steps, fast for repetitive ones. Keep energy up with narration.",
+      "assets_needed": [
+        "build_walkthrough_recording.mp4",
+        "code_snippets/ (optional)"
+      ]
+    },
+    {
+      "scene_number": 5,
+      "title": "The Results (6:00–7:00)",
+      "type": "results",
+      "voiceover": "The results are clear and measurable. What used to cost three thousand dollars a month in agency fees now costs less than twenty dollars. The workflow processes over five hundred targeted leads a week, drafts hyper-personalized campaigns, and keeps our social channels consistently active. The time save is immense, allowing small teams to run enterprise-grade marketing operations with zero overhead.",
+      "visual_type": "screen_recording",
+      "visual_note": "Show the workflow running at full speed. Show the output populating in real time. If you have a before/after time comparison, show it as text overlay.",
+      "pacing_note": "Energetic. This is the payoff.",
+      "assets_needed": [
+        "results_recording.mp4",
+        "before_after_comparison.png (optional)"
+      ]
+    },
+    {
+      "scene_number": 6,
+      "title": "The CTA (7:00–end)",
+      "type": "call_to_action",
+      "voiceover": "The complete blueprint, prompts, and Make.com templates are linked in the description below. If you want to scale your marketing without breaking the bank, clone these workflows and start running them today. Drop a comment below if you want to see a specific marketing task automated next, andfor real, proof-based business automation. This channel needs your support. Please subscribe, leave a word of appreciation for the author, and may God bless you.",
+      "visual_type": "screen_recording",
+      "visual_note": "Show the final output one more time. End on a clean, satisfying screen.",
+      "pacing_note": "Direct and confident.",
+      "assets_needed": []
+    }
+  ],
+  "metadata": {
+    "description_template": "Three tools, $20 a month, and about four hours of setup. This is the exact automation stack that completely replaced my $3,000-a-month marketing agency.\n\n💬 AUTOMATION CHALLENGE:\nDescribe your most tedious, repetitive marketing or sales task in the comments below, and I will personally write and reply with the exact AI prompt or Make.com workflow structure to automate it for you!\n\n📋 CHAPTERS:\n0:00 — Hook\n0:30 — The Problem\n1:30 — Tools Used\n2:30 — The Build\n6:00 — Results\n7:00 — How to Get the Code\n\n📥 **Download this video's PDF materials:**\nhttps://drive.google.com/drive/folders/1tgKqHiXx7_GazoJu4XPE-SKQgv5e_MiM\n\nIncludes the blueprint PDF, templates PDF, and setup checklist PDF for this specific video.\n\n📌 **Key Timestamps:**\n0:00 — Hook\n0:30 — The Problem\n1:30 — The Stack\n2:30 — The Build\n6:00 — Results\n7:00 — Get the Code\n\n#AIAutomation #B2B #ClaudeAI #SaaS #Productivity",
+    "pinned_comment_template": "🤖 Pinned by AI Operator\nWhat is your biggest bottleneck when it comes to outbound lead generation or copywriting? Is it lead quality, writing personalization, or scaling the volume? Let's solve it in the comments below!\n\nAlso, drop your most tedious marketing task below and let's automate it together!",
+    "tags": [
+      "AI automation",
+      "B2B SaaS",
+      "workflow automation",
+      "Claude AI",
+      "productivity",
+      "no-code",
+      "AI tools"
+    ],
+    "thumbnail_concept": "Show the END RESULT prominently. Bold text stating the time saved or cost cut. Dark background matching brand colors (#0d1117). Example: \"3 HOURS → 4 MINUTES\" with a screenshot of the output."
+  }
+}

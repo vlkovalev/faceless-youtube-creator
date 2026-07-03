@@ -1,0 +1,239 @@
+{
+  "channel": "The Saints",
+  "created_at": "2026-05-30",
+  "purpose": "Reusable source list for icons, paintings, monastery photographs, manuscript images, and saint portraits for Orthodox/Catholic saint videos.",
+  "usage_rules": [
+    "Prefer Wikimedia Commons categories and file pages with explicit license/public-domain information.",
+    "For modern icons/photos, keep attribution and license in asset_attribution.json.",
+    "Do not assume every icon image is free just because the saint is old; verify the file page license.",
+    "Use icons reverently: no distorted faces, no mocking zooms, no sensational effects.",
+    "Mix icon/portrait assets with monastery exteriors, manuscripts, maps, candles, and landscape footage to avoid a static slideshow."
+  ],
+  "general_sources": [
+    {
+      "label": "Mount Athos",
+      "url": "https://commons.wikimedia.org/wiki/Category:Mount_Athos",
+      "best_for": "Athonite landscapes, paths, sea approaches, monastery atmosphere, and general Holy Mountain establishing visuals.",
+      "license_note": "Per-file license check required."
+    },
+    {
+      "label": "Monasteries in Mount Athos",
+      "url": "https://commons.wikimedia.org/wiki/Category:Monasteries_in_Mount_Athos",
+      "best_for": "Athonite monastery exteriors and architecture for elder stories.",
+      "license_note": "Per-file license check required."
+    },
+    {
+      "label": "Icons in Mount Athos",
+      "url": "https://commons.wikimedia.org/wiki/Category:Icons_in_Mount_Athos",
+      "best_for": "Athonite atmosphere, icon cutaways, general holy mountain visuals.",
+      "license_note": "Per-file license check required."
+    },
+    {
+      "label": "Frescos in Mount Athos",
+      "url": "https://commons.wikimedia.org/wiki/Category:Frescos_in_Mount_Athos",
+      "best_for": "Monastery wall painting visuals and reverent texture shots.",
+      "license_note": "Per-file license check required."
+    },
+    {
+      "label": "Optina Pustyn",
+      "url": "https://commons.wikimedia.org/wiki/Category:Optina_Pustyn",
+      "best_for": "Optina monastery exteriors, church architecture, Russian monastic location shots.",
+      "license_note": "Per-file license check required."
+    },
+    {
+      "label": "Our Lady of Kazan church in Optina Pustyn",
+      "url": "https://commons.wikimedia.org/wiki/Category:Our_Lady_of_Kazan_church_in_Optina_Pustyn",
+      "best_for": "Specific Optina church visuals and establishing shots.",
+      "license_note": "Per-file license check required."
+    }
+  ],
+  "saint_asset_targets": [
+    {
+      "saint": "Saint Ambrose of Optina",
+      "video_ids": ["SAINTS-013"],
+      "primary_visuals": [
+        {
+          "label": "Ambrose of Optina Commons category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Ambrose_of_Optina",
+          "known_files": ["Amvrosiy Optinskiy.jpg"],
+          "best_for": "Portrait/icon of Saint Ambrose."
+        },
+        {
+          "label": "Optina Pustyn Commons category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Optina_Pustyn",
+          "known_files": [],
+          "best_for": "Monastery exterior, churches, pilgrim atmosphere."
+        }
+      ],
+      "supporting_visuals": [
+        "19th century Russian letters/manuscripts",
+        "Dostoevsky public-domain portrait",
+        "Russian monastery roads and winter landscapes",
+        "candlelit writing desk generated cards"
+      ]
+    },
+    {
+      "saint": "Saint Paisios of Mount Athos",
+      "video_ids": ["SAINTS-014"],
+      "primary_visuals": [
+        {
+          "label": "Paisios of Mount Athos mosaic",
+          "url": "https://commons.wikimedia.org/wiki/File:Paisios_of_Mount_Athos.jpg",
+          "known_files": ["Paisios of Mount Athos.jpg"],
+          "license_note": "Creative Commons Attribution 4.0 International per Commons page.",
+          "best_for": "Primary saint image / icon-mosaic visual."
+        },
+        {
+          "label": "Saint Paisios tomb",
+          "url": "https://commons.wikimedia.org/wiki/File:%CE%A4%CE%AC%CF%86%CE%BF%CF%82_%CE%91%CE%B3%CE%AF%CE%BF%CF%85_%CE%A0%CE%B1%CE%90%CF%83%CE%AF%CE%BF%CF%85.jpg",
+          "known_files": ["Τάφος Αγίου Παΐσίου.jpg"],
+          "best_for": "Grave / legacy scene at Souroti."
+        }
+      ],
+      "supporting_visuals": [
+        "Mount Athos paths and monastery exteriors",
+        "Souroti monastery exterior",
+        "prayer rope, cell, candle, handwritten counsel graphics"
+      ]
+    },
+    {
+      "saint": "Saint Silouan the Athonite",
+      "video_ids": ["SAINTS-015"],
+      "primary_visuals": [
+        {
+          "label": "Silouan the Athonite Commons category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Silouan_the_Athonite",
+          "known_files": ["Siluan of Athos.jpg", "Силуан Афонский. 1930-е.jpg"],
+          "best_for": "Photographs/portraits of Saint Silouan."
+        },
+        {
+          "label": "Icons of Saint Silouan category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Icons_of_Saint_Silouan_the_Athonite",
+          "known_files": ["Silouanicon.jpg", "Icône de Saint Silouane.jpg", "Saint Silouane mosaïque.jpg"],
+          "best_for": "Icon scenes and title cards."
+        },
+        {
+          "label": "Silouanicon file",
+          "url": "https://commons.wikimedia.org/wiki/File:Silouanicon.jpg",
+          "known_files": ["Silouanicon.jpg"],
+          "license_note": "Commons page identifies it as a faithful reproduction of a public-domain two-dimensional work of art.",
+          "best_for": "Safe icon fallback."
+        }
+      ],
+      "supporting_visuals": [
+        "Saint Panteleimon Monastery on Athos",
+        "Russian village atmosphere",
+        "night prayer, sea, icon lamp, handwritten phrase graphics"
+      ]
+    },
+    {
+      "saint": "Saint Paisius Velichkovsky",
+      "video_ids": ["SAINTS-019"],
+      "primary_visuals": [
+        {
+          "label": "Paisius Velichkovsky Commons category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Paisius_Velichkovsky",
+          "known_files": ["Paisius.jpg", "Icon of the Synaxis of the Kollyvades Fathers.jpg"],
+          "best_for": "Portrait/icon and saint title card."
+        },
+        {
+          "label": "Literary works by St. Paisius Velichkovsky",
+          "url": "https://commons.wikimedia.org/wiki/Category:Literary_works_by_St._Paisius_Velichkovsky",
+          "known_files": ["Добротолюбие, 1,2,3 тт. - Паисий Величковский (1793).djvu"],
+          "best_for": "Manuscript/book visuals, Philokalia translation scenes."
+        }
+      ],
+      "supporting_visuals": [
+        "Athonite manuscript copying",
+        "Neamt Monastery",
+        "Slavonic text texture",
+        "monastic library"
+      ]
+    },
+    {
+      "saint": "The Optina Elders",
+      "video_ids": ["SAINTS-016"],
+      "primary_visuals": [
+        {
+          "label": "Optina Pustyn Commons category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Optina_Pustyn",
+          "known_files": [],
+          "best_for": "Place-centered visuals for the Optina story."
+        },
+        {
+          "label": "Moses of Optina Commons category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Moses_of_Optina",
+          "known_files": [],
+          "best_for": "Optina elder icon/portrait expansion if file licenses are suitable."
+        }
+      ],
+      "supporting_visuals": [
+        "Ambrose of Optina portrait",
+        "Russian pilgrim roads",
+        "monastic cells",
+        "letters, candles, confession scenes"
+      ]
+    },
+    {
+      "saint": "Saint Herman of Alaska",
+      "video_ids": ["SAINTS-017"],
+      "primary_visuals": [
+        {
+          "label": "Herman of Alaska Commons category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Herman_of_Alaska",
+          "known_files": [],
+          "best_for": "Icons, portraits, and visual references for Saint Herman."
+        },
+        {
+          "label": "Spruce Island Commons search",
+          "url": "https://commons.wikimedia.org/w/index.php?search=Spruce+Island+Alaska+Orthodox&type=image",
+          "known_files": [],
+          "best_for": "Spruce Island, Kodiak pilgrimage, Alaskan landscape and location visuals."
+        }
+      ],
+      "supporting_visuals": [
+        "Kodiak Island and Spruce Island landscapes",
+        "Valaam monastery atmosphere",
+        "Russian America mission maps",
+        "Orthodox icons and pilgrimage boats",
+        "letters, ledgers, and humble hut interiors"
+      ]
+    },
+    {
+      "saint": "Saint Sergius of Radonezh",
+      "video_ids": ["SAINTS-018"],
+      "primary_visuals": [
+        {
+          "label": "Sergius of Radonezh Commons category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Sergius_of_Radonezh",
+          "known_files": [],
+          "best_for": "Icons, paintings, and portrait-style images of Saint Sergius."
+        },
+        {
+          "label": "Trinity Lavra of St. Sergius Commons category",
+          "url": "https://commons.wikimedia.org/wiki/Category:Trinity_Lavra_of_St._Sergius",
+          "known_files": [],
+          "best_for": "Monastery exteriors, Lavra establishing shots, pilgrimage imagery."
+        }
+      ],
+      "supporting_visuals": [
+        "Radonezh forest and wooden chapel atmosphere",
+        "Holy Trinity icon context",
+        "medieval Russian manuscript visuals",
+        "bear and bread miracle as respectful icon-inspired generated scene",
+        "Prince Dmitry blessing scene as restrained historical visual"
+      ]
+    }
+  ],
+  "first_download_priority": [
+    "Ambrose of Optina portrait/icon",
+    "Optina Pustyn exterior",
+    "Paisios mosaic",
+    "Saint Paisios tomb",
+    "Silouanicon",
+    "Siluan of Athos photograph",
+    "Paisius Velichkovsky portrait",
+    "Paisius Velichkovsky literary works/manuscripts"
+  ],
+  "pipeline_note": "Build a Saints visual asset planner that uses this library before generic generated graphics. The ideal Saints visual mix is 35-50% icons/paintings, 20-30% monastery/location, 10-20% manuscripts/books/maps, and the rest generated atmospheric cards."
+}

@@ -1,0 +1,14 @@
+{
+  "channel": "saas_autopilot",
+  "topic_id": "SAAS-021",
+  "publish_at": "2026-07-03T13:00:00.000Z",
+  "started_at": "2026-07-02T02:19:00.960Z",
+  "dry_run": false,
+  "stages": {
+    "upload": {
+      "status": "complete",
+      "timestamp": "2026-07-02T02:19:25.362Z"
+    }
+  },
+  "last_updated": "2026-07-02T02:19:25.362Z"
+}

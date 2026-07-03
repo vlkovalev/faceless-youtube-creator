@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-012",
+  "title": "How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-012 - How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1y6WTIlO0QGBLRN80aQpcE_l0NYvzzzgh",
+  "files": [
+    "SAAS-012_blueprint.pdf",
+    "SAAS-012_templates.pdf",
+    "SAAS-012_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-012\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1jSCpa0F12ybNLqtNkYFmCQOAj83mpSae",
+      "name": "SAAS-012_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1jSCpa0F12ybNLqtNkYFmCQOAj83mpSae/view?usp=drivesdk"
+    },
+    {
+      "id": "1N_mRLgzbwZXFcMb6-9ypOKXyVnE4rB17",
+      "name": "SAAS-012_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1N_mRLgzbwZXFcMb6-9ypOKXyVnE4rB17/view?usp=drivesdk"
+    },
+    {
+      "id": "1ecvnEB-aazCK3cSJOKNRv4-ZdWYFT7RH",
+      "name": "SAAS-012_templates.pdf",
+      "url": "https://drive.google.com/file/d/1ecvnEB-aazCK3cSJOKNRv4-ZdWYFT7RH/view?usp=drivesdk"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-004",
+  "title": "The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-004 - The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1NtNXaRHXtUK48xPanEjyHFL347U6sAWn",
+  "files": [
+    "SAAS-004_blueprint.pdf",
+    "SAAS-004_templates.pdf",
+    "SAAS-004_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-004\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "1GO-eJILMK2Jypy0Pev9En8gqwTg4jQqN",
+      "name": "SAAS-004_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/1GO-eJILMK2Jypy0Pev9En8gqwTg4jQqN/view?usp=drivesdk"
+    },
+    {
+      "id": "17Z5F9AUVCwyq-wbPVxUAwXWRo5habZ82",
+      "name": "SAAS-004_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/17Z5F9AUVCwyq-wbPVxUAwXWRo5habZ82/view?usp=drivesdk"
+    },
+    {
+      "id": "1-b-YA-gvUzjGpDuiPCx-pmfel_m6Mm0d",
+      "name": "SAAS-004_templates.pdf",
+      "url": "https://drive.google.com/file/d/1-b-YA-gvUzjGpDuiPCx-pmfel_m6Mm0d/view?usp=drivesdk"
+    }
+  ]
+}

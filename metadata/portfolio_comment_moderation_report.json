@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-06-08T01:00:09.995Z",
+  "duration_ms": 4033,
+  "mode": "live",
+  "summary": {
+    "channels_run": 3,
+    "successful_channels": 2,
+    "failed_channels": 1,
+    "total_comments_processed": 0,
+    "total_flagged_comments": 0
+  },
+  "channels": [
+    {
+      "channel_id": "cs",
+      "channel_name": "Corporate Shadows",
+      "success": true,
+      "report": {
+        "generated_at": "2026-06-08T01:00:07.646Z",
+        "channel_name": "Corporate Shadows",
+        "channel_id": "UCLoMxa-9cfCOP_5fPkL0lPg",
+        "mode": "live",
+        "summary": {
+          "comments_processed": 0,
+          "complaints_and_suggestions_flagged": 0
+        },
+        "processed": [],
+        "flagged": []
+      },
+      "exit_code": 0
+    },
+    {
+      "channel_id": "saints",
+      "channel_name": "The Saints",
+      "success": false,
+      "report": null,
+      "exit_code": 1
+    },
+    {
+      "channel_id": "saas",
+      "channel_name": "SaaS Autopilot",
+      "success": true,
+      "report": {
+        "generated_at": "2026-06-08T01:00:09.971Z",
+        "channel_name": "SaaS Autopilot",
+        "channel_id": "UC1_pK6I1tgK4rRsDP8NX0Bw",
+        "mode": "live",
+        "summary": {
+          "comments_processed": 0,
+          "complaints_and_suggestions_flagged": 0
+        },
+        "processed": [],
+        "flagged": []
+      },
+      "exit_code": 0
+    }
+  ]
+}

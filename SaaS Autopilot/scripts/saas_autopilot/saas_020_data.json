@@ -1,0 +1,90 @@
+{
+  "_generated_at": "2026-06-12T16:03:48.434Z",
+  "_format": "SAAS_AUTOPILOT_v1",
+  "_agent": "saas_autopilot_script_agent.js (Offline Fallback)",
+  "channel": "SaaS Autopilot",
+  "video": {
+    "id": "SAAS-020",
+    "title": "I Built an AI Renewal Prep Agent for High-Ticket SaaS Accounts",
+    "angle": "Customer success workflow that assembles renewal risk, usage proof, and expansion opportunities ahead of QBRs",
+    "hook": "Renewals slip when customer success teams walk into the call unprepared. I built an AI renewal prep agent that gathers usage wins, support pain, stakeholder history, and upsell signals into one account brief before every renewal meeting.",
+    "target_ctr": "13%",
+    "difficulty": "Medium",
+    "status": "script_complete"
+  },
+  "production": {
+    "format": "workflow_walkthrough",
+    "style": "Ken Burns animated slides featuring Byte the Robot. Narration first, results-focused.",
+    "voice_backend": "elevenlabs",
+    "target_duration_seconds": 240,
+    "minimum_duration_seconds": 180,
+    "assets_dir": "assets/saas_autopilot_assets/saas-020/"
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Hook (0:00–0:30)",
+      "type": "hook",
+      "voiceover": "Here is the automated workflow I built for I Built an AI Renewal Prep Agent for High-Ticket SaaS Accounts. It streamlines your operations, cuts costs, and runs in the background.",
+      "visual_type": "image",
+      "visual_note": "Introduce Byte the Robot in a confident, welcoming pose showing the main pipeline metrics overlay.",
+      "pacing_note": "Fast, engaging opening."
+    },
+    {
+      "scene_number": 2,
+      "title": "The Problem (0:30–1:30)",
+      "type": "problem",
+      "voiceover": "Before this system, teams spent hours managing this manually. It was slow, error-prone, and highly expensive.",
+      "visual_type": "image",
+      "visual_note": "Byte looking overwhelmed by manual files, showing chaotic workflows.",
+      "pacing_note": "Clear focus on manual pain."
+    },
+    {
+      "scene_number": 3,
+      "title": "The Stack (1:30–2:30)",
+      "type": "tools_overview",
+      "voiceover": "Our automated stack utilizes standard B2B developer tools, Claude API, and a simple local database. Total cost is virtually free.",
+      "visual_type": "image",
+      "visual_note": "Byte proudly pointing to the 3-tool workflow stack diagrams.",
+      "pacing_note": "Crisp and quick tool naming."
+    },
+    {
+      "scene_number": 4,
+      "title": "The Build (2:30–6:00)",
+      "type": "workflow_demo",
+      "voiceover": "Let's dive into the technical details of the build. We configure the webhook, set up data selectors, and chain API actions.",
+      "visual_type": "image",
+      "visual_note": "Byte dressed as a developer in front of a sleek terminal showing code execution.",
+      "pacing_note": "Highly detailed workflow walkthrough."
+    },
+    {
+      "scene_number": 5,
+      "title": "The Results (6:00–7:00)",
+      "type": "results",
+      "voiceover": "The results are incredible. Execution time dropped by ninety percent, while output reliability reached absolute perfection.",
+      "visual_type": "image",
+      "visual_note": "Byte celebrating, with massive green before/after comparison metrics in the background.",
+      "pacing_note": "High-energy payoff."
+    },
+    {
+      "scene_number": 6,
+      "title": "The CTA (7:00–end)",
+      "type": "call_to_action",
+      "voiceover": "The full boilerplate and playbook are linked in the description. Download the code, and drop a comment today. This channel needs your support. Please subscribe, leave a word of appreciation for the author, and may God bless you.",
+      "visual_type": "image",
+      "visual_note": "Byte gesturing towards a subscribe button and a glowing download link.",
+      "pacing_note": "Direct call to action."
+    }
+  ],
+  "metadata": {
+    "description_template": "Renewals slip when customer success teams walk into the call unprepared. I built an AI renewal prep agent that gathers usage wins, support pain, stakeholder history, and upsell signals into one account brief before every renewal meeting.\n\n📥 **Download the Blueprint Pack:**\nhttps://drive.google.com/uc?id=1d-ulBGFgzTbIhOERg9n3OSFryNfaHt1P&export=download\n\nIncludes outreach templates and Make.com blueprint JSON files.\n\n📌 **Key Timestamps:**\n0:00 — Hook\n0:30 — The Problem\n1:30 — The Stack\n2:30 — The Build\n6:00 — Results\n7:00 — Get the Code\n\n#AIAutomation #B2B #ClaudeAI #SaaS #Productivity",
+    "tags": [
+      "AI automation",
+      "B2B SaaS",
+      "workflow automation",
+      "Claude 3.5 Sonnet",
+      "Node.js automation"
+    ],
+    "thumbnail_concept": "Vibrant dark brand background (#0d1117). Bold neon text displaying: \"40 HOURS → 4 MIN\". Clean mascot logo."
+  }
+}

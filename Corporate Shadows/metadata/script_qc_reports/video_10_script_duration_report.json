@@ -1,0 +1,72 @@
+{
+  "script_id": 10,
+  "title": "The Golden Scam: The Man Who Sold a Fake Gold Mine",
+  "total_words": 1688,
+  "estimated_seconds": 750,
+  "estimated_minutes": 12.5,
+  "target_words": "1250-1650",
+  "minimum_words": 1100,
+  "status": "passed",
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "The Jungle Mirage",
+      "word_count": 157
+    },
+    {
+      "scene_number": 2,
+      "title": "The Penny Stock King",
+      "word_count": 147
+    },
+    {
+      "scene_number": 3,
+      "title": "The Filipino Geologist",
+      "word_count": 142
+    },
+    {
+      "scene_number": 4,
+      "title": "Salting the Core",
+      "word_count": 150
+    },
+    {
+      "scene_number": 5,
+      "title": "The Gold Rush",
+      "word_count": 136
+    },
+    {
+      "scene_number": 6,
+      "title": "The Jungle Metropolis",
+      "word_count": 129
+    },
+    {
+      "scene_number": 7,
+      "title": "The Giants Circle",
+      "word_count": 140
+    },
+    {
+      "scene_number": 8,
+      "title": "The Due Diligence",
+      "word_count": 137
+    },
+    {
+      "scene_number": 9,
+      "title": "The Flight from Busang",
+      "word_count": 139
+    },
+    {
+      "scene_number": 10,
+      "title": "The Truth Uncovered",
+      "word_count": 132
+    },
+    {
+      "scene_number": 11,
+      "title": "The Crash",
+      "word_count": 139
+    },
+    {
+      "scene_number": 12,
+      "title": "The Shadow of Busang",
+      "word_count": 140
+    }
+  ]
+}

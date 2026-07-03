@@ -1,0 +1,36 @@
+{
+  "video_id": "SAAS-008",
+  "title": "How to Build a LinkedIn AI Lead Extractor in 10 Minutes",
+  "resource_type": "per_video_pdf_folder",
+  "version": "1.0.0",
+  "folder_name": "SAAS-008 - How to Build a LinkedIn AI Lead Extractor in 10 Minutes",
+  "public_drive_folder_url": "https://drive.google.com/drive/folders/1Nw2Wu5DUWsINNjLzXx24ma8Rou-rcvol",
+  "files": [
+    "SAAS-008_blueprint.pdf",
+    "SAAS-008_templates.pdf",
+    "SAAS-008_setup_checklist.pdf"
+  ],
+  "prompt_improver": {
+    "used": true,
+    "source": "downloadable_materials\\prompt_improved\\SAAS-008\\improved_prompt_template.md"
+  },
+  "qa_status": "uploaded_to_google_drive",
+  "last_checked_date": "2026-06-07",
+  "uploaded_files": [
+    {
+      "id": "17hTopfja1V40GgQQoltiTxRq9m8OxFVy",
+      "name": "SAAS-008_blueprint.pdf",
+      "url": "https://drive.google.com/file/d/17hTopfja1V40GgQQoltiTxRq9m8OxFVy/view?usp=drivesdk"
+    },
+    {
+      "id": "1y9WmZrfoChchgmwRoSnpUZ0tlRQtXCYg",
+      "name": "SAAS-008_setup_checklist.pdf",
+      "url": "https://drive.google.com/file/d/1y9WmZrfoChchgmwRoSnpUZ0tlRQtXCYg/view?usp=drivesdk"
+    },
+    {
+      "id": "18MeTi9ic5XTSSCHxPXUTgtYHvX5izr38",
+      "name": "SAAS-008_templates.pdf",
+      "url": "https://drive.google.com/file/d/18MeTi9ic5XTSSCHxPXUTgtYHvX5izr38/view?usp=drivesdk"
+    }
+  ]
+}

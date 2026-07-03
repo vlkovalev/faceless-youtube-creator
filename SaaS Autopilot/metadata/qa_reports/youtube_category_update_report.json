@@ -1,0 +1,559 @@
+{
+  "checked_at": "2026-06-13T22:13:58.191Z",
+  "check_only": true,
+  "required_category_id": "26",
+  "required_category_name": "How-to & Style",
+  "summary": {
+    "total": 20,
+    "updated": 0,
+    "unchanged": 20,
+    "would_update": 0,
+    "failed": 0,
+    "compliant": 20
+  },
+  "results": [
+    {
+      "file_name": "SAAS_001_FINAL.mp4",
+      "topic_id": "SAAS-001",
+      "youtube_id": "9iHjhfB_Kp4",
+      "uploaded_at": "2026-06-13T13:34:04.545Z",
+      "publish_at": null,
+      "title": "How I Automated My Entire YouTube Script Pipeline with Claude + Node.js",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "kSJC0Kei4l8",
+          "uploaded_at": "2026-06-05T23:57:56.448Z",
+          "publish_at": null,
+          "title": "How I Automated My Entire YouTube Script Pipeline with Claude + Node.js",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:34:04.544Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=9iHjhfB_Kp4"
+    },
+    {
+      "file_name": "SAAS_002_FINAL.mp4",
+      "topic_id": "SAAS-002",
+      "youtube_id": "UyiYmTb9cJk",
+      "uploaded_at": "2026-06-13T13:34:09.638Z",
+      "publish_at": null,
+      "title": "The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "sKd_IvCttcA",
+          "uploaded_at": "2026-06-06T00:14:54.155Z",
+          "publish_at": null,
+          "title": "The $20/Month Stack That Replaced a $3,000 Marketing Agency",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:34:09.637Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=UyiYmTb9cJk"
+    },
+    {
+      "file_name": "SAAS_003_FINAL.mp4",
+      "topic_id": "SAAS-003",
+      "youtube_id": "xmXoMWaPNK0",
+      "uploaded_at": "2026-06-13T13:34:15.148Z",
+      "publish_at": null,
+      "title": "I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "39af3fhBnhg",
+          "uploaded_at": "2026-06-06T00:14:56.825Z",
+          "publish_at": null,
+          "title": "I Built a Voice AI Appointment Setter in 15 Minutes (Vapi + n8n)",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:34:15.148Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=xmXoMWaPNK0"
+    },
+    {
+      "file_name": "SAAS_004_FINAL.mp4",
+      "topic_id": "SAAS-004",
+      "youtube_id": "ffCFBUq9Oo0",
+      "uploaded_at": "2026-06-13T13:34:24.044Z",
+      "publish_at": null,
+      "title": "The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "mtBd2WXqinQ",
+          "uploaded_at": "2026-06-06T00:14:59.349Z",
+          "publish_at": null,
+          "title": "The 100% Free n8n VPS Setup (Stop Paying Make/Zapier)",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:34:24.044Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=ffCFBUq9Oo0"
+    },
+    {
+      "file_name": "SAAS_005_FINAL.mp4",
+      "topic_id": "SAAS-005",
+      "youtube_id": "v-VgaNWc_ZQ",
+      "uploaded_at": "2026-06-13T13:34:33.660Z",
+      "publish_at": null,
+      "title": "Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "tlKg0Nvmqnw",
+          "uploaded_at": "2026-06-06T00:15:02.036Z",
+          "publish_at": null,
+          "title": "Vibe Coding: I Built a B2B SaaS in 2 Hours with Cursor AI & Bolt.new",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:34:33.660Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=v-VgaNWc_ZQ"
+    },
+    {
+      "file_name": "SAAS_006_FINAL.mp4",
+      "topic_id": "SAAS-006",
+      "youtube_id": "tu3Gj3gKic0",
+      "uploaded_at": "2026-06-13T13:34:43.036Z",
+      "publish_at": null,
+      "title": "How to Build a Telegram AI CRM Agent That Closes Clients",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "TLCT8ii7b8Q",
+          "uploaded_at": "2026-06-06T00:15:05.069Z",
+          "publish_at": null,
+          "title": "How to Build a Telegram AI CRM Agent That Closes Clients",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:34:43.035Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=tu3Gj3gKic0"
+    },
+    {
+      "file_name": "SAAS_007_FINAL.mp4",
+      "topic_id": "SAAS-007",
+      "youtube_id": "l-AKqF9ptSE",
+      "uploaded_at": "2026-06-13T13:34:51.842Z",
+      "publish_at": null,
+      "title": "Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "nWMbNOFUXSY",
+          "uploaded_at": "2026-06-06T00:15:08.190Z",
+          "publish_at": null,
+          "title": "Generative Engine Optimization (GEO): How to Rank #1 on ChatGPT & Perplexity",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:34:51.841Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=l-AKqF9ptSE"
+    },
+    {
+      "file_name": "SAAS_008_FINAL.mp4",
+      "topic_id": "SAAS-008",
+      "youtube_id": "eBrqdnfXz54",
+      "uploaded_at": "2026-06-13T13:35:05.914Z",
+      "publish_at": null,
+      "title": "How to Build a LinkedIn AI Lead Extractor in 10 Minutes",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "BHLlCg9tzks",
+          "uploaded_at": "2026-06-06T00:15:11.020Z",
+          "publish_at": null,
+          "title": "How to Build a LinkedIn AI Lead Extractor in 10 Minutes",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:35:05.913Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=eBrqdnfXz54"
+    },
+    {
+      "file_name": "SAAS_009_FINAL.mp4",
+      "topic_id": "SAAS-009",
+      "youtube_id": "5QUI-qtwLqw",
+      "uploaded_at": "2026-06-13T13:35:11.367Z",
+      "publish_at": null,
+      "title": "I Automated My Company's Tech Newsletter (0 to 10k Subscribers)",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "HPC_ij_weF4",
+          "uploaded_at": "2026-06-06T00:15:13.638Z",
+          "publish_at": null,
+          "title": "I Automated My Company's Tech Newsletter (0 to 10k Subscribers)",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:35:11.367Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=5QUI-qtwLqw"
+    },
+    {
+      "file_name": "SAAS_010_FINAL.mp4",
+      "topic_id": "SAAS-010",
+      "youtube_id": "2GXsXbGydbA",
+      "uploaded_at": "2026-06-13T13:35:18.778Z",
+      "publish_at": null,
+      "title": "I Automated My B2B Cold Email Outreach Using Claude & n8n",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "10Pg5K06SqY",
+          "uploaded_at": "2026-06-06T00:15:16.485Z",
+          "publish_at": null,
+          "title": "I Automated My B2B Cold Email Outreach Using Claude & n8n",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:35:18.778Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=2GXsXbGydbA"
+    },
+    {
+      "file_name": "SAAS_011_FINAL.mp4",
+      "topic_id": "SAAS-011",
+      "youtube_id": "SDT8POIH148",
+      "uploaded_at": "2026-06-13T13:35:29.951Z",
+      "publish_at": null,
+      "title": "Build a Custom AI Customer Support Bot Connected to Company Docs",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "Xr7ootYPR5g",
+          "uploaded_at": "2026-06-06T00:15:19.320Z",
+          "publish_at": null,
+          "title": "Build a Custom AI Customer Support Bot Connected to Company Docs",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:35:29.950Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=SDT8POIH148"
+    },
+    {
+      "file_name": "SAAS_012_FINAL.mp4",
+      "topic_id": "SAAS-012",
+      "youtube_id": "wzVpt7Rtp2M",
+      "uploaded_at": "2026-06-13T13:35:39.305Z",
+      "publish_at": null,
+      "title": "How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "fzaTrqDXGOM",
+          "uploaded_at": "2026-06-06T00:15:21.829Z",
+          "publish_at": null,
+          "title": "How to Automate B2B Invoice & Receipt Processing Using OCR & LLMs",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:35:39.304Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=wzVpt7Rtp2M"
+    },
+    {
+      "file_name": "SAAS_013_FINAL.mp4",
+      "topic_id": "SAAS-013",
+      "youtube_id": "hLtfoYLkdlM",
+      "uploaded_at": "2026-06-13T13:35:49.081Z",
+      "publish_at": null,
+      "title": "I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "JXm9WjX8vi8",
+          "uploaded_at": "2026-06-06T00:15:24.650Z",
+          "publish_at": null,
+          "title": "I Built a Slack Sales Assistant That Alerts Reps and Drafts Pitch Decks",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:35:49.080Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=hLtfoYLkdlM"
+    },
+    {
+      "file_name": "SAAS_014_FINAL.mp4",
+      "topic_id": "SAAS-014",
+      "youtube_id": "92Eaqyma-Ss",
+      "uploaded_at": "2026-06-13T13:35:58.391Z",
+      "publish_at": null,
+      "title": "The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "DlJfALkmJ_4",
+          "uploaded_at": "2026-06-06T00:15:28.435Z",
+          "publish_at": null,
+          "title": "The AI Lead Magnet: Build a Free Web Calculator in 5 Minutes",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:35:58.390Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=92Eaqyma-Ss"
+    },
+    {
+      "file_name": "SAAS_015_FINAL.mp4",
+      "topic_id": "SAAS-015",
+      "youtube_id": "_DRUhUetH_s",
+      "uploaded_at": "2026-06-13T13:36:05.716Z",
+      "publish_at": null,
+      "title": "How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "Z16mRdEE-7Y",
+          "uploaded_at": "2026-06-06T00:15:31.296Z",
+          "publish_at": null,
+          "title": "How to Automatically Track & Respond to B2B Competitor pricing using Web Scrapers",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:36:05.715Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=_DRUhUetH_s"
+    },
+    {
+      "file_name": "SAAS_016_FINAL.mp4",
+      "topic_id": "SAAS-016",
+      "youtube_id": "sqmH5g0QzPk",
+      "uploaded_at": "2026-06-13T13:36:15.339Z",
+      "publish_at": null,
+      "title": "I Built an AI Churn Rescue Agent That Saves Cancelling SaaS Customers",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "ZZgS09mSOP4",
+          "uploaded_at": "2026-06-12T15:58:34.548Z",
+          "publish_at": "2026-06-30T13:00:00Z",
+          "title": "I Built an AI Churn Rescue Agent That Saves Cancelling SaaS Customers",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:36:15.338Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=sqmH5g0QzPk"
+    },
+    {
+      "file_name": "SAAS_017_FINAL.mp4",
+      "topic_id": "SAAS-017",
+      "youtube_id": "eoOU7FEIXAY",
+      "uploaded_at": "2026-06-13T13:36:24.395Z",
+      "publish_at": null,
+      "title": "How to Auto-Qualify Demo Requests with AI Before Your Sales Team Wastes a Call",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "_uzGQcwNuoc",
+          "uploaded_at": "2026-06-12T16:00:37.518Z",
+          "publish_at": "2026-07-02T13:00:00Z",
+          "title": "How to Auto-Qualify Demo Requests with AI Before Your Sales Team Wastes a Call",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:36:24.394Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=eoOU7FEIXAY"
+    },
+    {
+      "file_name": "SAAS_018_FINAL.mp4",
+      "topic_id": "SAAS-018",
+      "youtube_id": "f1OQPZ3uk-s",
+      "uploaded_at": "2026-06-13T13:36:32.057Z",
+      "publish_at": null,
+      "title": "I Automated Feature Request Triage from Intercom, Slack, and Call Notes",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "Go-H9Pcy0OY",
+          "uploaded_at": "2026-06-12T16:02:26.798Z",
+          "publish_at": "2026-07-04T13:00:00Z",
+          "title": "I Automated Feature Request Triage from Intercom, Slack, and Call Notes",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:36:32.057Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=f1OQPZ3uk-s"
+    },
+    {
+      "file_name": "SAAS_019_FINAL.mp4",
+      "topic_id": "SAAS-019",
+      "youtube_id": "jbiUO13lrJQ",
+      "uploaded_at": "2026-06-13T13:36:40.660Z",
+      "publish_at": null,
+      "title": "How to Build a Weekly SaaS KPI Narrator That Explains Your Metrics Automatically",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "f9Rd6iMYOMo",
+          "uploaded_at": "2026-06-12T16:03:47.798Z",
+          "publish_at": "2026-07-06T13:00:00Z",
+          "title": "How to Build a Weekly SaaS KPI Narrator That Explains Your Metrics Automatically",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:36:40.659Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=jbiUO13lrJQ"
+    },
+    {
+      "file_name": "SAAS_020_FINAL.mp4",
+      "topic_id": "SAAS-020",
+      "youtube_id": "rg_L6kfGaRU",
+      "uploaded_at": "2026-06-13T13:36:48.956Z",
+      "publish_at": null,
+      "title": "I Built an AI Renewal Prep Agent for High-Ticket SaaS Accounts",
+      "canonical": true,
+      "channel": "saas_autopilot",
+      "status_note": "CANONICAL. SaaS Autopilot channel. Private - corrected reupload, no schedule set.",
+      "previous_uploads": [
+        {
+          "youtube_id": "7UZVY4BsUcw",
+          "uploaded_at": "2026-06-12T16:05:14.568Z",
+          "publish_at": "2026-07-08T13:00:00Z",
+          "title": "I Built an AI Renewal Prep Agent for High-Ticket SaaS Accounts",
+          "status_note": "CANONICAL. Live synchronized status: private",
+          "superseded_at": "2026-06-13T13:36:48.955Z",
+          "superseded_reason": "Corrected reupload after duration, visual, and demo-slide QA rebuild"
+        }
+      ],
+      "status": "unchanged",
+      "current_category_id": "26",
+      "required_category_id": "26",
+      "required_category_name": "How-to & Style",
+      "url": "https://www.youtube.com/watch?v=rg_L6kfGaRU"
+    }
+  ],
+  "verification_limited": true,
+  "verification_warning": "Live category verification unavailable in this shell: request to https://oauth2.googleapis.com/token failed, reason: ",
+  "based_on_cached_report_checked_at": "2026-06-13T21:13:00.611Z"
+}
