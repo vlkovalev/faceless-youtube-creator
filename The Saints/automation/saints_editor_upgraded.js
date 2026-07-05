@@ -95,7 +95,8 @@ function renderImageSegment(imagePath, outPath, segmentDuration) {
     removeIfExists(outPath);
     const frames = Math.ceil(segmentDuration * 30);
     // Injected candlelight flicker (dynamic brightness) + pulsating vignette shadows
-    const filter = `scale=3840:-1,zoompan=z='min(zoom+0.00035,1.055)':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30,eq=contrast=1.05:saturation=0.92:brightness='0.015*sin(1.8*t)+0.008*cos(3.5*t)+0.004*sin(7*t)+0.002*random(1)',vignette='angle=0.15+0.015*sin(1.8*t)'[v]`;
+    // Aspect-ratio safe padding (scales to height 2160 and pads to 3840x2160 before zoompan)
+    const filter = `scale=-1:2160,pad=3840:2160:(ow-iw)/2:(oh-ih)/2:0x0b0a10,zoompan=z='min(zoom+0.00035,1.055)':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30,eq=contrast=1.05:saturation=0.92:brightness='0.015*sin(1.8*t)+0.008*cos(3.5*t)+0.004*sin(7*t)+0.002*random(1)',vignette='angle=0.15+0.015*sin(1.8*t)'[v]`;
     ffmpeg()
       .input(imagePath)
       .inputOptions(['-loop', '1', '-framerate', '30'])
@@ -173,7 +174,7 @@ function renderScene(scene) {
       ? `color=c=0b0a10:s=1920x1080:d=${sceneDuration.toFixed(3)}:r=30,drawbox=x=110:y=94:w=560:h=6:color=0xb99d61@1:t=fill,drawtext=text='THE SAINTS / SCENE ${scene.index}':x=110:y=126:fontsize=30:fontcolor=0xc9d0d8,drawtext=text='${title.toUpperCase()}':x=130:y=430:fontsize=62:fontcolor=0xf7f2e8,drawbox=x=0:y=1008:w=1920:h=8:color=0xb99d61@1:t=fill,drawtext=text='holiness, suffering, courage, and grace':x=135:y=1036:fontsize=30:fontcolor=0xb8c0cc,eq=contrast=1.05:saturation=0.9:brightness='0.012*sin(1.8*t)+0.006*cos(3.5*t)+0.003*sin(7*t)+0.001*random(1)',vignette='angle=0.15'[v]`
       : isVideo
       ? `[0:v]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,fps=30,eq=contrast=1.05:saturation=0.92:brightness='0.015*sin(1.8*t)+0.008*cos(3.5*t)+0.004*sin(7*t)+0.002*random(1)',vignette='angle=0.15+0.015*sin(1.8*t)'[v]`
-      : `[0:v]scale=3840:-1,zoompan=z='min(zoom+0.00045,1.09)':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30,eq=contrast=1.05:saturation=0.92:brightness='0.015*sin(1.8*t)+0.008*cos(3.5*t)+0.004*sin(7*t)+0.002*random(1)',vignette='angle=0.15+0.015*sin(1.8*t)'[v]`;
+      : `[0:v]scale=-1:2160,pad=3840:2160:(ow-iw)/2:(oh-ih)/2:0x0b0a10,zoompan=z='min(zoom+0.00045,1.09)':d=${frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1920x1080:fps=30,eq=contrast=1.05:saturation=0.92:brightness='0.015*sin(1.8*t)+0.008*cos(3.5*t)+0.004*sin(7*t)+0.002*random(1)',vignette='angle=0.15+0.015*sin(1.8*t)'[v]`;
 
     console.log(`Rendering Upgraded Scene ${scene.index}: ${sceneDuration.toFixed(2)}s`);
     const audioMap = isSvg ? '-map 0:a' : '-map 1:a';
@@ -247,7 +248,8 @@ async function main() {
 
   // Prepare final render: Mix background music + Burn-in Georgia styled subtitles
   console.log('Mixing audio and burning in styled Georgia subtitles...');
-  const srtEscaped = srtFile.replace(/\\/g, '/').replace(/:/g, '\\:');
+  const tempSrtFile = `temp_subtitles_${SCRIPT_ID}.srt`;
+  fs.copyFileSync(srtFile, path.join(REPO_ROOT, tempSrtFile));
   
   let complexFilter = [];
   let audioMap = '[0:a]';
@@ -258,7 +260,7 @@ async function main() {
     console.warn(`Warning: Background music file not found at ${BGM_PATH}. Mixing without BGM.`);
   }
   
-  complexFilter.push(`[0:v]subtitles='${srtEscaped}':force_style='FontName=Georgia,FontSize=20,PrimaryColour=&H00F5F2EC,OutlineColour=&H000C0A10,BorderStyle=4,Outline=3,Alignment=2,MarginV=60'[v]`);
+  complexFilter.push(`[0:v]subtitles='${tempSrtFile}':force_style='FontName=Georgia,FontSize=20,PrimaryColour=&H00F5F2EC,OutlineColour=&H000C0A10,BorderStyle=4,Outline=3,Alignment=2,MarginV=60'[v]`);
 
   await new Promise((resolve, reject) => {
     const cmd = ffmpeg().input(concatOut);
@@ -284,6 +286,8 @@ async function main() {
 
   fs.unlinkSync(concatPath);
   fs.unlinkSync(concatOut);
+  const fullTempSrt = path.join(REPO_ROOT, tempSrtFile);
+  if (fs.existsSync(fullTempSrt)) fs.unlinkSync(fullTempSrt);
   tempVideos.forEach(file => fs.existsSync(file) && fs.unlinkSync(file));
 
   console.log(`🎉 Upgraded Pilot Video complete: ${outputFile}`);
