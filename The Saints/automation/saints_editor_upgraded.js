@@ -101,7 +101,7 @@ function renderImageSegment(imagePath, outPath, segmentDuration) {
       .input(imagePath)
       .inputOptions(['-loop', '1', '-framerate', '30'])
       .complexFilter([filter])
-      .outputOptions(['-map [v]', '-c:v libx264', '-pix_fmt yuv420p', `-t ${segmentDuration.toFixed(3)}`])
+      .outputOptions(['-map [v]', '-c:v libx264', '-preset ultrafast', '-threads 2', '-pix_fmt yuv420p', `-t ${segmentDuration.toFixed(3)}`])
       .save(outPath)
       .on('end', resolve)
       .on('error', reject);
@@ -183,6 +183,8 @@ function renderScene(scene) {
         '-map [v]',
         audioMap,
         '-c:v libx264',
+        '-preset ultrafast',
+        '-threads 2',
         '-c:a aac',
         '-b:a 192k',
         '-ar 44100',
@@ -272,6 +274,8 @@ async function main() {
         '-map [v]',
         `-map ${audioMap}`,
         '-c:v libx264',
+        '-preset ultrafast',
+        '-threads 2',
         '-pix_fmt yuv420p',
         '-c:a aac',
         '-b:a 192k',
@@ -292,6 +296,12 @@ async function main() {
 
   console.log(`🎉 Upgraded Pilot Video complete: ${outputFile}`);
   console.log(`Duration: ${cursor.toFixed(2)}s`);
+  const minDuration = Number(SCRIPT_ID) >= 61 && Number(SCRIPT_ID) <= 68 ? 350 : 480;
+  if (cursor < minDuration) {
+    removeIfExists(outputFile);
+    removeIfExists(srtFile);
+    throw new Error(`Saints video ${SCRIPT_ID} rendered at ${cursor.toFixed(2)}s; minimum is ${minDuration}s.`);
+  }
 }
 
 main().catch(error => {

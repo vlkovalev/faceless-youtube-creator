@@ -9,15 +9,21 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execSync, execFileSync } = require('child_process');
 const { REPO_ROOT, SAINTS_ROOT } = require('./channel_paths');
 
 const ROOT = SAINTS_ROOT;
 const SCRIPT_ID = process.argv[2] || '13';
+const scenesArg = process.argv.find(arg => arg.startsWith('--scenes='));
+const requestedScenes = scenesArg
+  ? new Set(scenesArg.slice('--scenes='.length).split(',').map(Number).filter(Number.isInteger))
+  : null;
 const SCRIPT_PATH = path.join(ROOT, 'scripts', `saints_video_${SCRIPT_ID}_data.js`);
 const ASSETS_DIR = path.join(ROOT, 'assets', `saints_video_${SCRIPT_ID}_assets`);
 const PIPER_EXE = path.join(REPO_ROOT, 'automation', 'piper_tts', 'piper', 'piper.exe');
-const MODEL_PATH = path.join(REPO_ROOT, 'automation', 'piper_tts', 'piper', 'voice.onnx');
+const isRussian = Number(SCRIPT_ID) >= 61 && Number(SCRIPT_ID) <= 68;
+const MODEL_NAME = isRussian ? 'voice_ru.onnx' : 'voice.onnx';
+const MODEL_PATH = path.join(REPO_ROOT, 'automation', 'piper_tts', 'piper', MODEL_NAME);
 
 function loadScript() {
   const raw = fs.readFileSync(SCRIPT_PATH, 'utf8').replace(/^\uFEFF/, '');
@@ -35,16 +41,15 @@ function cleanVoiceover(text) {
 }
 
 function piper(text, outputPath, sceneNumber) {
-  const tempTextPath = path.join(ASSETS_DIR, `temp_scene_${sceneNumber}.txt`);
-  fs.writeFileSync(tempTextPath, text, 'utf8');
   try {
-    execSync(`Get-Content "${tempTextPath}" | & "${PIPER_EXE}" --model "${MODEL_PATH}" --output_file "${outputPath}"`, {
-      shell: 'powershell.exe',
-      stdio: 'inherit',
-      windowsHide: true
+    execFileSync(PIPER_EXE, ['--model', MODEL_PATH, '--output_file', outputPath], {
+      input: Buffer.from(text, 'utf8'),
+      windowsHide: true,
+      stdio: ['pipe', 'ignore', 'inherit'] // pipe stdin, ignore stdout info, inherit stderr
     });
-  } finally {
-    if (fs.existsSync(tempTextPath)) fs.unlinkSync(tempTextPath);
+  } catch (e) {
+    console.error(`Error in Piper generation for scene ${sceneNumber}: ${e.message}`);
+    throw e;
   }
 }
 
@@ -58,6 +63,7 @@ function main() {
 
   script.scenes.forEach((scene, index) => {
     const sceneNumber = index + 1;
+    if (requestedScenes && !requestedScenes.has(sceneNumber)) return;
     const outputPath = path.join(ASSETS_DIR, `scene_${sceneNumber}_audio.wav`);
     const text = cleanVoiceover(scene.voiceover);
     console.log(`[Piper] Saints ${SCRIPT_ID} scene ${sceneNumber}...`);
